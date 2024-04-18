@@ -1,0 +1,5 @@
+# Set README.md to be exported in the root directory
+/README.md export-subst
+
+# Set jactReportSummary.md to be exported in all first layer child directories
+/*/jactReportSummary.md export-subst
