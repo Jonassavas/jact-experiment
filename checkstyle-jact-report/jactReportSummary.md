@@ -1,55 +1,55 @@
 ### PROJECT USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 78839 : 46.5528\% \color{white} \space | \space \color{red} 90515 : 53.4472\% \color{white} \space | \space 169354}$$
-##### $${BRANCH: \space\color{lightgreen} 6225 : 40.1587\% \color{white} \space | \space \color{red} 9276 : 59.8413\% \color{white} \space | \space 15501}$$
-##### $${LINE: \space\color{lightgreen} 16542 : 42.5058\% \color{white} \space | \space \color{red} 22375 : 57.4942\% \color{white} \space | \space 38917}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 5930 : 31.8834\% \color{white} \space | \space \color{red} 12669 : 68.1166\% \color{white} \space | \space 18599}$$
-##### $${METHOD: \space\color{lightgreen} 3645 : 36.3881\% \color{white} \space | \space \color{red} 6372 : 63.6119\% \color{white} \space | \space 10017}$$
-##### $${CLASS: \space\color{lightgreen} 556 : 66.4277\% \color{white} \space | \space \color{red} 281 : 33.5723\% \color{white} \space | \space 837}$$
----
+**INSTRUCTION** &nbsp;73866 : 45.3216% | 89116 : 54.6784% | 162982  
+**BRANCH** &nbsp;5716 : 38.1703% | 9259 : 61.8297% | 14975  
+**LINE** &nbsp;15425 : 41.365% | 21865 : 58.635% | 37290  
+**COMPLEXITY** &nbsp;5457 : 30.2897% | 12559 : 69.7103% | 18016  
+**METHOD** &nbsp;3346 : 34.4877% | 6356 : 65.5123% | 9702  
+**CLASS** &nbsp;526 : 65.4229% | 278 : 34.5771% | 804  
+  
 ### RAW DEPENDENCY USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 56008 : 3.979\% \color{white} \space | \space \color{red} 1351577 : 96.021\% \color{white} \space | \space 1407585}$$
-##### $${BRANCH: \space\color{lightgreen} 4153 : 2.7644\% \color{white} \space | \space \color{red} 146077 : 97.2356\% \color{white} \space | \space 150230}$$
-##### $${LINE: \space\color{lightgreen} 12955 : 4.1517\% \color{white} \space | \space \color{red} 299086 : 95.8483\% \color{white} \space | \space 312041}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 3689 : 2.5305\% \color{white} \space | \space \color{red} 142090 : 97.4695\% \color{white} \space | \space 145779}$$
-##### $${METHOD: \space\color{lightgreen} 2608 : 3.789\% \color{white} \space | \space \color{red} 66223 : 96.211\% \color{white} \space | \space 68831}$$
-##### $${CLASS: \space\color{lightgreen} 570 : 7.1072\% \color{white} \space | \space \color{red} 7450 : 92.8928\% \color{white} \space | \space 8020}$$
----
+**INSTRUCTION** &nbsp;58009 : 5.0285% | 1095593 : 94.9715% | 1153602  
+**BRANCH** &nbsp;4077 : 3.4856% | 112889 : 96.5144% | 116966  
+**LINE** &nbsp;13092 : 5.2611% | 235753 : 94.7389% | 248845  
+**COMPLEXITY** &nbsp;3618 : 3.1384% | 111664 : 96.8616% | 115282  
+**METHOD** &nbsp;2528 : 4.5904% | 52544 : 95.4096% | 55072  
+**CLASS** &nbsp;561 : 8.6135% | 5952 : 91.3865% | 6513  
+  
 ### TOTAL DEPENDENCY USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 58108 : 2.9208\% \color{white} \space | \space \color{red} 1931341 : 97.0792\% \color{white} \space | \space 1989449}$$
-##### $${BRANCH: \space\color{lightgreen} 4355 : 2.0276\% \color{white} \space | \space \color{red} 210426 : 97.9724\% \color{white} \space | \space 214781}$$
-##### $${LINE: \space\color{lightgreen} 13539 : 3.0479\% \color{white} \space | \space \color{red} 430669 : 96.9521\% \color{white} \space | \space 444208}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 3845 : 1.8543\% \color{white} \space | \space \color{red} 203515 : 98.1457\% \color{white} \space | \space 207360}$$
-##### $${METHOD: \space\color{lightgreen} 2750 : 2.8076\% \color{white} \space | \space \color{red} 95200 : 97.1924\% \color{white} \space | \space 97950}$$
-##### $${CLASS: \space\color{lightgreen} 596 : 4.9933\% \color{white} \space | \space \color{red} 11340 : 95.0067\% \color{white} \space | \space 11936}$$
----
+**INSTRUCTION** &nbsp;58009 : 4.5694% | 1211492 : 95.4306% | 1269501  
+**BRANCH** &nbsp;4077 : 3.1818% | 124059 : 96.8182% | 128136  
+**LINE** &nbsp;13092 : 4.7415% | 263023 : 95.2585% | 276115  
+**COMPLEXITY** &nbsp;3618 : 2.8233% | 124529 : 97.1767% | 128147  
+**METHOD** &nbsp;2528 : 4.0572% | 59781 : 95.9428% | 62309  
+**CLASS** &nbsp;561 : 7.5141% | 6905 : 92.4859% | 7466  
+  
 ### COMPILE-SCOPE USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 56008 : 4.3701\% \color{white} \space | \space \color{red} 1225601 : 95.6299\% \color{white} \space | \space 1281609}$$
-##### $${BRANCH: \space\color{lightgreen} 4153 : 2.9971\% \color{white} \space | \space \color{red} 134413 : 97.0029\% \color{white} \space | \space 138566}$$
-##### $${LINE: \space\color{lightgreen} 12955 : 4.564\% \color{white} \space | \space \color{red} 270896 : 95.436\% \color{white} \space | \space 283851}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 3689 : 2.776\% \color{white} \space | \space \color{red} 129200 : 97.224\% \color{white} \space | \space 132889}$$
-##### $${METHOD: \space\color{lightgreen} 2608 : 4.2174\% \color{white} \space | \space \color{red} 59231 : 95.7826\% \color{white} \space | \space 61839}$$
-##### $${CLASS: \space\color{lightgreen} 570 : 8.1197\% \color{white} \space | \space \color{red} 6450 : 91.8803\% \color{white} \space | \space 7020}$$
----
+**INSTRUCTION** &nbsp;58009 : 5.9295% | 920305 : 94.0705% | 978314  
+**BRANCH** &nbsp;4077 : 3.9593% | 98895 : 96.0407% | 102972  
+**LINE** &nbsp;13092 : 6.0565% | 203071 : 93.9435% | 216163  
+**COMPLEXITY** &nbsp;3618 : 3.609% | 96632 : 96.391% | 100250  
+**METHOD** &nbsp;2528 : 5.3608% | 44629 : 94.6392% | 47157  
+**CLASS** &nbsp;561 : 10.3563% | 4856 : 89.6437% | 5417  
+  
 ### TRANSITIVE USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 6068 : 0.3694\% \color{white} \space | \space \color{red} 1636754 : 99.6306\% \color{white} \space | \space 1642822}$$
-##### $${BRANCH: \space\color{lightgreen} 526 : 0.304\% \color{white} \space | \space \color{red} 172515 : 99.696\% \color{white} \space | \space 173041}$$
-##### $${LINE: \space\color{lightgreen} 1592 : 0.4246\% \color{white} \space | \space \color{red} 373328 : 99.5754\% \color{white} \space | \space 374920}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 368 : 0.2122\% \color{white} \space | \space \color{red} 173063 : 99.7878\% \color{white} \space | \space 173431}$$
-##### $${METHOD: \space\color{lightgreen} 326 : 0.3789\% \color{white} \space | \space \color{red} 85704 : 99.6211\% \color{white} \space | \space 86030}$$
-##### $${CLASS: \space\color{lightgreen} 66 : 0.5798\% \color{white} \space | \space \color{red} 11318 : 99.4202\% \color{white} \space | \space 11384}$$
----
+**INSTRUCTION** &nbsp;3326 : 0.3319% | 998796 : 99.6681% | 1002122  
+**BRANCH** &nbsp;261 : 0.2922% | 89056 : 99.7078% | 89317  
+**LINE** &nbsp;801 : 0.3801% | 209953 : 99.6199% | 210754  
+**COMPLEXITY** &nbsp;151 : 0.1554% | 96992 : 99.8446% | 97143  
+**METHOD** &nbsp;122 : 0.236% | 51573 : 99.764% | 51695  
+**CLASS** &nbsp;28 : 0.4184% | 6664 : 99.5816% | 6692  
+  
 ### RAW COMPLETE USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 134847 : 8.5512\% \color{white} \space | \space \color{red} 1442092 : 91.4488\% \color{white} \space | \space 1576939}$$
-##### $${BRANCH: \space\color{lightgreen} 10378 : 6.262\% \color{white} \space | \space \color{red} 155353 : 93.738\% \color{white} \space | \space 165731}$$
-##### $${LINE: \space\color{lightgreen} 29497 : 8.4047\% \color{white} \space | \space \color{red} 321461 : 91.5953\% \color{white} \space | \space 350958}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 9619 : 5.8518\% \color{white} \space | \space \color{red} 154759 : 94.1482\% \color{white} \space | \space 164378}$$
-##### $${METHOD: \space\color{lightgreen} 6253 : 7.9304\% \color{white} \space | \space \color{red} 72595 : 92.0696\% \color{white} \space | \space 78848}$$
-##### $${CLASS: \space\color{lightgreen} 1126 : 12.7131\% \color{white} \space | \space \color{red} 7731 : 87.2869\% \color{white} \space | \space 8857}$$
----
+**INSTRUCTION** &nbsp;131875 : 10.0165% | 1184709 : 89.9835% | 1316584  
+**BRANCH** &nbsp;9793 : 7.4223% | 122148 : 92.5777% | 131941  
+**LINE** &nbsp;28517 : 9.9663% | 257618 : 90.0337% | 286135  
+**COMPLEXITY** &nbsp;9075 : 6.8081% | 124223 : 93.1919% | 133298  
+**METHOD** &nbsp;5874 : 9.0685% | 58900 : 90.9315% | 64774  
+**CLASS** &nbsp;1087 : 14.8558% | 6230 : 85.1442% | 7317  
+  
 ### COMPLETE USAGE (covered, missed, total):  
-##### $${INSTRUCTION: \space\color{lightgreen} 136947 : 6.3437\% \color{white} \space | \space \color{red} 2021856 : 93.6563\% \color{white} \space | \space 2158803}$$
-##### $${BRANCH: \space\color{lightgreen} 10580 : 4.5944\% \color{white} \space | \space \color{red} 219702 : 95.4056\% \color{white} \space | \space 230282}$$
-##### $${LINE: \space\color{lightgreen} 30081 : 6.2263\% \color{white} \space | \space \color{red} 453044 : 93.7737\% \color{white} \space | \space 483125}$$
-##### $${COMPLEXITY: \space\color{lightgreen} 9775 : 4.326\% \color{white} \space | \space \color{red} 216184 : 95.674\% \color{white} \space | \space 225959}$$
-##### $${METHOD: \space\color{lightgreen} 6395 : 5.9231\% \color{white} \space | \space \color{red} 101572 : 94.0769\% \color{white} \space | \space 107967}$$
-##### $${CLASS: \space\color{lightgreen} 1152 : 9.019\% \color{white} \space | \space \color{red} 11621 : 90.981\% \color{white} \space | \space 12773}$$
+**INSTRUCTION** &nbsp;131875 : 9.206% | 1300608 : 90.794% | 1432483  
+**BRANCH** &nbsp;9793 : 6.8429% | 133318 : 93.1571% | 143111  
+**LINE** &nbsp;28517 : 9.0991% | 284888 : 90.9009% | 313405  
+**COMPLEXITY** &nbsp;9075 : 6.2088% | 137088 : 93.7912% | 146163  
+**METHOD** &nbsp;5874 : 8.1571% | 66137 : 91.8429% | 72011  
+**CLASS** &nbsp;1087 : 13.1439% | 7183 : 86.8561% | 8270  
