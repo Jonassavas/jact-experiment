@@ -1,0 +1,3853 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css">
+  <link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif">
+  <title>net.openhft.chronicle.wire</title>
+  <script type="text/javascript" src="../jacoco-resources/sort.js"></script>
+ </head>
+ <body onload="initialSort(['breadcrumb', 'coveragetable'])">
+  <div class="breadcrumb" id="breadcrumb">
+   <span class="info"><a href="index.source.html" class="el_source">Source Files</a><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Coverage Report</a> &gt; <span class="el_package">net.openhft.chronicle.wire</span>
+  </div>
+  <h1>net.openhft.chronicle.wire</h1>
+  <table class="coverage" cellspacing="0" id="coveragetable">
+   <thead>
+    <tr>
+     <td class="sortable" id="a" onclick="toggleSort(this)">Element</td>
+     <td class="down sortable bar" id="b" onclick="toggleSort(this)">Missed Instructions</td>
+     <td class="sortable ctr2" id="c" onclick="toggleSort(this)">Cov.</td>
+     <td class="sortable bar" id="d" onclick="toggleSort(this)">Missed Branches</td>
+     <td class="sortable ctr2" id="e" onclick="toggleSort(this)">Cov.</td>
+     <td class="sortable ctr1" id="f" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="g" onclick="toggleSort(this)">Cxty</td>
+     <td class="sortable ctr1" id="h" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="i" onclick="toggleSort(this)">Lines</td>
+     <td class="sortable ctr1" id="j" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="k" onclick="toggleSort(this)">Methods</td>
+     <td class="sortable ctr1" id="l" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="m" onclick="toggleSort(this)">Classes</td>
+    </tr>
+   </thead>
+   <tfoot>
+    <tr>
+     <td>Total</td>
+     <td class="bar">56,614 of 70,157</td>
+     <td class="ctr2">19%</td>
+     <td class="bar">6,110 of 7,186</td>
+     <td class="ctr2">14%</td>
+     <td class="ctr1">6,144</td>
+     <td class="ctr2">7,057</td>
+     <td class="ctr1">12,408</td>
+     <td class="ctr2">15,426</td>
+     <td class="ctr1">2,569</td>
+     <td class="ctr2">3,252</td>
+     <td class="ctr1">139</td>
+     <td class="ctr2">253</td>
+    </tr>
+   </tfoot>
+   <tbody>
+    <tr>
+     <td id="a23"><a href="BinaryWire$BinaryValueIn.html" class="el_class">BinaryWire.BinaryValueIn</a></td>
+     <td class="bar" id="b0"><img src="../jacoco-resources/redbar.gif" width="103" height="10" title="3,295" alt="3,295"><img src="../jacoco-resources/greenbar.gif" width="16" height="10" title="527" alt="527"></td>
+     <td class="ctr2" id="c90">13%</td>
+     <td class="bar" id="d0"><img src="../jacoco-resources/redbar.gif" width="106" height="10" title="380" alt="380"><img src="../jacoco-resources/greenbar.gif" width="13" height="10" title="49" alt="49"></td>
+     <td class="ctr2" id="e48">11%</td>
+     <td class="ctr1" id="f0">313</td>
+     <td class="ctr2" id="g0">349</td>
+     <td class="ctr1" id="h0">748</td>
+     <td class="ctr2" id="i0">874</td>
+     <td class="ctr1" id="j3">70</td>
+     <td class="ctr2" id="k3">97</td>
+     <td class="ctr1" id="l139">0</td>
+     <td class="ctr2" id="m0">1</td>
+    </tr>
+    <tr>
+     <td id="a146"><a href="TextWire$TextValueIn.html" class="el_class">TextWire.TextValueIn</a></td>
+     <td class="bar" id="b1"><img src="../jacoco-resources/redbar.gif" width="92" height="10" title="2,935" alt="2,935"><img src="../jacoco-resources/greenbar.gif" width="27" height="10" title="869" alt="869"></td>
+     <td class="ctr2" id="c77">22%</td>
+     <td class="bar" id="d1"><img src="../jacoco-resources/redbar.gif" width="87" height="10" title="312" alt="312"><img src="../jacoco-resources/greenbar.gif" width="22" height="10" title="80" alt="80"></td>
+     <td class="ctr2" id="e39">20%</td>
+     <td class="ctr1" id="f2">256</td>
+     <td class="ctr2" id="g1">312</td>
+     <td class="ctr1" id="h1">606</td>
+     <td class="ctr2" id="i1">825</td>
+     <td class="ctr1" id="j4">65</td>
+     <td class="ctr2" id="k0">103</td>
+     <td class="ctr1" id="l140">0</td>
+     <td class="ctr2" id="m1">1</td>
+    </tr>
+    <tr>
+     <td id="a250"><a href="YamlWire$TextValueIn.html" class="el_class">YamlWire.TextValueIn</a></td>
+     <td class="bar" id="b2"><img src="../jacoco-resources/redbar.gif" width="88" height="10" title="2,831" alt="2,831"></td>
+     <td class="ctr2" id="c113">0%</td>
+     <td class="bar" id="d4"><img src="../jacoco-resources/redbar.gif" width="79" height="10" title="283" alt="283"></td>
+     <td class="ctr2" id="e59">0%</td>
+     <td class="ctr1" id="f3">238</td>
+     <td class="ctr2" id="g3">240</td>
+     <td class="ctr1" id="h2">554</td>
+     <td class="ctr2" id="i4">555</td>
+     <td class="ctr1" id="j0">85</td>
+     <td class="ctr2" id="k6">87</td>
+     <td class="ctr1" id="l141">0</td>
+     <td class="ctr2" id="m2">1</td>
+    </tr>
+    <tr>
+     <td id="a21"><a href="BinaryWire.html" class="el_class">BinaryWire</a></td>
+     <td class="bar" id="b3"><img src="../jacoco-resources/redbar.gif" width="66" height="10" title="2,130" alt="2,130"><img src="../jacoco-resources/greenbar.gif" width="16" height="10" title="514" alt="514"></td>
+     <td class="ctr2" id="c85">19%</td>
+     <td class="bar" id="d3"><img src="../jacoco-resources/redbar.gif" width="83" height="10" title="299" alt="299"><img src="../jacoco-resources/greenbar.gif" width="11" height="10" title="40" alt="40"></td>
+     <td class="ctr2" id="e47">11%</td>
+     <td class="ctr1" id="f1">266</td>
+     <td class="ctr2" id="g2">310</td>
+     <td class="ctr1" id="h3">526</td>
+     <td class="ctr2" id="i2">650</td>
+     <td class="ctr1" id="j6">62</td>
+     <td class="ctr2" id="k1">102</td>
+     <td class="ctr1" id="l142">0</td>
+     <td class="ctr2" id="m3">1</td>
+    </tr>
+    <tr>
+     <td id="a247"><a href="YamlTokeniser.html" class="el_class">YamlTokeniser</a></td>
+     <td class="bar" id="b4"><img src="../jacoco-resources/redbar.gif" width="58" height="10" title="1,856" alt="1,856"><img src="../jacoco-resources/greenbar.gif" width="4" height="10" title="142" alt="142"></td>
+     <td class="ctr2" id="c106">7%</td>
+     <td class="bar" id="d2"><img src="../jacoco-resources/redbar.gif" width="86" height="10" title="310" alt="310"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e58">1%</td>
+     <td class="ctr1" id="f4">222</td>
+     <td class="ctr2" id="g5">226</td>
+     <td class="ctr1" id="h4">424</td>
+     <td class="ctr2" id="i5">457</td>
+     <td class="ctr1" id="j11">54</td>
+     <td class="ctr2" id="k13">58</td>
+     <td class="ctr1" id="l143">0</td>
+     <td class="ctr2" id="m4">1</td>
+    </tr>
+    <tr>
+     <td id="a249"><a href="YamlWire.html" class="el_class">YamlWire</a></td>
+     <td class="bar" id="b5"><img src="../jacoco-resources/redbar.gif" width="51" height="10" title="1,653" alt="1,653"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="111" alt="111"></td>
+     <td class="ctr2" id="c108">6%</td>
+     <td class="bar" id="d5"><img src="../jacoco-resources/redbar.gif" width="66" height="10" title="236" alt="236"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e55">2%</td>
+     <td class="ctr1" id="f6">197</td>
+     <td class="ctr2" id="g7">206</td>
+     <td class="ctr1" id="h5">404</td>
+     <td class="ctr2" id="i7">429</td>
+     <td class="ctr1" id="j8">59</td>
+     <td class="ctr2" id="k9">68</td>
+     <td class="ctr1" id="l144">0</td>
+     <td class="ctr2" id="m5">1</td>
+    </tr>
+    <tr>
+     <td id="a75"><a href="LongValueBitSet.html" class="el_class">LongValueBitSet</a></td>
+     <td class="bar" id="b6"><img src="../jacoco-resources/redbar.gif" width="50" height="10" title="1,612" alt="1,612"></td>
+     <td class="ctr2" id="c114">0%</td>
+     <td class="bar" id="d8"><img src="../jacoco-resources/redbar.gif" width="46" height="10" title="168" alt="168"></td>
+     <td class="ctr2" id="e60">0%</td>
+     <td class="ctr1" id="f9">141</td>
+     <td class="ctr2" id="g10">141</td>
+     <td class="ctr1" id="h7">345</td>
+     <td class="ctr2" id="i12">345</td>
+     <td class="ctr1" id="j9">57</td>
+     <td class="ctr2" id="k14">57</td>
+     <td class="ctr1" id="l0">1</td>
+     <td class="ctr2" id="m6">1</td>
+    </tr>
+    <tr>
+     <td id="a154"><a href="ValueOut.html" class="el_class">ValueOut</a></td>
+     <td class="bar" id="b7"><img src="../jacoco-resources/redbar.gif" width="49" height="10" title="1,573" alt="1,573"><img src="../jacoco-resources/greenbar.gif" width="8" height="10" title="279" alt="279"></td>
+     <td class="ctr2" id="c87">15%</td>
+     <td class="bar" id="d7"><img src="../jacoco-resources/redbar.gif" width="51" height="10" title="183" alt="183"><img src="../jacoco-resources/greenbar.gif" width="12" height="10" title="44" alt="44"></td>
+     <td class="ctr2" id="e42">19%</td>
+     <td class="ctr1" id="f5">207</td>
+     <td class="ctr2" id="g4">235</td>
+     <td class="ctr1" id="h8">331</td>
+     <td class="ctr2" id="i8">396</td>
+     <td class="ctr1" id="j1">82</td>
+     <td class="ctr2" id="k2">101</td>
+     <td class="ctr1" id="l145">0</td>
+     <td class="ctr2" id="m7">1</td>
+    </tr>
+    <tr>
+     <td id="a252"><a href="YamlWireOut$YamlValueOut.html" class="el_class">YamlWireOut.YamlValueOut</a></td>
+     <td class="bar" id="b8"><img src="../jacoco-resources/redbar.gif" width="49" height="10" title="1,565" alt="1,565"><img src="../jacoco-resources/greenbar.gif" width="20" height="10" title="656" alt="656"></td>
+     <td class="ctr2" id="c70">29%</td>
+     <td class="bar" id="d6"><img src="../jacoco-resources/redbar.gif" width="65" height="10" title="234" alt="234"><img src="../jacoco-resources/greenbar.gif" width="16" height="10" title="58" alt="58"></td>
+     <td class="ctr2" id="e41">19%</td>
+     <td class="ctr1" id="f7">182</td>
+     <td class="ctr2" id="g6">225</td>
+     <td class="ctr1" id="h6">402</td>
+     <td class="ctr2" id="i3">588</td>
+     <td class="ctr1" id="j13">48</td>
+     <td class="ctr2" id="k7">79</td>
+     <td class="ctr1" id="l146">0</td>
+     <td class="ctr2" id="m8">1</td>
+    </tr>
+    <tr>
+     <td id="a158"><a href="VanillaMethodReader.html" class="el_class">VanillaMethodReader</a></td>
+     <td class="bar" id="b9"><img src="../jacoco-resources/redbar.gif" width="45" height="10" title="1,447" alt="1,447"></td>
+     <td class="ctr2" id="c115">0%</td>
+     <td class="bar" id="d9"><img src="../jacoco-resources/redbar.gif" width="43" height="10" title="157" alt="157"></td>
+     <td class="ctr2" id="e61">0%</td>
+     <td class="ctr1" id="f12">123</td>
+     <td class="ctr2" id="g16">123</td>
+     <td class="ctr1" id="h10">310</td>
+     <td class="ctr2" id="i14">310</td>
+     <td class="ctr1" id="j16">44</td>
+     <td class="ctr2" id="k20">44</td>
+     <td class="ctr1" id="l1">1</td>
+     <td class="ctr2" id="m9">1</td>
+    </tr>
+    <tr>
+     <td id="a72"><a href="LongArrayValueBitSet.html" class="el_class">LongArrayValueBitSet</a></td>
+     <td class="bar" id="b10"><img src="../jacoco-resources/redbar.gif" width="45" height="10" title="1,438" alt="1,438"></td>
+     <td class="ctr2" id="c116">0%</td>
+     <td class="bar" id="d11"><img src="../jacoco-resources/redbar.gif" width="41" height="10" title="148" alt="148"></td>
+     <td class="ctr2" id="e62">0%</td>
+     <td class="ctr1" id="f11">124</td>
+     <td class="ctr2" id="g15">124</td>
+     <td class="ctr1" id="h9">317</td>
+     <td class="ctr2" id="i13">317</td>
+     <td class="ctr1" id="j12">50</td>
+     <td class="ctr2" id="k15">50</td>
+     <td class="ctr1" id="l2">1</td>
+     <td class="ctr2" id="m10">1</td>
+    </tr>
+    <tr>
+     <td id="a26"><a href="BinaryWire$FixedBinaryValueOut.html" class="el_class">BinaryWire.FixedBinaryValueOut</a></td>
+     <td class="bar" id="b11"><img src="../jacoco-resources/redbar.gif" width="38" height="10" title="1,226" alt="1,226"><img src="../jacoco-resources/greenbar.gif" width="10" height="10" title="345" alt="345"></td>
+     <td class="ctr2" id="c79">21%</td>
+     <td class="bar" id="d16"><img src="../jacoco-resources/redbar.gif" width="30" height="10" title="109" alt="109"><img src="../jacoco-resources/greenbar.gif" width="8" height="10" title="29" alt="29"></td>
+     <td class="ctr2" id="e37">21%</td>
+     <td class="ctr1" id="f14">109</td>
+     <td class="ctr2" id="g13">131</td>
+     <td class="ctr1" id="h14">229</td>
+     <td class="ctr2" id="i15">299</td>
+     <td class="ctr1" id="j15">46</td>
+     <td class="ctr2" id="k10">62</td>
+     <td class="ctr1" id="l147">0</td>
+     <td class="ctr2" id="m11">1</td>
+    </tr>
+    <tr>
+     <td id="a208"><a href="Wires.html" class="el_class">Wires</a></td>
+     <td class="bar" id="b12"><img src="../jacoco-resources/redbar.gif" width="35" height="10" title="1,145" alt="1,145"><img src="../jacoco-resources/greenbar.gif" width="15" height="10" title="483" alt="483"></td>
+     <td class="ctr2" id="c68">29%</td>
+     <td class="bar" id="d10"><img src="../jacoco-resources/redbar.gif" width="42" height="10" title="151" alt="151"><img src="../jacoco-resources/greenbar.gif" width="17" height="10" title="63" alt="63"></td>
+     <td class="ctr2" id="e29">29%</td>
+     <td class="ctr1" id="f8">161</td>
+     <td class="ctr2" id="g8">199</td>
+     <td class="ctr1" id="h12">242</td>
+     <td class="ctr2" id="i10">363</td>
+     <td class="ctr1" id="j5">65</td>
+     <td class="ctr2" id="k4">91</td>
+     <td class="ctr1" id="l148">0</td>
+     <td class="ctr2" id="m12">1</td>
+    </tr>
+    <tr>
+     <td id="a144"><a href="TextWire.html" class="el_class">TextWire</a></td>
+     <td class="bar" id="b13"><img src="../jacoco-resources/redbar.gif" width="35" height="10" title="1,125" alt="1,125"><img src="../jacoco-resources/greenbar.gif" width="23" height="10" title="739" alt="739"></td>
+     <td class="ctr2" id="c51">39%</td>
+     <td class="bar" id="d12"><img src="../jacoco-resources/redbar.gif" width="38" height="10" title="139" alt="139"><img src="../jacoco-resources/greenbar.gif" width="19" height="10" title="69" alt="69"></td>
+     <td class="ctr2" id="e26">33%</td>
+     <td class="ctr1" id="f10">139</td>
+     <td class="ctr2" id="g9">193</td>
+     <td class="ctr1" id="h11">267</td>
+     <td class="ctr2" id="i6">448</td>
+     <td class="ctr1" id="j17">40</td>
+     <td class="ctr2" id="k8">79</td>
+     <td class="ctr1" id="l149">0</td>
+     <td class="ctr2" id="m13">1</td>
+    </tr>
+    <tr>
+     <td id="a12"><a href="AbstractWire.html" class="el_class">AbstractWire</a></td>
+     <td class="bar" id="b14"><img src="../jacoco-resources/redbar.gif" width="33" height="10" title="1,074" alt="1,074"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="54" alt="54"></td>
+     <td class="ctr2" id="c110">4%</td>
+     <td class="bar" id="d13"><img src="../jacoco-resources/redbar.gif" width="35" height="10" title="128" alt="128"></td>
+     <td class="ctr2" id="e63">0%</td>
+     <td class="ctr1" id="f15">104</td>
+     <td class="ctr2" id="g18">113</td>
+     <td class="ctr1" id="h13">232</td>
+     <td class="ctr2" id="i18">253</td>
+     <td class="ctr1" id="j18">40</td>
+     <td class="ctr2" id="k16">49</td>
+     <td class="ctr1" id="l150">0</td>
+     <td class="ctr2" id="m14">1</td>
+    </tr>
+    <tr>
+     <td id="a65"><a href="JSONWire.html" class="el_class">JSONWire</a></td>
+     <td class="bar" id="b15"><img src="../jacoco-resources/redbar.gif" width="28" height="10" title="909" alt="909"></td>
+     <td class="ctr2" id="c117">0%</td>
+     <td class="bar" id="d14"><img src="../jacoco-resources/redbar.gif" width="33" height="10" title="118" alt="118"></td>
+     <td class="ctr2" id="e64">0%</td>
+     <td class="ctr1" id="f16">98</td>
+     <td class="ctr2" id="g20">98</td>
+     <td class="ctr1" id="h15">212</td>
+     <td class="ctr2" id="i19">212</td>
+     <td class="ctr1" id="j24">34</td>
+     <td class="ctr2" id="k26">34</td>
+     <td class="ctr1" id="l3">1</td>
+     <td class="ctr2" id="m15">1</td>
+    </tr>
+    <tr>
+     <td id="a102"><a href="RawWire$RawValueIn.html" class="el_class">RawWire.RawValueIn</a></td>
+     <td class="bar" id="b16"><img src="../jacoco-resources/redbar.gif" width="27" height="10" title="873" alt="873"></td>
+     <td class="ctr2" id="c118">0%</td>
+     <td class="bar" id="d35"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="43" alt="43"></td>
+     <td class="ctr2" id="e65">0%</td>
+     <td class="ctr1" id="f20">84</td>
+     <td class="ctr2" id="g22">84</td>
+     <td class="ctr1" id="h17">173</td>
+     <td class="ctr2" id="i22">173</td>
+     <td class="ctr1" id="j7">62</td>
+     <td class="ctr2" id="k11">62</td>
+     <td class="ctr1" id="l4">1</td>
+     <td class="ctr2" id="m16">1</td>
+    </tr>
+    <tr>
+     <td id="a55"><a href="GenerateMethodReader.html" class="el_class">GenerateMethodReader</a></td>
+     <td class="bar" id="b17"><img src="../jacoco-resources/redbar.gif" width="27" height="10" title="863" alt="863"><img src="../jacoco-resources/greenbar.gif" width="45" height="10" title="1,445" alt="1,445"></td>
+     <td class="ctr2" id="c26">62%</td>
+     <td class="bar" id="d15"><img src="../jacoco-resources/redbar.gif" width="31" height="10" title="114" alt="114"><img src="../jacoco-resources/greenbar.gif" width="33" height="10" title="120" alt="120"></td>
+     <td class="ctr2" id="e8">51%</td>
+     <td class="ctr1" id="f21">84</td>
+     <td class="ctr2" id="g12">135</td>
+     <td class="ctr1" id="h28">117</td>
+     <td class="ctr2" id="i11">355</td>
+     <td class="ctr1" id="j207">1</td>
+     <td class="ctr2" id="k45">18</td>
+     <td class="ctr1" id="l151">0</td>
+     <td class="ctr2" id="m17">1</td>
+    </tr>
+    <tr>
+     <td id="a132"><a href="TextMethodTester.html" class="el_class">TextMethodTester</a></td>
+     <td class="bar" id="b18"><img src="../jacoco-resources/redbar.gif" width="26" height="10" title="839" alt="839"><img src="../jacoco-resources/greenbar.gif" width="13" height="10" title="437" alt="437"></td>
+     <td class="ctr2" id="c60">34%</td>
+     <td class="bar" id="d21"><img src="../jacoco-resources/redbar.gif" width="23" height="10" title="83" alt="83"><img src="../jacoco-resources/greenbar.gif" width="12" height="10" title="43" alt="43"></td>
+     <td class="ctr2" id="e23">34%</td>
+     <td class="ctr1" id="f17">96</td>
+     <td class="ctr2" id="g19">111</td>
+     <td class="ctr1" id="h16">175</td>
+     <td class="ctr2" id="i16">290</td>
+     <td class="ctr1" id="j23">35</td>
+     <td class="ctr2" id="k17">48</td>
+     <td class="ctr1" id="l152">0</td>
+     <td class="ctr2" id="m18">1</td>
+    </tr>
+    <tr>
+     <td id="a57"><a href="GenerateMethodWriter2.html" class="el_class">GenerateMethodWriter2</a></td>
+     <td class="bar" id="b19"><img src="../jacoco-resources/redbar.gif" width="24" height="10" title="776" alt="776"></td>
+     <td class="ctr2" id="c119">0%</td>
+     <td class="bar" id="d20"><img src="../jacoco-resources/redbar.gif" width="24" height="10" title="88" alt="88"></td>
+     <td class="ctr2" id="e66">0%</td>
+     <td class="ctr1" id="f27">58</td>
+     <td class="ctr2" id="g29">58</td>
+     <td class="ctr1" id="h20">155</td>
+     <td class="ctr2" id="i26">155</td>
+     <td class="ctr1" id="j43">14</td>
+     <td class="ctr2" id="k55">14</td>
+     <td class="ctr1" id="l5">1</td>
+     <td class="ctr2" id="m19">1</td>
+    </tr>
+    <tr>
+     <td id="a151"><a href="ValueIn.html" class="el_class">ValueIn</a></td>
+     <td class="bar" id="b20"><img src="../jacoco-resources/redbar.gif" width="23" height="10" title="757" alt="757"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="69" alt="69"></td>
+     <td class="ctr2" id="c101">8%</td>
+     <td class="bar" id="d22"><img src="../jacoco-resources/redbar.gif" width="20" height="10" title="74" alt="74"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e51">9%</td>
+     <td class="ctr1" id="f13">119</td>
+     <td class="ctr2" id="g14">131</td>
+     <td class="ctr1" id="h18">166</td>
+     <td class="ctr2" id="i20">182</td>
+     <td class="ctr1" id="j2">82</td>
+     <td class="ctr2" id="k5">90</td>
+     <td class="ctr1" id="l153">0</td>
+     <td class="ctr2" id="m20">1</td>
+    </tr>
+    <tr>
+     <td id="a1"><a href="AbstractClassGenerator.html" class="el_class">AbstractClassGenerator</a></td>
+     <td class="bar" id="b21"><img src="../jacoco-resources/redbar.gif" width="23" height="10" title="755" alt="755"></td>
+     <td class="ctr2" id="c120">0%</td>
+     <td class="bar" id="d28"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="60" alt="60"></td>
+     <td class="ctr2" id="e67">0%</td>
+     <td class="ctr1" id="f30">51</td>
+     <td class="ctr2" id="g33">51</td>
+     <td class="ctr1" id="h21">150</td>
+     <td class="ctr2" id="i28">150</td>
+     <td class="ctr1" id="j34">21</td>
+     <td class="ctr2" id="k40">21</td>
+     <td class="ctr1" id="l6">1</td>
+     <td class="ctr2" id="m21">1</td>
+    </tr>
+    <tr>
+     <td id="a103"><a href="RawWire$RawValueOut.html" class="el_class">RawWire.RawValueOut</a></td>
+     <td class="bar" id="b22"><img src="../jacoco-resources/redbar.gif" width="21" height="10" title="692" alt="692"></td>
+     <td class="ctr2" id="c121">0%</td>
+     <td class="bar" id="d60"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e68">0%</td>
+     <td class="ctr1" id="f28">56</td>
+     <td class="ctr2" id="g31">56</td>
+     <td class="ctr1" id="h24">137</td>
+     <td class="ctr2" id="i30">137</td>
+     <td class="ctr1" id="j14">47</td>
+     <td class="ctr2" id="k18">47</td>
+     <td class="ctr1" id="l7">1</td>
+     <td class="ctr2" id="m22">1</td>
+    </tr>
+    <tr>
+     <td id="a50"><a href="GenerateJsonSchemaMain.html" class="el_class">GenerateJsonSchemaMain</a></td>
+     <td class="bar" id="b23"><img src="../jacoco-resources/redbar.gif" width="21" height="10" title="689" alt="689"></td>
+     <td class="ctr2" id="c122">0%</td>
+     <td class="bar" id="d32"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="51" alt="51"></td>
+     <td class="ctr2" id="e69">0%</td>
+     <td class="ctr1" id="f41">38</td>
+     <td class="ctr2" id="g44">38</td>
+     <td class="ctr1" id="h25">137</td>
+     <td class="ctr2" id="i31">137</td>
+     <td class="ctr1" id="j47">12</td>
+     <td class="ctr2" id="k61">12</td>
+     <td class="ctr1" id="l8">1</td>
+     <td class="ctr2" id="m23">1</td>
+    </tr>
+    <tr>
+     <td id="a24"><a href="BinaryWire$BinaryValueOut.html" class="el_class">BinaryWire.BinaryValueOut</a></td>
+     <td class="bar" id="b24"><img src="../jacoco-resources/redbar.gif" width="21" height="10" title="674" alt="674"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="47" alt="47"></td>
+     <td class="ctr2" id="c107">6%</td>
+     <td class="bar" id="d17"><img src="../jacoco-resources/redbar.gif" width="28" height="10" title="102" alt="102"></td>
+     <td class="ctr2" id="e54">2%</td>
+     <td class="ctr1" id="f23">75</td>
+     <td class="ctr2" id="g24">82</td>
+     <td class="ctr1" id="h23">140</td>
+     <td class="ctr2" id="i27">153</td>
+     <td class="ctr1" id="j36">18</td>
+     <td class="ctr2" id="k34">25</td>
+     <td class="ctr1" id="l154">0</td>
+     <td class="ctr2" id="m24">1</td>
+    </tr>
+    <tr>
+     <td id="a171"><a href="WireMarshaller.html" class="el_class">WireMarshaller</a></td>
+     <td class="bar" id="b25"><img src="../jacoco-resources/redbar.gif" width="20" height="10" title="666" alt="666"><img src="../jacoco-resources/greenbar.gif" width="17" height="10" title="557" alt="557"></td>
+     <td class="ctr2" id="c42">45%</td>
+     <td class="bar" id="d19"><img src="../jacoco-resources/redbar.gif" width="24" height="10" title="88" alt="88"><img src="../jacoco-resources/greenbar.gif" width="16" height="10" title="60" alt="60"></td>
+     <td class="ctr2" id="e19">40%</td>
+     <td class="ctr1" id="f22">80</td>
+     <td class="ctr2" id="g17">118</td>
+     <td class="ctr1" id="h22">142</td>
+     <td class="ctr2" id="i17">260</td>
+     <td class="ctr1" id="j33">22</td>
+     <td class="ctr2" id="k21">44</td>
+     <td class="ctr1" id="l155">0</td>
+     <td class="ctr2" id="m25">1</td>
+    </tr>
+    <tr>
+     <td id="a56"><a href="GenerateMethodWriter.html" class="el_class">GenerateMethodWriter</a></td>
+     <td class="bar" id="b26"><img src="../jacoco-resources/redbar.gif" width="20" height="10" title="659" alt="659"><img src="../jacoco-resources/greenbar.gif" width="44" height="10" title="1,432" alt="1,432"></td>
+     <td class="ctr2" id="c24">68%</td>
+     <td class="bar" id="d18"><img src="../jacoco-resources/redbar.gif" width="28" height="10" title="101" alt="101"><img src="../jacoco-resources/greenbar.gif" width="35" height="10" title="127" alt="127"></td>
+     <td class="ctr2" id="e7">55%</td>
+     <td class="ctr1" id="f19">86</td>
+     <td class="ctr2" id="g11">139</td>
+     <td class="ctr1" id="h33">98</td>
+     <td class="ctr2" id="i9">381</td>
+     <td class="ctr1" id="j110">4</td>
+     <td class="ctr2" id="k35">25</td>
+     <td class="ctr1" id="l156">0</td>
+     <td class="ctr2" id="m26">1</td>
+    </tr>
+    <tr>
+     <td id="a157"><a href="VanillaMessageHistory.html" class="el_class">VanillaMessageHistory</a></td>
+     <td class="bar" id="b27"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="633" alt="633"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="93" alt="93"></td>
+     <td class="ctr2" id="c92">12%</td>
+     <td class="bar" id="d23"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="71" alt="71"></td>
+     <td class="ctr2" id="e57">1%</td>
+     <td class="ctr1" id="f25">65</td>
+     <td class="ctr2" id="g26">73</td>
+     <td class="ctr1" id="h26">132</td>
+     <td class="ctr2" id="i25">159</td>
+     <td class="ctr1" id="j26">29</td>
+     <td class="ctr2" id="k24">37</td>
+     <td class="ctr1" id="l157">0</td>
+     <td class="ctr2" id="m27">1</td>
+    </tr>
+    <tr>
+     <td id="a40"><a href="DefaultValueIn.html" class="el_class">DefaultValueIn</a></td>
+     <td class="bar" id="b28"><img src="../jacoco-resources/redbar.gif" width="18" height="10" title="590" alt="590"></td>
+     <td class="ctr2" id="c112">1%</td>
+     <td class="bar" id="d29"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="60" alt="60"></td>
+     <td class="ctr2" id="e70">0%</td>
+     <td class="ctr1" id="f18">87</td>
+     <td class="ctr2" id="g21">90</td>
+     <td class="ctr1" id="h19">157</td>
+     <td class="ctr2" id="i23">162</td>
+     <td class="ctr1" id="j10">57</td>
+     <td class="ctr2" id="k12">60</td>
+     <td class="ctr1" id="l158">0</td>
+     <td class="ctr2" id="m28">1</td>
+    </tr>
+    <tr>
+     <td id="a67"><a href="JSONWire$JSONValueIn.html" class="el_class">JSONWire.JSONValueIn</a></td>
+     <td class="bar" id="b29"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="565" alt="565"></td>
+     <td class="ctr2" id="c123">0%</td>
+     <td class="bar" id="d27"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="62" alt="62"></td>
+     <td class="ctr2" id="e71">0%</td>
+     <td class="ctr1" id="f31">51</td>
+     <td class="ctr2" id="g34">51</td>
+     <td class="ctr1" id="h31">108</td>
+     <td class="ctr2" id="i35">108</td>
+     <td class="ctr1" id="j35">20</td>
+     <td class="ctr2" id="k41">20</td>
+     <td class="ctr1" id="l9">1</td>
+     <td class="ctr2" id="m29">1</td>
+    </tr>
+    <tr>
+     <td id="a165"><a href="WireDumper.html" class="el_class">WireDumper</a></td>
+     <td class="bar" id="b30"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="551" alt="551"></td>
+     <td class="ctr2" id="c124">0%</td>
+     <td class="bar" id="d26"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="64" alt="64"></td>
+     <td class="ctr2" id="e72">0%</td>
+     <td class="ctr1" id="f34">43</td>
+     <td class="ctr2" id="g39">43</td>
+     <td class="ctr1" id="h29">115</td>
+     <td class="ctr2" id="i34">115</td>
+     <td class="ctr1" id="j49">11</td>
+     <td class="ctr2" id="k64">11</td>
+     <td class="ctr1" id="l10">1</td>
+     <td class="ctr2" id="m30">1</td>
+    </tr>
+    <tr>
+     <td id="a168"><a href="WireInternal.html" class="el_class">WireInternal</a></td>
+     <td class="bar" id="b31"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="542" alt="542"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="228" alt="228"></td>
+     <td class="ctr2" id="c69">29%</td>
+     <td class="bar" id="d30"><img src="../jacoco-resources/redbar.gif" width="15" height="10" title="57" alt="57"></td>
+     <td class="ctr2" id="e56">1%</td>
+     <td class="ctr1" id="f29">53</td>
+     <td class="ctr2" id="g30">58</td>
+     <td class="ctr1" id="h27">124</td>
+     <td class="ctr2" id="i24">161</td>
+     <td class="ctr1" id="j30">24</td>
+     <td class="ctr2" id="k31">29</td>
+     <td class="ctr1" id="l159">0</td>
+     <td class="ctr2" id="m31">1</td>
+    </tr>
+    <tr>
+     <td id="a218"><a href="WireType.html" class="el_class">WireType</a></td>
+     <td class="bar" id="b32"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="510" alt="510"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="209" alt="209"></td>
+     <td class="ctr2" id="c71">29%</td>
+     <td class="bar" id="d33"><img src="../jacoco-resources/redbar.gif" width="13" height="10" title="50" alt="50"></td>
+     <td class="ctr2" id="e53">3%</td>
+     <td class="ctr1" id="f32">49</td>
+     <td class="ctr2" id="g32">56</td>
+     <td class="ctr1" id="h30">114</td>
+     <td class="ctr2" id="i29">150</td>
+     <td class="ctr1" id="j31">23</td>
+     <td class="ctr2" id="k28">30</td>
+     <td class="ctr1" id="l160">0</td>
+     <td class="ctr2" id="m32">1</td>
+    </tr>
+    <tr>
+     <td id="a60"><a href="HashWire$HashValueOut.html" class="el_class">HashWire.HashValueOut</a></td>
+     <td class="bar" id="b33"><img src="../jacoco-resources/redbar.gif" width="15" height="10" title="480" alt="480"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="65" alt="65"></td>
+     <td class="ctr2" id="c94">11%</td>
+     <td class="bar" id="d102"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="7" alt="7"></td>
+     <td class="ctr2" id="e46">12%</td>
+     <td class="ctr1" id="f36">42</td>
+     <td class="ctr2" id="g35">48</td>
+     <td class="ctr1" id="h41">66</td>
+     <td class="ctr2" id="i44">76</td>
+     <td class="ctr1" id="j19">38</td>
+     <td class="ctr2" id="k22">44</td>
+     <td class="ctr1" id="l161">0</td>
+     <td class="ctr2" id="m33">1</td>
+    </tr>
+    <tr>
+     <td id="a251"><a href="YamlWireOut.html" class="el_class">YamlWireOut</a></td>
+     <td class="bar" id="b34"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="469" alt="469"><img src="../jacoco-resources/greenbar.gif" width="8" height="10" title="285" alt="285"></td>
+     <td class="ctr2" id="c54">37%</td>
+     <td class="bar" id="d25"><img src="../jacoco-resources/redbar.gif" width="18" height="10" title="65" alt="65"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e30">28%</td>
+     <td class="ctr1" id="f26">62</td>
+     <td class="ctr2" id="g23">84</td>
+     <td class="ctr1" id="h32">107</td>
+     <td class="ctr2" id="i21">180</td>
+     <td class="ctr1" id="j39">16</td>
+     <td class="ctr2" id="k27">31</td>
+     <td class="ctr1" id="l162">0</td>
+     <td class="ctr2" id="m34">1</td>
+    </tr>
+    <tr>
+     <td id="a49"><a href="GeneratedProxyClass.html" class="el_class">GeneratedProxyClass</a></td>
+     <td class="bar" id="b35"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="411" alt="411"></td>
+     <td class="ctr2" id="c125">0%</td>
+     <td class="bar" id="d45"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e73">0%</td>
+     <td class="ctr1" id="f59">21</td>
+     <td class="ctr2" id="g63">21</td>
+     <td class="ctr1" id="h34">93</td>
+     <td class="ctr2" id="i39">93</td>
+     <td class="ctr1" id="j70">8</td>
+     <td class="ctr2" id="k81">8</td>
+     <td class="ctr1" id="l11">1</td>
+     <td class="ctr2" id="m35">1</td>
+    </tr>
+    <tr>
+     <td id="a212"><a href="Wires$SerializeJavaLang.html" class="el_class">Wires.SerializeJavaLang</a></td>
+     <td class="bar" id="b36"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="409" alt="409"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="86" alt="86"></td>
+     <td class="ctr2" id="c86">17%</td>
+     <td class="bar" id="d31"><img src="../jacoco-resources/redbar.gif" width="15" height="10" title="56" alt="56"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="7" alt="7"></td>
+     <td class="ctr2" id="e49">11%</td>
+     <td class="ctr1" id="f24">70</td>
+     <td class="ctr2" id="g25">76</td>
+     <td class="ctr1" id="h36">82</td>
+     <td class="ctr2" id="i37">101</td>
+     <td class="ctr1" id="j28">27</td>
+     <td class="ctr2" id="k29">30</td>
+     <td class="ctr1" id="l163">0</td>
+     <td class="ctr2" id="m36">1</td>
+    </tr>
+    <tr>
+     <td id="a215"><a href="Wires$TupleInvocationHandler.html" class="el_class">Wires.TupleInvocationHandler</a></td>
+     <td class="bar" id="b37"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="350" alt="350"></td>
+     <td class="ctr2" id="c126">0%</td>
+     <td class="bar" id="d24"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="70" alt="70"></td>
+     <td class="ctr2" id="e74">0%</td>
+     <td class="ctr1" id="f35">43</td>
+     <td class="ctr2" id="g40">43</td>
+     <td class="ctr1" id="h39">69</td>
+     <td class="ctr2" id="i47">69</td>
+     <td class="ctr1" id="j135">3</td>
+     <td class="ctr2" id="k165">3</td>
+     <td class="ctr1" id="l12">1</td>
+     <td class="ctr2" id="m37">1</td>
+    </tr>
+    <tr>
+     <td id="a51"><a href="GenerateMethodBridge.html" class="el_class">GenerateMethodBridge</a></td>
+     <td class="bar" id="b38"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="347" alt="347"></td>
+     <td class="ctr2" id="c127">0%</td>
+     <td class="bar" id="d50"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e75">0%</td>
+     <td class="ctr1" id="f65">18</td>
+     <td class="ctr2" id="g70">18</td>
+     <td class="ctr1" id="h43">63</td>
+     <td class="ctr2" id="i52">63</td>
+     <td class="ctr1" id="j76">7</td>
+     <td class="ctr2" id="k86">7</td>
+     <td class="ctr1" id="l13">1</td>
+     <td class="ctr2" id="m38">1</td>
+    </tr>
+    <tr>
+     <td id="a184"><a href="WireMarshaller$FieldAccess.html" class="el_class">WireMarshaller.FieldAccess</a></td>
+     <td class="bar" id="b39"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="342" alt="342"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="249" alt="249"></td>
+     <td class="ctr2" id="c47">42%</td>
+     <td class="bar" id="d34"><img src="../jacoco-resources/redbar.gif" width="13" height="10" title="48" alt="48"><img src="../jacoco-resources/greenbar.gif" width="10" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e18">42%</td>
+     <td class="ctr1" id="f39">39</td>
+     <td class="ctr2" id="g27">61</td>
+     <td class="ctr1" id="h38">70</td>
+     <td class="ctr2" id="i32">132</td>
+     <td class="ctr1" id="j111">4</td>
+     <td class="ctr2" id="k56">14</td>
+     <td class="ctr1" id="l164">0</td>
+     <td class="ctr2" id="m39">1</td>
+    </tr>
+    <tr>
+     <td id="a98"><a href="QueryWire$QueryValueOut.html" class="el_class">QueryWire.QueryValueOut</a></td>
+     <td class="bar" id="b40"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="320" alt="320"></td>
+     <td class="ctr2" id="c128">0%</td>
+     <td class="bar" id="d71"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e76">0%</td>
+     <td class="ctr1" id="f44">34</td>
+     <td class="ctr2" id="g47">34</td>
+     <td class="ctr1" id="h35">88</td>
+     <td class="ctr2" id="i40">88</td>
+     <td class="ctr1" id="j29">27</td>
+     <td class="ctr2" id="k33">27</td>
+     <td class="ctr1" id="l14">1</td>
+     <td class="ctr2" id="m40">1</td>
+    </tr>
+    <tr>
+     <td id="a216"><a href="WireSerializedLambda.html" class="el_class">WireSerializedLambda</a></td>
+     <td class="bar" id="b41"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="315" alt="315"></td>
+     <td class="ctr2" id="c129">0%</td>
+     <td class="bar" id="d94"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e77">0%</td>
+     <td class="ctr1" id="f37">41</td>
+     <td class="ctr2" id="g41">41</td>
+     <td class="ctr1" id="h57">47</td>
+     <td class="ctr2" id="i66">47</td>
+     <td class="ctr1" id="j21">37</td>
+     <td class="ctr2" id="k25">37</td>
+     <td class="ctr1" id="l15">1</td>
+     <td class="ctr2" id="m41">1</td>
+    </tr>
+    <tr>
+     <td id="a203"><a href="WireObjectInput.html" class="el_class">WireObjectInput</a></td>
+     <td class="bar" id="b42"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="313" alt="313"></td>
+     <td class="ctr2" id="c130">0%</td>
+     <td class="bar" id="d43"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="28" alt="28"></td>
+     <td class="ctr2" id="e78">0%</td>
+     <td class="ctr1" id="f42">37</td>
+     <td class="ctr2" id="g45">37</td>
+     <td class="ctr1" id="h44">63</td>
+     <td class="ctr2" id="i53">63</td>
+     <td class="ctr1" id="j32">23</td>
+     <td class="ctr2" id="k38">23</td>
+     <td class="ctr1" id="l16">1</td>
+     <td class="ctr2" id="m42">1</td>
+    </tr>
+    <tr>
+     <td id="a38"><a href="CSVWire$CSVValueIn.html" class="el_class">CSVWire.CSVValueIn</a></td>
+     <td class="bar" id="b43"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="302" alt="302"></td>
+     <td class="ctr2" id="c131">0%</td>
+     <td class="bar" id="d38"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="37" alt="37"></td>
+     <td class="ctr2" id="e79">0%</td>
+     <td class="ctr1" id="f49">25</td>
+     <td class="ctr2" id="g54">25</td>
+     <td class="ctr1" id="h42">65</td>
+     <td class="ctr2" id="i50">65</td>
+     <td class="ctr1" id="j89">6</td>
+     <td class="ctr2" id="k101">6</td>
+     <td class="ctr1" id="l17">1</td>
+     <td class="ctr2" id="m43">1</td>
+    </tr>
+    <tr>
+     <td id="a101"><a href="RawWire.html" class="el_class">RawWire</a></td>
+     <td class="bar" id="b44"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="290" alt="290"></td>
+     <td class="ctr2" id="c132">0%</td>
+     <td class="bar" id="d78"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e80">0%</td>
+     <td class="ctr1" id="f33">44</td>
+     <td class="ctr2" id="g38">44</td>
+     <td class="ctr1" id="h37">81</td>
+     <td class="ctr2" id="i41">81</td>
+     <td class="ctr1" id="j20">38</td>
+     <td class="ctr2" id="k23">38</td>
+     <td class="ctr1" id="l18">1</td>
+     <td class="ctr2" id="m44">1</td>
+    </tr>
+    <tr>
+     <td id="a25"><a href="BinaryWire$DeltaValueIn.html" class="el_class">BinaryWire.DeltaValueIn</a></td>
+     <td class="bar" id="b45"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="283" alt="283"></td>
+     <td class="ctr2" id="c133">0%</td>
+     <td class="bar" id="d64"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e81">0%</td>
+     <td class="ctr1" id="f69">17</td>
+     <td class="ctr2" id="g76">17</td>
+     <td class="ctr1" id="h47">59</td>
+     <td class="ctr2" id="i55">59</td>
+     <td class="ctr1" id="j77">7</td>
+     <td class="ctr2" id="k87">7</td>
+     <td class="ctr1" id="l19">1</td>
+     <td class="ctr2" id="m45">1</td>
+    </tr>
+    <tr>
+     <td id="a68"><a href="JSONWire$JSONValueOut.html" class="el_class">JSONWire.JSONValueOut</a></td>
+     <td class="bar" id="b46"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="268" alt="268"></td>
+     <td class="ctr2" id="c134">0%</td>
+     <td class="bar" id="d52"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e82">0%</td>
+     <td class="ctr1" id="f40">39</td>
+     <td class="ctr2" id="g43">39</td>
+     <td class="ctr1" id="h45">63</td>
+     <td class="ctr2" id="i54">63</td>
+     <td class="ctr1" id="j27">29</td>
+     <td class="ctr2" id="k32">29</td>
+     <td class="ctr1" id="l20">1</td>
+     <td class="ctr2" id="m46">1</td>
+    </tr>
+    <tr>
+     <td id="a162"><a href="VanillaWireParser.html" class="el_class">VanillaWireParser</a></td>
+     <td class="bar" id="b47"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="250" alt="250"></td>
+     <td class="ctr2" id="c135">0%</td>
+     <td class="bar" id="d65"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e83">0%</td>
+     <td class="ctr1" id="f66">18</td>
+     <td class="ctr2" id="g71">18</td>
+     <td class="ctr1" id="h52">52</td>
+     <td class="ctr2" id="i59">52</td>
+     <td class="ctr1" id="j54">10</td>
+     <td class="ctr2" id="k66">10</td>
+     <td class="ctr1" id="l21">1</td>
+     <td class="ctr2" id="m47">1</td>
+    </tr>
+    <tr>
+     <td id="a160"><a href="VanillaMethodWriterBuilder.html" class="el_class">VanillaMethodWriterBuilder</a></td>
+     <td class="bar" id="b48"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="247" alt="247"><img src="../jacoco-resources/greenbar.gif" width="10" height="10" title="326" alt="326"></td>
+     <td class="ctr2" id="c29">56%</td>
+     <td class="bar" id="d48"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="23" alt="23"><img src="../jacoco-resources/greenbar.gif" width="5" height="10" title="21" alt="21"></td>
+     <td class="ctr2" id="e17">47%</td>
+     <td class="ctr1" id="f47">29</td>
+     <td class="ctr2" id="g37">46</td>
+     <td class="ctr1" id="h48">56</td>
+     <td class="ctr2" id="i36">108</td>
+     <td class="ctr1" id="j55">10</td>
+     <td class="ctr2" id="k37">24</td>
+     <td class="ctr1" id="l165">0</td>
+     <td class="ctr2" id="m48">1</td>
+    </tr>
+    <tr>
+     <td id="a156"><a href="VanillaFieldInfo.html" class="el_class">VanillaFieldInfo</a></td>
+     <td class="bar" id="b49"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="246" alt="246"></td>
+     <td class="ctr2" id="c136">0%</td>
+     <td class="bar" id="d53"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e84">0%</td>
+     <td class="ctr1" id="f51">24</td>
+     <td class="ctr2" id="g55">24</td>
+     <td class="ctr1" id="h40">67</td>
+     <td class="ctr2" id="i48">67</td>
+     <td class="ctr1" id="j44">14</td>
+     <td class="ctr2" id="k57">14</td>
+     <td class="ctr1" id="l22">1</td>
+     <td class="ctr2" id="m49">1</td>
+    </tr>
+    <tr>
+     <td id="a111"><a href="SelfDescribingTriviallyCopyable.html" class="el_class">SelfDescribingTriviallyCopyable</a></td>
+     <td class="bar" id="b50"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="244" alt="244"></td>
+     <td class="ctr2" id="c137">0%</td>
+     <td class="bar" id="d39"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e85">0%</td>
+     <td class="ctr1" id="f61">19</td>
+     <td class="ctr2" id="g68">19</td>
+     <td class="ctr1" id="h53">52</td>
+     <td class="ctr2" id="i60">52</td>
+     <td class="ctr1" id="j112">4</td>
+     <td class="ctr2" id="k130">4</td>
+     <td class="ctr1" id="l23">1</td>
+     <td class="ctr2" id="m50">1</td>
+    </tr>
+    <tr>
+     <td id="a183"><a href="WireMarshaller$EnumSetFieldAccess.html" class="el_class">WireMarshaller.EnumSetFieldAccess</a></td>
+     <td class="bar" id="b51"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="227" alt="227"></td>
+     <td class="ctr2" id="c138">0%</td>
+     <td class="bar" id="d46"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e86">0%</td>
+     <td class="ctr1" id="f53">23</td>
+     <td class="ctr2" id="g58">23</td>
+     <td class="ctr1" id="h51">53</td>
+     <td class="ctr2" id="i58">53</td>
+     <td class="ctr1" id="j56">10</td>
+     <td class="ctr2" id="k67">10</td>
+     <td class="ctr1" id="l24">1</td>
+     <td class="ctr2" id="m51">1</td>
+    </tr>
+    <tr>
+     <td id="a200"><a href="WireMarshaller$StringCollectionFieldAccess.html" class="el_class">WireMarshaller.StringCollectionFieldAccess</a></td>
+     <td class="bar" id="b52"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="222" alt="222"></td>
+     <td class="ctr2" id="c139">0%</td>
+     <td class="bar" id="d44"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="28" alt="28"></td>
+     <td class="ctr2" id="e87">0%</td>
+     <td class="ctr1" id="f52">24</td>
+     <td class="ctr2" id="g56">24</td>
+     <td class="ctr1" id="h49">54</td>
+     <td class="ctr2" id="i57">54</td>
+     <td class="ctr1" id="j57">10</td>
+     <td class="ctr2" id="k68">10</td>
+     <td class="ctr1" id="l25">1</td>
+     <td class="ctr2" id="m52">1</td>
+    </tr>
+    <tr>
+     <td id="a202"><a href="WireMarshallerForUnexpectedFields.html" class="el_class">WireMarshallerForUnexpectedFields</a></td>
+     <td class="bar" id="b53"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="221" alt="221"></td>
+     <td class="ctr2" id="c140">0%</td>
+     <td class="bar" id="d40"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e88">0%</td>
+     <td class="ctr1" id="f67">18</td>
+     <td class="ctr2" id="g72">18</td>
+     <td class="ctr1" id="h59">44</td>
+     <td class="ctr2" id="i67">44</td>
+     <td class="ctr1" id="j136">3</td>
+     <td class="ctr2" id="k166">3</td>
+     <td class="ctr1" id="l26">1</td>
+     <td class="ctr2" id="m53">1</td>
+    </tr>
+    <tr>
+     <td id="a172"><a href="WireMarshaller$ArrayFieldAccess.html" class="el_class">WireMarshaller.ArrayFieldAccess</a></td>
+     <td class="bar" id="b54"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="205" alt="205"></td>
+     <td class="ctr2" id="c141">0%</td>
+     <td class="bar" id="d41"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e89">0%</td>
+     <td class="ctr1" id="f55">22</td>
+     <td class="ctr2" id="g61">22</td>
+     <td class="ctr1" id="h54">50</td>
+     <td class="ctr2" id="i62">50</td>
+     <td class="ctr1" id="j78">7</td>
+     <td class="ctr2" id="k88">7</td>
+     <td class="ctr1" id="l27">1</td>
+     <td class="ctr2" id="m54">1</td>
+    </tr>
+    <tr>
+     <td id="a135"><a href="TextMethodWriterInvocationHandler.html" class="el_class">TextMethodWriterInvocationHandler</a></td>
+     <td class="bar" id="b55"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="201" alt="201"></td>
+     <td class="ctr2" id="c142">0%</td>
+     <td class="bar" id="d72"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e90">0%</td>
+     <td class="ctr1" id="f70">16</td>
+     <td class="ctr2" id="g77">16</td>
+     <td class="ctr1" id="h55">50</td>
+     <td class="ctr2" id="i63">50</td>
+     <td class="ctr1" id="j62">9</td>
+     <td class="ctr2" id="k73">9</td>
+     <td class="ctr1" id="l28">1</td>
+     <td class="ctr2" id="m55">1</td>
+    </tr>
+    <tr>
+     <td id="a181"><a href="WireMarshaller$CollectionFieldAccess.html" class="el_class">WireMarshaller.CollectionFieldAccess</a></td>
+     <td class="bar" id="b56"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="199" alt="199"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="114" alt="114"></td>
+     <td class="ctr2" id="c58">36%</td>
+     <td class="bar" id="d37"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="38" alt="38"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e38">20%</td>
+     <td class="ctr1" id="f45">31</td>
+     <td class="ctr2" id="g46">36</td>
+     <td class="ctr1" id="h56">49</td>
+     <td class="ctr2" id="i43">77</td>
+     <td class="ctr1" id="j71">8</td>
+     <td class="ctr2" id="k62">12</td>
+     <td class="ctr1" id="l166">0</td>
+     <td class="ctr2" id="m56">1</td>
+    </tr>
+    <tr>
+     <td id="a6"><a href="AbstractGeneratedMethodReader.html" class="el_class">AbstractGeneratedMethodReader</a></td>
+     <td class="bar" id="b57"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="192" alt="192"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="230" alt="230"></td>
+     <td class="ctr2" id="c32">54%</td>
+     <td class="bar" id="d36"><img src="../jacoco-resources/redbar.gif" width="11" height="10" title="41" alt="41"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e20">38%</td>
+     <td class="ctr1" id="f38">41</td>
+     <td class="ctr2" id="g28">60</td>
+     <td class="ctr1" id="h50">54</td>
+     <td class="ctr2" id="i33">126</td>
+     <td class="ctr1" id="j58">10</td>
+     <td class="ctr2" id="k36">25</td>
+     <td class="ctr1" id="l167">0</td>
+     <td class="ctr2" id="m57">1</td>
+    </tr>
+    <tr>
+     <td id="a235"><a href="WordsLongConverter.html" class="el_class">WordsLongConverter</a></td>
+     <td class="bar" id="b58"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="184" alt="184"></td>
+     <td class="ctr2" id="c143">0%</td>
+     <td class="bar" id="d79"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e91">0%</td>
+     <td class="ctr1" id="f88">12</td>
+     <td class="ctr2" id="g93">12</td>
+     <td class="ctr1" id="h64">41</td>
+     <td class="ctr2" id="i71">41</td>
+     <td class="ctr1" id="j90">6</td>
+     <td class="ctr2" id="k102">6</td>
+     <td class="ctr1" id="l29">1</td>
+     <td class="ctr2" id="m58">1</td>
+    </tr>
+    <tr>
+     <td id="a78"><a href="MarshallableIn.html" class="el_class">MarshallableIn</a></td>
+     <td class="bar" id="b59"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="181" alt="181"></td>
+     <td class="ctr2" id="c102">8%</td>
+     <td class="bar" id="d61"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e92">0%</td>
+     <td class="ctr1" id="f74">15</td>
+     <td class="ctr2" id="g73">18</td>
+     <td class="ctr1" id="h58">46</td>
+     <td class="ctr2" id="i64">49</td>
+     <td class="ctr1" id="j91">6</td>
+     <td class="ctr2" id="k74">9</td>
+     <td class="ctr1" id="l168">0</td>
+     <td class="ctr2" id="m59">1</td>
+    </tr>
+    <tr>
+     <td id="a79"><a href="MarshallableOut.html" class="el_class">MarshallableOut</a></td>
+     <td class="bar" id="b60"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="175" alt="175"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="47" alt="47"></td>
+     <td class="ctr2" id="c83">21%</td>
+     <td class="bar" id="d135"></td>
+     <td class="ctr2" id="e32">25%</td>
+     <td class="ctr1" id="f81">13</td>
+     <td class="ctr2" id="g78">16</td>
+     <td class="ctr1" id="h46">61</td>
+     <td class="ctr2" id="i46">72</td>
+     <td class="ctr1" id="j50">11</td>
+     <td class="ctr2" id="k58">14</td>
+     <td class="ctr1" id="l169">0</td>
+     <td class="ctr2" id="m60">1</td>
+    </tr>
+    <tr>
+     <td id="a82"><a href="MessagePathClassifier.html" class="el_class">MessagePathClassifier</a></td>
+     <td class="bar" id="b61"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="173" alt="173"></td>
+     <td class="ctr2" id="c144">0%</td>
+     <td class="bar" id="d80"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e93">0%</td>
+     <td class="ctr1" id="f89">12</td>
+     <td class="ctr2" id="g94">12</td>
+     <td class="ctr1" id="h77">29</td>
+     <td class="ctr2" id="i84">29</td>
+     <td class="ctr1" id="j92">6</td>
+     <td class="ctr2" id="k103">6</td>
+     <td class="ctr1" id="l30">1</td>
+     <td class="ctr2" id="m61">1</td>
+    </tr>
+    <tr>
+     <td id="a0"><a href="AbstractAnyWire.html" class="el_class">AbstractAnyWire</a></td>
+     <td class="bar" id="b62"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="171" alt="171"></td>
+     <td class="ctr2" id="c145">0%</td>
+     <td class="bar" id="d171"></td>
+     <td class="ctr2" id="e171">n/a</td>
+     <td class="ctr1" id="f46">30</td>
+     <td class="ctr2" id="g50">30</td>
+     <td class="ctr1" id="h68">39</td>
+     <td class="ctr2" id="i75">39</td>
+     <td class="ctr1" id="j25">30</td>
+     <td class="ctr2" id="k30">30</td>
+     <td class="ctr1" id="l31">1</td>
+     <td class="ctr2" id="m62">1</td>
+    </tr>
+    <tr>
+     <td id="a10"><a href="AbstractMethodWriterInvocationHandler.html" class="el_class">AbstractMethodWriterInvocationHandler</a></td>
+     <td class="bar" id="b63"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="170" alt="170"></td>
+     <td class="ctr2" id="c146">0%</td>
+     <td class="bar" id="d49"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="23" alt="23"></td>
+     <td class="ctr2" id="e94">0%</td>
+     <td class="ctr1" id="f60">21</td>
+     <td class="ctr2" id="g64">21</td>
+     <td class="ctr1" id="h65">41</td>
+     <td class="ctr2" id="i72">41</td>
+     <td class="ctr1" id="j63">9</td>
+     <td class="ctr2" id="k75">9</td>
+     <td class="ctr1" id="l32">1</td>
+     <td class="ctr2" id="m63">1</td>
+    </tr>
+    <tr>
+     <td id="a193"><a href="WireMarshaller$MapFieldAccess.html" class="el_class">WireMarshaller.MapFieldAccess</a></td>
+     <td class="bar" id="b64"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="168" alt="168"></td>
+     <td class="ctr2" id="c147">0%</td>
+     <td class="bar" id="d54"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e95">0%</td>
+     <td class="ctr1" id="f68">18</td>
+     <td class="ctr2" id="g74">18</td>
+     <td class="ctr1" id="h67">40</td>
+     <td class="ctr2" id="i74">40</td>
+     <td class="ctr1" id="j72">8</td>
+     <td class="ctr2" id="k82">8</td>
+     <td class="ctr1" id="l33">1</td>
+     <td class="ctr2" id="m64">1</td>
+    </tr>
+    <tr>
+     <td id="a20"><a href="BinaryReadDocumentContext.html" class="el_class">BinaryReadDocumentContext</a></td>
+     <td class="bar" id="b65"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="166" alt="166"><img src="../jacoco-resources/greenbar.gif" width="5" height="10" title="188" alt="188"></td>
+     <td class="ctr2" id="c34">53%</td>
+     <td class="bar" id="d42"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="28" alt="28"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e24">33%</td>
+     <td class="ctr1" id="f48">27</td>
+     <td class="ctr2" id="g42">41</td>
+     <td class="ctr1" id="h60">44</td>
+     <td class="ctr2" id="i38">97</td>
+     <td class="ctr1" id="j64">9</td>
+     <td class="ctr2" id="k42">20</td>
+     <td class="ctr1" id="l170">0</td>
+     <td class="ctr2" id="m65">1</td>
+    </tr>
+    <tr>
+     <td id="a205"><a href="WireOut.html" class="el_class">WireOut</a></td>
+     <td class="bar" id="b66"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="159" alt="159"></td>
+     <td class="ctr2" id="c111">4%</td>
+     <td class="bar" id="d69"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="15" alt="15"></td>
+     <td class="ctr2" id="e52">6%</td>
+     <td class="ctr1" id="f56">22</td>
+     <td class="ctr2" id="g57">24</td>
+     <td class="ctr1" id="h71">34</td>
+     <td class="ctr2" id="i77">36</td>
+     <td class="ctr1" id="j45">14</td>
+     <td class="ctr2" id="k50">16</td>
+     <td class="ctr1" id="l171">0</td>
+     <td class="ctr2" id="m66">1</td>
+    </tr>
+    <tr>
+     <td id="a199"><a href="WireMarshaller$StringBuilderFieldAccess.html" class="el_class">WireMarshaller.StringBuilderFieldAccess</a></td>
+     <td class="bar" id="b67"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="153" alt="153"></td>
+     <td class="ctr2" id="c148">0%</td>
+     <td class="bar" id="d66"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e96">0%</td>
+     <td class="ctr1" id="f75">15</td>
+     <td class="ctr2" id="g82">15</td>
+     <td class="ctr1" id="h69">39</td>
+     <td class="ctr2" id="i76">39</td>
+     <td class="ctr1" id="j79">7</td>
+     <td class="ctr2" id="k89">7</td>
+     <td class="ctr1" id="l34">1</td>
+     <td class="ctr2" id="m67">1</td>
+    </tr>
+    <tr>
+     <td id="a37"><a href="CSVWire.html" class="el_class">CSVWire</a></td>
+     <td class="bar" id="b68"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="152" alt="152"></td>
+     <td class="ctr2" id="c149">0%</td>
+     <td class="bar" id="d62"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e97">0%</td>
+     <td class="ctr1" id="f54">23</td>
+     <td class="ctr2" id="g59">23</td>
+     <td class="ctr1" id="h66">41</td>
+     <td class="ctr2" id="i73">41</td>
+     <td class="ctr1" id="j46">14</td>
+     <td class="ctr2" id="k59">14</td>
+     <td class="ctr1" id="l35">1</td>
+     <td class="ctr2" id="m68">1</td>
+    </tr>
+    <tr>
+     <td id="a204"><a href="WireObjectOutput.html" class="el_class">WireObjectOutput</a></td>
+     <td class="bar" id="b69"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="152" alt="152"></td>
+     <td class="ctr2" id="c150">0%</td>
+     <td class="bar" id="d95"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e98">0%</td>
+     <td class="ctr1" id="f57">22</td>
+     <td class="ctr2" id="g62">22</td>
+     <td class="ctr1" id="h62">42</td>
+     <td class="ctr2" id="i69">42</td>
+     <td class="ctr1" id="j37">18</td>
+     <td class="ctr2" id="k46">18</td>
+     <td class="ctr1" id="l36">1</td>
+     <td class="ctr2" id="m69">1</td>
+    </tr>
+    <tr>
+     <td id="a59"><a href="HashWire.html" class="el_class">HashWire</a></td>
+     <td class="bar" id="b70"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="151" alt="151"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="68" alt="68"></td>
+     <td class="ctr2" id="c66">31%</td>
+     <td class="bar" id="d172"></td>
+     <td class="ctr2" id="e172">n/a</td>
+     <td class="ctr1" id="f43">37</td>
+     <td class="ctr2" id="g36">47</td>
+     <td class="ctr1" id="h61">43</td>
+     <td class="ctr2" id="i56">59</td>
+     <td class="ctr1" id="j22">37</td>
+     <td class="ctr2" id="k19">47</td>
+     <td class="ctr1" id="l172">0</td>
+     <td class="ctr2" id="m70">1</td>
+    </tr>
+    <tr>
+     <td id="a28"><a href="BinaryWireCode.html" class="el_class">BinaryWireCode</a></td>
+     <td class="bar" id="b71"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="151" alt="151"></td>
+     <td class="ctr2" id="c151">0%</td>
+     <td class="bar" id="d47"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e99">0%</td>
+     <td class="ctr1" id="f71">16</td>
+     <td class="ctr2" id="g79">16</td>
+     <td class="ctr1" id="h98">20</td>
+     <td class="ctr2" id="i110">20</td>
+     <td class="ctr1" id="j137">3</td>
+     <td class="ctr2" id="k167">3</td>
+     <td class="ctr1" id="l37">1</td>
+     <td class="ctr2" id="m71">1</td>
+    </tr>
+    <tr>
+     <td id="a48"><a href="FieldInfo.html" class="el_class">FieldInfo</a></td>
+     <td class="bar" id="b72"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="150" alt="150"></td>
+     <td class="ctr2" id="c152">0%</td>
+     <td class="bar" id="d70"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="15" alt="15"></td>
+     <td class="ctr2" id="e100">0%</td>
+     <td class="ctr1" id="f90">12</td>
+     <td class="ctr2" id="g95">12</td>
+     <td class="ctr1" id="h82">28</td>
+     <td class="ctr2" id="i88">28</td>
+     <td class="ctr1" id="j113">4</td>
+     <td class="ctr2" id="k131">4</td>
+     <td class="ctr1" id="l38">1</td>
+     <td class="ctr2" id="m72">1</td>
+    </tr>
+    <tr>
+     <td id="a178"><a href="WireMarshaller$BytesFieldAccess.html" class="el_class">WireMarshaller.BytesFieldAccess</a></td>
+     <td class="bar" id="b73"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="144" alt="144"></td>
+     <td class="ctr2" id="c153">0%</td>
+     <td class="bar" id="d73"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e101">0%</td>
+     <td class="ctr1" id="f82">13</td>
+     <td class="ctr2" id="g87">13</td>
+     <td class="ctr1" id="h63">42</td>
+     <td class="ctr2" id="i70">42</td>
+     <td class="ctr1" id="j93">6</td>
+     <td class="ctr2" id="k104">6</td>
+     <td class="ctr1" id="l39">1</td>
+     <td class="ctr2" id="m73">1</td>
+    </tr>
+    <tr>
+     <td id="a190"><a href="WireMarshaller$LongConverterFieldAccess.html" class="el_class">WireMarshaller.LongConverterFieldAccess</a></td>
+     <td class="bar" id="b74"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="141" alt="141"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="80" alt="80"></td>
+     <td class="ctr2" id="c59">36%</td>
+     <td class="bar" id="d59"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="18" alt="18"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e33">25%</td>
+     <td class="ctr1" id="f72">16</td>
+     <td class="ctr2" id="g60">23</td>
+     <td class="ctr1" id="h78">29</td>
+     <td class="ctr2" id="i61">51</td>
+     <td class="ctr1" id="j100">5</td>
+     <td class="ctr2" id="k65">11</td>
+     <td class="ctr1" id="l173">0</td>
+     <td class="ctr2" id="m74">1</td>
+    </tr>
+    <tr>
+     <td id="a35"><a href="CharSequenceObjectMap.html" class="el_class">CharSequenceObjectMap</a></td>
+     <td class="bar" id="b75"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="140" alt="140"></td>
+     <td class="ctr2" id="c154">0%</td>
+     <td class="bar" id="d74"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e102">0%</td>
+     <td class="ctr1" id="f100">11</td>
+     <td class="ctr2" id="g103">11</td>
+     <td class="ctr1" id="h85">26</td>
+     <td class="ctr2" id="i90">26</td>
+     <td class="ctr1" id="j114">4</td>
+     <td class="ctr2" id="k132">4</td>
+     <td class="ctr1" id="l40">1</td>
+     <td class="ctr2" id="m75">1</td>
+    </tr>
+    <tr>
+     <td id="a159"><a href="VanillaMethodReaderBuilder.html" class="el_class">VanillaMethodReaderBuilder</a></td>
+     <td class="bar" id="b76"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="138" alt="138"><img src="../jacoco-resources/greenbar.gif" width="5" height="10" title="178" alt="178"></td>
+     <td class="ctr2" id="c30">56%</td>
+     <td class="bar" id="d67"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="15" alt="15"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="7" alt="7"></td>
+     <td class="ctr2" id="e27">31%</td>
+     <td class="ctr1" id="f62">19</td>
+     <td class="ctr2" id="g51">30</td>
+     <td class="ctr1" id="h79">29</td>
+     <td class="ctr2" id="i49">66</td>
+     <td class="ctr1" id="j73">8</td>
+     <td class="ctr2" id="k43">19</td>
+     <td class="ctr1" id="l174">0</td>
+     <td class="ctr2" id="m76">1</td>
+    </tr>
+    <tr>
+     <td id="a87"><a href="MicroTimestampLongConverter.html" class="el_class">MicroTimestampLongConverter</a></td>
+     <td class="bar" id="b77"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="138" alt="138"></td>
+     <td class="ctr2" id="c155">0%</td>
+     <td class="bar" id="d75"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e103">0%</td>
+     <td class="ctr1" id="f76">15</td>
+     <td class="ctr2" id="g83">15</td>
+     <td class="ctr1" id="h74">31</td>
+     <td class="ctr2" id="i81">31</td>
+     <td class="ctr1" id="j74">8</td>
+     <td class="ctr2" id="k83">8</td>
+     <td class="ctr1" id="l41">1</td>
+     <td class="ctr2" id="m77">1</td>
+    </tr>
+    <tr>
+     <td id="a70"><a href="JSONWire$1.html" class="el_class">JSONWire.new JSONWire.JSONValueIn() {...}</a></td>
+     <td class="bar" id="b78"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="138" alt="138"></td>
+     <td class="ctr2" id="c156">0%</td>
+     <td class="bar" id="d55"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e104">0%</td>
+     <td class="ctr1" id="f83">13</td>
+     <td class="ctr2" id="g88">13</td>
+     <td class="ctr1" id="h92">22</td>
+     <td class="ctr2" id="i104">22</td>
+     <td class="ctr1" id="j138">3</td>
+     <td class="ctr2" id="k168">3</td>
+     <td class="ctr1" id="l42">1</td>
+     <td class="ctr2" id="m78">1</td>
+    </tr>
+    <tr>
+     <td id="a186"><a href="WireMarshaller$IntConversionFieldAccess.html" class="el_class">WireMarshaller.IntConversionFieldAccess</a></td>
+     <td class="bar" id="b79"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="133" alt="133"></td>
+     <td class="ctr2" id="c157">0%</td>
+     <td class="bar" id="d85"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e105">0%</td>
+     <td class="ctr1" id="f84">13</td>
+     <td class="ctr2" id="g89">13</td>
+     <td class="ctr1" id="h72">33</td>
+     <td class="ctr2" id="i78">33</td>
+     <td class="ctr1" id="j75">8</td>
+     <td class="ctr2" id="k84">8</td>
+     <td class="ctr1" id="l43">1</td>
+     <td class="ctr2" id="m79">1</td>
+    </tr>
+    <tr>
+     <td id="a30"><a href="BinaryWriteDocumentContext.html" class="el_class">BinaryWriteDocumentContext</a></td>
+     <td class="bar" id="b80"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="131" alt="131"><img src="../jacoco-resources/greenbar.gif" width="4" height="10" title="142" alt="142"></td>
+     <td class="ctr2" id="c36">52%</td>
+     <td class="bar" id="d51"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="21" alt="21"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="9" alt="9"></td>
+     <td class="ctr2" id="e28">30%</td>
+     <td class="ctr1" id="f50">25</td>
+     <td class="ctr2" id="g49">33</td>
+     <td class="ctr1" id="h70">37</td>
+     <td class="ctr2" id="i45">75</td>
+     <td class="ctr1" id="j51">11</td>
+     <td class="ctr2" id="k47">18</td>
+     <td class="ctr1" id="l175">0</td>
+     <td class="ctr2" id="m80">1</td>
+    </tr>
+    <tr>
+     <td id="a133"><a href="TextMethodTester$CachedInvocationHandler.html" class="el_class">TextMethodTester.CachedInvocationHandler</a></td>
+     <td class="bar" id="b81"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="124" alt="124"></td>
+     <td class="ctr2" id="c158">0%</td>
+     <td class="bar" id="d81"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e106">0%</td>
+     <td class="ctr1" id="f109">9</td>
+     <td class="ctr2" id="g117">9</td>
+     <td class="ctr1" id="h90">23</td>
+     <td class="ctr2" id="i100">23</td>
+     <td class="ctr1" id="j139">3</td>
+     <td class="ctr2" id="k169">3</td>
+     <td class="ctr1" id="l44">1</td>
+     <td class="ctr2" id="m81">1</td>
+    </tr>
+    <tr>
+     <td id="a74"><a href="LongConverter.html" class="el_class">LongConverter</a></td>
+     <td class="bar" id="b82"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="121" alt="121"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="34" alt="34"></td>
+     <td class="ctr2" id="c80">21%</td>
+     <td class="bar" id="d115"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e43">16%</td>
+     <td class="ctr1" id="f91">12</td>
+     <td class="ctr2" id="g80">16</td>
+     <td class="ctr1" id="h107">18</td>
+     <td class="ctr2" id="i97">24</td>
+     <td class="ctr1" id="j65">9</td>
+     <td class="ctr2" id="k60">13</td>
+     <td class="ctr1" id="l176">0</td>
+     <td class="ctr2" id="m82">1</td>
+    </tr>
+    <tr>
+     <td id="a174"><a href="WireMarshaller$ByteArrayFieldAccess.html" class="el_class">WireMarshaller.ByteArrayFieldAccess</a></td>
+     <td class="bar" id="b83"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="120" alt="120"></td>
+     <td class="ctr2" id="c159">0%</td>
+     <td class="bar" id="d56"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e107">0%</td>
+     <td class="ctr1" id="f77">15</td>
+     <td class="ctr2" id="g84">15</td>
+     <td class="ctr1" id="h75">31</td>
+     <td class="ctr2" id="i82">31</td>
+     <td class="ctr1" id="j101">5</td>
+     <td class="ctr2" id="k118">5</td>
+     <td class="ctr1" id="l45">1</td>
+     <td class="ctr2" id="m83">1</td>
+    </tr>
+    <tr>
+     <td id="a194"><a href="WireMarshaller$ObjectFieldAccess.html" class="el_class">WireMarshaller.ObjectFieldAccess</a></td>
+     <td class="bar" id="b84"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="119" alt="119"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="79" alt="79"></td>
+     <td class="ctr2" id="c50">39%</td>
+     <td class="bar" id="d57"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="19" alt="19"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="7" alt="7"></td>
+     <td class="ctr2" id="e31">26%</td>
+     <td class="ctr1" id="f85">13</td>
+     <td class="ctr2" id="g75">18</td>
+     <td class="ctr1" id="h95">21</td>
+     <td class="ctr2" id="i68">43</td>
+     <td class="ctr1" id="j208">1</td>
+     <td class="ctr2" id="k119">5</td>
+     <td class="ctr1" id="l177">0</td>
+     <td class="ctr2" id="m84">1</td>
+    </tr>
+    <tr>
+     <td id="a105"><a href="ReadAnyWire$ReadAnyWireAcquisition.html" class="el_class">ReadAnyWire.ReadAnyWireAcquisition</a></td>
+     <td class="bar" id="b85"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="116" alt="116"></td>
+     <td class="ctr2" id="c160">0%</td>
+     <td class="bar" id="d86"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e108">0%</td>
+     <td class="ctr1" id="f92">12</td>
+     <td class="ctr2" id="g96">12</td>
+     <td class="ctr1" id="h80">29</td>
+     <td class="ctr2" id="i85">29</td>
+     <td class="ctr1" id="j80">7</td>
+     <td class="ctr2" id="k90">7</td>
+     <td class="ctr1" id="l46">1</td>
+     <td class="ctr2" id="m85">1</td>
+    </tr>
+    <tr>
+     <td id="a90"><a href="NanoTimestampLongConverter.html" class="el_class">NanoTimestampLongConverter</a></td>
+     <td class="bar" id="b86"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="113" alt="113"></td>
+     <td class="ctr2" id="c91">13%</td>
+     <td class="bar" id="d82"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e109">0%</td>
+     <td class="ctr1" id="f104">10</td>
+     <td class="ctr2" id="g90">13</td>
+     <td class="ctr1" id="h99">20</td>
+     <td class="ctr2" id="i93">25</td>
+     <td class="ctr1" id="j115">4</td>
+     <td class="ctr2" id="k91">7</td>
+     <td class="ctr1" id="l178">0</td>
+     <td class="ctr2" id="m86">1</td>
+    </tr>
+    <tr>
+     <td id="a53"><a href="GenerateMethodDelegate.html" class="el_class">GenerateMethodDelegate</a></td>
+     <td class="bar" id="b87"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="113" alt="113"></td>
+     <td class="ctr2" id="c161">0%</td>
+     <td class="bar" id="d104"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e110">0%</td>
+     <td class="ctr1" id="f86">13</td>
+     <td class="ctr2" id="g91">13</td>
+     <td class="ctr1" id="h87">25</td>
+     <td class="ctr2" id="i94">25</td>
+     <td class="ctr1" id="j59">10</td>
+     <td class="ctr2" id="k69">10</td>
+     <td class="ctr1" id="l47">1</td>
+     <td class="ctr2" id="m87">1</td>
+    </tr>
+    <tr>
+     <td id="a214"><a href="Wires$TupleFieldInfo.html" class="el_class">Wires.TupleFieldInfo</a></td>
+     <td class="bar" id="b88"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="109" alt="109"></td>
+     <td class="ctr2" id="c162">0%</td>
+     <td class="bar" id="d144"></td>
+     <td class="ctr2" id="e111">0%</td>
+     <td class="ctr1" id="f73">16</td>
+     <td class="ctr2" id="g81">16</td>
+     <td class="ctr1" id="h93">22</td>
+     <td class="ctr2" id="i105">22</td>
+     <td class="ctr1" id="j40">15</td>
+     <td class="ctr2" id="k53">15</td>
+     <td class="ctr1" id="l48">1</td>
+     <td class="ctr2" id="m88">1</td>
+    </tr>
+    <tr>
+     <td id="a80"><a href="MarshallableOutBuilder.html" class="el_class">MarshallableOutBuilder</a></td>
+     <td class="bar" id="b89"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="109" alt="109"></td>
+     <td class="ctr2" id="c163">0%</td>
+     <td class="bar" id="d76"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e112">0%</td>
+     <td class="ctr1" id="f87">13</td>
+     <td class="ctr2" id="g92">13</td>
+     <td class="ctr1" id="h114">16</td>
+     <td class="ctr2" id="i123">16</td>
+     <td class="ctr1" id="j102">5</td>
+     <td class="ctr2" id="k120">5</td>
+     <td class="ctr1" id="l49">1</td>
+     <td class="ctr2" id="m89">1</td>
+    </tr>
+    <tr>
+     <td id="a93"><a href="QueryWire.html" class="el_class">QueryWire</a></td>
+     <td class="bar" id="b90"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="109" alt="109"></td>
+     <td class="ctr2" id="c164">0%</td>
+     <td class="bar" id="d120"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e113">0%</td>
+     <td class="ctr1" id="f63">19</td>
+     <td class="ctr2" id="g69">19</td>
+     <td class="ctr1" id="h83">28</td>
+     <td class="ctr2" id="i89">28</td>
+     <td class="ctr1" id="j38">17</td>
+     <td class="ctr2" id="k48">17</td>
+     <td class="ctr1" id="l50">1</td>
+     <td class="ctr2" id="m90">1</td>
+    </tr>
+    <tr>
+     <td id="a207"><a href="WireParser.html" class="el_class">WireParser</a></td>
+     <td class="bar" id="b91"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="107" alt="107"></td>
+     <td class="ctr2" id="c165">0%</td>
+     <td class="bar" id="d96"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e114">0%</td>
+     <td class="ctr1" id="f101">11</td>
+     <td class="ctr2" id="g104">11</td>
+     <td class="ctr1" id="h86">26</td>
+     <td class="ctr2" id="i91">26</td>
+     <td class="ctr1" id="j81">7</td>
+     <td class="ctr2" id="k92">7</td>
+     <td class="ctr1" id="l51">1</td>
+     <td class="ctr2" id="m91">1</td>
+    </tr>
+    <tr>
+     <td id="a97"><a href="QueryWire$QueryValueIn.html" class="el_class">QueryWire.QueryValueIn</a></td>
+     <td class="bar" id="b92"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="105" alt="105"></td>
+     <td class="ctr2" id="c166">0%</td>
+     <td class="bar" id="d121"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e115">0%</td>
+     <td class="ctr1" id="f110">9</td>
+     <td class="ctr2" id="g118">9</td>
+     <td class="ctr1" id="h88">24</td>
+     <td class="ctr2" id="i98">24</td>
+     <td class="ctr1" id="j82">7</td>
+     <td class="ctr2" id="k93">7</td>
+     <td class="ctr1" id="l52">1</td>
+     <td class="ctr2" id="m92">1</td>
+    </tr>
+    <tr>
+     <td id="a88"><a href="MilliTimestampLongConverter.html" class="el_class">MilliTimestampLongConverter</a></td>
+     <td class="bar" id="b93"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="104" alt="104"></td>
+     <td class="ctr2" id="c167">0%</td>
+     <td class="bar" id="d97"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e116">0%</td>
+     <td class="ctr1" id="f102">11</td>
+     <td class="ctr2" id="g105">11</td>
+     <td class="ctr1" id="h96">21</td>
+     <td class="ctr2" id="i107">21</td>
+     <td class="ctr1" id="j83">7</td>
+     <td class="ctr2" id="k94">7</td>
+     <td class="ctr1" id="l53">1</td>
+     <td class="ctr2" id="m93">1</td>
+    </tr>
+    <tr>
+     <td id="a166"><a href="WireIn.html" class="el_class">WireIn</a></td>
+     <td class="bar" id="b94"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="103" alt="103"></td>
+     <td class="ctr2" id="c95">11%</td>
+     <td class="bar" id="d98"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e117">0%</td>
+     <td class="ctr1" id="f78">15</td>
+     <td class="ctr2" id="g65">21</td>
+     <td class="ctr1" id="h84">28</td>
+     <td class="ctr2" id="i79">33</td>
+     <td class="ctr1" id="j52">11</td>
+     <td class="ctr2" id="k49">17</td>
+     <td class="ctr1" id="l179">0</td>
+     <td class="ctr2" id="m94">1</td>
+    </tr>
+    <tr>
+     <td id="a63"><a href="IdentifierLongConverter.html" class="el_class">IdentifierLongConverter</a></td>
+     <td class="bar" id="b95"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="100" alt="100"></td>
+     <td class="ctr2" id="c168">0%</td>
+     <td class="bar" id="d87"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e118">0%</td>
+     <td class="ctr1" id="f93">12</td>
+     <td class="ctr2" id="g97">12</td>
+     <td class="ctr1" id="h97">21</td>
+     <td class="ctr2" id="i108">21</td>
+     <td class="ctr1" id="j84">7</td>
+     <td class="ctr2" id="k95">7</td>
+     <td class="ctr1" id="l54">1</td>
+     <td class="ctr2" id="m95">1</td>
+    </tr>
+    <tr>
+     <td id="a147"><a href="TextWriteDocumentContext.html" class="el_class">TextWriteDocumentContext</a></td>
+     <td class="bar" id="b96"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="98" alt="98"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="105" alt="105"></td>
+     <td class="ctr2" id="c37">51%</td>
+     <td class="bar" id="d63"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="17" alt="17"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="9" alt="9"></td>
+     <td class="ctr2" id="e22">34%</td>
+     <td class="ctr1" id="f58">22</td>
+     <td class="ctr2" id="g52">29</td>
+     <td class="ctr1" id="h73">32</td>
+     <td class="ctr2" id="i51">64</td>
+     <td class="ctr1" id="j66">9</td>
+     <td class="ctr2" id="k51">16</td>
+     <td class="ctr1" id="l180">0</td>
+     <td class="ctr2" id="m96">1</td>
+    </tr>
+    <tr>
+     <td id="a19"><a href="BinaryMethodWriterInvocationHandler.html" class="el_class">BinaryMethodWriterInvocationHandler</a></td>
+     <td class="bar" id="b97"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="91" alt="91"></td>
+     <td class="ctr2" id="c169">0%</td>
+     <td class="bar" id="d122"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e119">0%</td>
+     <td class="ctr1" id="f117">8</td>
+     <td class="ctr2" id="g127">8</td>
+     <td class="ctr1" id="h89">24</td>
+     <td class="ctr2" id="i99">24</td>
+     <td class="ctr1" id="j94">6</td>
+     <td class="ctr2" id="k105">6</td>
+     <td class="ctr1" id="l55">1</td>
+     <td class="ctr2" id="m97">1</td>
+    </tr>
+    <tr>
+     <td id="a179"><a href="WireMarshaller$CharFieldAccess.html" class="el_class">WireMarshaller.CharFieldAccess</a></td>
+     <td class="bar" id="b98"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="90" alt="90"></td>
+     <td class="ctr2" id="c170">0%</td>
+     <td class="bar" id="d88"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e120">0%</td>
+     <td class="ctr1" id="f94">12</td>
+     <td class="ctr2" id="g98">12</td>
+     <td class="ctr1" id="h91">23</td>
+     <td class="ctr2" id="i101">23</td>
+     <td class="ctr1" id="j85">7</td>
+     <td class="ctr2" id="k96">7</td>
+     <td class="ctr1" id="l56">1</td>
+     <td class="ctr2" id="m98">1</td>
+    </tr>
+    <tr>
+     <td id="a77"><a href="Marshallable.html" class="el_class">Marshallable</a></td>
+     <td class="bar" id="b99"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="87" alt="87"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="55" alt="55"></td>
+     <td class="ctr2" id="c52">38%</td>
+     <td class="bar" id="d114"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e21">37%</td>
+     <td class="ctr1" id="f64">19</td>
+     <td class="ctr2" id="g53">27</td>
+     <td class="ctr1" id="h100">20</td>
+     <td class="ctr2" id="i80">33</td>
+     <td class="ctr1" id="j41">15</td>
+     <td class="ctr2" id="k39">23</td>
+     <td class="ctr1" id="l181">0</td>
+     <td class="ctr2" id="m99">1</td>
+    </tr>
+    <tr>
+     <td id="a239"><a href="YamlKeys.html" class="el_class">YamlKeys</a></td>
+     <td class="bar" id="b100"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="85" alt="85"></td>
+     <td class="ctr2" id="c171">0%</td>
+     <td class="bar" id="d123"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e121">0%</td>
+     <td class="ctr1" id="f111">9</td>
+     <td class="ctr2" id="g119">9</td>
+     <td class="ctr1" id="h103">19</td>
+     <td class="ctr2" id="i112">19</td>
+     <td class="ctr1" id="j86">7</td>
+     <td class="ctr2" id="k97">7</td>
+     <td class="ctr1" id="l57">1</td>
+     <td class="ctr2" id="m100">1</td>
+    </tr>
+    <tr>
+     <td id="a11"><a href="AbstractTimestampLongConverter.html" class="el_class">AbstractTimestampLongConverter</a></td>
+     <td class="bar" id="b101"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="83" alt="83"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="124" alt="124"></td>
+     <td class="ctr2" id="c27">59%</td>
+     <td class="bar" id="d68"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="15" alt="15"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e34">25%</td>
+     <td class="ctr1" id="f95">12</td>
+     <td class="ctr2" id="g66">20</td>
+     <td class="ctr1" id="h104">19</td>
+     <td class="ctr2" id="i65">49</td>
+     <td class="ctr1" id="j169">2</td>
+     <td class="ctr2" id="k70">10</td>
+     <td class="ctr1" id="l182">0</td>
+     <td class="ctr2" id="m101">1</td>
+    </tr>
+    <tr>
+     <td id="a219"><a href="WireType$15.html" class="el_class">WireType.new Spliterators.AbstractSpliterator() {...}</a></td>
+     <td class="bar" id="b102"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="81" alt="81"></td>
+     <td class="ctr2" id="c172">0%</td>
+     <td class="bar" id="d77"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="14" alt="14"></td>
+     <td class="ctr2" id="e122">0%</td>
+     <td class="ctr1" id="f112">9</td>
+     <td class="ctr2" id="g120">9</td>
+     <td class="ctr1" id="h115">16</td>
+     <td class="ctr2" id="i124">16</td>
+     <td class="ctr1" id="j170">2</td>
+     <td class="ctr2" id="k197">2</td>
+     <td class="ctr1" id="l58">1</td>
+     <td class="ctr2" id="m102">1</td>
+    </tr>
+    <tr>
+     <td id="a115"><a href="SerializationStrategies$5.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b103"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="79" alt="79"></td>
+     <td class="ctr2" id="c93">12%</td>
+     <td class="bar" id="d89"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e123">0%</td>
+     <td class="ctr1" id="f113">9</td>
+     <td class="ctr2" id="g109">10</td>
+     <td class="ctr1" id="h101">20</td>
+     <td class="ctr2" id="i106">22</td>
+     <td class="ctr1" id="j116">4</td>
+     <td class="ctr2" id="k121">5</td>
+     <td class="ctr1" id="l183">0</td>
+     <td class="ctr2" id="m103">1</td>
+    </tr>
+    <tr>
+     <td id="a130"><a href="ServicesTimestampLongConverter.html" class="el_class">ServicesTimestampLongConverter</a></td>
+     <td class="bar" id="b104"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="79" alt="79"></td>
+     <td class="ctr2" id="c173">0%</td>
+     <td class="bar" id="d137"></td>
+     <td class="ctr2" id="e124">0%</td>
+     <td class="ctr1" id="f96">12</td>
+     <td class="ctr2" id="g99">12</td>
+     <td class="ctr1" id="h81">29</td>
+     <td class="ctr2" id="i86">29</td>
+     <td class="ctr1" id="j60">10</td>
+     <td class="ctr2" id="k71">10</td>
+     <td class="ctr1" id="l59">1</td>
+     <td class="ctr2" id="m104">1</td>
+    </tr>
+    <tr>
+     <td id="a116"><a href="SerializationStrategies$14.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b105"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="78" alt="78"></td>
+     <td class="ctr2" id="c105">7%</td>
+     <td class="bar" id="d105"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e125">0%</td>
+     <td class="ctr1" id="f123">7</td>
+     <td class="ctr2" id="g128">8</td>
+     <td class="ctr1" id="h94">22</td>
+     <td class="ctr2" id="i102">23</td>
+     <td class="ctr1" id="j117">4</td>
+     <td class="ctr2" id="k122">5</td>
+     <td class="ctr1" id="l184">0</td>
+     <td class="ctr2" id="m105">1</td>
+    </tr>
+    <tr>
+     <td id="a36"><a href="ChronicleBitSet.html" class="el_class">ChronicleBitSet</a></td>
+     <td class="bar" id="b106"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="73" alt="73"></td>
+     <td class="ctr2" id="c174">0%</td>
+     <td class="bar" id="d83"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e126">0%</td>
+     <td class="ctr1" id="f105">10</td>
+     <td class="ctr2" id="g110">10</td>
+     <td class="ctr1" id="h108">18</td>
+     <td class="ctr2" id="i113">18</td>
+     <td class="ctr1" id="j118">4</td>
+     <td class="ctr2" id="k133">4</td>
+     <td class="ctr1" id="l60">1</td>
+     <td class="ctr2" id="m106">1</td>
+    </tr>
+    <tr>
+     <td id="a117"><a href="SerializationStrategies$10.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b107"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="71" alt="71"></td>
+     <td class="ctr2" id="c104">7%</td>
+     <td class="bar" id="d84"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="12" alt="12"></td>
+     <td class="ctr2" id="e127">0%</td>
+     <td class="ctr1" id="f114">9</td>
+     <td class="ctr2" id="g111">10</td>
+     <td class="ctr1" id="h116">16</td>
+     <td class="ctr2" id="i118">17</td>
+     <td class="ctr1" id="j140">3</td>
+     <td class="ctr2" id="k134">4</td>
+     <td class="ctr1" id="l185">0</td>
+     <td class="ctr2" id="m107">1</td>
+    </tr>
+    <tr>
+     <td id="a191"><a href="WireMarshaller$LongFieldAccess.html" class="el_class">WireMarshaller.LongFieldAccess</a></td>
+     <td class="bar" id="b108"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="71" alt="71"></td>
+     <td class="ctr2" id="c109">5%</td>
+     <td class="bar" id="d106"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e128">0%</td>
+     <td class="ctr1" id="f118">8</td>
+     <td class="ctr2" id="g121">9</td>
+     <td class="ctr1" id="h131">12</td>
+     <td class="ctr2" id="i133">14</td>
+     <td class="ctr1" id="j103">5</td>
+     <td class="ctr2" id="k106">6</td>
+     <td class="ctr1" id="l186">0</td>
+     <td class="ctr2" id="m108">1</td>
+    </tr>
+    <tr>
+     <td id="a240"><a href="YamlLogging.html" class="el_class">YamlLogging</a></td>
+     <td class="bar" id="b109"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="71" alt="71"></td>
+     <td class="ctr2" id="c175">0%</td>
+     <td class="bar" id="d173"></td>
+     <td class="ctr2" id="e173">n/a</td>
+     <td class="ctr1" id="f79">15</td>
+     <td class="ctr2" id="g85">15</td>
+     <td class="ctr1" id="h76">30</td>
+     <td class="ctr2" id="i83">30</td>
+     <td class="ctr1" id="j42">15</td>
+     <td class="ctr2" id="k54">15</td>
+     <td class="ctr1" id="l61">1</td>
+     <td class="ctr2" id="m109">1</td>
+    </tr>
+    <tr>
+     <td id="a185"><a href="WireMarshaller$FloatFieldAccess.html" class="el_class">WireMarshaller.FloatFieldAccess</a></td>
+     <td class="bar" id="b110"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="71" alt="71"></td>
+     <td class="ctr2" id="c176">0%</td>
+     <td class="bar" id="d124"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e129">0%</td>
+     <td class="ctr1" id="f119">8</td>
+     <td class="ctr2" id="g129">8</td>
+     <td class="ctr1" id="h122">14</td>
+     <td class="ctr2" id="i134">14</td>
+     <td class="ctr1" id="j95">6</td>
+     <td class="ctr2" id="k107">6</td>
+     <td class="ctr1" id="l62">1</td>
+     <td class="ctr2" id="m110">1</td>
+    </tr>
+    <tr>
+     <td id="a170"><a href="WireKey.html" class="el_class">WireKey</a></td>
+     <td class="bar" id="b111"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="70" alt="70"></td>
+     <td class="ctr2" id="c78">22%</td>
+     <td class="bar" id="d93"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e40">20%</td>
+     <td class="ctr1" id="f120">8</td>
+     <td class="ctr2" id="g106">11</td>
+     <td class="ctr1" id="h134">11</td>
+     <td class="ctr2" id="i125">16</td>
+     <td class="ctr1" id="j141">3</td>
+     <td class="ctr2" id="k108">6</td>
+     <td class="ctr1" id="l187">0</td>
+     <td class="ctr2" id="m111">1</td>
+    </tr>
+    <tr>
+     <td id="a69"><a href="JSONWire$JSONWriteDocumentContext.html" class="el_class">JSONWire.JSONWriteDocumentContext</a></td>
+     <td class="bar" id="b112"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="69" alt="69"></td>
+     <td class="ctr2" id="c177">0%</td>
+     <td class="bar" id="d99"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e130">0%</td>
+     <td class="ctr1" id="f121">8</td>
+     <td class="ctr2" id="g130">8</td>
+     <td class="ctr1" id="h117">16</td>
+     <td class="ctr2" id="i126">16</td>
+     <td class="ctr1" id="j119">4</td>
+     <td class="ctr2" id="k135">4</td>
+     <td class="ctr1" id="l63">1</td>
+     <td class="ctr2" id="m112">1</td>
+    </tr>
+    <tr>
+     <td id="a66"><a href="JSONWire$JSONReadDocumentContext.html" class="el_class">JSONWire.JSONReadDocumentContext</a></td>
+     <td class="bar" id="b113"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="68" alt="68"></td>
+     <td class="ctr2" id="c178">0%</td>
+     <td class="bar" id="d100"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e131">0%</td>
+     <td class="ctr1" id="f124">7</td>
+     <td class="ctr2" id="g135">7</td>
+     <td class="ctr1" id="h112">17</td>
+     <td class="ctr2" id="i119">17</td>
+     <td class="ctr1" id="j142">3</td>
+     <td class="ctr2" id="k170">3</td>
+     <td class="ctr1" id="l64">1</td>
+     <td class="ctr2" id="m113">1</td>
+    </tr>
+    <tr>
+     <td id="a92"><a href="ParameterHolderSequenceWriter.html" class="el_class">ParameterHolderSequenceWriter</a></td>
+     <td class="bar" id="b114"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="68" alt="68"></td>
+     <td class="ctr2" id="c179">0%</td>
+     <td class="bar" id="d107"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e132">0%</td>
+     <td class="ctr1" id="f131">6</td>
+     <td class="ctr2" id="g145">6</td>
+     <td class="ctr1" id="h126">13</td>
+     <td class="ctr2" id="i139">13</td>
+     <td class="ctr1" id="j143">3</td>
+     <td class="ctr2" id="k171">3</td>
+     <td class="ctr1" id="l65">1</td>
+     <td class="ctr2" id="m114">1</td>
+    </tr>
+    <tr>
+     <td id="a118"><a href="SerializationStrategies$11.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b115"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="64" alt="64"></td>
+     <td class="ctr2" id="c100">8%</td>
+     <td class="bar" id="d90"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="10" alt="10"></td>
+     <td class="ctr2" id="e133">0%</td>
+     <td class="ctr1" id="f115">9</td>
+     <td class="ctr2" id="g112">10</td>
+     <td class="ctr1" id="h118">16</td>
+     <td class="ctr2" id="i120">17</td>
+     <td class="ctr1" id="j120">4</td>
+     <td class="ctr2" id="k123">5</td>
+     <td class="ctr1" id="l188">0</td>
+     <td class="ctr2" id="m115">1</td>
+    </tr>
+    <tr>
+     <td id="a44"><a href="DocumentContextHolder.html" class="el_class">DocumentContextHolder</a></td>
+     <td class="bar" id="b116"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="61" alt="61"></td>
+     <td class="ctr2" id="c65">31%</td>
+     <td class="bar" id="d103"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e35">25%</td>
+     <td class="ctr1" id="f80">15</td>
+     <td class="ctr2" id="g67">20</td>
+     <td class="ctr1" id="h109">18</td>
+     <td class="ctr2" id="i87">29</td>
+     <td class="ctr1" id="j53">11</td>
+     <td class="ctr2" id="k52">16</td>
+     <td class="ctr1" id="l189">0</td>
+     <td class="ctr2" id="m116">1</td>
+    </tr>
+    <tr>
+     <td id="a119"><a href="SerializationStrategies$13.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b117"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="61" alt="61"></td>
+     <td class="ctr2" id="c99">8%</td>
+     <td class="bar" id="d108"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e134">0%</td>
+     <td class="ctr1" id="f125">7</td>
+     <td class="ctr2" id="g131">8</td>
+     <td class="ctr1" id="h119">15</td>
+     <td class="ctr2" id="i127">16</td>
+     <td class="ctr1" id="j121">4</td>
+     <td class="ctr2" id="k124">5</td>
+     <td class="ctr1" id="l190">0</td>
+     <td class="ctr2" id="m117">1</td>
+    </tr>
+    <tr>
+     <td id="a2"><a href="AbstractClassGenerator$MetaData.html" class="el_class">AbstractClassGenerator.MetaData</a></td>
+     <td class="bar" id="b118"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="61" alt="61"></td>
+     <td class="ctr2" id="c180">0%</td>
+     <td class="bar" id="d145"></td>
+     <td class="ctr2" id="e135">0%</td>
+     <td class="ctr1" id="f106">10</td>
+     <td class="ctr2" id="g113">10</td>
+     <td class="ctr1" id="h110">18</td>
+     <td class="ctr2" id="i114">18</td>
+     <td class="ctr1" id="j67">9</td>
+     <td class="ctr2" id="k76">9</td>
+     <td class="ctr1" id="l66">1</td>
+     <td class="ctr2" id="m118">1</td>
+    </tr>
+    <tr>
+     <td id="a64"><a href="InputStreamToWire.html" class="el_class">InputStreamToWire</a></td>
+     <td class="bar" id="b119"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="60" alt="60"></td>
+     <td class="ctr2" id="c181">0%</td>
+     <td class="bar" id="d146"></td>
+     <td class="ctr2" id="e136">0%</td>
+     <td class="ctr1" id="f170">3</td>
+     <td class="ctr2" id="g192">3</td>
+     <td class="ctr1" id="h127">13</td>
+     <td class="ctr2" id="i140">13</td>
+     <td class="ctr1" id="j171">2</td>
+     <td class="ctr2" id="k198">2</td>
+     <td class="ctr1" id="l67">1</td>
+     <td class="ctr2" id="m119">1</td>
+    </tr>
+    <tr>
+     <td id="a31"><a href="BitSetUtil.html" class="el_class">BitSetUtil</a></td>
+     <td class="bar" id="b120"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="59" alt="59"></td>
+     <td class="ctr2" id="c182">0%</td>
+     <td class="bar" id="d174"></td>
+     <td class="ctr2" id="e174">n/a</td>
+     <td class="ctr1" id="f171">3</td>
+     <td class="ctr2" id="g193">3</td>
+     <td class="ctr1" id="h102">20</td>
+     <td class="ctr2" id="i111">20</td>
+     <td class="ctr1" id="j144">3</td>
+     <td class="ctr2" id="k172">3</td>
+     <td class="ctr1" id="l68">1</td>
+     <td class="ctr2" id="m120">1</td>
+    </tr>
+    <tr>
+     <td id="a210"><a href="Wires$SerializeBytes.html" class="el_class">Wires.SerializeBytes</a></td>
+     <td class="bar" id="b121"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="57" alt="57"></td>
+     <td class="ctr2" id="c67">30%</td>
+     <td class="bar" id="d116"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e44">16%</td>
+     <td class="ctr1" id="f126">7</td>
+     <td class="ctr2" id="g122">9</td>
+     <td class="ctr1" id="h123">14</td>
+     <td class="ctr2" id="i115">18</td>
+     <td class="ctr1" id="j145">3</td>
+     <td class="ctr2" id="k125">5</td>
+     <td class="ctr1" id="l191">0</td>
+     <td class="ctr2" id="m121">1</td>
+    </tr>
+    <tr>
+     <td id="a84"><a href="MethodWriterInvocationHandlerSupplier.html" class="el_class">MethodWriterInvocationHandlerSupplier</a></td>
+     <td class="bar" id="b122"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="57" alt="57"></td>
+     <td class="ctr2" id="c73">24%</td>
+     <td class="bar" id="d125"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e137">0%</td>
+     <td class="ctr1" id="f122">8</td>
+     <td class="ctr2" id="g114">10</td>
+     <td class="ctr1" id="h105">19</td>
+     <td class="ctr2" id="i92">26</td>
+     <td class="ctr1" id="j96">6</td>
+     <td class="ctr2" id="k85">8</td>
+     <td class="ctr1" id="l192">0</td>
+     <td class="ctr2" id="m122">1</td>
+    </tr>
+    <tr>
+     <td id="a220"><a href="WireType$4.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b123"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="57" alt="57"></td>
+     <td class="ctr2" id="c97">9%</td>
+     <td class="bar" id="d147"></td>
+     <td class="ctr2" id="e138">0%</td>
+     <td class="ctr1" id="f132">6</td>
+     <td class="ctr2" id="g136">7</td>
+     <td class="ctr1" id="h120">15</td>
+     <td class="ctr2" id="i128">16</td>
+     <td class="ctr1" id="j104">5</td>
+     <td class="ctr2" id="k109">6</td>
+     <td class="ctr1" id="l193">0</td>
+     <td class="ctr2" id="m123">1</td>
+    </tr>
+    <tr>
+     <td id="a182"><a href="WireMarshaller$DoubleFieldAccess.html" class="el_class">WireMarshaller.DoubleFieldAccess</a></td>
+     <td class="bar" id="b124"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="56" alt="56"></td>
+     <td class="ctr2" id="c84">21%</td>
+     <td class="bar" id="d136"></td>
+     <td class="ctr2" id="e36">25%</td>
+     <td class="ctr1" id="f133">6</td>
+     <td class="ctr2" id="g132">8</td>
+     <td class="ctr1" id="h143">9</td>
+     <td class="ctr2" id="i135">14</td>
+     <td class="ctr1" id="j122">4</td>
+     <td class="ctr2" id="k110">6</td>
+     <td class="ctr1" id="l194">0</td>
+     <td class="ctr2" id="m124">1</td>
+    </tr>
+    <tr>
+     <td id="a136"><a href="TextReadDocumentContext.html" class="el_class">TextReadDocumentContext</a></td>
+     <td class="bar" id="b125"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="55" alt="55"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="212" alt="212"></td>
+     <td class="ctr2" id="c20">79%</td>
+     <td class="bar" id="d101"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="7" alt="7"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="23" alt="23"></td>
+     <td class="ctr2" id="e5">76%</td>
+     <td class="ctr1" id="f97">12</td>
+     <td class="ctr2" id="g48">34</td>
+     <td class="ctr1" id="h106">19</td>
+     <td class="ctr2" id="i42">78</td>
+     <td class="ctr1" id="j97">6</td>
+     <td class="ctr2" id="k44">19</td>
+     <td class="ctr1" id="l195">0</td>
+     <td class="ctr2" id="m125">1</td>
+    </tr>
+    <tr>
+     <td id="a221"><a href="WireType$5.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b126"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="55" alt="55"></td>
+     <td class="ctr2" id="c96">9%</td>
+     <td class="bar" id="d148"></td>
+     <td class="ctr2" id="e139">0%</td>
+     <td class="ctr1" id="f134">6</td>
+     <td class="ctr2" id="g137">7</td>
+     <td class="ctr1" id="h124">14</td>
+     <td class="ctr2" id="i129">15</td>
+     <td class="ctr1" id="j105">5</td>
+     <td class="ctr2" id="k111">6</td>
+     <td class="ctr1" id="l196">0</td>
+     <td class="ctr2" id="m126">1</td>
+    </tr>
+    <tr>
+     <td id="a4"><a href="AbstractEventCfg.html" class="el_class">AbstractEventCfg</a></td>
+     <td class="bar" id="b127"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="54" alt="54"></td>
+     <td class="ctr2" id="c183">0%</td>
+     <td class="bar" id="d109"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e140">0%</td>
+     <td class="ctr1" id="f98">12</td>
+     <td class="ctr2" id="g100">12</td>
+     <td class="ctr1" id="h125">14</td>
+     <td class="ctr2" id="i136">14</td>
+     <td class="ctr1" id="j68">9</td>
+     <td class="ctr2" id="k77">9</td>
+     <td class="ctr1" id="l69">1</td>
+     <td class="ctr2" id="m127">1</td>
+    </tr>
+    <tr>
+     <td id="a155"><a href="ValueOut$MapMarshaller.html" class="el_class">ValueOut.MapMarshaller</a></td>
+     <td class="bar" id="b128"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="53" alt="53"></td>
+     <td class="ctr2" id="c184">0%</td>
+     <td class="bar" id="d149"></td>
+     <td class="ctr2" id="e141">0%</td>
+     <td class="ctr1" id="f157">4</td>
+     <td class="ctr2" id="g164">4</td>
+     <td class="ctr1" id="h128">13</td>
+     <td class="ctr2" id="i141">13</td>
+     <td class="ctr1" id="j146">3</td>
+     <td class="ctr2" id="k173">3</td>
+     <td class="ctr1" id="l70">1</td>
+     <td class="ctr2" id="m128">1</td>
+    </tr>
+    <tr>
+     <td id="a213"><a href="Wires$SerializeMarshallables.html" class="el_class">Wires.SerializeMarshallables</a></td>
+     <td class="bar" id="b129"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="51" alt="51"></td>
+     <td class="ctr2" id="c53">37%</td>
+     <td class="bar" id="d58"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="19" alt="19"></td>
+     <td class="ctr2" id="e45">13%</td>
+     <td class="ctr1" id="f103">11</td>
+     <td class="ctr2" id="g86">14</td>
+     <td class="ctr1" id="h111">18</td>
+     <td class="ctr2" id="i95">25</td>
+     <td class="ctr1" id="j233">0</td>
+     <td class="ctr2" id="k174">3</td>
+     <td class="ctr1" id="l197">0</td>
+     <td class="ctr2" id="m129">1</td>
+    </tr>
+    <tr>
+     <td id="a236"><a href="WrappedDocumentContext.html" class="el_class">WrappedDocumentContext</a></td>
+     <td class="bar" id="b130"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="50" alt="50"></td>
+     <td class="ctr2" id="c185">0%</td>
+     <td class="bar" id="d175"></td>
+     <td class="ctr2" id="e175">n/a</td>
+     <td class="ctr1" id="f99">12</td>
+     <td class="ctr2" id="g101">12</td>
+     <td class="ctr1" id="h113">17</td>
+     <td class="ctr2" id="i121">17</td>
+     <td class="ctr1" id="j48">12</td>
+     <td class="ctr2" id="k63">12</td>
+     <td class="ctr1" id="l71">1</td>
+     <td class="ctr2" id="m130">1</td>
+    </tr>
+    <tr>
+     <td id="a175"><a href="WireMarshaller$ByteFieldAccess.html" class="el_class">WireMarshaller.ByteFieldAccess</a></td>
+     <td class="bar" id="b131"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="49" alt="49"></td>
+     <td class="ctr2" id="c186">0%</td>
+     <td class="bar" id="d150"></td>
+     <td class="ctr2" id="e142">0%</td>
+     <td class="ctr1" id="f127">7</td>
+     <td class="ctr2" id="g138">7</td>
+     <td class="ctr1" id="h135">11</td>
+     <td class="ctr2" id="i147">11</td>
+     <td class="ctr1" id="j98">6</td>
+     <td class="ctr2" id="k112">6</td>
+     <td class="ctr1" id="l72">1</td>
+     <td class="ctr2" id="m131">1</td>
+    </tr>
+    <tr>
+     <td id="a196"><a href="WireMarshaller$ShortFieldAccess.html" class="el_class">WireMarshaller.ShortFieldAccess</a></td>
+     <td class="bar" id="b132"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="49" alt="49"></td>
+     <td class="ctr2" id="c187">0%</td>
+     <td class="bar" id="d151"></td>
+     <td class="ctr2" id="e143">0%</td>
+     <td class="ctr1" id="f128">7</td>
+     <td class="ctr2" id="g139">7</td>
+     <td class="ctr1" id="h136">11</td>
+     <td class="ctr2" id="i148">11</td>
+     <td class="ctr1" id="j99">6</td>
+     <td class="ctr2" id="k113">6</td>
+     <td class="ctr1" id="l73">1</td>
+     <td class="ctr2" id="m132">1</td>
+    </tr>
+    <tr>
+     <td id="a192"><a href="WireMarshaller$LongValueAccess.html" class="el_class">WireMarshaller.LongValueAccess</a></td>
+     <td class="bar" id="b133"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="48" alt="48"></td>
+     <td class="ctr2" id="c188">0%</td>
+     <td class="bar" id="d126"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e144">0%</td>
+     <td class="ctr1" id="f135">6</td>
+     <td class="ctr2" id="g146">6</td>
+     <td class="ctr1" id="h129">13</td>
+     <td class="ctr2" id="i142">13</td>
+     <td class="ctr1" id="j123">4</td>
+     <td class="ctr2" id="k136">4</td>
+     <td class="ctr1" id="l74">1</td>
+     <td class="ctr2" id="m133">1</td>
+    </tr>
+    <tr>
+     <td id="a76"><a href="LongValueBitSet$1BitSetIterator.html" class="el_class">LongValueBitSet.new PrimitiveIterator.OfInt() {...}</a></td>
+     <td class="bar" id="b134"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="48" alt="48"></td>
+     <td class="ctr2" id="c189">0%</td>
+     <td class="bar" id="d127"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e145">0%</td>
+     <td class="ctr1" id="f141">5</td>
+     <td class="ctr2" id="g151">5</td>
+     <td class="ctr1" id="h139">10</td>
+     <td class="ctr2" id="i152">10</td>
+     <td class="ctr1" id="j147">3</td>
+     <td class="ctr2" id="k175">3</td>
+     <td class="ctr1" id="l75">1</td>
+     <td class="ctr2" id="m134">1</td>
+    </tr>
+    <tr>
+     <td id="a73"><a href="LongArrayValueBitSet$1BitSetIterator.html" class="el_class">LongArrayValueBitSet.new PrimitiveIterator.OfInt() {...}</a></td>
+     <td class="bar" id="b135"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="48" alt="48"></td>
+     <td class="ctr2" id="c190">0%</td>
+     <td class="bar" id="d128"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e146">0%</td>
+     <td class="ctr1" id="f142">5</td>
+     <td class="ctr2" id="g152">5</td>
+     <td class="ctr1" id="h140">10</td>
+     <td class="ctr2" id="i153">10</td>
+     <td class="ctr1" id="j148">3</td>
+     <td class="ctr2" id="k176">3</td>
+     <td class="ctr1" id="l76">1</td>
+     <td class="ctr2" id="m135">1</td>
+    </tr>
+    <tr>
+     <td id="a189"><a href="WireMarshaller$IntValueAccess.html" class="el_class">WireMarshaller.IntValueAccess</a></td>
+     <td class="bar" id="b136"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="48" alt="48"></td>
+     <td class="ctr2" id="c191">0%</td>
+     <td class="bar" id="d129"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e147">0%</td>
+     <td class="ctr1" id="f136">6</td>
+     <td class="ctr2" id="g147">6</td>
+     <td class="ctr1" id="h130">13</td>
+     <td class="ctr2" id="i143">13</td>
+     <td class="ctr1" id="j124">4</td>
+     <td class="ctr2" id="k137">4</td>
+     <td class="ctr1" id="l77">1</td>
+     <td class="ctr2" id="m136">1</td>
+    </tr>
+    <tr>
+     <td id="a187"><a href="WireMarshaller$IntegerFieldAccess.html" class="el_class">WireMarshaller.IntegerFieldAccess</a></td>
+     <td class="bar" id="b137"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="47" alt="47"></td>
+     <td class="ctr2" id="c57">36%</td>
+     <td class="bar" id="d119"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e25">33%</td>
+     <td class="ctr1" id="f137">6</td>
+     <td class="ctr2" id="g123">9</td>
+     <td class="ctr1" id="h159">6</td>
+     <td class="ctr2" id="i137">14</td>
+     <td class="ctr1" id="j149">3</td>
+     <td class="ctr2" id="k114">6</td>
+     <td class="ctr1" id="l198">0</td>
+     <td class="ctr2" id="m137">1</td>
+    </tr>
+    <tr>
+     <td id="a173"><a href="WireMarshaller$BooleanFieldAccess.html" class="el_class">WireMarshaller.BooleanFieldAccess</a></td>
+     <td class="bar" id="b138"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="46" alt="46"></td>
+     <td class="ctr2" id="c103">8%</td>
+     <td class="bar" id="d152"></td>
+     <td class="ctr2" id="e148">0%</td>
+     <td class="ctr1" id="f138">6</td>
+     <td class="ctr2" id="g140">7</td>
+     <td class="ctr1" id="h144">9</td>
+     <td class="ctr2" id="i149">11</td>
+     <td class="ctr1" id="j106">5</td>
+     <td class="ctr2" id="k115">6</td>
+     <td class="ctr1" id="l199">0</td>
+     <td class="ctr2" id="m138">1</td>
+    </tr>
+    <tr>
+     <td id="a217"><a href="WireToOutputStream.html" class="el_class">WireToOutputStream</a></td>
+     <td class="bar" id="b139"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="46" alt="46"></td>
+     <td class="ctr2" id="c192">0%</td>
+     <td class="bar" id="d176"></td>
+     <td class="ctr2" id="e176">n/a</td>
+     <td class="ctr1" id="f172">3</td>
+     <td class="ctr2" id="g194">3</td>
+     <td class="ctr1" id="h137">11</td>
+     <td class="ctr2" id="i150">11</td>
+     <td class="ctr1" id="j150">3</td>
+     <td class="ctr2" id="k177">3</td>
+     <td class="ctr1" id="l78">1</td>
+     <td class="ctr2" id="m139">1</td>
+    </tr>
+    <tr>
+     <td id="a9"><a href="AbstractMarshallableCfg.html" class="el_class">AbstractMarshallableCfg</a></td>
+     <td class="bar" id="b140"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="45" alt="45"></td>
+     <td class="ctr2" id="c193">0%</td>
+     <td class="bar" id="d177"></td>
+     <td class="ctr2" id="e177">n/a</td>
+     <td class="ctr1" id="f158">4</td>
+     <td class="ctr2" id="g165">4</td>
+     <td class="ctr1" id="h145">9</td>
+     <td class="ctr2" id="i157">9</td>
+     <td class="ctr1" id="j125">4</td>
+     <td class="ctr2" id="k138">4</td>
+     <td class="ctr1" id="l79">1</td>
+     <td class="ctr2" id="m140">1</td>
+    </tr>
+    <tr>
+     <td id="a167"><a href="WireIn$HeaderType.html" class="el_class">WireIn.HeaderType</a></td>
+     <td class="bar" id="b141"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="44" alt="44"></td>
+     <td class="ctr2" id="c194">0%</td>
+     <td class="bar" id="d178"></td>
+     <td class="ctr2" id="e178">n/a</td>
+     <td class="ctr1" id="f219">1</td>
+     <td class="ctr2" id="g236">1</td>
+     <td class="ctr1" id="h207">2</td>
+     <td class="ctr2" id="i232">2</td>
+     <td class="ctr1" id="j209">1</td>
+     <td class="ctr2" id="k236">1</td>
+     <td class="ctr1" id="l80">1</td>
+     <td class="ctr2" id="m141">1</td>
+    </tr>
+    <tr>
+     <td id="a5"><a href="AbstractFieldInfo.html" class="el_class">AbstractFieldInfo</a></td>
+     <td class="bar" id="b142"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="43" alt="43"></td>
+     <td class="ctr2" id="c195">0%</td>
+     <td class="bar" id="d110"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e149">0%</td>
+     <td class="ctr1" id="f107">10</td>
+     <td class="ctr2" id="g115">10</td>
+     <td class="ctr1" id="h132">12</td>
+     <td class="ctr2" id="i144">12</td>
+     <td class="ctr1" id="j87">7</td>
+     <td class="ctr2" id="k98">7</td>
+     <td class="ctr1" id="l81">1</td>
+     <td class="ctr2" id="m142">1</td>
+    </tr>
+    <tr>
+     <td id="a86"><a href="MicroDurationLongConverter.html" class="el_class">MicroDurationLongConverter</a></td>
+     <td class="bar" id="b143"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="42" alt="42"></td>
+     <td class="ctr2" id="c196">0%</td>
+     <td class="bar" id="d179"></td>
+     <td class="ctr2" id="e179">n/a</td>
+     <td class="ctr1" id="f143">5</td>
+     <td class="ctr2" id="g153">5</td>
+     <td class="ctr1" id="h148">8</td>
+     <td class="ctr2" id="i162">8</td>
+     <td class="ctr1" id="j107">5</td>
+     <td class="ctr2" id="k126">5</td>
+     <td class="ctr1" id="l82">1</td>
+     <td class="ctr2" id="m143">1</td>
+    </tr>
+    <tr>
+     <td id="a104"><a href="ReadAnyWire.html" class="el_class">ReadAnyWire</a></td>
+     <td class="bar" id="b144"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="42" alt="42"></td>
+     <td class="ctr2" id="c197">0%</td>
+     <td class="bar" id="d180"></td>
+     <td class="ctr2" id="e180">n/a</td>
+     <td class="ctr1" id="f116">9</td>
+     <td class="ctr2" id="g124">9</td>
+     <td class="ctr1" id="h121">15</td>
+     <td class="ctr2" id="i130">15</td>
+     <td class="ctr1" id="j69">9</td>
+     <td class="ctr2" id="k78">9</td>
+     <td class="ctr1" id="l83">1</td>
+     <td class="ctr2" id="m144">1</td>
+    </tr>
+    <tr>
+     <td id="a161"><a href="VanillaMethodWriterBuilder$CallSupplierInvocationHandler.html" class="el_class">VanillaMethodWriterBuilder.CallSupplierInvocationHandler</a></td>
+     <td class="bar" id="b145"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="42" alt="42"></td>
+     <td class="ctr2" id="c198">0%</td>
+     <td class="bar" id="d111"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e150">0%</td>
+     <td class="ctr1" id="f144">5</td>
+     <td class="ctr2" id="g154">5</td>
+     <td class="ctr1" id="h152">7</td>
+     <td class="ctr2" id="i171">7</td>
+     <td class="ctr1" id="j172">2</td>
+     <td class="ctr2" id="k199">2</td>
+     <td class="ctr1" id="l84">1</td>
+     <td class="ctr2" id="m145">1</td>
+    </tr>
+    <tr>
+     <td id="a41"><a href="Demarshallable.html" class="el_class">Demarshallable</a></td>
+     <td class="bar" id="b146"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="39" alt="39"></td>
+     <td class="ctr2" id="c199">0%</td>
+     <td class="bar" id="d181"></td>
+     <td class="ctr2" id="e181">n/a</td>
+     <td class="ctr1" id="f189">2</td>
+     <td class="ctr2" id="g214">2</td>
+     <td class="ctr1" id="h146">9</td>
+     <td class="ctr2" id="i158">9</td>
+     <td class="ctr1" id="j173">2</td>
+     <td class="ctr2" id="k200">2</td>
+     <td class="ctr1" id="l85">1</td>
+     <td class="ctr2" id="m146">1</td>
+    </tr>
+    <tr>
+     <td id="a109"><a href="ScalarStrategy.html" class="el_class">ScalarStrategy</a></td>
+     <td class="bar" id="b147"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="38" alt="38"></td>
+     <td class="ctr2" id="c46">42%</td>
+     <td class="bar" id="d139"></td>
+     <td class="ctr2" id="e9">50%</td>
+     <td class="ctr1" id="f139">6</td>
+     <td class="ctr2" id="g107">11</td>
+     <td class="ctr1" id="h160">6</td>
+     <td class="ctr2" id="i131">15</td>
+     <td class="ctr1" id="j108">5</td>
+     <td class="ctr2" id="k79">9</td>
+     <td class="ctr1" id="l200">0</td>
+     <td class="ctr2" id="m147">1</td>
+    </tr>
+    <tr>
+     <td id="a89"><a href="NanoDurationLongConverter.html" class="el_class">NanoDurationLongConverter</a></td>
+     <td class="bar" id="b148"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="38" alt="38"></td>
+     <td class="ctr2" id="c200">0%</td>
+     <td class="bar" id="d182"></td>
+     <td class="ctr2" id="e182">n/a</td>
+     <td class="ctr1" id="f145">5</td>
+     <td class="ctr2" id="g155">5</td>
+     <td class="ctr1" id="h149">8</td>
+     <td class="ctr2" id="i163">8</td>
+     <td class="ctr1" id="j109">5</td>
+     <td class="ctr2" id="k127">5</td>
+     <td class="ctr1" id="l86">1</td>
+     <td class="ctr2" id="m148">1</td>
+    </tr>
+    <tr>
+     <td id="a39"><a href="CSVWire$CSVValueOut.html" class="el_class">CSVWire.CSVValueOut</a></td>
+     <td class="bar" id="b149"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="37" alt="37"></td>
+     <td class="ctr2" id="c201">0%</td>
+     <td class="bar" id="d153"></td>
+     <td class="ctr2" id="e151">0%</td>
+     <td class="ctr1" id="f159">4</td>
+     <td class="ctr2" id="g166">4</td>
+     <td class="ctr1" id="h166">5</td>
+     <td class="ctr2" id="i181">5</td>
+     <td class="ctr1" id="j151">3</td>
+     <td class="ctr2" id="k178">3</td>
+     <td class="ctr1" id="l87">1</td>
+     <td class="ctr2" id="m149">1</td>
+    </tr>
+    <tr>
+     <td id="a120"><a href="SerializationStrategies$7.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b150"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="c89">14%</td>
+     <td class="bar" id="d130"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e152">0%</td>
+     <td class="ctr1" id="f146">5</td>
+     <td class="ctr2" id="g148">6</td>
+     <td class="ctr1" id="h147">9</td>
+     <td class="ctr2" id="i154">10</td>
+     <td class="ctr1" id="j152">3</td>
+     <td class="ctr2" id="k139">4</td>
+     <td class="ctr1" id="l201">0</td>
+     <td class="ctr2" id="m150">1</td>
+    </tr>
+    <tr>
+     <td id="a163"><a href="Wire.html" class="el_class">Wire</a></td>
+     <td class="bar" id="b151"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="35" alt="35"></td>
+     <td class="ctr2" id="c88">14%</td>
+     <td class="bar" id="d138"></td>
+     <td class="ctr2" id="e153">0%</td>
+     <td class="ctr1" id="f173">3</td>
+     <td class="ctr2" id="g167">4</td>
+     <td class="ctr1" id="h167">5</td>
+     <td class="ctr2" id="i175">6</td>
+     <td class="ctr1" id="j210">1</td>
+     <td class="ctr2" id="k201">2</td>
+     <td class="ctr1" id="l202">0</td>
+     <td class="ctr2" id="m151">1</td>
+    </tr>
+    <tr>
+     <td id="a195"><a href="WireMarshaller$ResettableFieldAccess.html" class="el_class">WireMarshaller.ResettableFieldAccess</a></td>
+     <td class="bar" id="b152"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="35" alt="35"></td>
+     <td class="ctr2" id="c202">0%</td>
+     <td class="bar" id="d112"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e154">0%</td>
+     <td class="ctr1" id="f147">5</td>
+     <td class="ctr2" id="g156">5</td>
+     <td class="ctr1" id="h138">11</td>
+     <td class="ctr2" id="i151">11</td>
+     <td class="ctr1" id="j174">2</td>
+     <td class="ctr2" id="k202">2</td>
+     <td class="ctr1" id="l88">1</td>
+     <td class="ctr2" id="m152">1</td>
+    </tr>
+    <tr>
+     <td id="a241"><a href="YamlLogging$YamlLoggingLevel.html" class="el_class">YamlLogging.YamlLoggingLevel</a></td>
+     <td class="bar" id="b153"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="34" alt="34"></td>
+     <td class="ctr2" id="c203">0%</td>
+     <td class="bar" id="d183"></td>
+     <td class="ctr2" id="e183">n/a</td>
+     <td class="ctr1" id="f220">1</td>
+     <td class="ctr2" id="g237">1</td>
+     <td class="ctr1" id="h177">4</td>
+     <td class="ctr2" id="i200">4</td>
+     <td class="ctr1" id="j211">1</td>
+     <td class="ctr2" id="k237">1</td>
+     <td class="ctr1" id="l89">1</td>
+     <td class="ctr2" id="m153">1</td>
+    </tr>
+    <tr>
+     <td id="a206"><a href="WireOut$EndOfWire.html" class="el_class">WireOut.EndOfWire</a></td>
+     <td class="bar" id="b154"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="34" alt="34"></td>
+     <td class="ctr2" id="c204">0%</td>
+     <td class="bar" id="d184"></td>
+     <td class="ctr2" id="e184">n/a</td>
+     <td class="ctr1" id="f221">1</td>
+     <td class="ctr2" id="g238">1</td>
+     <td class="ctr1" id="h178">4</td>
+     <td class="ctr2" id="i201">4</td>
+     <td class="ctr1" id="j212">1</td>
+     <td class="ctr2" id="k238">1</td>
+     <td class="ctr1" id="l90">1</td>
+     <td class="ctr2" id="m154">1</td>
+    </tr>
+    <tr>
+     <td id="a45"><a href="DynamicEnum.html" class="el_class">DynamicEnum</a></td>
+     <td class="bar" id="b155"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="33" alt="33"></td>
+     <td class="ctr2" id="c205">0%</td>
+     <td class="bar" id="d154"></td>
+     <td class="ctr2" id="e155">0%</td>
+     <td class="ctr1" id="f174">3</td>
+     <td class="ctr2" id="g195">3</td>
+     <td class="ctr1" id="h150">8</td>
+     <td class="ctr2" id="i164">8</td>
+     <td class="ctr1" id="j175">2</td>
+     <td class="ctr2" id="k203">2</td>
+     <td class="ctr1" id="l91">1</td>
+     <td class="ctr2" id="m155">1</td>
+    </tr>
+    <tr>
+     <td id="a46"><a href="Event.html" class="el_class">Event</a></td>
+     <td class="bar" id="b156"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="33" alt="33"></td>
+     <td class="ctr2" id="c206">0%</td>
+     <td class="bar" id="d131"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e156">0%</td>
+     <td class="ctr1" id="f140">6</td>
+     <td class="ctr2" id="g149">6</td>
+     <td class="ctr1" id="h141">10</td>
+     <td class="ctr2" id="i155">10</td>
+     <td class="ctr1" id="j126">4</td>
+     <td class="ctr2" id="k140">4</td>
+     <td class="ctr1" id="l92">1</td>
+     <td class="ctr2" id="m156">1</td>
+    </tr>
+    <tr>
+     <td id="a91"><a href="NoDocumentContext.html" class="el_class">NoDocumentContext</a></td>
+     <td class="bar" id="b157"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="32" alt="32"></td>
+     <td class="ctr2" id="c207">0%</td>
+     <td class="bar" id="d185"></td>
+     <td class="ctr2" id="e185">n/a</td>
+     <td class="ctr1" id="f108">10</td>
+     <td class="ctr2" id="g116">10</td>
+     <td class="ctr1" id="h133">12</td>
+     <td class="ctr2" id="i145">12</td>
+     <td class="ctr1" id="j61">10</td>
+     <td class="ctr2" id="k72">10</td>
+     <td class="ctr1" id="l93">1</td>
+     <td class="ctr2" id="m157">1</td>
+    </tr>
+    <tr>
+     <td id="a198"><a href="WireMarshaller$ShortLongConverterFieldAccess.html" class="el_class">WireMarshaller.ShortLongConverterFieldAccess</a></td>
+     <td class="bar" id="b158"></td>
+     <td class="ctr2" id="c208">0%</td>
+     <td class="bar" id="d155"></td>
+     <td class="ctr2" id="e157">0%</td>
+     <td class="ctr1" id="f148">5</td>
+     <td class="ctr2" id="g157">5</td>
+     <td class="ctr1" id="h161">6</td>
+     <td class="ctr2" id="i176">6</td>
+     <td class="ctr1" id="j127">4</td>
+     <td class="ctr2" id="k141">4</td>
+     <td class="ctr1" id="l94">1</td>
+     <td class="ctr2" id="m158">1</td>
+    </tr>
+    <tr>
+     <td id="a177"><a href="WireMarshaller$ByteLongConverterFieldAccess.html" class="el_class">WireMarshaller.ByteLongConverterFieldAccess</a></td>
+     <td class="bar" id="b159"></td>
+     <td class="ctr2" id="c209">0%</td>
+     <td class="bar" id="d156"></td>
+     <td class="ctr2" id="e158">0%</td>
+     <td class="ctr1" id="f149">5</td>
+     <td class="ctr2" id="g158">5</td>
+     <td class="ctr1" id="h162">6</td>
+     <td class="ctr2" id="i177">6</td>
+     <td class="ctr1" id="j128">4</td>
+     <td class="ctr2" id="k142">4</td>
+     <td class="ctr1" id="l95">1</td>
+     <td class="ctr2" id="m159">1</td>
+    </tr>
+    <tr>
+     <td id="a188"><a href="WireMarshaller$IntLongConverterFieldAccess.html" class="el_class">WireMarshaller.IntLongConverterFieldAccess</a></td>
+     <td class="bar" id="b160"></td>
+     <td class="ctr2" id="c210">0%</td>
+     <td class="bar" id="d157"></td>
+     <td class="ctr2" id="e159">0%</td>
+     <td class="ctr1" id="f150">5</td>
+     <td class="ctr2" id="g159">5</td>
+     <td class="ctr1" id="h163">6</td>
+     <td class="ctr2" id="i178">6</td>
+     <td class="ctr1" id="j129">4</td>
+     <td class="ctr2" id="k143">4</td>
+     <td class="ctr1" id="l96">1</td>
+     <td class="ctr2" id="m160">1</td>
+    </tr>
+    <tr>
+     <td id="a180"><a href="WireMarshaller$CharLongConverterFieldAccess.html" class="el_class">WireMarshaller.CharLongConverterFieldAccess</a></td>
+     <td class="bar" id="b161"></td>
+     <td class="ctr2" id="c211">0%</td>
+     <td class="bar" id="d158"></td>
+     <td class="ctr2" id="e160">0%</td>
+     <td class="ctr1" id="f151">5</td>
+     <td class="ctr2" id="g160">5</td>
+     <td class="ctr1" id="h164">6</td>
+     <td class="ctr2" id="i179">6</td>
+     <td class="ctr1" id="j130">4</td>
+     <td class="ctr2" id="k144">4</td>
+     <td class="ctr1" id="l97">1</td>
+     <td class="ctr2" id="m161">1</td>
+    </tr>
+    <tr>
+     <td id="a58"><a href="GenerateMethodWriter2$GMWMetaData.html" class="el_class">GenerateMethodWriter2.GMWMetaData</a></td>
+     <td class="bar" id="b162"></td>
+     <td class="ctr2" id="c212">0%</td>
+     <td class="bar" id="d186"></td>
+     <td class="ctr2" id="e186">n/a</td>
+     <td class="ctr1" id="f129">7</td>
+     <td class="ctr2" id="g141">7</td>
+     <td class="ctr1" id="h142">10</td>
+     <td class="ctr2" id="i156">10</td>
+     <td class="ctr1" id="j88">7</td>
+     <td class="ctr2" id="k99">7</td>
+     <td class="ctr1" id="l98">1</td>
+     <td class="ctr2" id="m162">1</td>
+    </tr>
+    <tr>
+     <td id="a7"><a href="AbstractGeneratedMethodReader$MessageHistoryThreadLocal.html" class="el_class">AbstractGeneratedMethodReader.MessageHistoryThreadLocal</a></td>
+     <td class="bar" id="b163"></td>
+     <td class="ctr2" id="c81">21%</td>
+     <td class="bar" id="d187"></td>
+     <td class="ctr2" id="e187">n/a</td>
+     <td class="ctr1" id="f175">3</td>
+     <td class="ctr2" id="g168">4</td>
+     <td class="ctr1" id="h153">7</td>
+     <td class="ctr2" id="i159">9</td>
+     <td class="ctr1" id="j153">3</td>
+     <td class="ctr2" id="k145">4</td>
+     <td class="ctr1" id="l203">0</td>
+     <td class="ctr2" id="m163">1</td>
+    </tr>
+    <tr>
+     <td id="a47"><a href="ExcerptListener.html" class="el_class">ExcerptListener</a></td>
+     <td class="bar" id="b164"></td>
+     <td class="ctr2" id="c213">0%</td>
+     <td class="bar" id="d188"></td>
+     <td class="ctr2" id="e188">n/a</td>
+     <td class="ctr1" id="f190">2</td>
+     <td class="ctr2" id="g215">2</td>
+     <td class="ctr1" id="h154">7</td>
+     <td class="ctr2" id="i172">7</td>
+     <td class="ctr1" id="j176">2</td>
+     <td class="ctr2" id="k204">2</td>
+     <td class="ctr1" id="l99">1</td>
+     <td class="ctr2" id="m164">1</td>
+    </tr>
+    <tr>
+     <td id="a94"><a href="QueryWire$QueryStopCharTesters.html" class="el_class">QueryWire.QueryStopCharTesters</a></td>
+     <td class="bar" id="b165"></td>
+     <td class="ctr2" id="c214">0%</td>
+     <td class="bar" id="d189"></td>
+     <td class="ctr2" id="e189">n/a</td>
+     <td class="ctr1" id="f222">1</td>
+     <td class="ctr2" id="g239">1</td>
+     <td class="ctr1" id="h186">3</td>
+     <td class="ctr2" id="i218">3</td>
+     <td class="ctr1" id="j213">1</td>
+     <td class="ctr2" id="k239">1</td>
+     <td class="ctr1" id="l100">1</td>
+     <td class="ctr2" id="m165">1</td>
+    </tr>
+    <tr>
+     <td id="a234"><a href="WireTypeConverter.html" class="el_class">WireTypeConverter</a></td>
+     <td class="bar" id="b166"></td>
+     <td class="ctr2" id="c215">0%</td>
+     <td class="bar" id="d190"></td>
+     <td class="ctr2" id="e190">n/a</td>
+     <td class="ctr1" id="f160">4</td>
+     <td class="ctr2" id="g169">4</td>
+     <td class="ctr1" id="h155">7</td>
+     <td class="ctr2" id="i173">7</td>
+     <td class="ctr1" id="j131">4</td>
+     <td class="ctr2" id="k146">4</td>
+     <td class="ctr1" id="l101">1</td>
+     <td class="ctr2" id="m166">1</td>
+    </tr>
+    <tr>
+     <td id="a8"><a href="AbstractLongConverter.html" class="el_class">AbstractLongConverter</a></td>
+     <td class="bar" id="b167"></td>
+     <td class="ctr2" id="c44">43%</td>
+     <td class="bar" id="d191"></td>
+     <td class="ctr2" id="e191">n/a</td>
+     <td class="ctr1" id="f161">4</td>
+     <td class="ctr2" id="g142">7</td>
+     <td class="ctr1" id="h168">5</td>
+     <td class="ctr2" id="i146">12</td>
+     <td class="ctr1" id="j132">4</td>
+     <td class="ctr2" id="k100">7</td>
+     <td class="ctr1" id="l204">0</td>
+     <td class="ctr2" id="m167">1</td>
+    </tr>
+    <tr>
+     <td id="a121"><a href="SerializationStrategies$6.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b168"></td>
+     <td class="ctr2" id="c82">21%</td>
+     <td class="bar" id="d132"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e161">0%</td>
+     <td class="ctr1" id="f152">5</td>
+     <td class="ctr2" id="g150">6</td>
+     <td class="ctr1" id="h151">8</td>
+     <td class="ctr2" id="i160">9</td>
+     <td class="ctr1" id="j154">3</td>
+     <td class="ctr2" id="k147">4</td>
+     <td class="ctr1" id="l205">0</td>
+     <td class="ctr2" id="m168">1</td>
+    </tr>
+    <tr>
+     <td id="a42"><a href="Demarshallable$1.html" class="el_class">Demarshallable.new ClassValue() {...}</a></td>
+     <td class="bar" id="b169"></td>
+     <td class="ctr2" id="c216">0%</td>
+     <td class="bar" id="d192"></td>
+     <td class="ctr2" id="e192">n/a</td>
+     <td class="ctr1" id="f191">2</td>
+     <td class="ctr2" id="g216">2</td>
+     <td class="ctr1" id="h156">7</td>
+     <td class="ctr2" id="i174">7</td>
+     <td class="ctr1" id="j177">2</td>
+     <td class="ctr2" id="k205">2</td>
+     <td class="ctr1" id="l102">1</td>
+     <td class="ctr2" id="m169">1</td>
+    </tr>
+    <tr>
+     <td id="a83"><a href="MethodWireKey.html" class="el_class">MethodWireKey</a></td>
+     <td class="bar" id="b170"></td>
+     <td class="ctr2" id="c217">0%</td>
+     <td class="bar" id="d159"></td>
+     <td class="ctr2" id="e162">0%</td>
+     <td class="ctr1" id="f162">4</td>
+     <td class="ctr2" id="g170">4</td>
+     <td class="ctr1" id="h165">6</td>
+     <td class="ctr2" id="i180">6</td>
+     <td class="ctr1" id="j155">3</td>
+     <td class="ctr2" id="k179">3</td>
+     <td class="ctr1" id="l103">1</td>
+     <td class="ctr2" id="m170">1</td>
+    </tr>
+    <tr>
+     <td id="a222"><a href="WireType$7.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b171"></td>
+     <td class="ctr2" id="c74">24%</td>
+     <td class="bar" id="d193"></td>
+     <td class="ctr2" id="e193">n/a</td>
+     <td class="ctr1" id="f176">3</td>
+     <td class="ctr2" id="g171">4</td>
+     <td class="ctr1" id="h187">3</td>
+     <td class="ctr2" id="i202">4</td>
+     <td class="ctr1" id="j156">3</td>
+     <td class="ctr2" id="k148">4</td>
+     <td class="ctr1" id="l206">0</td>
+     <td class="ctr2" id="m171">1</td>
+    </tr>
+    <tr>
+     <td id="a223"><a href="WireType$6.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b172"></td>
+     <td class="ctr2" id="c75">24%</td>
+     <td class="bar" id="d194"></td>
+     <td class="ctr2" id="e194">n/a</td>
+     <td class="ctr1" id="f177">3</td>
+     <td class="ctr2" id="g172">4</td>
+     <td class="ctr1" id="h188">3</td>
+     <td class="ctr2" id="i203">4</td>
+     <td class="ctr1" id="j157">3</td>
+     <td class="ctr2" id="k149">4</td>
+     <td class="ctr1" id="l207">0</td>
+     <td class="ctr2" id="m172">1</td>
+    </tr>
+    <tr>
+     <td id="a122"><a href="SerializationStrategies$9.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b173"></td>
+     <td class="ctr2" id="c76">24%</td>
+     <td class="bar" id="d195"></td>
+     <td class="ctr2" id="e195">n/a</td>
+     <td class="ctr1" id="f178">3</td>
+     <td class="ctr2" id="g173">4</td>
+     <td class="ctr1" id="h157">7</td>
+     <td class="ctr2" id="i165">8</td>
+     <td class="ctr1" id="j158">3</td>
+     <td class="ctr2" id="k150">4</td>
+     <td class="ctr1" id="l208">0</td>
+     <td class="ctr2" id="m173">1</td>
+    </tr>
+    <tr>
+     <td id="a81"><a href="MessageHistory.html" class="el_class">MessageHistory</a></td>
+     <td class="bar" id="b174"></td>
+     <td class="ctr2" id="c98">9%</td>
+     <td class="bar" id="d160"></td>
+     <td class="ctr2" id="e163">0%</td>
+     <td class="ctr1" id="f163">4</td>
+     <td class="ctr2" id="g161">5</td>
+     <td class="ctr1" id="h158">7</td>
+     <td class="ctr2" id="i166">8</td>
+     <td class="ctr1" id="j159">3</td>
+     <td class="ctr2" id="k151">4</td>
+     <td class="ctr1" id="l209">0</td>
+     <td class="ctr2" id="m174">1</td>
+    </tr>
+    <tr>
+     <td id="a197"><a href="WireMarshaller$ShortIntConversionFieldAccess.html" class="el_class">WireMarshaller.ShortIntConversionFieldAccess</a></td>
+     <td class="bar" id="b175"></td>
+     <td class="ctr2" id="c218">0%</td>
+     <td class="bar" id="d196"></td>
+     <td class="ctr2" id="e196">n/a</td>
+     <td class="ctr1" id="f179">3</td>
+     <td class="ctr2" id="g196">3</td>
+     <td class="ctr1" id="h169">5</td>
+     <td class="ctr2" id="i182">5</td>
+     <td class="ctr1" id="j160">3</td>
+     <td class="ctr2" id="k180">3</td>
+     <td class="ctr1" id="l104">1</td>
+     <td class="ctr2" id="m175">1</td>
+    </tr>
+    <tr>
+     <td id="a176"><a href="WireMarshaller$ByteIntConversionFieldAccess.html" class="el_class">WireMarshaller.ByteIntConversionFieldAccess</a></td>
+     <td class="bar" id="b176"></td>
+     <td class="ctr2" id="c219">0%</td>
+     <td class="bar" id="d197"></td>
+     <td class="ctr2" id="e197">n/a</td>
+     <td class="ctr1" id="f180">3</td>
+     <td class="ctr2" id="g197">3</td>
+     <td class="ctr1" id="h170">5</td>
+     <td class="ctr2" id="i183">5</td>
+     <td class="ctr1" id="j161">3</td>
+     <td class="ctr2" id="k181">3</td>
+     <td class="ctr1" id="l105">1</td>
+     <td class="ctr2" id="m176">1</td>
+    </tr>
+    <tr>
+     <td id="a123"><a href="SerializationStrategies$8.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b177"></td>
+     <td class="ctr2" id="c72">25%</td>
+     <td class="bar" id="d161"></td>
+     <td class="ctr2" id="e164">0%</td>
+     <td class="ctr1" id="f181">3</td>
+     <td class="ctr2" id="g174">4</td>
+     <td class="ctr1" id="h179">4</td>
+     <td class="ctr2" id="i184">5</td>
+     <td class="ctr1" id="j178">2</td>
+     <td class="ctr2" id="k182">3</td>
+     <td class="ctr1" id="l210">0</td>
+     <td class="ctr2" id="m177">1</td>
+    </tr>
+    <tr>
+     <td id="a148"><a href="TriConsumer.html" class="el_class">TriConsumer</a></td>
+     <td class="bar" id="b178"></td>
+     <td class="ctr2" id="c220">0%</td>
+     <td class="bar" id="d198"></td>
+     <td class="ctr2" id="e198">n/a</td>
+     <td class="ctr1" id="f192">2</td>
+     <td class="ctr2" id="g217">2</td>
+     <td class="ctr1" id="h171">5</td>
+     <td class="ctr2" id="i185">5</td>
+     <td class="ctr1" id="j179">2</td>
+     <td class="ctr2" id="k206">2</td>
+     <td class="ctr1" id="l106">1</td>
+     <td class="ctr2" id="m178">1</td>
+    </tr>
+    <tr>
+     <td id="a95"><a href="QueryWire$QueryStopCharTesters$1.html" class="el_class">QueryWire.QueryStopCharTesters.new QueryWire.QueryStopCharTesters() {...}</a></td>
+     <td class="bar" id="b179"></td>
+     <td class="ctr2" id="c221">0%</td>
+     <td class="bar" id="d113"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="6" alt="6"></td>
+     <td class="ctr2" id="e165">0%</td>
+     <td class="ctr1" id="f153">5</td>
+     <td class="ctr2" id="g162">5</td>
+     <td class="ctr1" id="h208">2</td>
+     <td class="ctr2" id="i233">2</td>
+     <td class="ctr1" id="j180">2</td>
+     <td class="ctr2" id="k207">2</td>
+     <td class="ctr1" id="l107">1</td>
+     <td class="ctr2" id="m179">1</td>
+    </tr>
+    <tr>
+     <td id="a18"><a href="BaseEvent.html" class="el_class">BaseEvent</a></td>
+     <td class="bar" id="b180"></td>
+     <td class="ctr2" id="c222">0%</td>
+     <td class="bar" id="d162"></td>
+     <td class="ctr2" id="e166">0%</td>
+     <td class="ctr1" id="f164">4</td>
+     <td class="ctr2" id="g175">4</td>
+     <td class="ctr1" id="h172">5</td>
+     <td class="ctr2" id="i186">5</td>
+     <td class="ctr1" id="j162">3</td>
+     <td class="ctr2" id="k183">3</td>
+     <td class="ctr1" id="l108">1</td>
+     <td class="ctr2" id="m180">1</td>
+    </tr>
+    <tr>
+     <td id="a124"><a href="SerializationStrategies$12.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b181"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="43" alt="43"></td>
+     <td class="ctr2" id="c22">71%</td>
+     <td class="bar" id="d117"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e10">50%</td>
+     <td class="ctr1" id="f154">5</td>
+     <td class="ctr2" id="g125">9</td>
+     <td class="ctr1" id="h189">3</td>
+     <td class="ctr2" id="i132">15</td>
+     <td class="ctr1" id="j181">2</td>
+     <td class="ctr2" id="k128">5</td>
+     <td class="ctr1" id="l211">0</td>
+     <td class="ctr2" id="m181">1</td>
+    </tr>
+    <tr>
+     <td id="a27"><a href="BinaryWire$1.html" class="el_class">BinaryWire.new WireKey() {...}</a></td>
+     <td class="bar" id="b182"></td>
+     <td class="ctr2" id="c223">0%</td>
+     <td class="bar" id="d199"></td>
+     <td class="ctr2" id="e199">n/a</td>
+     <td class="ctr1" id="f182">3</td>
+     <td class="ctr2" id="g198">3</td>
+     <td class="ctr1" id="h190">3</td>
+     <td class="ctr2" id="i219">3</td>
+     <td class="ctr1" id="j163">3</td>
+     <td class="ctr2" id="k184">3</td>
+     <td class="ctr1" id="l109">1</td>
+     <td class="ctr2" id="m182">1</td>
+    </tr>
+    <tr>
+     <td id="a22"><a href="BinaryWire$AnyCodeMatch.html" class="el_class">BinaryWire.AnyCodeMatch</a></td>
+     <td class="bar" id="b183"></td>
+     <td class="ctr2" id="c224">0%</td>
+     <td class="bar" id="d200"></td>
+     <td class="ctr2" id="e200">n/a</td>
+     <td class="ctr1" id="f193">2</td>
+     <td class="ctr2" id="g218">2</td>
+     <td class="ctr1" id="h191">3</td>
+     <td class="ctr2" id="i220">3</td>
+     <td class="ctr1" id="j182">2</td>
+     <td class="ctr2" id="k208">2</td>
+     <td class="ctr1" id="l110">1</td>
+     <td class="ctr2" id="m183">1</td>
+    </tr>
+    <tr>
+     <td id="a52"><a href="GenerateMethodBridge$MethodBridgeMetaData.html" class="el_class">GenerateMethodBridge.MethodBridgeMetaData</a></td>
+     <td class="bar" id="b184"></td>
+     <td class="ctr2" id="c225">0%</td>
+     <td class="bar" id="d201"></td>
+     <td class="ctr2" id="e201">n/a</td>
+     <td class="ctr1" id="f183">3</td>
+     <td class="ctr2" id="g199">3</td>
+     <td class="ctr1" id="h173">5</td>
+     <td class="ctr2" id="i187">5</td>
+     <td class="ctr1" id="j164">3</td>
+     <td class="ctr2" id="k185">3</td>
+     <td class="ctr1" id="l111">1</td>
+     <td class="ctr2" id="m184">1</td>
+    </tr>
+    <tr>
+     <td id="a209"><a href="Wires$FieldInfoPair.html" class="el_class">Wires.FieldInfoPair</a></td>
+     <td class="bar" id="b185"></td>
+     <td class="ctr2" id="c226">0%</td>
+     <td class="bar" id="d202"></td>
+     <td class="ctr2" id="e202">n/a</td>
+     <td class="ctr1" id="f194">2</td>
+     <td class="ctr2" id="g219">2</td>
+     <td class="ctr1" id="h174">5</td>
+     <td class="ctr2" id="i188">5</td>
+     <td class="ctr1" id="j183">2</td>
+     <td class="ctr2" id="k209">2</td>
+     <td class="ctr1" id="l112">1</td>
+     <td class="ctr2" id="m185">1</td>
+    </tr>
+    <tr>
+     <td id="a107"><a href="ReflectionUtil.html" class="el_class">ReflectionUtil</a></td>
+     <td class="bar" id="b186"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="61" alt="61"></td>
+     <td class="ctr2" id="c18">80%</td>
+     <td class="bar" id="d92"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="8" alt="8"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="8" alt="8"></td>
+     <td class="ctr2" id="e11">50%</td>
+     <td class="ctr1" id="f130">7</td>
+     <td class="ctr2" id="g102">12</td>
+     <td class="ctr1" id="h209">2</td>
+     <td class="ctr2" id="i116">18</td>
+     <td class="ctr1" id="j234">0</td>
+     <td class="ctr2" id="k152">4</td>
+     <td class="ctr1" id="l212">0</td>
+     <td class="ctr2" id="m186">1</td>
+    </tr>
+    <tr>
+     <td id="a3"><a href="AbstractCommonMarshallable.html" class="el_class">AbstractCommonMarshallable</a></td>
+     <td class="bar" id="b187"></td>
+     <td class="ctr2" id="c33">53%</td>
+     <td class="bar" id="d203"></td>
+     <td class="ctr2" id="e203">n/a</td>
+     <td class="ctr1" id="f240">0</td>
+     <td class="ctr2" id="g176">4</td>
+     <td class="ctr1" id="h210">2</td>
+     <td class="ctr2" id="i167">8</td>
+     <td class="ctr1" id="j235">0</td>
+     <td class="ctr2" id="k153">4</td>
+     <td class="ctr1" id="l213">0</td>
+     <td class="ctr2" id="m187">1</td>
+    </tr>
+    <tr>
+     <td id="a96"><a href="QueryWire$QueryStopCharTesters$2.html" class="el_class">QueryWire.QueryStopCharTesters.new QueryWire.QueryStopCharTesters() {...}</a></td>
+     <td class="bar" id="b188"></td>
+     <td class="ctr2" id="c227">0%</td>
+     <td class="bar" id="d133"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e167">0%</td>
+     <td class="ctr1" id="f165">4</td>
+     <td class="ctr2" id="g177">4</td>
+     <td class="ctr1" id="h211">2</td>
+     <td class="ctr2" id="i234">2</td>
+     <td class="ctr1" id="j184">2</td>
+     <td class="ctr2" id="k210">2</td>
+     <td class="ctr1" id="l113">1</td>
+     <td class="ctr2" id="m188">1</td>
+    </tr>
+    <tr>
+     <td id="a145"><a href="TextWire$NoObject.html" class="el_class">TextWire.NoObject</a></td>
+     <td class="bar" id="b189"></td>
+     <td class="ctr2" id="c228">0%</td>
+     <td class="bar" id="d204"></td>
+     <td class="ctr2" id="e204">n/a</td>
+     <td class="ctr1" id="f223">1</td>
+     <td class="ctr2" id="g240">1</td>
+     <td class="ctr1" id="h230">1</td>
+     <td class="ctr2" id="i250">1</td>
+     <td class="ctr1" id="j214">1</td>
+     <td class="ctr2" id="k240">1</td>
+     <td class="ctr1" id="l114">1</td>
+     <td class="ctr2" id="m189">1</td>
+    </tr>
+    <tr>
+     <td id="a137"><a href="TextStopCharsTesters.html" class="el_class">TextStopCharsTesters</a></td>
+     <td class="bar" id="b190"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="40" alt="40"></td>
+     <td class="ctr2" id="c21">75%</td>
+     <td class="bar" id="d91"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="9" alt="9"></td>
+     <td class="ctr2" id="e50">10%</td>
+     <td class="ctr1" id="f155">5</td>
+     <td class="ctr2" id="g143">7</td>
+     <td class="ctr1" id="h239">0</td>
+     <td class="ctr2" id="i189">5</td>
+     <td class="ctr1" id="j236">0</td>
+     <td class="ctr2" id="k211">2</td>
+     <td class="ctr1" id="l214">0</td>
+     <td class="ctr2" id="m190">1</td>
+    </tr>
+    <tr>
+     <td id="a224"><a href="WireType$9.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b191"></td>
+     <td class="ctr2" id="c62">31%</td>
+     <td class="bar" id="d205"></td>
+     <td class="ctr2" id="e205">n/a</td>
+     <td class="ctr1" id="f195">2</td>
+     <td class="ctr2" id="g200">3</td>
+     <td class="ctr1" id="h212">2</td>
+     <td class="ctr2" id="i221">3</td>
+     <td class="ctr1" id="j185">2</td>
+     <td class="ctr2" id="k186">3</td>
+     <td class="ctr1" id="l215">0</td>
+     <td class="ctr2" id="m191">1</td>
+    </tr>
+    <tr>
+     <td id="a225"><a href="WireType$8.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b192"></td>
+     <td class="ctr2" id="c63">31%</td>
+     <td class="bar" id="d206"></td>
+     <td class="ctr2" id="e206">n/a</td>
+     <td class="ctr1" id="f196">2</td>
+     <td class="ctr2" id="g201">3</td>
+     <td class="ctr1" id="h180">4</td>
+     <td class="ctr2" id="i190">5</td>
+     <td class="ctr1" id="j186">2</td>
+     <td class="ctr2" id="k187">3</td>
+     <td class="ctr1" id="l216">0</td>
+     <td class="ctr2" id="m192">1</td>
+    </tr>
+    <tr>
+     <td id="a226"><a href="WireType$12.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b193"></td>
+     <td class="ctr2" id="c64">31%</td>
+     <td class="bar" id="d207"></td>
+     <td class="ctr2" id="e207">n/a</td>
+     <td class="ctr1" id="f184">3</td>
+     <td class="ctr2" id="g178">4</td>
+     <td class="ctr1" id="h192">3</td>
+     <td class="ctr2" id="i204">4</td>
+     <td class="ctr1" id="j165">3</td>
+     <td class="ctr2" id="k154">4</td>
+     <td class="ctr1" id="l217">0</td>
+     <td class="ctr2" id="m193">1</td>
+    </tr>
+    <tr>
+     <td id="a17"><a href="Base85LongConverter.html" class="el_class">Base85LongConverter</a></td>
+     <td class="bar" id="b194"></td>
+     <td class="ctr2" id="c229">0%</td>
+     <td class="bar" id="d208"></td>
+     <td class="ctr2" id="e208">n/a</td>
+     <td class="ctr1" id="f166">4</td>
+     <td class="ctr2" id="g179">4</td>
+     <td class="ctr1" id="h175">5</td>
+     <td class="ctr2" id="i191">5</td>
+     <td class="ctr1" id="j133">4</td>
+     <td class="ctr2" id="k155">4</td>
+     <td class="ctr1" id="l115">1</td>
+     <td class="ctr2" id="m194">1</td>
+    </tr>
+    <tr>
+     <td id="a131"><a href="ShortTextLongConverter.html" class="el_class">ShortTextLongConverter</a></td>
+     <td class="bar" id="b195"></td>
+     <td class="ctr2" id="c230">0%</td>
+     <td class="bar" id="d209"></td>
+     <td class="ctr2" id="e209">n/a</td>
+     <td class="ctr1" id="f167">4</td>
+     <td class="ctr2" id="g180">4</td>
+     <td class="ctr1" id="h176">5</td>
+     <td class="ctr2" id="i192">5</td>
+     <td class="ctr1" id="j134">4</td>
+     <td class="ctr2" id="k156">4</td>
+     <td class="ctr1" id="l116">1</td>
+     <td class="ctr2" id="m195">1</td>
+    </tr>
+    <tr>
+     <td id="a245"><a href="YamlMethodTester.html" class="el_class">YamlMethodTester</a></td>
+     <td class="bar" id="b196"></td>
+     <td class="ctr2" id="c231">0%</td>
+     <td class="bar" id="d210"></td>
+     <td class="ctr2" id="e210">n/a</td>
+     <td class="ctr1" id="f197">2</td>
+     <td class="ctr2" id="g220">2</td>
+     <td class="ctr1" id="h193">3</td>
+     <td class="ctr2" id="i222">3</td>
+     <td class="ctr1" id="j187">2</td>
+     <td class="ctr2" id="k212">2</td>
+     <td class="ctr1" id="l117">1</td>
+     <td class="ctr2" id="m196">1</td>
+    </tr>
+    <tr>
+     <td id="a138"><a href="TextStopCharsTesters$3.html" class="el_class">TextStopCharsTesters.new TextStopCharsTesters() {...}</a></td>
+     <td class="bar" id="b197"></td>
+     <td class="ctr2" id="c61">33%</td>
+     <td class="bar" id="d134"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e168">0%</td>
+     <td class="ctr1" id="f185">3</td>
+     <td class="ctr2" id="g181">4</td>
+     <td class="ctr1" id="h231">1</td>
+     <td class="ctr2" id="i235">2</td>
+     <td class="ctr1" id="j215">1</td>
+     <td class="ctr2" id="k213">2</td>
+     <td class="ctr1" id="l218">0</td>
+     <td class="ctr2" id="m197">1</td>
+    </tr>
+    <tr>
+     <td id="a169"><a href="WireInternal$ObjectInterner.html" class="el_class">WireInternal.ObjectInterner</a></td>
+     <td class="bar" id="b198"></td>
+     <td class="ctr2" id="c232">0%</td>
+     <td class="bar" id="d211"></td>
+     <td class="ctr2" id="e211">n/a</td>
+     <td class="ctr1" id="f198">2</td>
+     <td class="ctr2" id="g221">2</td>
+     <td class="ctr1" id="h181">4</td>
+     <td class="ctr2" id="i205">4</td>
+     <td class="ctr1" id="j188">2</td>
+     <td class="ctr2" id="k214">2</td>
+     <td class="ctr1" id="l118">1</td>
+     <td class="ctr2" id="m198">1</td>
+    </tr>
+    <tr>
+     <td id="a227"><a href="WireType$10.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b199"></td>
+     <td class="ctr2" id="c48">42%</td>
+     <td class="bar" id="d212"></td>
+     <td class="ctr2" id="e212">n/a</td>
+     <td class="ctr1" id="f224">1</td>
+     <td class="ctr2" id="g202">3</td>
+     <td class="ctr1" id="h194">3</td>
+     <td class="ctr2" id="i193">5</td>
+     <td class="ctr1" id="j216">1</td>
+     <td class="ctr2" id="k188">3</td>
+     <td class="ctr1" id="l219">0</td>
+     <td class="ctr2" id="m199">1</td>
+    </tr>
+    <tr>
+     <td id="a34"><a href="CharConverter.html" class="el_class">CharConverter</a></td>
+     <td class="bar" id="b200"></td>
+     <td class="ctr2" id="c233">0%</td>
+     <td class="bar" id="d213"></td>
+     <td class="ctr2" id="e213">n/a</td>
+     <td class="ctr1" id="f225">1</td>
+     <td class="ctr2" id="g241">1</td>
+     <td class="ctr1" id="h195">3</td>
+     <td class="ctr2" id="i223">3</td>
+     <td class="ctr1" id="j217">1</td>
+     <td class="ctr2" id="k241">1</td>
+     <td class="ctr1" id="l119">1</td>
+     <td class="ctr2" id="m200">1</td>
+    </tr>
+    <tr>
+     <td id="a153"><a href="ValueInState.html" class="el_class">ValueInState</a></td>
+     <td class="bar" id="b201"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="91" alt="91"></td>
+     <td class="ctr2" id="c14">90%</td>
+     <td class="bar" id="d140"></td>
+     <td class="ctr2" id="e12">50%</td>
+     <td class="ctr1" id="f199">2</td>
+     <td class="ctr2" id="g108">11</td>
+     <td class="ctr1" id="h232">1</td>
+     <td class="ctr2" id="i103">23</td>
+     <td class="ctr1" id="j237">0</td>
+     <td class="ctr2" id="k80">9</td>
+     <td class="ctr1" id="l220">0</td>
+     <td class="ctr2" id="m201">1</td>
+    </tr>
+    <tr>
+     <td id="a125"><a href="SerializationStrategies$3.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b202"></td>
+     <td class="ctr2" id="c55">37%</td>
+     <td class="bar" id="d214"></td>
+     <td class="ctr2" id="e214">n/a</td>
+     <td class="ctr1" id="f186">3</td>
+     <td class="ctr2" id="g182">4</td>
+     <td class="ctr1" id="h196">3</td>
+     <td class="ctr2" id="i206">4</td>
+     <td class="ctr1" id="j166">3</td>
+     <td class="ctr2" id="k157">4</td>
+     <td class="ctr1" id="l221">0</td>
+     <td class="ctr2" id="m202">1</td>
+    </tr>
+    <tr>
+     <td id="a164"><a href="WireCommon.html" class="el_class">WireCommon</a></td>
+     <td class="bar" id="b203"></td>
+     <td class="ctr2" id="c234">0%</td>
+     <td class="bar" id="d215"></td>
+     <td class="ctr2" id="e215">n/a</td>
+     <td class="ctr1" id="f187">3</td>
+     <td class="ctr2" id="g203">3</td>
+     <td class="ctr1" id="h197">3</td>
+     <td class="ctr2" id="i224">3</td>
+     <td class="ctr1" id="j167">3</td>
+     <td class="ctr2" id="k189">3</td>
+     <td class="ctr1" id="l120">1</td>
+     <td class="ctr2" id="m203">1</td>
+    </tr>
+    <tr>
+     <td id="a228"><a href="WireType$1.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b204"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="56" alt="56"></td>
+     <td class="ctr2" id="c16">86%</td>
+     <td class="bar" id="d141"></td>
+     <td class="ctr2" id="e13">50%</td>
+     <td class="ctr1" id="f168">4</td>
+     <td class="ctr2" id="g133">8</td>
+     <td class="ctr1" id="h198">3</td>
+     <td class="ctr2" id="i117">18</td>
+     <td class="ctr1" id="j189">2</td>
+     <td class="ctr2" id="k116">6</td>
+     <td class="ctr1" id="l222">0</td>
+     <td class="ctr2" id="m204">1</td>
+    </tr>
+    <tr>
+     <td id="a126"><a href="SerializationStrategies$1.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b205"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="35" alt="35"></td>
+     <td class="ctr2" id="c19">79%</td>
+     <td class="bar" id="d118"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="4" alt="4"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e14">50%</td>
+     <td class="ctr1" id="f156">5</td>
+     <td class="ctr2" id="g134">8</td>
+     <td class="ctr1" id="h213">2</td>
+     <td class="ctr2" id="i168">8</td>
+     <td class="ctr1" id="j218">1</td>
+     <td class="ctr2" id="k158">4</td>
+     <td class="ctr1" id="l223">0</td>
+     <td class="ctr2" id="m205">1</td>
+    </tr>
+    <tr>
+     <td id="a201"><a href="WireMarshaller$StringFieldAccess.html" class="el_class">WireMarshaller.StringFieldAccess</a></td>
+     <td class="bar" id="b206"></td>
+     <td class="ctr2" id="c23">70%</td>
+     <td class="bar" id="d216"></td>
+     <td class="ctr2" id="e216">n/a</td>
+     <td class="ctr1" id="f226">1</td>
+     <td class="ctr2" id="g183">4</td>
+     <td class="ctr1" id="h214">2</td>
+     <td class="ctr2" id="i169">8</td>
+     <td class="ctr1" id="j219">1</td>
+     <td class="ctr2" id="k159">4</td>
+     <td class="ctr1" id="l224">0</td>
+     <td class="ctr2" id="m206">1</td>
+    </tr>
+    <tr>
+     <td id="a43"><a href="DocumentContext.html" class="el_class">DocumentContext</a></td>
+     <td class="bar" id="b207"></td>
+     <td class="ctr2" id="c25">67%</td>
+     <td class="bar" id="d142"></td>
+     <td class="ctr2" id="e15">50%</td>
+     <td class="ctr1" id="f169">4</td>
+     <td class="ctr2" id="g144">7</td>
+     <td class="ctr1" id="h215">2</td>
+     <td class="ctr2" id="i194">5</td>
+     <td class="ctr1" id="j190">2</td>
+     <td class="ctr2" id="k129">5</td>
+     <td class="ctr1" id="l225">0</td>
+     <td class="ctr2" id="m207">1</td>
+    </tr>
+    <tr>
+     <td id="a248"><a href="YamlTokeniser$YTContext.html" class="el_class">YamlTokeniser.YTContext</a></td>
+     <td class="bar" id="b208"></td>
+     <td class="ctr2" id="c49">40%</td>
+     <td class="bar" id="d163"></td>
+     <td class="ctr2" id="e169">0%</td>
+     <td class="ctr1" id="f200">2</td>
+     <td class="ctr2" id="g204">3</td>
+     <td class="ctr1" id="h233">1</td>
+     <td class="ctr2" id="i225">3</td>
+     <td class="ctr1" id="j220">1</td>
+     <td class="ctr2" id="k215">2</td>
+     <td class="ctr1" id="l226">0</td>
+     <td class="ctr2" id="m208">1</td>
+    </tr>
+    <tr>
+     <td id="a113"><a href="SerializationStrategies$ArrayWrapper.html" class="el_class">SerializationStrategies.ArrayWrapper</a></td>
+     <td class="bar" id="b209"></td>
+     <td class="ctr2" id="c235">0%</td>
+     <td class="bar" id="d217"></td>
+     <td class="ctr2" id="e217">n/a</td>
+     <td class="ctr1" id="f201">2</td>
+     <td class="ctr2" id="g222">2</td>
+     <td class="ctr1" id="h182">4</td>
+     <td class="ctr2" id="i207">4</td>
+     <td class="ctr1" id="j191">2</td>
+     <td class="ctr2" id="k216">2</td>
+     <td class="ctr1" id="l121">1</td>
+     <td class="ctr2" id="m209">1</td>
+    </tr>
+    <tr>
+     <td id="a134"><a href="TextMethodTester$Invocation.html" class="el_class">TextMethodTester.Invocation</a></td>
+     <td class="bar" id="b210"></td>
+     <td class="ctr2" id="c236">0%</td>
+     <td class="bar" id="d218"></td>
+     <td class="ctr2" id="e218">n/a</td>
+     <td class="ctr1" id="f227">1</td>
+     <td class="ctr2" id="g242">1</td>
+     <td class="ctr1" id="h183">4</td>
+     <td class="ctr2" id="i208">4</td>
+     <td class="ctr1" id="j221">1</td>
+     <td class="ctr2" id="k242">1</td>
+     <td class="ctr1" id="l122">1</td>
+     <td class="ctr2" id="m210">1</td>
+    </tr>
+    <tr>
+     <td id="a114"><a href="SerializationStrategies$DemarshallableWrapper.html" class="el_class">SerializationStrategies.DemarshallableWrapper</a></td>
+     <td class="bar" id="b211"></td>
+     <td class="ctr2" id="c237">0%</td>
+     <td class="bar" id="d219"></td>
+     <td class="ctr2" id="e219">n/a</td>
+     <td class="ctr1" id="f202">2</td>
+     <td class="ctr2" id="g223">2</td>
+     <td class="ctr1" id="h184">4</td>
+     <td class="ctr2" id="i209">4</td>
+     <td class="ctr1" id="j192">2</td>
+     <td class="ctr2" id="k217">2</td>
+     <td class="ctr1" id="l123">1</td>
+     <td class="ctr2" id="m211">1</td>
+    </tr>
+    <tr>
+     <td id="a62"><a href="HexadecimalLongConverter.html" class="el_class">HexadecimalLongConverter</a></td>
+     <td class="bar" id="b212"></td>
+     <td class="ctr2" id="c238">0%</td>
+     <td class="bar" id="d220"></td>
+     <td class="ctr2" id="e220">n/a</td>
+     <td class="ctr1" id="f203">2</td>
+     <td class="ctr2" id="g224">2</td>
+     <td class="ctr1" id="h199">3</td>
+     <td class="ctr2" id="i226">3</td>
+     <td class="ctr1" id="j193">2</td>
+     <td class="ctr2" id="k218">2</td>
+     <td class="ctr1" id="l124">1</td>
+     <td class="ctr2" id="m212">1</td>
+    </tr>
+    <tr>
+     <td id="a16"><a href="Base64LongConverter.html" class="el_class">Base64LongConverter</a></td>
+     <td class="bar" id="b213"></td>
+     <td class="ctr2" id="c239">0%</td>
+     <td class="bar" id="d221"></td>
+     <td class="ctr2" id="e221">n/a</td>
+     <td class="ctr1" id="f204">2</td>
+     <td class="ctr2" id="g225">2</td>
+     <td class="ctr1" id="h200">3</td>
+     <td class="ctr2" id="i227">3</td>
+     <td class="ctr1" id="j194">2</td>
+     <td class="ctr2" id="k219">2</td>
+     <td class="ctr1" id="l125">1</td>
+     <td class="ctr2" id="m213">1</td>
+    </tr>
+    <tr>
+     <td id="a129"><a href="SerializationStrategies$PrimArrayWrapper.html" class="el_class">SerializationStrategies.PrimArrayWrapper</a></td>
+     <td class="bar" id="b214"></td>
+     <td class="ctr2" id="c240">0%</td>
+     <td class="bar" id="d222"></td>
+     <td class="ctr2" id="e222">n/a</td>
+     <td class="ctr1" id="f205">2</td>
+     <td class="ctr2" id="g226">2</td>
+     <td class="ctr1" id="h185">4</td>
+     <td class="ctr2" id="i210">4</td>
+     <td class="ctr1" id="j195">2</td>
+     <td class="ctr2" id="k220">2</td>
+     <td class="ctr1" id="l126">1</td>
+     <td class="ctr2" id="m214">1</td>
+    </tr>
+    <tr>
+     <td id="a150"><a href="UnrecoverableTimeoutException.html" class="el_class">UnrecoverableTimeoutException</a></td>
+     <td class="bar" id="b215"></td>
+     <td class="ctr2" id="c241">0%</td>
+     <td class="bar" id="d223"></td>
+     <td class="ctr2" id="e223">n/a</td>
+     <td class="ctr1" id="f228">1</td>
+     <td class="ctr2" id="g243">1</td>
+     <td class="ctr1" id="h201">3</td>
+     <td class="ctr2" id="i228">3</td>
+     <td class="ctr1" id="j222">1</td>
+     <td class="ctr2" id="k243">1</td>
+     <td class="ctr1" id="l127">1</td>
+     <td class="ctr2" id="m215">1</td>
+    </tr>
+    <tr>
+     <td id="a108"><a href="RollbackIfNotCompleteNotifier.html" class="el_class">RollbackIfNotCompleteNotifier</a></td>
+     <td class="bar" id="b216"></td>
+     <td class="ctr2" id="c242">0%</td>
+     <td class="bar" id="d224"></td>
+     <td class="ctr2" id="e224">n/a</td>
+     <td class="ctr1" id="f206">2</td>
+     <td class="ctr2" id="g227">2</td>
+     <td class="ctr1" id="h216">2</td>
+     <td class="ctr2" id="i236">2</td>
+     <td class="ctr1" id="j196">2</td>
+     <td class="ctr2" id="k221">2</td>
+     <td class="ctr1" id="l128">1</td>
+     <td class="ctr2" id="m216">1</td>
+    </tr>
+    <tr>
+     <td id="a229"><a href="WireType$2.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b217"></td>
+     <td class="ctr2" id="c28">57%</td>
+     <td class="bar" id="d225"></td>
+     <td class="ctr2" id="e225">n/a</td>
+     <td class="ctr1" id="f207">2</td>
+     <td class="ctr2" id="g184">4</td>
+     <td class="ctr1" id="h217">2</td>
+     <td class="ctr2" id="i211">4</td>
+     <td class="ctr1" id="j197">2</td>
+     <td class="ctr2" id="k160">4</td>
+     <td class="ctr1" id="l227">0</td>
+     <td class="ctr2" id="m217">1</td>
+    </tr>
+    <tr>
+     <td id="a230"><a href="WireType$3.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b218"></td>
+     <td class="ctr2" id="c35">52%</td>
+     <td class="bar" id="d226"></td>
+     <td class="ctr2" id="e226">n/a</td>
+     <td class="ctr1" id="f208">2</td>
+     <td class="ctr2" id="g185">4</td>
+     <td class="ctr1" id="h218">2</td>
+     <td class="ctr2" id="i212">4</td>
+     <td class="ctr1" id="j198">2</td>
+     <td class="ctr2" id="k161">4</td>
+     <td class="ctr1" id="l228">0</td>
+     <td class="ctr2" id="m218">1</td>
+    </tr>
+    <tr>
+     <td id="a127"><a href="SerializationStrategies$2.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b219"></td>
+     <td class="ctr2" id="c38">50%</td>
+     <td class="bar" id="d227"></td>
+     <td class="ctr2" id="e227">n/a</td>
+     <td class="ctr1" id="f209">2</td>
+     <td class="ctr2" id="g186">4</td>
+     <td class="ctr1" id="h219">2</td>
+     <td class="ctr2" id="i213">4</td>
+     <td class="ctr1" id="j199">2</td>
+     <td class="ctr2" id="k162">4</td>
+     <td class="ctr1" id="l229">0</td>
+     <td class="ctr2" id="m219">1</td>
+    </tr>
+    <tr>
+     <td id="a231"><a href="WireType$11.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b220"></td>
+     <td class="ctr2" id="c45">42%</td>
+     <td class="bar" id="d228"></td>
+     <td class="ctr2" id="e228">n/a</td>
+     <td class="ctr1" id="f210">2</td>
+     <td class="ctr2" id="g205">3</td>
+     <td class="ctr1" id="h220">2</td>
+     <td class="ctr2" id="i229">3</td>
+     <td class="ctr1" id="j200">2</td>
+     <td class="ctr2" id="k190">3</td>
+     <td class="ctr1" id="l230">0</td>
+     <td class="ctr2" id="m220">1</td>
+    </tr>
+    <tr>
+     <td id="a242"><a href="YamlLogging$YamlLoggingLevel$3.html" class="el_class">YamlLogging.YamlLoggingLevel.new YamlLogging.YamlLoggingLevel() {...}</a></td>
+     <td class="bar" id="b221"></td>
+     <td class="ctr2" id="c243">0%</td>
+     <td class="bar" id="d229"></td>
+     <td class="ctr2" id="e229">n/a</td>
+     <td class="ctr1" id="f211">2</td>
+     <td class="ctr2" id="g228">2</td>
+     <td class="ctr1" id="h221">2</td>
+     <td class="ctr2" id="i237">2</td>
+     <td class="ctr1" id="j201">2</td>
+     <td class="ctr2" id="k222">2</td>
+     <td class="ctr1" id="l129">1</td>
+     <td class="ctr2" id="m221">1</td>
+    </tr>
+    <tr>
+     <td id="a243"><a href="YamlLogging$YamlLoggingLevel$1.html" class="el_class">YamlLogging.YamlLoggingLevel.new YamlLogging.YamlLoggingLevel() {...}</a></td>
+     <td class="bar" id="b222"></td>
+     <td class="ctr2" id="c244">0%</td>
+     <td class="bar" id="d230"></td>
+     <td class="ctr2" id="e230">n/a</td>
+     <td class="ctr1" id="f212">2</td>
+     <td class="ctr2" id="g229">2</td>
+     <td class="ctr1" id="h222">2</td>
+     <td class="ctr2" id="i238">2</td>
+     <td class="ctr1" id="j202">2</td>
+     <td class="ctr2" id="k223">2</td>
+     <td class="ctr1" id="l130">1</td>
+     <td class="ctr2" id="m222">1</td>
+    </tr>
+    <tr>
+     <td id="a244"><a href="YamlLogging$YamlLoggingLevel$2.html" class="el_class">YamlLogging.YamlLoggingLevel.new YamlLogging.YamlLoggingLevel() {...}</a></td>
+     <td class="bar" id="b223"></td>
+     <td class="ctr2" id="c245">0%</td>
+     <td class="bar" id="d231"></td>
+     <td class="ctr2" id="e231">n/a</td>
+     <td class="ctr1" id="f213">2</td>
+     <td class="ctr2" id="g230">2</td>
+     <td class="ctr1" id="h223">2</td>
+     <td class="ctr2" id="i239">2</td>
+     <td class="ctr1" id="j203">2</td>
+     <td class="ctr2" id="k224">2</td>
+     <td class="ctr1" id="l131">1</td>
+     <td class="ctr2" id="m223">1</td>
+    </tr>
+    <tr>
+     <td id="a128"><a href="SerializationStrategies$4.html" class="el_class">SerializationStrategies.new SerializationStrategies() {...}</a></td>
+     <td class="bar" id="b224"></td>
+     <td class="ctr2" id="c40">46%</td>
+     <td class="bar" id="d232"></td>
+     <td class="ctr2" id="e232">n/a</td>
+     <td class="ctr1" id="f188">3</td>
+     <td class="ctr2" id="g187">4</td>
+     <td class="ctr1" id="h202">3</td>
+     <td class="ctr2" id="i214">4</td>
+     <td class="ctr1" id="j168">3</td>
+     <td class="ctr2" id="k163">4</td>
+     <td class="ctr1" id="l231">0</td>
+     <td class="ctr2" id="m224">1</td>
+    </tr>
+    <tr>
+     <td id="a232"><a href="WireType$13.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b225"></td>
+     <td class="ctr2" id="c41">46%</td>
+     <td class="bar" id="d233"></td>
+     <td class="ctr2" id="e233">n/a</td>
+     <td class="ctr1" id="f214">2</td>
+     <td class="ctr2" id="g206">3</td>
+     <td class="ctr1" id="h224">2</td>
+     <td class="ctr2" id="i230">3</td>
+     <td class="ctr1" id="j204">2</td>
+     <td class="ctr2" id="k191">3</td>
+     <td class="ctr1" id="l232">0</td>
+     <td class="ctr2" id="m225">1</td>
+    </tr>
+    <tr>
+     <td id="a100"><a href="RawText.html" class="el_class">RawText</a></td>
+     <td class="bar" id="b226"></td>
+     <td class="ctr2" id="c246">0%</td>
+     <td class="bar" id="d234"></td>
+     <td class="ctr2" id="e234">n/a</td>
+     <td class="ctr1" id="f229">1</td>
+     <td class="ctr2" id="g244">1</td>
+     <td class="ctr1" id="h203">3</td>
+     <td class="ctr2" id="i231">3</td>
+     <td class="ctr1" id="j223">1</td>
+     <td class="ctr2" id="k244">1</td>
+     <td class="ctr1" id="l132">1</td>
+     <td class="ctr2" id="m226">1</td>
+    </tr>
+    <tr>
+     <td id="a139"><a href="TextStopCharsTesters$2.html" class="el_class">TextStopCharsTesters.new TextStopCharsTesters() {...}</a></td>
+     <td class="bar" id="b227"></td>
+     <td class="ctr2" id="c39">50%</td>
+     <td class="bar" id="d164"></td>
+     <td class="ctr2" id="e170">0%</td>
+     <td class="ctr1" id="f215">2</td>
+     <td class="ctr2" id="g207">3</td>
+     <td class="ctr1" id="h204">3</td>
+     <td class="ctr2" id="i215">4</td>
+     <td class="ctr1" id="j224">1</td>
+     <td class="ctr2" id="k225">2</td>
+     <td class="ctr1" id="l233">0</td>
+     <td class="ctr2" id="m227">1</td>
+    </tr>
+    <tr>
+     <td id="a238"><a href="WriteMarshallable.html" class="el_class">WriteMarshallable</a></td>
+     <td class="bar" id="b228"></td>
+     <td class="ctr2" id="c43">45%</td>
+     <td class="bar" id="d235"></td>
+     <td class="ctr2" id="e235">n/a</td>
+     <td class="ctr1" id="f216">2</td>
+     <td class="ctr2" id="g188">4</td>
+     <td class="ctr1" id="h205">3</td>
+     <td class="ctr2" id="i195">5</td>
+     <td class="ctr1" id="j205">2</td>
+     <td class="ctr2" id="k164">4</td>
+     <td class="ctr1" id="l234">0</td>
+     <td class="ctr2" id="m228">1</td>
+    </tr>
+    <tr>
+     <td id="a233"><a href="WireType$14.html" class="el_class">WireType.new WireType() {...}</a></td>
+     <td class="bar" id="b229"></td>
+     <td class="ctr2" id="c31">54%</td>
+     <td class="bar" id="d236"></td>
+     <td class="ctr2" id="e236">n/a</td>
+     <td class="ctr1" id="f230">1</td>
+     <td class="ctr2" id="g231">2</td>
+     <td class="ctr1" id="h234">1</td>
+     <td class="ctr2" id="i240">2</td>
+     <td class="ctr1" id="j225">1</td>
+     <td class="ctr2" id="k226">2</td>
+     <td class="ctr1" id="l235">0</td>
+     <td class="ctr2" id="m229">1</td>
+    </tr>
+    <tr>
+     <td id="a106"><a href="ReadMarshallable.html" class="el_class">ReadMarshallable</a></td>
+     <td class="bar" id="b230"></td>
+     <td class="ctr2" id="c56">37%</td>
+     <td class="bar" id="d237"></td>
+     <td class="ctr2" id="e237">n/a</td>
+     <td class="ctr1" id="f217">2</td>
+     <td class="ctr2" id="g208">3</td>
+     <td class="ctr1" id="h206">3</td>
+     <td class="ctr2" id="i216">4</td>
+     <td class="ctr1" id="j206">2</td>
+     <td class="ctr2" id="k192">3</td>
+     <td class="ctr1" id="l236">0</td>
+     <td class="ctr2" id="m230">1</td>
+    </tr>
+    <tr>
+     <td id="a152"><a href="ValueInStack.html" class="el_class">ValueInStack</a></td>
+     <td class="bar" id="b231"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="77" alt="77"></td>
+     <td class="ctr2" id="c13">95%</td>
+     <td class="bar" id="d165"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="5" alt="5"></td>
+     <td class="ctr2" id="e4">83%</td>
+     <td class="ctr1" id="f231">1</td>
+     <td class="ctr2" id="g126">9</td>
+     <td class="ctr1" id="h235">1</td>
+     <td class="ctr2" id="i109">21</td>
+     <td class="ctr1" id="j238">0</td>
+     <td class="ctr2" id="k117">6</td>
+     <td class="ctr1" id="l237">0</td>
+     <td class="ctr2" id="m231">1</td>
+    </tr>
+    <tr>
+     <td id="a211"><a href="Wires$SerializeEnum.html" class="el_class">Wires.SerializeEnum</a></td>
+     <td class="bar" id="b232"></td>
+     <td class="ctr2" id="c15">87%</td>
+     <td class="bar" id="d143"></td>
+     <td class="ctr2" id="e16">50%</td>
+     <td class="ctr1" id="f218">2</td>
+     <td class="ctr2" id="g163">5</td>
+     <td class="ctr1" id="h225">2</td>
+     <td class="ctr2" id="i170">8</td>
+     <td class="ctr1" id="j239">0</td>
+     <td class="ctr2" id="k193">3</td>
+     <td class="ctr1" id="l238">0</td>
+     <td class="ctr2" id="m232">1</td>
+    </tr>
+    <tr>
+     <td id="a29"><a href="BinaryWireHighCode.html" class="el_class">BinaryWireHighCode</a></td>
+     <td class="bar" id="b233"></td>
+     <td class="ctr2" id="c247">0%</td>
+     <td class="bar" id="d238"></td>
+     <td class="ctr2" id="e238">n/a</td>
+     <td class="ctr1" id="f232">1</td>
+     <td class="ctr2" id="g245">1</td>
+     <td class="ctr1" id="h236">1</td>
+     <td class="ctr2" id="i251">1</td>
+     <td class="ctr1" id="j226">1</td>
+     <td class="ctr2" id="k245">1</td>
+     <td class="ctr1" id="l133">1</td>
+     <td class="ctr2" id="m233">1</td>
+    </tr>
+    <tr>
+     <td id="a71"><a href="KeyedMarshallable.html" class="el_class">KeyedMarshallable</a></td>
+     <td class="bar" id="b234"></td>
+     <td class="ctr2" id="c248">0%</td>
+     <td class="bar" id="d239"></td>
+     <td class="ctr2" id="e239">n/a</td>
+     <td class="ctr1" id="f233">1</td>
+     <td class="ctr2" id="g246">1</td>
+     <td class="ctr1" id="h226">2</td>
+     <td class="ctr2" id="i241">2</td>
+     <td class="ctr1" id="j227">1</td>
+     <td class="ctr2" id="k246">1</td>
+     <td class="ctr1" id="l134">1</td>
+     <td class="ctr2" id="m234">1</td>
+    </tr>
+    <tr>
+     <td id="a149"><a href="UnexpectedFieldHandlingException.html" class="el_class">UnexpectedFieldHandlingException</a></td>
+     <td class="bar" id="b235"></td>
+     <td class="ctr2" id="c249">0%</td>
+     <td class="bar" id="d240"></td>
+     <td class="ctr2" id="e240">n/a</td>
+     <td class="ctr1" id="f234">1</td>
+     <td class="ctr2" id="g247">1</td>
+     <td class="ctr1" id="h227">2</td>
+     <td class="ctr2" id="i242">2</td>
+     <td class="ctr1" id="j228">1</td>
+     <td class="ctr2" id="k247">1</td>
+     <td class="ctr1" id="l135">1</td>
+     <td class="ctr2" id="m235">1</td>
+    </tr>
+    <tr>
+     <td id="a237"><a href="WriteAfterEOFException.html" class="el_class">WriteAfterEOFException</a></td>
+     <td class="bar" id="b236"></td>
+     <td class="ctr2" id="c250">0%</td>
+     <td class="bar" id="d241"></td>
+     <td class="ctr2" id="e241">n/a</td>
+     <td class="ctr1" id="f235">1</td>
+     <td class="ctr2" id="g248">1</td>
+     <td class="ctr1" id="h228">2</td>
+     <td class="ctr2" id="i243">2</td>
+     <td class="ctr1" id="j229">1</td>
+     <td class="ctr2" id="k248">1</td>
+     <td class="ctr1" id="l136">1</td>
+     <td class="ctr2" id="m236">1</td>
+    </tr>
+    <tr>
+     <td id="a85"><a href="MethodWriterValidationException.html" class="el_class">MethodWriterValidationException</a></td>
+     <td class="bar" id="b237"></td>
+     <td class="ctr2" id="c251">0%</td>
+     <td class="bar" id="d242"></td>
+     <td class="ctr2" id="e242">n/a</td>
+     <td class="ctr1" id="f236">1</td>
+     <td class="ctr2" id="g249">1</td>
+     <td class="ctr1" id="h229">2</td>
+     <td class="ctr2" id="i244">2</td>
+     <td class="ctr1" id="j230">1</td>
+     <td class="ctr2" id="k249">1</td>
+     <td class="ctr1" id="l137">1</td>
+     <td class="ctr2" id="m237">1</td>
+    </tr>
+    <tr>
+     <td id="a54"><a href="GenerateMethodDelegate$GMDMetaData.html" class="el_class">GenerateMethodDelegate.GMDMetaData</a></td>
+     <td class="bar" id="b238"></td>
+     <td class="ctr2" id="c252">0%</td>
+     <td class="bar" id="d243"></td>
+     <td class="ctr2" id="e243">n/a</td>
+     <td class="ctr1" id="f237">1</td>
+     <td class="ctr2" id="g250">1</td>
+     <td class="ctr1" id="h237">1</td>
+     <td class="ctr2" id="i252">1</td>
+     <td class="ctr1" id="j231">1</td>
+     <td class="ctr2" id="k250">1</td>
+     <td class="ctr1" id="l138">1</td>
+     <td class="ctr2" id="m238">1</td>
+    </tr>
+    <tr>
+     <td id="a14"><a href="AbstractWire$IgnoringConsumer$1.html" class="el_class">AbstractWire.IgnoringConsumer.new AbstractWire.IgnoringConsumer() {...}</a></td>
+     <td class="bar" id="b239"></td>
+     <td class="ctr2" id="c17">85%</td>
+     <td class="bar" id="d244"></td>
+     <td class="ctr2" id="e244">n/a</td>
+     <td class="ctr1" id="f238">1</td>
+     <td class="ctr2" id="g232">2</td>
+     <td class="ctr1" id="h238">1</td>
+     <td class="ctr2" id="i245">2</td>
+     <td class="ctr1" id="j232">1</td>
+     <td class="ctr2" id="k227">2</td>
+     <td class="ctr1" id="l239">0</td>
+     <td class="ctr2" id="m239">1</td>
+    </tr>
+    <tr>
+     <td id="a246"><a href="YamlToken.html" class="el_class">YamlToken</a></td>
+     <td class="bar" id="b240"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="213" alt="213"></td>
+     <td class="ctr2" id="c0">100%</td>
+     <td class="bar" id="d245"></td>
+     <td class="ctr2" id="e245">n/a</td>
+     <td class="ctr1" id="f241">0</td>
+     <td class="ctr2" id="g209">3</td>
+     <td class="ctr1" id="h240">0</td>
+     <td class="ctr2" id="i96">25</td>
+     <td class="ctr1" id="j240">0</td>
+     <td class="ctr2" id="k194">3</td>
+     <td class="ctr1" id="l240">0</td>
+     <td class="ctr2" id="m240">1</td>
+    </tr>
+    <tr>
+     <td id="a112"><a href="SerializationStrategies.html" class="el_class">SerializationStrategies</a></td>
+     <td class="bar" id="b241"><img src="../jacoco-resources/greenbar.gif" width="4" height="10" title="149" alt="149"></td>
+     <td class="ctr2" id="c1">100%</td>
+     <td class="bar" id="d246"></td>
+     <td class="ctr2" id="e246">n/a</td>
+     <td class="ctr1" id="f242">0</td>
+     <td class="ctr2" id="g210">3</td>
+     <td class="ctr1" id="h241">0</td>
+     <td class="ctr2" id="i122">17</td>
+     <td class="ctr1" id="j241">0</td>
+     <td class="ctr2" id="k195">3</td>
+     <td class="ctr1" id="l241">0</td>
+     <td class="ctr2" id="m241">1</td>
+    </tr>
+    <tr>
+     <td id="a141"><a href="TextStopCharTesters.html" class="el_class">TextStopCharTesters</a></td>
+     <td class="bar" id="b242"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="61" alt="61"></td>
+     <td class="ctr2" id="c2">100%</td>
+     <td class="bar" id="d167"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="4" alt="4"></td>
+     <td class="ctr2" id="e0">100%</td>
+     <td class="ctr1" id="f243">0</td>
+     <td class="ctr2" id="g189">4</td>
+     <td class="ctr1" id="h242">0</td>
+     <td class="ctr2" id="i138">14</td>
+     <td class="ctr1" id="j242">0</td>
+     <td class="ctr2" id="k228">2</td>
+     <td class="ctr1" id="l242">0</td>
+     <td class="ctr2" id="m242">1</td>
+    </tr>
+    <tr>
+     <td id="a15"><a href="Base32LongConverter.html" class="el_class">Base32LongConverter</a></td>
+     <td class="bar" id="b243"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="46" alt="46"></td>
+     <td class="ctr2" id="c3">100%</td>
+     <td class="bar" id="d169"></td>
+     <td class="ctr2" id="e1">100%</td>
+     <td class="ctr1" id="f244">0</td>
+     <td class="ctr2" id="g211">3</td>
+     <td class="ctr1" id="h243">0</td>
+     <td class="ctr2" id="i161">9</td>
+     <td class="ctr1" id="j243">0</td>
+     <td class="ctr2" id="k229">2</td>
+     <td class="ctr1" id="l243">0</td>
+     <td class="ctr2" id="m243">1</td>
+    </tr>
+    <tr>
+     <td id="a99"><a href="Quotes.html" class="el_class">Quotes</a></td>
+     <td class="bar" id="b244"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="45" alt="45"></td>
+     <td class="ctr2" id="c4">100%</td>
+     <td class="bar" id="d247"></td>
+     <td class="ctr2" id="e247">n/a</td>
+     <td class="ctr1" id="f245">0</td>
+     <td class="ctr2" id="g233">2</td>
+     <td class="ctr1" id="h244">0</td>
+     <td class="ctr2" id="i196">5</td>
+     <td class="ctr1" id="j244">0</td>
+     <td class="ctr2" id="k230">2</td>
+     <td class="ctr1" id="l244">0</td>
+     <td class="ctr2" id="m244">1</td>
+    </tr>
+    <tr>
+     <td id="a32"><a href="BracketType.html" class="el_class">BracketType</a></td>
+     <td class="bar" id="b245"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="44" alt="44"></td>
+     <td class="ctr2" id="c5">100%</td>
+     <td class="bar" id="d248"></td>
+     <td class="ctr2" id="e248">n/a</td>
+     <td class="ctr1" id="f246">0</td>
+     <td class="ctr2" id="g251">1</td>
+     <td class="ctr1" id="h245">0</td>
+     <td class="ctr2" id="i246">2</td>
+     <td class="ctr1" id="j245">0</td>
+     <td class="ctr2" id="k251">1</td>
+     <td class="ctr1" id="l245">0</td>
+     <td class="ctr2" id="m245">1</td>
+    </tr>
+    <tr>
+     <td id="a142"><a href="TextStopCharTesters$1.html" class="el_class">TextStopCharTesters.new TextStopCharTesters() {...}</a></td>
+     <td class="bar" id="b246"></td>
+     <td class="ctr2" id="c6">100%</td>
+     <td class="bar" id="d166"></td>
+     <td class="ctr2" id="e6">75%</td>
+     <td class="ctr1" id="f239">1</td>
+     <td class="ctr2" id="g190">4</td>
+     <td class="ctr1" id="h246">0</td>
+     <td class="ctr2" id="i197">5</td>
+     <td class="ctr1" id="j246">0</td>
+     <td class="ctr2" id="k231">2</td>
+     <td class="ctr1" id="l246">0</td>
+     <td class="ctr2" id="m246">1</td>
+    </tr>
+    <tr>
+     <td id="a61"><a href="HashWire$1.html" class="el_class">HashWire.new ThreadLocal() {...}</a></td>
+     <td class="bar" id="b247"></td>
+     <td class="ctr2" id="c7">100%</td>
+     <td class="bar" id="d249"></td>
+     <td class="ctr2" id="e249">n/a</td>
+     <td class="ctr1" id="f247">0</td>
+     <td class="ctr2" id="g212">3</td>
+     <td class="ctr1" id="h247">0</td>
+     <td class="ctr2" id="i198">5</td>
+     <td class="ctr1" id="j247">0</td>
+     <td class="ctr2" id="k196">3</td>
+     <td class="ctr1" id="l247">0</td>
+     <td class="ctr2" id="m247">1</td>
+    </tr>
+    <tr>
+     <td id="a140"><a href="TextStopCharsTesters$1.html" class="el_class">TextStopCharsTesters.new TextStopCharsTesters() {...}</a></td>
+     <td class="bar" id="b248"></td>
+     <td class="ctr2" id="c8">100%</td>
+     <td class="bar" id="d168"></td>
+     <td class="ctr2" id="e2">100%</td>
+     <td class="ctr1" id="f248">0</td>
+     <td class="ctr2" id="g191">4</td>
+     <td class="ctr1" id="h248">0</td>
+     <td class="ctr2" id="i199">5</td>
+     <td class="ctr1" id="j248">0</td>
+     <td class="ctr2" id="k232">2</td>
+     <td class="ctr1" id="l248">0</td>
+     <td class="ctr2" id="m248">1</td>
+    </tr>
+    <tr>
+     <td id="a13"><a href="AbstractWire$IgnoringConsumer.html" class="el_class">AbstractWire.IgnoringConsumer</a></td>
+     <td class="bar" id="b249"></td>
+     <td class="ctr2" id="c9">100%</td>
+     <td class="bar" id="d250"></td>
+     <td class="ctr2" id="e250">n/a</td>
+     <td class="ctr1" id="f249">0</td>
+     <td class="ctr2" id="g252">1</td>
+     <td class="ctr1" id="h249">0</td>
+     <td class="ctr2" id="i247">2</td>
+     <td class="ctr1" id="j249">0</td>
+     <td class="ctr2" id="k252">1</td>
+     <td class="ctr1" id="l249">0</td>
+     <td class="ctr2" id="m249">1</td>
+    </tr>
+    <tr>
+     <td id="a143"><a href="TextStopCharTesters$2.html" class="el_class">TextStopCharTesters.new TextStopCharTesters() {...}</a></td>
+     <td class="bar" id="b250"></td>
+     <td class="ctr2" id="c10">100%</td>
+     <td class="bar" id="d170"></td>
+     <td class="ctr2" id="e3">100%</td>
+     <td class="ctr1" id="f250">0</td>
+     <td class="ctr2" id="g213">3</td>
+     <td class="ctr1" id="h250">0</td>
+     <td class="ctr2" id="i217">4</td>
+     <td class="ctr1" id="j250">0</td>
+     <td class="ctr2" id="k233">2</td>
+     <td class="ctr1" id="l250">0</td>
+     <td class="ctr2" id="m250">1</td>
+    </tr>
+    <tr>
+     <td id="a110"><a href="SelfDescribingMarshallable.html" class="el_class">SelfDescribingMarshallable</a></td>
+     <td class="bar" id="b251"></td>
+     <td class="ctr2" id="c11">100%</td>
+     <td class="bar" id="d251"></td>
+     <td class="ctr2" id="e251">n/a</td>
+     <td class="ctr1" id="f251">0</td>
+     <td class="ctr2" id="g234">2</td>
+     <td class="ctr1" id="h251">0</td>
+     <td class="ctr2" id="i248">2</td>
+     <td class="ctr1" id="j251">0</td>
+     <td class="ctr2" id="k234">2</td>
+     <td class="ctr1" id="l251">0</td>
+     <td class="ctr2" id="m251">1</td>
+    </tr>
+    <tr>
+     <td id="a33"><a href="BytesInBinaryMarshallable.html" class="el_class">BytesInBinaryMarshallable</a></td>
+     <td class="bar" id="b252"></td>
+     <td class="ctr2" id="c12">100%</td>
+     <td class="bar" id="d252"></td>
+     <td class="ctr2" id="e252">n/a</td>
+     <td class="ctr1" id="f252">0</td>
+     <td class="ctr2" id="g235">2</td>
+     <td class="ctr1" id="h252">0</td>
+     <td class="ctr2" id="i249">2</td>
+     <td class="ctr1" id="j252">0</td>
+     <td class="ctr2" id="k235">2</td>
+     <td class="ctr1" id="l252">0</td>
+     <td class="ctr2" id="m252">1</td>
+    </tr>
+   </tbody>
+  </table>
+  <div class="footer">
+   <span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span>
+  </div>
+ </body>
+</html>

@@ -4,3 +4,17 @@
 - Commit: [dbeb902](https://github.com/checkstyle/checkstyle/commit/dbeb9024c861ad11b194e40d8c6e08d7e6ec5122)  
 - [JACT-Report](./checkstyle-jact-report/)
 ---
+
+#### [Chronicle-Map:](https://github.com/OpenHFT/Chronicle-Map)
+- Commit: [90e5c46](https://github.com/OpenHFT/Chronicle-Map/commit/608c6f9d1c8560522ead73aca856d994690e5c46) LATEST RELEASE (NOT DEPTRIM)
+- [JACT-Report](./chronicle-map-jact-report/)
+---
+
+
+
+
+---
+#### [Template:](link to repo)  
+- Commit: [commit sha](link to commit)  
+- [JACT-Report](./template-jact-report/)
+---
