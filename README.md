@@ -11,6 +11,18 @@
 ---
 
 
+#### [classgraph:](https://github.com/classgraph/classgraph)  
+- Commit: [8a24786](https://github.com/classgraph/classgraph/commit/92b644677964496fb841ba41bed52247f8a24786)  
+- [JACT-Report](./classgraph-jact-report/)  
+Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/github/classgraph/issues/DeclaredVsNonDeclaredTest.java ; negligible impact on coverage
+`publicAndPrivateDeclaredVsNonDeclared()`  
+`publicDeclaredVsNonDeclared()`
+---
+
+#### [commons-validator:](https://github.com/apache/commons-validator)  
+- Commit: [commit sha](link to commit)  
+- [JACT-Report](./template-jact-report/)
+
 
 
 ---
