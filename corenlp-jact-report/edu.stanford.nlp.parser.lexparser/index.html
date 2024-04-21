@@ -1,0 +1,2323 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css">
+  <link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif">
+  <title>edu.stanford.nlp.parser.lexparser</title>
+  <script type="text/javascript" src="../jacoco-resources/sort.js"></script>
+ </head>
+ <body onload="initialSort(['breadcrumb', 'coveragetable'])">
+  <div class="breadcrumb" id="breadcrumb">
+   <span class="info"><a href="index.source.html" class="el_source">Source Files</a><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">JaCoCo Coverage Report</a> &gt; <span class="el_package">edu.stanford.nlp.parser.lexparser</span>
+  </div>
+  <h1>edu.stanford.nlp.parser.lexparser</h1>
+  <table class="coverage" cellspacing="0" id="coveragetable">
+   <thead>
+    <tr>
+     <td class="sortable" id="a" onclick="toggleSort(this)">Element</td>
+     <td class="down sortable bar" id="b" onclick="toggleSort(this)">Missed Instructions</td>
+     <td class="sortable ctr2" id="c" onclick="toggleSort(this)">Cov.</td>
+     <td class="sortable bar" id="d" onclick="toggleSort(this)">Missed Branches</td>
+     <td class="sortable ctr2" id="e" onclick="toggleSort(this)">Cov.</td>
+     <td class="sortable ctr1" id="f" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="g" onclick="toggleSort(this)">Cxty</td>
+     <td class="sortable ctr1" id="h" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="i" onclick="toggleSort(this)">Lines</td>
+     <td class="sortable ctr1" id="j" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="k" onclick="toggleSort(this)">Methods</td>
+     <td class="sortable ctr1" id="l" onclick="toggleSort(this)">Missed</td>
+     <td class="sortable ctr2" id="m" onclick="toggleSort(this)">Classes</td>
+    </tr>
+   </thead>
+   <tfoot>
+    <tr>
+     <td>Total</td>
+     <td class="bar">87,364 of 95,410</td>
+     <td class="ctr2">8%</td>
+     <td class="bar">9,804 of 10,071</td>
+     <td class="ctr2">2%</td>
+     <td class="ctr1">6,384</td>
+     <td class="ctr2">6,551</td>
+     <td class="ctr1">15,634</td>
+     <td class="ctr2">16,829</td>
+     <td class="ctr1">1,350</td>
+     <td class="ctr2">1,474</td>
+     <td class="ctr1">107</td>
+     <td class="ctr2">151</td>
+    </tr>
+   </tfoot>
+   <tbody>
+    <tr>
+     <td id="a50"><a href="EnglishTreebankParserParams.html" class="el_class">EnglishTreebankParserParams</a></td>
+     <td class="bar" id="b0"><img src="../jacoco-resources/redbar.gif" width="107" height="10" title="7,583" alt="7,583"><img src="../jacoco-resources/greenbar.gif" width="12" height="10" title="857" alt="857"></td>
+     <td class="ctr2" id="c37">10%</td>
+     <td class="bar" id="d0"><img src="../jacoco-resources/redbar.gif" width="119" height="10" title="1,841" alt="1,841"></td>
+     <td class="ctr2" id="e17">0%</td>
+     <td class="ctr1" id="f0">973</td>
+     <td class="ctr2" id="g0">982</td>
+     <td class="ctr1" id="h0">1,201</td>
+     <td class="ctr2" id="i0">1,221</td>
+     <td class="ctr1" id="j10">28</td>
+     <td class="ctr2" id="k5">37</td>
+     <td class="ctr1" id="l107">0</td>
+     <td class="ctr2" id="m0">1</td>
+    </tr>
+    <tr>
+     <td id="a58"><a href="ExhaustivePCFGParser.html" class="el_class">ExhaustivePCFGParser</a></td>
+     <td class="bar" id="b1"><img src="../jacoco-resources/redbar.gif" width="94" height="10" title="6,635" alt="6,635"></td>
+     <td class="ctr2" id="c44">0%</td>
+     <td class="bar" id="d1"><img src="../jacoco-resources/redbar.gif" width="51" height="10" title="784" alt="784"></td>
+     <td class="ctr2" id="e18">0%</td>
+     <td class="ctr1" id="f1">440</td>
+     <td class="ctr2" id="g1">440</td>
+     <td class="ctr1" id="h1">1,106</td>
+     <td class="ctr2" id="i1">1,106</td>
+     <td class="ctr1" id="j0">48</td>
+     <td class="ctr2" id="k0">48</td>
+     <td class="ctr1" id="l0">1</td>
+     <td class="ctr2" id="m1">1</td>
+    </tr>
+    <tr>
+     <td id="a126"><a href="SplittingGrammarExtractor.html" class="el_class">SplittingGrammarExtractor</a></td>
+     <td class="bar" id="b2"><img src="../jacoco-resources/redbar.gif" width="81" height="10" title="5,717" alt="5,717"></td>
+     <td class="ctr2" id="c45">0%</td>
+     <td class="bar" id="d2"><img src="../jacoco-resources/redbar.gif" width="32" height="10" title="502" alt="502"></td>
+     <td class="ctr2" id="e19">0%</td>
+     <td class="ctr1" id="f2">293</td>
+     <td class="ctr2" id="g2">293</td>
+     <td class="ctr1" id="h2">882</td>
+     <td class="ctr2" id="i2">882</td>
+     <td class="ctr1" id="j2">42</td>
+     <td class="ctr2" id="k2">42</td>
+     <td class="ctr1" id="l1">1</td>
+     <td class="ctr2" id="m2">1</td>
+    </tr>
+    <tr>
+     <td id="a97"><a href="LexicalizedParser.html" class="el_class">LexicalizedParser</a></td>
+     <td class="bar" id="b3"><img src="../jacoco-resources/redbar.gif" width="47" height="10" title="3,314" alt="3,314"></td>
+     <td class="ctr2" id="c46">0%</td>
+     <td class="bar" id="d6"><img src="../jacoco-resources/redbar.gif" width="18" height="10" title="284" alt="284"></td>
+     <td class="ctr2" id="e20">0%</td>
+     <td class="ctr1" id="f5">187</td>
+     <td class="ctr2" id="g5">187</td>
+     <td class="ctr1" id="h3">666</td>
+     <td class="ctr2" id="i4">666</td>
+     <td class="ctr1" id="j1">45</td>
+     <td class="ctr2" id="k1">45</td>
+     <td class="ctr1" id="l2">1</td>
+     <td class="ctr2" id="m3">1</td>
+    </tr>
+    <tr>
+     <td id="a24"><a href="BiLexPCFGParser.html" class="el_class">BiLexPCFGParser</a></td>
+     <td class="bar" id="b4"><img src="../jacoco-resources/redbar.gif" width="43" height="10" title="3,081" alt="3,081"></td>
+     <td class="ctr2" id="c47">0%</td>
+     <td class="bar" id="d11"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="196" alt="196"></td>
+     <td class="ctr2" id="e21">0%</td>
+     <td class="ctr1" id="f10">133</td>
+     <td class="ctr2" id="g10">133</td>
+     <td class="ctr1" id="h6">497</td>
+     <td class="ctr2" id="i6">497</td>
+     <td class="ctr1" id="j6">35</td>
+     <td class="ctr2" id="k7">35</td>
+     <td class="ctr1" id="l3">1</td>
+     <td class="ctr2" id="m4">1</td>
+    </tr>
+    <tr>
+     <td id="a109"><a href="Options.html" class="el_class">Options</a></td>
+     <td class="bar" id="b5"><img src="../jacoco-resources/redbar.gif" width="42" height="10" title="2,983" alt="2,983"><img src="../jacoco-resources/greenbar.gif" width="11" height="10" title="834" alt="834"></td>
+     <td class="ctr2" id="c23">21%</td>
+     <td class="bar" id="d4"><img src="../jacoco-resources/redbar.gif" width="21" height="10" title="325" alt="325"><img src="../jacoco-resources/greenbar.gif" width="7" height="10" title="119" alt="119"></td>
+     <td class="ctr2" id="e8">26%</td>
+     <td class="ctr1" id="f4">226</td>
+     <td class="ctr2" id="g4">239</td>
+     <td class="ctr1" id="h4">610</td>
+     <td class="ctr2" id="i3">762</td>
+     <td class="ctr1" id="j55">7</td>
+     <td class="ctr2" id="k25">17</td>
+     <td class="ctr1" id="l108">0</td>
+     <td class="ctr2" id="m5">1</td>
+    </tr>
+    <tr>
+     <td id="a39"><a href="ChineseTreebankParserParams.html" class="el_class">ChineseTreebankParserParams</a></td>
+     <td class="bar" id="b6"><img src="../jacoco-resources/redbar.gif" width="41" height="10" title="2,888" alt="2,888"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="173" alt="173"></td>
+     <td class="ctr2" id="c41">5%</td>
+     <td class="bar" id="d3"><img src="../jacoco-resources/redbar.gif" width="30" height="10" title="464" alt="464"></td>
+     <td class="ctr2" id="e22">0%</td>
+     <td class="ctr1" id="f3">255</td>
+     <td class="ctr2" id="g3">257</td>
+     <td class="ctr1" id="h5">552</td>
+     <td class="ctr2" id="i5">607</td>
+     <td class="ctr1" id="j14">23</td>
+     <td class="ctr2" id="k13">25</td>
+     <td class="ctr1" id="l109">0</td>
+     <td class="ctr2" id="m6">1</td>
+    </tr>
+    <tr>
+     <td id="a57"><a href="ExhaustiveDependencyParser.html" class="el_class">ExhaustiveDependencyParser</a></td>
+     <td class="bar" id="b7"><img src="../jacoco-resources/redbar.gif" width="38" height="10" title="2,680" alt="2,680"></td>
+     <td class="ctr2" id="c48">0%</td>
+     <td class="bar" id="d7"><img src="../jacoco-resources/redbar.gif" width="17" height="10" title="262" alt="262"></td>
+     <td class="ctr2" id="e23">0%</td>
+     <td class="ctr1" id="f7">153</td>
+     <td class="ctr2" id="g7">153</td>
+     <td class="ctr1" id="h12">337</td>
+     <td class="ctr2" id="i13">337</td>
+     <td class="ctr1" id="j16">22</td>
+     <td class="ctr2" id="k16">22</td>
+     <td class="ctr1" id="l4">1</td>
+     <td class="ctr2" id="m7">1</td>
+    </tr>
+    <tr>
+     <td id="a102"><a href="MLEDependencyGrammar.html" class="el_class">MLEDependencyGrammar</a></td>
+     <td class="bar" id="b8"><img src="../jacoco-resources/redbar.gif" width="37" height="10" title="2,653" alt="2,653"></td>
+     <td class="ctr2" id="c49">0%</td>
+     <td class="bar" id="d12"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="192" alt="192"></td>
+     <td class="ctr2" id="e24">0%</td>
+     <td class="ctr1" id="f12">120</td>
+     <td class="ctr2" id="g12">120</td>
+     <td class="ctr1" id="h7">409</td>
+     <td class="ctr2" id="i8">409</td>
+     <td class="ctr1" id="j12">24</td>
+     <td class="ctr2" id="k14">24</td>
+     <td class="ctr1" id="l5">1</td>
+     <td class="ctr2" id="m8">1</td>
+    </tr>
+    <tr>
+     <td id="a20"><a href="BaseLexicon.html" class="el_class">BaseLexicon</a></td>
+     <td class="bar" id="b9"><img src="../jacoco-resources/redbar.gif" width="33" height="10" title="2,329" alt="2,329"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="98" alt="98"></td>
+     <td class="ctr2" id="c43">4%</td>
+     <td class="bar" id="d10"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="199" alt="199"></td>
+     <td class="ctr2" id="e16">0%</td>
+     <td class="ctr1" id="f9">139</td>
+     <td class="ctr2" id="g9">141</td>
+     <td class="ctr1" id="h8">397</td>
+     <td class="ctr2" id="i7">420</td>
+     <td class="ctr1" id="j3">39</td>
+     <td class="ctr2" id="k3">41</td>
+     <td class="ctr1" id="l110">0</td>
+     <td class="ctr2" id="m9">1</td>
+    </tr>
+    <tr>
+     <td id="a75"><a href="GrammarCompactionTester.html" class="el_class">GrammarCompactionTester</a></td>
+     <td class="bar" id="b10"><img src="../jacoco-resources/redbar.gif" width="26" height="10" title="1,883" alt="1,883"></td>
+     <td class="ctr2" id="c50">0%</td>
+     <td class="bar" id="d16"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="144" alt="144"></td>
+     <td class="ctr2" id="e25">0%</td>
+     <td class="ctr1" id="f17">87</td>
+     <td class="ctr2" id="g17">87</td>
+     <td class="ctr1" id="h9">366</td>
+     <td class="ctr2" id="i9">366</td>
+     <td class="ctr1" id="j24">15</td>
+     <td class="ctr2" id="k28">15</td>
+     <td class="ctr1" id="l6">1</td>
+     <td class="ctr2" id="m10">1</td>
+    </tr>
+    <tr>
+     <td id="a83"><a href="HTKLatticeReader.html" class="el_class">HTKLatticeReader</a></td>
+     <td class="bar" id="b11"><img src="../jacoco-resources/redbar.gif" width="24" height="10" title="1,738" alt="1,738"></td>
+     <td class="ctr2" id="c51">0%</td>
+     <td class="bar" id="d13"><img src="../jacoco-resources/redbar.gif" width="11" height="10" title="184" alt="184"></td>
+     <td class="ctr2" id="e26">0%</td>
+     <td class="ctr1" id="f13">116</td>
+     <td class="ctr2" id="g14">116</td>
+     <td class="ctr1" id="h13">336</td>
+     <td class="ctr2" id="i14">336</td>
+     <td class="ctr1" id="j13">24</td>
+     <td class="ctr2" id="k15">24</td>
+     <td class="ctr1" id="l7">1</td>
+     <td class="ctr2" id="m11">1</td>
+    </tr>
+    <tr>
+     <td id="a62"><a href="FactoredLexicon.html" class="el_class">FactoredLexicon</a></td>
+     <td class="bar" id="b12"><img src="../jacoco-resources/redbar.gif" width="24" height="10" title="1,706" alt="1,706"></td>
+     <td class="ctr2" id="c52">0%</td>
+     <td class="bar" id="d20"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="118" alt="118"></td>
+     <td class="ctr2" id="e27">0%</td>
+     <td class="ctr1" id="f20">73</td>
+     <td class="ctr2" id="g22">73</td>
+     <td class="ctr1" id="h16">294</td>
+     <td class="ctr2" id="i17">294</td>
+     <td class="ctr1" id="j28">14</td>
+     <td class="ctr2" id="k31">14</td>
+     <td class="ctr1" id="l8">1</td>
+     <td class="ctr2" id="m12">1</td>
+    </tr>
+    <tr>
+     <td id="a64"><a href="FactoredParser.html" class="el_class">FactoredParser</a></td>
+     <td class="bar" id="b13"><img src="../jacoco-resources/redbar.gif" width="23" height="10" title="1,648" alt="1,648"></td>
+     <td class="ctr2" id="c53">0%</td>
+     <td class="bar" id="d15"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="168" alt="168"></td>
+     <td class="ctr2" id="e28">0%</td>
+     <td class="ctr1" id="f16">90</td>
+     <td class="ctr2" id="g16">90</td>
+     <td class="ctr1" id="h15">303</td>
+     <td class="ctr2" id="i16">303</td>
+     <td class="ctr1" id="j65">6</td>
+     <td class="ctr2" id="k69">6</td>
+     <td class="ctr1" id="l9">1</td>
+     <td class="ctr2" id="m13">1</td>
+    </tr>
+    <tr>
+     <td id="a140"><a href="TreeBinarizer.html" class="el_class">TreeBinarizer</a></td>
+     <td class="bar" id="b14"><img src="../jacoco-resources/redbar.gif" width="23" height="10" title="1,635" alt="1,635"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="448" alt="448"></td>
+     <td class="ctr2" id="c24">21%</td>
+     <td class="bar" id="d14"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="168" alt="168"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="28" alt="28"></td>
+     <td class="ctr2" id="e9">14%</td>
+     <td class="ctr1" id="f15">101</td>
+     <td class="ctr2" id="g13">117</td>
+     <td class="ctr1" id="h17">271</td>
+     <td class="ctr2" id="i11">352</td>
+     <td class="ctr1" id="j32">13</td>
+     <td class="ctr2" id="k21">19</td>
+     <td class="ctr1" id="l111">0</td>
+     <td class="ctr2" id="m14">1</td>
+    </tr>
+    <tr>
+     <td id="a99"><a href="LexicalizedParserQuery.html" class="el_class">LexicalizedParserQuery</a></td>
+     <td class="bar" id="b15"><img src="../jacoco-resources/redbar.gif" width="21" height="10" title="1,528" alt="1,528"></td>
+     <td class="ctr2" id="c54">0%</td>
+     <td class="bar" id="d9"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="226" alt="226"></td>
+     <td class="ctr2" id="e29">0%</td>
+     <td class="ctr1" id="f8">149</td>
+     <td class="ctr2" id="g8">149</td>
+     <td class="ctr1" id="h10">355</td>
+     <td class="ctr2" id="i10">355</td>
+     <td class="ctr1" id="j5">36</td>
+     <td class="ctr2" id="k6">36</td>
+     <td class="ctr1" id="l10">1</td>
+     <td class="ctr2" id="m15">1</td>
+    </tr>
+    <tr>
+     <td id="a35"><a href="ChineseLexiconAndWordSegmenter.html" class="el_class">ChineseLexiconAndWordSegmenter</a></td>
+     <td class="bar" id="b16"><img src="../jacoco-resources/redbar.gif" width="20" height="10" title="1,473" alt="1,473"></td>
+     <td class="ctr2" id="c55">0%</td>
+     <td class="bar" id="d18"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="134" alt="134"></td>
+     <td class="ctr2" id="e30">0%</td>
+     <td class="ctr1" id="f14">105</td>
+     <td class="ctr2" id="g15">105</td>
+     <td class="ctr1" id="h14">332</td>
+     <td class="ctr2" id="i15">332</td>
+     <td class="ctr1" id="j4">38</td>
+     <td class="ctr2" id="k4">38</td>
+     <td class="ctr1" id="l11">1</td>
+     <td class="ctr2" id="m16">1</td>
+    </tr>
+    <tr>
+     <td id="a93"><a href="IterativeCKYPCFGParser.html" class="el_class">IterativeCKYPCFGParser</a></td>
+     <td class="bar" id="b17"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="1,387" alt="1,387"></td>
+     <td class="ctr2" id="c56">0%</td>
+     <td class="bar" id="d8"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="250" alt="250"></td>
+     <td class="ctr2" id="e31">0%</td>
+     <td class="ctr1" id="f11">128</td>
+     <td class="ctr2" id="g11">128</td>
+     <td class="ctr1" id="h19">254</td>
+     <td class="ctr2" id="i20">254</td>
+     <td class="ctr1" id="j94">3</td>
+     <td class="ctr2" id="k104">3</td>
+     <td class="ctr1" id="l12">1</td>
+     <td class="ctr2" id="m17">1</td>
+    </tr>
+    <tr>
+     <td id="a113"><a href="ParentAnnotationStats.html" class="el_class">ParentAnnotationStats</a></td>
+     <td class="bar" id="b18"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="1,340" alt="1,340"></td>
+     <td class="ctr2" id="c57">0%</td>
+     <td class="bar" id="d24"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="100" alt="100"></td>
+     <td class="ctr2" id="e32">0%</td>
+     <td class="ctr1" id="f24">66</td>
+     <td class="ctr2" id="g24">66</td>
+     <td class="ctr1" id="h20">240</td>
+     <td class="ctr2" id="i21">240</td>
+     <td class="ctr1" id="j22">16</td>
+     <td class="ctr2" id="k27">16</td>
+     <td class="ctr1" id="l13">1</td>
+     <td class="ctr2" id="m18">1</td>
+    </tr>
+    <tr>
+     <td id="a54"><a href="EnglishUnknownWordModel.html" class="el_class">EnglishUnknownWordModel</a></td>
+     <td class="bar" id="b19"><img src="../jacoco-resources/redbar.gif" width="18" height="10" title="1,313" alt="1,313"></td>
+     <td class="ctr2" id="c58">0%</td>
+     <td class="bar" id="d5"><img src="../jacoco-resources/redbar.gif" width="19" height="10" title="299" alt="299"></td>
+     <td class="ctr2" id="e33">0%</td>
+     <td class="ctr1" id="f6">168</td>
+     <td class="ctr2" id="g6">168</td>
+     <td class="ctr1" id="h11">339</td>
+     <td class="ctr2" id="i12">339</td>
+     <td class="ctr1" id="j25">15</td>
+     <td class="ctr2" id="k29">15</td>
+     <td class="ctr1" id="l14">1</td>
+     <td class="ctr2" id="m19">1</td>
+    </tr>
+    <tr>
+     <td id="a33"><a href="ChineseCharacterBasedLexiconTraining.html" class="el_class">ChineseCharacterBasedLexiconTraining</a></td>
+     <td class="bar" id="b20"><img src="../jacoco-resources/redbar.gif" width="18" height="10" title="1,286" alt="1,286"></td>
+     <td class="ctr2" id="c59">0%</td>
+     <td class="bar" id="d25"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="100" alt="100"></td>
+     <td class="ctr2" id="e34">0%</td>
+     <td class="ctr1" id="f30">54</td>
+     <td class="ctr2" id="g30">54</td>
+     <td class="ctr1" id="h18">260</td>
+     <td class="ctr2" id="i19">260</td>
+     <td class="ctr1" id="j82">4</td>
+     <td class="ctr2" id="k89">4</td>
+     <td class="ctr1" id="l15">1</td>
+     <td class="ctr2" id="m20">1</td>
+    </tr>
+    <tr>
+     <td id="a38"><a href="ChineseSimWordAvgDepGrammar.html" class="el_class">ChineseSimWordAvgDepGrammar</a></td>
+     <td class="bar" id="b21"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="1,153" alt="1,153"></td>
+     <td class="ctr2" id="c60">0%</td>
+     <td class="bar" id="d27"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="88" alt="88"></td>
+     <td class="ctr2" id="e35">0%</td>
+     <td class="ctr1" id="f31">53</td>
+     <td class="ctr2" id="g31">53</td>
+     <td class="ctr1" id="h25">178</td>
+     <td class="ctr2" id="i27">178</td>
+     <td class="ctr1" id="j48">9</td>
+     <td class="ctr2" id="k49">9</td>
+     <td class="ctr1" id="l16">1</td>
+     <td class="ctr2" id="m21">1</td>
+    </tr>
+    <tr>
+     <td id="a76"><a href="GrammarCompactor.html" class="el_class">GrammarCompactor</a></td>
+     <td class="bar" id="b22"><img src="../jacoco-resources/redbar.gif" width="16" height="10" title="1,131" alt="1,131"></td>
+     <td class="ctr2" id="c61">0%</td>
+     <td class="bar" id="d26"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="98" alt="98"></td>
+     <td class="ctr2" id="e36">0%</td>
+     <td class="ctr1" id="f26">63</td>
+     <td class="ctr2" id="g26">63</td>
+     <td class="ctr1" id="h21">217</td>
+     <td class="ctr2" id="i23">217</td>
+     <td class="ctr1" id="j29">14</td>
+     <td class="ctr2" id="k32">14</td>
+     <td class="ctr1" id="l17">1</td>
+     <td class="ctr2" id="m22">1</td>
+    </tr>
+    <tr>
+     <td id="a37"><a href="ChineseMaxentLexicon.html" class="el_class">ChineseMaxentLexicon</a></td>
+     <td class="bar" id="b23"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="1,016" alt="1,016"></td>
+     <td class="ctr2" id="c62">0%</td>
+     <td class="bar" id="d32"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="72" alt="72"></td>
+     <td class="ctr2" id="e37">0%</td>
+     <td class="ctr1" id="f25">66</td>
+     <td class="ctr2" id="g25">66</td>
+     <td class="ctr1" id="h22">205</td>
+     <td class="ctr2" id="i25">205</td>
+     <td class="ctr1" id="j7">30</td>
+     <td class="ctr2" id="k8">30</td>
+     <td class="ctr1" id="l18">1</td>
+     <td class="ctr2" id="m23">1</td>
+    </tr>
+    <tr>
+     <td id="a137"><a href="TreeAnnotatorAndBinarizer.html" class="el_class">TreeAnnotatorAndBinarizer</a></td>
+     <td class="bar" id="b24"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="997" alt="997"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="111" alt="111"></td>
+     <td class="ctr2" id="c38">10%</td>
+     <td class="bar" id="d19"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="118" alt="118"></td>
+     <td class="ctr2" id="e13">4%</td>
+     <td class="ctr1" id="f21">72</td>
+     <td class="ctr2" id="g19">75</td>
+     <td class="ctr1" id="h24">188</td>
+     <td class="ctr2" id="i24">206</td>
+     <td class="ctr1" id="j43">10</td>
+     <td class="ctr2" id="k36">13</td>
+     <td class="ctr1" id="l112">0</td>
+     <td class="ctr2" id="m24">1</td>
+    </tr>
+    <tr>
+     <td id="a114"><a href="ParseFiles.html" class="el_class">ParseFiles</a></td>
+     <td class="bar" id="b25"><img src="../jacoco-resources/redbar.gif" width="14" height="10" title="994" alt="994"></td>
+     <td class="ctr2" id="c63">0%</td>
+     <td class="bar" id="d21"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="110" alt="110"></td>
+     <td class="ctr2" id="e38">0%</td>
+     <td class="ctr1" id="f27">59</td>
+     <td class="ctr2" id="g28">59</td>
+     <td class="ctr1" id="h26">171</td>
+     <td class="ctr2" id="i28">171</td>
+     <td class="ctr1" id="j83">4</td>
+     <td class="ctr2" id="k90">4</td>
+     <td class="ctr1" id="l19">1</td>
+     <td class="ctr2" id="m25">1</td>
+    </tr>
+    <tr>
+     <td id="a120"><a href="SisterAnnotationStats.html" class="el_class">SisterAnnotationStats</a></td>
+     <td class="bar" id="b26"><img src="../jacoco-resources/redbar.gif" width="13" height="10" title="939" alt="939"></td>
+     <td class="ctr2" id="c64">0%</td>
+     <td class="bar" id="d33"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="70" alt="70"></td>
+     <td class="ctr2" id="e39">0%</td>
+     <td class="ctr1" id="f34">49</td>
+     <td class="ctr2" id="g34">49</td>
+     <td class="ctr1" id="h27">165</td>
+     <td class="ctr2" id="i29">165</td>
+     <td class="ctr1" id="j30">14</td>
+     <td class="ctr2" id="k33">14</td>
+     <td class="ctr1" id="l20">1</td>
+     <td class="ctr2" id="m26">1</td>
+    </tr>
+    <tr>
+     <td id="a134"><a href="TrainOptions.html" class="el_class">TrainOptions</a></td>
+     <td class="bar" id="b27"><img src="../jacoco-resources/redbar.gif" width="13" height="10" title="920" alt="920"><img src="../jacoco-resources/greenbar.gif" width="3" height="10" title="248" alt="248"></td>
+     <td class="ctr2" id="c25">21%</td>
+     <td class="bar" id="d84"></td>
+     <td class="ctr2" id="e12">8%</td>
+     <td class="ctr1" id="f89">10</td>
+     <td class="ctr2" id="g86">13</td>
+     <td class="ctr1" id="h43">76</td>
+     <td class="ctr2" id="i31">157</td>
+     <td class="ctr1" id="j84">4</td>
+     <td class="ctr2" id="k57">7</td>
+     <td class="ctr1" id="l113">0</td>
+     <td class="ctr2" id="m27">1</td>
+    </tr>
+    <tr>
+     <td id="a36"><a href="ChineseMarkovWordSegmenter.html" class="el_class">ChineseMarkovWordSegmenter</a></td>
+     <td class="bar" id="b28"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="877" alt="877"></td>
+     <td class="ctr2" id="c65">0%</td>
+     <td class="bar" id="d30"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="80" alt="80"></td>
+     <td class="ctr2" id="e40">0%</td>
+     <td class="ctr1" id="f33">52</td>
+     <td class="ctr2" id="g33">52</td>
+     <td class="ctr1" id="h28">161</td>
+     <td class="ctr2" id="i30">161</td>
+     <td class="ctr1" id="j35">12</td>
+     <td class="ctr2" id="k40">12</td>
+     <td class="ctr1" id="l21">1</td>
+     <td class="ctr2" id="m28">1</td>
+    </tr>
+    <tr>
+     <td id="a31"><a href="ChineseCharacterBasedLexicon.html" class="el_class">ChineseCharacterBasedLexicon</a></td>
+     <td class="bar" id="b29"><img src="../jacoco-resources/redbar.gif" width="12" height="10" title="874" alt="874"></td>
+     <td class="ctr2" id="c66">0%</td>
+     <td class="bar" id="d28"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="87" alt="87"></td>
+     <td class="ctr2" id="e41">0%</td>
+     <td class="ctr1" id="f19">75</td>
+     <td class="ctr2" id="g20">75</td>
+     <td class="ctr1" id="h23">189</td>
+     <td class="ctr2" id="i26">189</td>
+     <td class="ctr1" id="j8">30</td>
+     <td class="ctr2" id="k9">30</td>
+     <td class="ctr1" id="l22">1</td>
+     <td class="ctr2" id="m29">1</td>
+    </tr>
+    <tr>
+     <td id="a8"><a href="ArabicTreebankParserParams.html" class="el_class">ArabicTreebankParserParams</a></td>
+     <td class="bar" id="b30"><img src="../jacoco-resources/redbar.gif" width="11" height="10" title="822" alt="822"><img src="../jacoco-resources/greenbar.gif" width="19" height="10" title="1,372" alt="1,372"></td>
+     <td class="ctr2" id="c8">62%</td>
+     <td class="bar" id="d31"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="76" alt="76"></td>
+     <td class="ctr2" id="e14">2%</td>
+     <td class="ctr1" id="f29">55</td>
+     <td class="ctr2" id="g27">60</td>
+     <td class="ctr1" id="h31">140</td>
+     <td class="ctr2" id="i18">262</td>
+     <td class="ctr1" id="j20">17</td>
+     <td class="ctr2" id="k18">21</td>
+     <td class="ctr1" id="l114">0</td>
+     <td class="ctr2" id="m30">1</td>
+    </tr>
+    <tr>
+     <td id="a136"><a href="TreeAnnotator.html" class="el_class">TreeAnnotator</a></td>
+     <td class="bar" id="b31"><img src="../jacoco-resources/redbar.gif" width="11" height="10" title="808" alt="808"></td>
+     <td class="ctr2" id="c67">0%</td>
+     <td class="bar" id="d17"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="142" alt="142"></td>
+     <td class="ctr2" id="e42">0%</td>
+     <td class="ctr1" id="f18">78</td>
+     <td class="ctr2" id="g18">78</td>
+     <td class="ctr1" id="h29">154</td>
+     <td class="ctr2" id="i32">154</td>
+     <td class="ctr1" id="j56">7</td>
+     <td class="ctr2" id="k58">7</td>
+     <td class="ctr1" id="l23">1</td>
+     <td class="ctr2" id="m31">1</td>
+    </tr>
+    <tr>
+     <td id="a106"><a href="NegraPennTreebankParserParams.html" class="el_class">NegraPennTreebankParserParams</a></td>
+     <td class="bar" id="b32"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="742" alt="742"></td>
+     <td class="ctr2" id="c39">7%</td>
+     <td class="bar" id="d22"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="110" alt="110"></td>
+     <td class="ctr2" id="e43">0%</td>
+     <td class="ctr1" id="f22">72</td>
+     <td class="ctr2" id="g21">74</td>
+     <td class="ctr1" id="h32">130</td>
+     <td class="ctr2" id="i34">146</td>
+     <td class="ctr1" id="j21">17</td>
+     <td class="ctr2" id="k22">19</td>
+     <td class="ctr1" id="l115">0</td>
+     <td class="ctr2" id="m32">1</td>
+    </tr>
+    <tr>
+     <td id="a43"><a href="ChineseWordFeatureExtractor.html" class="el_class">ChineseWordFeatureExtractor</a></td>
+     <td class="bar" id="b33"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="716" alt="716"></td>
+     <td class="ctr2" id="c68">0%</td>
+     <td class="bar" id="d29"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="82" alt="82"></td>
+     <td class="ctr2" id="e44">0%</td>
+     <td class="ctr1" id="f32">53</td>
+     <td class="ctr2" id="g32">53</td>
+     <td class="ctr1" id="h35">121</td>
+     <td class="ctr2" id="i37">121</td>
+     <td class="ctr1" id="j44">10</td>
+     <td class="ctr2" id="k47">10</td>
+     <td class="ctr1" id="l24">1</td>
+     <td class="ctr2" id="m33">1</td>
+    </tr>
+    <tr>
+     <td id="a147"><a href="UnaryGrammar.html" class="el_class">UnaryGrammar</a></td>
+     <td class="bar" id="b34"><img src="../jacoco-resources/redbar.gif" width="10" height="10" title="711" alt="711"></td>
+     <td class="ctr2" id="c69">0%</td>
+     <td class="bar" id="d36"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="54" alt="54"></td>
+     <td class="ctr2" id="e45">0%</td>
+     <td class="ctr1" id="f28">57</td>
+     <td class="ctr2" id="g29">57</td>
+     <td class="ctr1" id="h30">147</td>
+     <td class="ctr2" id="i33">147</td>
+     <td class="ctr1" id="j9">30</td>
+     <td class="ctr2" id="k10">30</td>
+     <td class="ctr1" id="l25">1</td>
+     <td class="ctr2" id="m34">1</td>
+    </tr>
+    <tr>
+     <td id="a145"><a href="TueBaDZParserParams.html" class="el_class">TueBaDZParserParams</a></td>
+     <td class="bar" id="b35"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="658" alt="658"></td>
+     <td class="ctr2" id="c70">0%</td>
+     <td class="bar" id="d23"><img src="../jacoco-resources/redbar.gif" width="6" height="10" title="102" alt="102"></td>
+     <td class="ctr2" id="e46">0%</td>
+     <td class="ctr1" id="f23">70</td>
+     <td class="ctr2" id="g23">70</td>
+     <td class="ctr1" id="h34">125</td>
+     <td class="ctr2" id="i36">125</td>
+     <td class="ctr1" id="j19">19</td>
+     <td class="ctr2" id="k23">19</td>
+     <td class="ctr1" id="l26">1</td>
+     <td class="ctr2" id="m35">1</td>
+    </tr>
+    <tr>
+     <td id="a66"><a href="FrenchTreebankParserParams.html" class="el_class">FrenchTreebankParserParams</a></td>
+     <td class="bar" id="b36"><img src="../jacoco-resources/redbar.gif" width="9" height="10" title="643" alt="643"><img src="../jacoco-resources/greenbar.gif" width="23" height="10" title="1,627" alt="1,627"></td>
+     <td class="ctr2" id="c5">71%</td>
+     <td class="bar" id="d35"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="55" alt="55"></td>
+     <td class="ctr2" id="e15">1%</td>
+     <td class="ctr1" id="f35">43</td>
+     <td class="ctr2" id="g35">48</td>
+     <td class="ctr1" id="h36">111</td>
+     <td class="ctr2" id="i22">238</td>
+     <td class="ctr1" id="j26">15</td>
+     <td class="ctr2" id="k20">20</td>
+     <td class="ctr1" id="l116">0</td>
+     <td class="ctr2" id="m36">1</td>
+    </tr>
+    <tr>
+     <td id="a80"><a href="HookChart.html" class="el_class">HookChart</a></td>
+     <td class="bar" id="b37"><img src="../jacoco-resources/redbar.gif" width="8" height="10" title="572" alt="572"></td>
+     <td class="ctr2" id="c71">0%</td>
+     <td class="bar" id="d50"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e47">0%</td>
+     <td class="ctr1" id="f45">29</td>
+     <td class="ctr2" id="g47">29</td>
+     <td class="ctr1" id="h33">130</td>
+     <td class="ctr2" id="i35">130</td>
+     <td class="ctr1" id="j31">14</td>
+     <td class="ctr2" id="k34">14</td>
+     <td class="ctr1" id="l27">1</td>
+     <td class="ctr2" id="m37">1</td>
+    </tr>
+    <tr>
+     <td id="a26"><a href="BinaryGrammar.html" class="el_class">BinaryGrammar</a></td>
+     <td class="bar" id="b38"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="535" alt="535"></td>
+     <td class="ctr2" id="c72">0%</td>
+     <td class="bar" id="d40"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="40" alt="40"></td>
+     <td class="ctr2" id="e48">0%</td>
+     <td class="ctr1" id="f37">41</td>
+     <td class="ctr2" id="g37">41</td>
+     <td class="ctr1" id="h37">107</td>
+     <td class="ctr2" id="i38">107</td>
+     <td class="ctr1" id="j18">21</td>
+     <td class="ctr2" id="k19">21</td>
+     <td class="ctr1" id="l28">1</td>
+     <td class="ctr2" id="m38">1</td>
+    </tr>
+    <tr>
+     <td id="a17"><a href="ArabicUnknownWordModel.html" class="el_class">ArabicUnknownWordModel</a></td>
+     <td class="bar" id="b39"><img src="../jacoco-resources/redbar.gif" width="7" height="10" title="499" alt="499"></td>
+     <td class="ctr2" id="c73">0%</td>
+     <td class="bar" id="d34"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="60" alt="60"></td>
+     <td class="ctr2" id="e49">0%</td>
+     <td class="ctr1" id="f39">39</td>
+     <td class="ctr2" id="g39">39</td>
+     <td class="ctr1" id="h38">100</td>
+     <td class="ctr2" id="i39">100</td>
+     <td class="ctr1" id="j57">7</td>
+     <td class="ctr2" id="k59">7</td>
+     <td class="ctr1" id="l29">1</td>
+     <td class="ctr2" id="m39">1</td>
+    </tr>
+    <tr>
+     <td id="a0"><a href="AbstractDependencyGrammar.html" class="el_class">AbstractDependencyGrammar</a></td>
+     <td class="bar" id="b40"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="394" alt="394"></td>
+     <td class="ctr2" id="c74">0%</td>
+     <td class="bar" id="d43"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e50">0%</td>
+     <td class="ctr1" id="f38">40</td>
+     <td class="ctr2" id="g38">40</td>
+     <td class="ctr1" id="h42">82</td>
+     <td class="ctr2" id="i43">82</td>
+     <td class="ctr1" id="j17">22</td>
+     <td class="ctr2" id="k17">22</td>
+     <td class="ctr1" id="l30">1</td>
+     <td class="ctr2" id="m40">1</td>
+    </tr>
+    <tr>
+     <td id="a22"><a href="BaseUnknownWordModelTrainer.html" class="el_class">BaseUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b41"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="383" alt="383"></td>
+     <td class="ctr2" id="c75">0%</td>
+     <td class="bar" id="d44"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e51">0%</td>
+     <td class="ctr1" id="f51">24</td>
+     <td class="ctr2" id="g53">24</td>
+     <td class="ctr1" id="h47">65</td>
+     <td class="ctr2" id="i49">65</td>
+     <td class="ctr1" id="j66">6</td>
+     <td class="ctr2" id="k70">6</td>
+     <td class="ctr1" id="l31">1</td>
+     <td class="ctr2" id="m41">1</td>
+    </tr>
+    <tr>
+     <td id="a111"><a href="OutsideRuleFilter.html" class="el_class">OutsideRuleFilter</a></td>
+     <td class="bar" id="b42"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="377" alt="377"></td>
+     <td class="ctr2" id="c76">0%</td>
+     <td class="bar" id="d37"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="50" alt="50"></td>
+     <td class="ctr2" id="e52">0%</td>
+     <td class="ctr1" id="f40">35</td>
+     <td class="ctr2" id="g40">35</td>
+     <td class="ctr1" id="h39">87</td>
+     <td class="ctr2" id="i40">87</td>
+     <td class="ctr1" id="j45">10</td>
+     <td class="ctr2" id="k48">10</td>
+     <td class="ctr1" id="l32">1</td>
+     <td class="ctr2" id="m42">1</td>
+    </tr>
+    <tr>
+     <td id="a42"><a href="ChineseUnknownWordModelTrainer.html" class="el_class">ChineseUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b43"><img src="../jacoco-resources/redbar.gif" width="5" height="10" title="376" alt="376"></td>
+     <td class="ctr2" id="c77">0%</td>
+     <td class="bar" id="d45"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e53">0%</td>
+     <td class="ctr1" id="f52">23</td>
+     <td class="ctr2" id="g54">23</td>
+     <td class="ctr1" id="h45">70</td>
+     <td class="ctr2" id="i45">70</td>
+     <td class="ctr1" id="j76">5</td>
+     <td class="ctr2" id="k80">5</td>
+     <td class="ctr1" id="l33">1</td>
+     <td class="ctr2" id="m43">1</td>
+    </tr>
+    <tr>
+     <td id="a96"><a href="LatticeXMLReader.html" class="el_class">LatticeXMLReader</a></td>
+     <td class="bar" id="b44"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="347" alt="347"></td>
+     <td class="ctr2" id="c78">0%</td>
+     <td class="bar" id="d60"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e54">0%</td>
+     <td class="ctr1" id="f57">19</td>
+     <td class="ctr2" id="g60">19</td>
+     <td class="ctr1" id="h40">87</td>
+     <td class="ctr2" id="i41">87</td>
+     <td class="ctr1" id="j50">8</td>
+     <td class="ctr2" id="k51">8</td>
+     <td class="ctr1" id="l34">1</td>
+     <td class="ctr2" id="m44">1</td>
+    </tr>
+    <tr>
+     <td id="a77"><a href="GrammarCoverageChecker.html" class="el_class">GrammarCoverageChecker</a></td>
+     <td class="bar" id="b45"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="342" alt="342"></td>
+     <td class="ctr2" id="c79">0%</td>
+     <td class="bar" id="d49"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="32" alt="32"></td>
+     <td class="ctr2" id="e55">0%</td>
+     <td class="ctr1" id="f53">22</td>
+     <td class="ctr2" id="g56">22</td>
+     <td class="ctr1" id="h46">66</td>
+     <td class="ctr2" id="i48">66</td>
+     <td class="ctr1" id="j67">6</td>
+     <td class="ctr2" id="k71">6</td>
+     <td class="ctr1" id="l35">1</td>
+     <td class="ctr2" id="m45">1</td>
+    </tr>
+    <tr>
+     <td id="a41"><a href="ChineseUnknownWordModel.html" class="el_class">ChineseUnknownWordModel</a></td>
+     <td class="bar" id="b46"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="333" alt="333"></td>
+     <td class="ctr2" id="c80">0%</td>
+     <td class="bar" id="d38"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="46" alt="46"></td>
+     <td class="ctr2" id="e56">0%</td>
+     <td class="ctr1" id="f43">30</td>
+     <td class="ctr2" id="g45">30</td>
+     <td class="ctr1" id="h41">86</td>
+     <td class="ctr2" id="i42">86</td>
+     <td class="ctr1" id="j58">7</td>
+     <td class="ctr2" id="k60">7</td>
+     <td class="ctr1" id="l36">1</td>
+     <td class="ctr2" id="m46">1</td>
+    </tr>
+    <tr>
+     <td id="a116"><a href="PostSplitter.html" class="el_class">PostSplitter</a></td>
+     <td class="bar" id="b47"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="311" alt="311"></td>
+     <td class="ctr2" id="c81">0%</td>
+     <td class="bar" id="d39"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="42" alt="42"></td>
+     <td class="ctr2" id="e57">0%</td>
+     <td class="ctr1" id="f48">25</td>
+     <td class="ctr2" id="g50">25</td>
+     <td class="ctr1" id="h52">54</td>
+     <td class="ctr2" id="i58">54</td>
+     <td class="ctr1" id="j85">4</td>
+     <td class="ctr2" id="k91">4</td>
+     <td class="ctr1" id="l37">1</td>
+     <td class="ctr2" id="m47">1</td>
+    </tr>
+    <tr>
+     <td id="a119"><a href="RerankingParserQuery.html" class="el_class">RerankingParserQuery</a></td>
+     <td class="bar" id="b48"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="300" alt="300"></td>
+     <td class="ctr2" id="c82">0%</td>
+     <td class="bar" id="d51"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e58">0%</td>
+     <td class="ctr1" id="f36">43</td>
+     <td class="ctr2" id="g36">43</td>
+     <td class="ctr1" id="h44">74</td>
+     <td class="ctr2" id="i44">74</td>
+     <td class="ctr1" id="j11">28</td>
+     <td class="ctr2" id="k12">28</td>
+     <td class="ctr1" id="l38">1</td>
+     <td class="ctr2" id="m48">1</td>
+    </tr>
+    <tr>
+     <td id="a29"><a href="BinaryRule.html" class="el_class">BinaryRule</a></td>
+     <td class="bar" id="b49"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="295" alt="295"></td>
+     <td class="ctr2" id="c83">0%</td>
+     <td class="bar" id="d53"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e59">0%</td>
+     <td class="ctr1" id="f49">25</td>
+     <td class="ctr2" id="g51">25</td>
+     <td class="ctr1" id="h53">51</td>
+     <td class="ctr2" id="i61">51</td>
+     <td class="ctr1" id="j36">12</td>
+     <td class="ctr2" id="k41">12</td>
+     <td class="ctr1" id="l39">1</td>
+     <td class="ctr2" id="m49">1</td>
+    </tr>
+    <tr>
+     <td id="a149"><a href="UnknownGTTrainer.html" class="el_class">UnknownGTTrainer</a></td>
+     <td class="bar" id="b50"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="291" alt="291"></td>
+     <td class="ctr2" id="c84">0%</td>
+     <td class="bar" id="d72"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e60">0%</td>
+     <td class="ctr1" id="f70">15</td>
+     <td class="ctr2" id="g74">15</td>
+     <td class="ctr1" id="h57">47</td>
+     <td class="ctr2" id="i64">47</td>
+     <td class="ctr1" id="j59">7</td>
+     <td class="ctr2" id="k61">7</td>
+     <td class="ctr1" id="l40">1</td>
+     <td class="ctr2" id="m50">1</td>
+    </tr>
+    <tr>
+     <td id="a70"><a href="FrenchUnknownWordModel.html" class="el_class">FrenchUnknownWordModel</a></td>
+     <td class="bar" id="b51"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="290" alt="290"></td>
+     <td class="ctr2" id="c85">0%</td>
+     <td class="bar" id="d56"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="24" alt="24"></td>
+     <td class="ctr2" id="e61">0%</td>
+     <td class="ctr1" id="f61">18</td>
+     <td class="ctr2" id="g64">18</td>
+     <td class="ctr1" id="h50">56</td>
+     <td class="ctr2" id="i56">56</td>
+     <td class="ctr1" id="j68">6</td>
+     <td class="ctr2" id="k72">6</td>
+     <td class="ctr1" id="l41">1</td>
+     <td class="ctr2" id="m51">1</td>
+    </tr>
+    <tr>
+     <td id="a100"><a href="LinearGrammarSmoother.html" class="el_class">LinearGrammarSmoother</a></td>
+     <td class="bar" id="b52"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="290" alt="290"></td>
+     <td class="ctr2" id="c86">0%</td>
+     <td class="bar" id="d57"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="24" alt="24"></td>
+     <td class="ctr2" id="e62">0%</td>
+     <td class="ctr1" id="f58">19</td>
+     <td class="ctr2" id="g61">19</td>
+     <td class="ctr1" id="h51">56</td>
+     <td class="ctr2" id="i57">56</td>
+     <td class="ctr1" id="j60">7</td>
+     <td class="ctr2" id="k62">7</td>
+     <td class="ctr1" id="l42">1</td>
+     <td class="ctr2" id="m52">1</td>
+    </tr>
+    <tr>
+     <td id="a89"><a href="IntTaggedWord.html" class="el_class">IntTaggedWord</a></td>
+     <td class="bar" id="b53"><img src="../jacoco-resources/redbar.gif" width="4" height="10" title="287" alt="287"></td>
+     <td class="ctr2" id="c40">5%</td>
+     <td class="bar" id="d54"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e63">0%</td>
+     <td class="ctr1" id="f44">30</td>
+     <td class="ctr2" id="g44">32</td>
+     <td class="ctr1" id="h48">58</td>
+     <td class="ctr2" id="i51">63</td>
+     <td class="ctr1" id="j23">16</td>
+     <td class="ctr2" id="k24">18</td>
+     <td class="ctr1" id="l117">0</td>
+     <td class="ctr2" id="m53">1</td>
+    </tr>
+    <tr>
+     <td id="a107"><a href="NodePruner.html" class="el_class">NodePruner</a></td>
+     <td class="bar" id="b54"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="260" alt="260"></td>
+     <td class="ctr2" id="c87">0%</td>
+     <td class="bar" id="d58"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="24" alt="24"></td>
+     <td class="ctr2" id="e64">0%</td>
+     <td class="ctr1" id="f62">18</td>
+     <td class="ctr2" id="g65">18</td>
+     <td class="ctr1" id="h56">48</td>
+     <td class="ctr2" id="i63">48</td>
+     <td class="ctr1" id="j69">6</td>
+     <td class="ctr2" id="k73">6</td>
+     <td class="ctr1" id="l43">1</td>
+     <td class="ctr2" id="m54">1</td>
+    </tr>
+    <tr>
+     <td id="a118"><a href="RandomWalk.html" class="el_class">RandomWalk</a></td>
+     <td class="bar" id="b55"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="255" alt="255"></td>
+     <td class="ctr2" id="c88">0%</td>
+     <td class="bar" id="d66"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e65">0%</td>
+     <td class="ctr1" id="f71">15</td>
+     <td class="ctr2" id="g75">15</td>
+     <td class="ctr1" id="h63">40</td>
+     <td class="ctr2" id="i71">40</td>
+     <td class="ctr1" id="j77">5</td>
+     <td class="ctr2" id="k81">5</td>
+     <td class="ctr1" id="l44">1</td>
+     <td class="ctr2" id="m55">1</td>
+    </tr>
+    <tr>
+     <td id="a139"><a href="TreebankAnnotator.html" class="el_class">TreebankAnnotator</a></td>
+     <td class="bar" id="b56"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="254" alt="254"></td>
+     <td class="ctr2" id="c89">0%</td>
+     <td class="bar" id="d73"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e66">0%</td>
+     <td class="ctr1" id="f67">16</td>
+     <td class="ctr2" id="g69">16</td>
+     <td class="ctr1" id="h58">46</td>
+     <td class="ctr2" id="i66">46</td>
+     <td class="ctr1" id="j51">8</td>
+     <td class="ctr2" id="k52">8</td>
+     <td class="ctr1" id="l45">1</td>
+     <td class="ctr2" id="m56">1</td>
+    </tr>
+    <tr>
+     <td id="a21"><a href="BaseUnknownWordModel.html" class="el_class">BaseUnknownWordModel</a></td>
+     <td class="bar" id="b57"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="251" alt="251"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="86" alt="86"></td>
+     <td class="ctr2" id="c20">25%</td>
+     <td class="bar" id="d41"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="38" alt="38"></td>
+     <td class="ctr2" id="e11">9%</td>
+     <td class="ctr1" id="f42">32</td>
+     <td class="ctr2" id="g41">34</td>
+     <td class="ctr1" id="h54">50</td>
+     <td class="ctr2" id="i46">69</td>
+     <td class="ctr1" id="j39">11</td>
+     <td class="ctr2" id="k37">13</td>
+     <td class="ctr1" id="l118">0</td>
+     <td class="ctr2" id="m57">1</td>
+    </tr>
+    <tr>
+     <td id="a53"><a href="EnglishTreebankParserParams$EnglishTrain.html" class="el_class">EnglishTreebankParserParams.EnglishTrain</a></td>
+     <td class="bar" id="b58"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="249" alt="249"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="150" alt="150"></td>
+     <td class="ctr2" id="c14">37%</td>
+     <td class="bar" id="d132"></td>
+     <td class="ctr2" id="e132">n/a</td>
+     <td class="ctr1" id="f144">1</td>
+     <td class="ctr2" id="g143">2</td>
+     <td class="ctr1" id="h138">3</td>
+     <td class="ctr2" id="i59">53</td>
+     <td class="ctr1" id="j139">1</td>
+     <td class="ctr2" id="k126">2</td>
+     <td class="ctr1" id="l119">0</td>
+     <td class="ctr2" id="m58">1</td>
+    </tr>
+    <tr>
+     <td id="a115"><a href="PathExtractor.html" class="el_class">PathExtractor</a></td>
+     <td class="bar" id="b59"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="248" alt="248"></td>
+     <td class="ctr2" id="c90">0%</td>
+     <td class="bar" id="d67"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e67">0%</td>
+     <td class="ctr1" id="f76">14</td>
+     <td class="ctr2" id="g81">14</td>
+     <td class="ctr1" id="h66">38</td>
+     <td class="ctr2" id="i74">38</td>
+     <td class="ctr1" id="j86">4</td>
+     <td class="ctr2" id="k92">4</td>
+     <td class="ctr1" id="l46">1</td>
+     <td class="ctr2" id="m59">1</td>
+    </tr>
+    <tr>
+     <td id="a27"><a href="BinaryGrammarExtractor.html" class="el_class">BinaryGrammarExtractor</a></td>
+     <td class="bar" id="b60"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="244" alt="244"></td>
+     <td class="ctr2" id="c91">0%</td>
+     <td class="bar" id="d85"></td>
+     <td class="ctr2" id="e68">0%</td>
+     <td class="ctr1" id="f96">8</td>
+     <td class="ctr2" id="g101">8</td>
+     <td class="ctr1" id="h67">38</td>
+     <td class="ctr2" id="i75">38</td>
+     <td class="ctr1" id="j95">3</td>
+     <td class="ctr2" id="k105">3</td>
+     <td class="ctr1" id="l47">1</td>
+     <td class="ctr2" id="m60">1</td>
+    </tr>
+    <tr>
+     <td id="a47"><a href="CollinsPuncTransformer.html" class="el_class">CollinsPuncTransformer</a></td>
+     <td class="bar" id="b61"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="231" alt="231"></td>
+     <td class="ctr2" id="c92">0%</td>
+     <td class="bar" id="d46"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e69">0%</td>
+     <td class="ctr1" id="f50">25</td>
+     <td class="ctr2" id="g52">25</td>
+     <td class="ctr1" id="h55">49</td>
+     <td class="ctr2" id="i62">49</td>
+     <td class="ctr1" id="j61">7</td>
+     <td class="ctr2" id="k63">7</td>
+     <td class="ctr1" id="l48">1</td>
+     <td class="ctr2" id="m61">1</td>
+    </tr>
+    <tr>
+     <td id="a65"><a href="FastFactoredParser.html" class="el_class">FastFactoredParser</a></td>
+     <td class="bar" id="b62"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="228" alt="228"></td>
+     <td class="ctr2" id="c93">0%</td>
+     <td class="bar" id="d78"></td>
+     <td class="ctr2" id="e70">0%</td>
+     <td class="ctr1" id="f59">19</td>
+     <td class="ctr2" id="g62">19</td>
+     <td class="ctr1" id="h60">42</td>
+     <td class="ctr2" id="i68">42</td>
+     <td class="ctr1" id="j33">13</td>
+     <td class="ctr2" id="k38">13</td>
+     <td class="ctr1" id="l49">1</td>
+     <td class="ctr2" id="m62">1</td>
+    </tr>
+    <tr>
+     <td id="a32"><a href="ChineseCharacterBasedLexicon$Symbol.html" class="el_class">ChineseCharacterBasedLexicon.Symbol</a></td>
+     <td class="bar" id="b63"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="223" alt="223"></td>
+     <td class="ctr2" id="c94">0%</td>
+     <td class="bar" id="d42"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="38" alt="38"></td>
+     <td class="ctr2" id="e71">0%</td>
+     <td class="ctr1" id="f41">33</td>
+     <td class="ctr2" id="g42">33</td>
+     <td class="ctr1" id="h49">57</td>
+     <td class="ctr2" id="i53">57</td>
+     <td class="ctr1" id="j40">11</td>
+     <td class="ctr2" id="k45">11</td>
+     <td class="ctr1" id="l50">1</td>
+     <td class="ctr2" id="m63">1</td>
+    </tr>
+    <tr>
+     <td id="a94"><a href="Lattice.html" class="el_class">Lattice</a></td>
+     <td class="bar" id="b64"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="218" alt="218"></td>
+     <td class="ctr2" id="c95">0%</td>
+     <td class="bar" id="d79"></td>
+     <td class="ctr2" id="e72">0%</td>
+     <td class="ctr1" id="f64">17</td>
+     <td class="ctr2" id="g67">17</td>
+     <td class="ctr1" id="h64">40</td>
+     <td class="ctr2" id="i72">40</td>
+     <td class="ctr1" id="j41">11</td>
+     <td class="ctr2" id="k46">11</td>
+     <td class="ctr1" id="l51">1</td>
+     <td class="ctr2" id="m64">1</td>
+    </tr>
+    <tr>
+     <td id="a148"><a href="UnaryRule.html" class="el_class">UnaryRule</a></td>
+     <td class="bar" id="b65"><img src="../jacoco-resources/redbar.gif" width="3" height="10" title="215" alt="215"></td>
+     <td class="ctr2" id="c96">0%</td>
+     <td class="bar" id="d70"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e73">0%</td>
+     <td class="ctr1" id="f55">21</td>
+     <td class="ctr2" id="g57">21</td>
+     <td class="ctr1" id="h62">41</td>
+     <td class="ctr2" id="i70">41</td>
+     <td class="ctr1" id="j37">12</td>
+     <td class="ctr2" id="k42">12</td>
+     <td class="ctr1" id="l52">1</td>
+     <td class="ctr2" id="m65">1</td>
+    </tr>
+    <tr>
+     <td id="a110"><a href="Options$LexOptions.html" class="el_class">Options.LexOptions</a></td>
+     <td class="bar" id="b66"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="203" alt="203"></td>
+     <td class="ctr2" id="c19">25%</td>
+     <td class="bar" id="d76"></td>
+     <td class="ctr2" id="e74">0%</td>
+     <td class="ctr1" id="f79">13</td>
+     <td class="ctr2" id="g76">15</td>
+     <td class="ctr1" id="h80">27</td>
+     <td class="ctr2" id="i76">38</td>
+     <td class="ctr1" id="j106">2</td>
+     <td class="ctr2" id="k93">4</td>
+     <td class="ctr1" id="l120">0</td>
+     <td class="ctr2" id="m66">1</td>
+    </tr>
+    <tr>
+     <td id="a51"><a href="EnglishTreebankParserParams$EnglishSubcategoryStripper.html" class="el_class">EnglishTreebankParserParams.EnglishSubcategoryStripper</a></td>
+     <td class="bar" id="b67"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="202" alt="202"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="135" alt="135"></td>
+     <td class="ctr2" id="c12">40%</td>
+     <td class="bar" id="d48"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="34" alt="34"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e7">32%</td>
+     <td class="ctr1" id="f54">22</td>
+     <td class="ctr2" id="g48">27</td>
+     <td class="ctr1" id="h69">35</td>
+     <td class="ctr2" id="i47">68</td>
+     <td class="ctr1" id="j145">0</td>
+     <td class="ctr2" id="k127">2</td>
+     <td class="ctr1" id="l121">0</td>
+     <td class="ctr2" id="m67">1</td>
+    </tr>
+    <tr>
+     <td id="a1"><a href="AbstractTreebankParserParams.html" class="el_class">AbstractTreebankParserParams</a></td>
+     <td class="bar" id="b68"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="198" alt="198"></td>
+     <td class="ctr2" id="c18">26%</td>
+     <td class="bar" id="d111"></td>
+     <td class="ctr2" id="e6">33%</td>
+     <td class="ctr1" id="f46">26</td>
+     <td class="ctr2" id="g43">33</td>
+     <td class="ctr1" id="h68">36</td>
+     <td class="ctr2" id="i54">57</td>
+     <td class="ctr1" id="j15">23</td>
+     <td class="ctr2" id="k11">30</td>
+     <td class="ctr1" id="l122">0</td>
+     <td class="ctr2" id="m68">1</td>
+    </tr>
+    <tr>
+     <td id="a18"><a href="ArabicUnknownWordModelTrainer.html" class="el_class">ArabicUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b69"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="194" alt="194"></td>
+     <td class="ctr2" id="c97">0%</td>
+     <td class="bar" id="d86"></td>
+     <td class="ctr2" id="e75">0%</td>
+     <td class="ctr1" id="f90">10</td>
+     <td class="ctr2" id="g93">10</td>
+     <td class="ctr1" id="h70">35</td>
+     <td class="ctr2" id="i78">35</td>
+     <td class="ctr1" id="j78">5</td>
+     <td class="ctr2" id="k82">5</td>
+     <td class="ctr1" id="l53">1</td>
+     <td class="ctr2" id="m69">1</td>
+    </tr>
+    <tr>
+     <td id="a71"><a href="FrenchUnknownWordModelTrainer.html" class="el_class">FrenchUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b70"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="192" alt="192"></td>
+     <td class="ctr2" id="c98">0%</td>
+     <td class="bar" id="d87"></td>
+     <td class="ctr2" id="e76">0%</td>
+     <td class="ctr1" id="f92">9</td>
+     <td class="ctr2" id="g96">9</td>
+     <td class="ctr1" id="h71">35</td>
+     <td class="ctr2" id="i79">35</td>
+     <td class="ctr1" id="j87">4</td>
+     <td class="ctr2" id="k94">4</td>
+     <td class="ctr1" id="l54">1</td>
+     <td class="ctr2" id="m70">1</td>
+    </tr>
+    <tr>
+     <td id="a125"><a href="SpanishUnknownWordModelTrainer.html" class="el_class">SpanishUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b71"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="192" alt="192"></td>
+     <td class="ctr2" id="c99">0%</td>
+     <td class="bar" id="d88"></td>
+     <td class="ctr2" id="e77">0%</td>
+     <td class="ctr1" id="f93">9</td>
+     <td class="ctr2" id="g97">9</td>
+     <td class="ctr1" id="h72">35</td>
+     <td class="ctr2" id="i80">35</td>
+     <td class="ctr1" id="j88">4</td>
+     <td class="ctr2" id="k95">4</td>
+     <td class="ctr1" id="l55">1</td>
+     <td class="ctr2" id="m71">1</td>
+    </tr>
+    <tr>
+     <td id="a46"><a href="CNFTransformers$ToCNFTransformer.html" class="el_class">CNFTransformers.ToCNFTransformer</a></td>
+     <td class="bar" id="b72"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="190" alt="190"></td>
+     <td class="ctr2" id="c100">0%</td>
+     <td class="bar" id="d55"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="26" alt="26"></td>
+     <td class="ctr2" id="e78">0%</td>
+     <td class="ctr1" id="f72">15</td>
+     <td class="ctr2" id="g77">15</td>
+     <td class="ctr1" id="h65">39</td>
+     <td class="ctr2" id="i73">39</td>
+     <td class="ctr1" id="j107">2</td>
+     <td class="ctr2" id="k128">2</td>
+     <td class="ctr1" id="l56">1</td>
+     <td class="ctr2" id="m72">1</td>
+    </tr>
+    <tr>
+     <td id="a55"><a href="EnglishUnknownWordModelTrainer.html" class="el_class">EnglishUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b73"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="189" alt="189"></td>
+     <td class="ctr2" id="c101">0%</td>
+     <td class="bar" id="d89"></td>
+     <td class="ctr2" id="e79">0%</td>
+     <td class="ctr1" id="f91">10</td>
+     <td class="ctr2" id="g94">10</td>
+     <td class="ctr1" id="h74">34</td>
+     <td class="ctr2" id="i82">34</td>
+     <td class="ctr1" id="j79">5</td>
+     <td class="ctr2" id="k83">5</td>
+     <td class="ctr1" id="l57">1</td>
+     <td class="ctr2" id="m73">1</td>
+    </tr>
+    <tr>
+     <td id="a87"><a href="IntDependency.html" class="el_class">IntDependency</a></td>
+     <td class="bar" id="b74"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="189" alt="189"></td>
+     <td class="ctr2" id="c102">0%</td>
+     <td class="bar" id="d71"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e80">0%</td>
+     <td class="ctr1" id="f68">16</td>
+     <td class="ctr2" id="g70">16</td>
+     <td class="ctr1" id="h92">22</td>
+     <td class="ctr2" id="i102">22</td>
+     <td class="ctr1" id="j62">7</td>
+     <td class="ctr2" id="k64">7</td>
+     <td class="ctr1" id="l58">1</td>
+     <td class="ctr2" id="m74">1</td>
+    </tr>
+    <tr>
+     <td id="a124"><a href="SpanishUnknownWordModel.html" class="el_class">SpanishUnknownWordModel</a></td>
+     <td class="bar" id="b75"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="188" alt="188"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="126" alt="126"></td>
+     <td class="ctr2" id="c11">40%</td>
+     <td class="bar" id="d69"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="18" alt="18"></td>
+     <td class="ctr2" id="e5">43%</td>
+     <td class="ctr1" id="f65">17</td>
+     <td class="ctr2" id="g55">23</td>
+     <td class="ctr1" id="h75">34</td>
+     <td class="ctr2" id="i52">62</td>
+     <td class="ctr1" id="j89">4</td>
+     <td class="ctr2" id="k65">7</td>
+     <td class="ctr1" id="l123">0</td>
+     <td class="ctr2" id="m75">1</td>
+    </tr>
+    <tr>
+     <td id="a121"><a href="SpanishTreebankParserParams.html" class="el_class">SpanishTreebankParserParams</a></td>
+     <td class="bar" id="b76"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="176" alt="176"><img src="../jacoco-resources/greenbar.gif" width="6" height="10" title="424" alt="424"></td>
+     <td class="ctr2" id="c6">70%</td>
+     <td class="bar" id="d103"></td>
+     <td class="ctr2" id="e81">0%</td>
+     <td class="ctr1" id="f73">15</td>
+     <td class="ctr2" id="g59">20</td>
+     <td class="ctr1" id="h82">26</td>
+     <td class="ctr2" id="i50">64</td>
+     <td class="ctr1" id="j38">12</td>
+     <td class="ctr2" id="k26">17</td>
+     <td class="ctr1" id="l124">0</td>
+     <td class="ctr2" id="m76">1</td>
+    </tr>
+    <tr>
+     <td id="a142"><a href="TregexPoweredTreebankParserParams.html" class="el_class">TregexPoweredTreebankParserParams</a></td>
+     <td class="bar" id="b77"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="169" alt="169"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="73" alt="73"></td>
+     <td class="ctr2" id="c15">30%</td>
+     <td class="bar" id="d75"></td>
+     <td class="ctr2" id="e10">12%</td>
+     <td class="ctr1" id="f83">12</td>
+     <td class="ctr2" id="g71">16</td>
+     <td class="ctr1" id="h79">29</td>
+     <td class="ctr2" id="i65">47</td>
+     <td class="ctr1" id="j80">5</td>
+     <td class="ctr2" id="k53">8</td>
+     <td class="ctr1" id="l125">0</td>
+     <td class="ctr2" id="m77">1</td>
+    </tr>
+    <tr>
+     <td id="a84"><a href="HTKLatticeReader$LatticeWord.html" class="el_class">HTKLatticeReader.LatticeWord</a></td>
+     <td class="bar" id="b78"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="166" alt="166"></td>
+     <td class="ctr2" id="c103">0%</td>
+     <td class="bar" id="d68"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="20" alt="20"></td>
+     <td class="ctr2" id="e82">0%</td>
+     <td class="ctr1" id="f74">15</td>
+     <td class="ctr2" id="g78">15</td>
+     <td class="ctr1" id="h59">43</td>
+     <td class="ctr2" id="i67">43</td>
+     <td class="ctr1" id="j81">5</td>
+     <td class="ctr2" id="k84">5</td>
+     <td class="ctr1" id="l59">1</td>
+     <td class="ctr2" id="m78">1</td>
+    </tr>
+    <tr>
+     <td id="a15"><a href="ArabicTreebankParserParams$ArabicSubcategoryStripper.html" class="el_class">ArabicTreebankParserParams.ArabicSubcategoryStripper</a></td>
+     <td class="bar" id="b79"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="163" alt="163"></td>
+     <td class="ctr2" id="c104">0%</td>
+     <td class="bar" id="d61"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e83">0%</td>
+     <td class="ctr1" id="f80">13</td>
+     <td class="ctr2" id="g87">13</td>
+     <td class="ctr1" id="h76">32</td>
+     <td class="ctr2" id="i83">32</td>
+     <td class="ctr1" id="j108">2</td>
+     <td class="ctr2" id="k129">2</td>
+     <td class="ctr1" id="l60">1</td>
+     <td class="ctr2" id="m79">1</td>
+    </tr>
+    <tr>
+     <td id="a128"><a href="StringBinaryRule.html" class="el_class">StringBinaryRule</a></td>
+     <td class="bar" id="b80"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="160" alt="160"></td>
+     <td class="ctr2" id="c105">0%</td>
+     <td class="bar" id="d52"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="30" alt="30"></td>
+     <td class="ctr2" id="e84">0%</td>
+     <td class="ctr1" id="f60">19</td>
+     <td class="ctr2" id="g63">19</td>
+     <td class="ctr1" id="h81">27</td>
+     <td class="ctr2" id="i87">27</td>
+     <td class="ctr1" id="j90">4</td>
+     <td class="ctr2" id="k96">4</td>
+     <td class="ctr1" id="l61">1</td>
+     <td class="ctr2" id="m80">1</td>
+    </tr>
+    <tr>
+     <td id="a79"><a href="Hook.html" class="el_class">Hook</a></td>
+     <td class="bar" id="b81"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="151" alt="151"></td>
+     <td class="ctr2" id="c106">0%</td>
+     <td class="bar" id="d62"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e85">0%</td>
+     <td class="ctr1" id="f63">18</td>
+     <td class="ctr2" id="g66">18</td>
+     <td class="ctr1" id="h101">16</td>
+     <td class="ctr2" id="i113">16</td>
+     <td class="ctr1" id="j63">7</td>
+     <td class="ctr2" id="k66">7</td>
+     <td class="ctr1" id="l62">1</td>
+     <td class="ctr2" id="m81">1</td>
+    </tr>
+    <tr>
+     <td id="a101"><a href="MaxMatchSegmenter.html" class="el_class">MaxMatchSegmenter</a></td>
+     <td class="bar" id="b82"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="150" alt="150"></td>
+     <td class="ctr2" id="c107">0%</td>
+     <td class="bar" id="d74"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="16" alt="16"></td>
+     <td class="ctr2" id="e86">0%</td>
+     <td class="ctr1" id="f69">16</td>
+     <td class="ctr2" id="g72">16</td>
+     <td class="ctr1" id="h73">35</td>
+     <td class="ctr2" id="i81">35</td>
+     <td class="ctr1" id="j52">8</td>
+     <td class="ctr2" id="k54">8</td>
+     <td class="ctr1" id="l63">1</td>
+     <td class="ctr2" id="m82">1</td>
+    </tr>
+    <tr>
+     <td id="a19"><a href="ArabicUnknownWordSignatures.html" class="el_class">ArabicUnknownWordSignatures</a></td>
+     <td class="bar" id="b83"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="146" alt="146"></td>
+     <td class="ctr2" id="c108">0%</td>
+     <td class="bar" id="d47"><img src="../jacoco-resources/redbar.gif" width="2" height="10" title="36" alt="36"></td>
+     <td class="ctr2" id="e87">0%</td>
+     <td class="ctr1" id="f47">26</td>
+     <td class="ctr2" id="g49">26</td>
+     <td class="ctr1" id="h77">32</td>
+     <td class="ctr2" id="i84">32</td>
+     <td class="ctr1" id="j53">8</td>
+     <td class="ctr2" id="k55">8</td>
+     <td class="ctr1" id="l64">1</td>
+     <td class="ctr2" id="m83">1</td>
+    </tr>
+    <tr>
+     <td id="a68"><a href="FrenchTreebankParserParams$AddRelativeNodeFunction.html" class="el_class">FrenchTreebankParserParams.AddRelativeNodeFunction</a></td>
+     <td class="bar" id="b84"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="140" alt="140"></td>
+     <td class="ctr2" id="c22">23%</td>
+     <td class="bar" id="d80"></td>
+     <td class="ctr2" id="e88">0%</td>
+     <td class="ctr1" id="f97">8</td>
+     <td class="ctr2" id="g92">11</td>
+     <td class="ctr1" id="h120">9</td>
+     <td class="ctr2" id="i99">23</td>
+     <td class="ctr1" id="j109">2</td>
+     <td class="ctr2" id="k85">5</td>
+     <td class="ctr1" id="l126">0</td>
+     <td class="ctr2" id="m84">1</td>
+    </tr>
+    <tr>
+     <td id="a5"><a href="AbstractTreeExtractor.html" class="el_class">AbstractTreeExtractor</a></td>
+     <td class="bar" id="b85"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="132" alt="132"></td>
+     <td class="ctr2" id="c109">0%</td>
+     <td class="bar" id="d81"></td>
+     <td class="ctr2" id="e89">0%</td>
+     <td class="ctr1" id="f56">21</td>
+     <td class="ctr2" id="g58">21</td>
+     <td class="ctr1" id="h61">42</td>
+     <td class="ctr2" id="i69">42</td>
+     <td class="ctr1" id="j27">15</td>
+     <td class="ctr2" id="k30">15</td>
+     <td class="ctr1" id="l65">1</td>
+     <td class="ctr2" id="m85">1</td>
+    </tr>
+    <tr>
+     <td id="a78"><a href="HebrewTreebankParserParams.html" class="el_class">HebrewTreebankParserParams</a></td>
+     <td class="bar" id="b86"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="127" alt="127"></td>
+     <td class="ctr2" id="c30">20%</td>
+     <td class="bar" id="d133"></td>
+     <td class="ctr2" id="e133">n/a</td>
+     <td class="ctr1" id="f88">11</td>
+     <td class="ctr2" id="g82">14</td>
+     <td class="ctr1" id="h108">13</td>
+     <td class="ctr2" id="i104">21</td>
+     <td class="ctr1" id="j42">11</td>
+     <td class="ctr2" id="k35">14</td>
+     <td class="ctr1" id="l127">0</td>
+     <td class="ctr2" id="m86">1</td>
+    </tr>
+    <tr>
+     <td id="a112"><a href="OutsideRuleFilter$FA.html" class="el_class">OutsideRuleFilter.FA</a></td>
+     <td class="bar" id="b87"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="127" alt="127"></td>
+     <td class="ctr2" id="c110">0%</td>
+     <td class="bar" id="d90"></td>
+     <td class="ctr2" id="e90">0%</td>
+     <td class="ctr1" id="f84">12</td>
+     <td class="ctr2" id="g90">12</td>
+     <td class="ctr1" id="h78">30</td>
+     <td class="ctr2" id="i85">30</td>
+     <td class="ctr1" id="j64">7</td>
+     <td class="ctr2" id="k67">7</td>
+     <td class="ctr1" id="l66">1</td>
+     <td class="ctr2" id="m87">1</td>
+    </tr>
+    <tr>
+     <td id="a13"><a href="ArabicTreebankParserParams$AddRelativeNodeRegexFunction.html" class="el_class">ArabicTreebankParserParams.AddRelativeNodeRegexFunction</a></td>
+     <td class="bar" id="b88"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="126" alt="126"></td>
+     <td class="ctr2" id="c34">11%</td>
+     <td class="bar" id="d91"></td>
+     <td class="ctr2" id="e91">0%</td>
+     <td class="ctr1" id="f103">7</td>
+     <td class="ctr2" id="g102">8</td>
+     <td class="ctr1" id="h99">17</td>
+     <td class="ctr2" id="i93">24</td>
+     <td class="ctr1" id="j110">2</td>
+     <td class="ctr2" id="k106">3</td>
+     <td class="ctr1" id="l128">0</td>
+     <td class="ctr2" id="m88">1</td>
+    </tr>
+    <tr>
+     <td id="a12"><a href="ArabicTreebankParserParams$AddRelativeNodeFunction.html" class="el_class">ArabicTreebankParserParams.AddRelativeNodeFunction</a></td>
+     <td class="bar" id="b89"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="125" alt="125"></td>
+     <td class="ctr2" id="c27">20%</td>
+     <td class="bar" id="d92"></td>
+     <td class="ctr2" id="e92">0%</td>
+     <td class="ctr1" id="f104">7</td>
+     <td class="ctr2" id="g95">10</td>
+     <td class="ctr1" id="h123">8</td>
+     <td class="ctr2" id="i107">19</td>
+     <td class="ctr1" id="j111">2</td>
+     <td class="ctr2" id="k86">5</td>
+     <td class="ctr1" id="l129">0</td>
+     <td class="ctr2" id="m89">1</td>
+    </tr>
+    <tr>
+     <td id="a129"><a href="StringUnaryRule.html" class="el_class">StringUnaryRule</a></td>
+     <td class="bar" id="b90"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="124" alt="124"></td>
+     <td class="ctr2" id="c111">0%</td>
+     <td class="bar" id="d63"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e93">0%</td>
+     <td class="ctr1" id="f75">15</td>
+     <td class="ctr2" id="g79">15</td>
+     <td class="ctr1" id="h90">23</td>
+     <td class="ctr2" id="i100">23</td>
+     <td class="ctr1" id="j91">4</td>
+     <td class="ctr2" id="k97">4</td>
+     <td class="ctr1" id="l67">1</td>
+     <td class="ctr2" id="m90">1</td>
+    </tr>
+    <tr>
+     <td id="a117"><a href="ProjectionScorer.html" class="el_class">ProjectionScorer</a></td>
+     <td class="bar" id="b91"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="122" alt="122"></td>
+     <td class="ctr2" id="c112">0%</td>
+     <td class="bar" id="d134"></td>
+     <td class="ctr2" id="e134">n/a</td>
+     <td class="ctr1" id="f98">8</td>
+     <td class="ctr2" id="g103">8</td>
+     <td class="ctr1" id="h84">25</td>
+     <td class="ctr2" id="i91">25</td>
+     <td class="ctr1" id="j54">8</td>
+     <td class="ctr2" id="k56">8</td>
+     <td class="ctr1" id="l68">1</td>
+     <td class="ctr2" id="m91">1</td>
+    </tr>
+    <tr>
+     <td id="a67"><a href="FrenchTreebankParserParams$AddPOSSequenceFunction.html" class="el_class">FrenchTreebankParserParams.AddPOSSequenceFunction</a></td>
+     <td class="bar" id="b92"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="120" alt="120"></td>
+     <td class="ctr2" id="c35">11%</td>
+     <td class="bar" id="d93"></td>
+     <td class="ctr2" id="e94">0%</td>
+     <td class="ctr1" id="f105">7</td>
+     <td class="ctr2" id="g104">8</td>
+     <td class="ctr1" id="h109">13</td>
+     <td class="ctr2" id="i108">18</td>
+     <td class="ctr1" id="j112">2</td>
+     <td class="ctr2" id="k107">3</td>
+     <td class="ctr1" id="l130">0</td>
+     <td class="ctr2" id="m92">1</td>
+    </tr>
+    <tr>
+     <td id="a56"><a href="ExactGrammarCompactor.html" class="el_class">ExactGrammarCompactor</a></td>
+     <td class="bar" id="b93"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="114" alt="114"></td>
+     <td class="ctr2" id="c113">0%</td>
+     <td class="bar" id="d112"></td>
+     <td class="ctr2" id="e95">0%</td>
+     <td class="ctr1" id="f117">5</td>
+     <td class="ctr2" id="g121">5</td>
+     <td class="ctr1" id="h91">23</td>
+     <td class="ctr2" id="i101">23</td>
+     <td class="ctr1" id="j96">3</td>
+     <td class="ctr2" id="k108">3</td>
+     <td class="ctr1" id="l69">1</td>
+     <td class="ctr2" id="m93">1</td>
+    </tr>
+    <tr>
+     <td id="a3"><a href="AbstractTreebankParserParams$RemoveGFSubcategoryStripper.html" class="el_class">AbstractTreebankParserParams.RemoveGFSubcategoryStripper</a></td>
+     <td class="bar" id="b94"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="112" alt="112"></td>
+     <td class="ctr2" id="c114">0%</td>
+     <td class="bar" id="d104"></td>
+     <td class="ctr2" id="e96">0%</td>
+     <td class="ctr1" id="f118">5</td>
+     <td class="ctr2" id="g122">5</td>
+     <td class="ctr1" id="h83">26</td>
+     <td class="ctr2" id="i88">26</td>
+     <td class="ctr1" id="j113">2</td>
+     <td class="ctr2" id="k130">2</td>
+     <td class="ctr1" id="l70">1</td>
+     <td class="ctr2" id="m94">1</td>
+    </tr>
+    <tr>
+     <td id="a49"><a href="Edge.html" class="el_class">Edge</a></td>
+     <td class="bar" id="b95"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="111" alt="111"></td>
+     <td class="ctr2" id="c115">0%</td>
+     <td class="bar" id="d77"></td>
+     <td class="ctr2" id="e97">0%</td>
+     <td class="ctr1" id="f81">13</td>
+     <td class="ctr2" id="g88">13</td>
+     <td class="ctr1" id="h104">15</td>
+     <td class="ctr2" id="i116">15</td>
+     <td class="ctr1" id="j70">6</td>
+     <td class="ctr2" id="k74">6</td>
+     <td class="ctr1" id="l71">1</td>
+     <td class="ctr2" id="m95">1</td>
+    </tr>
+    <tr>
+     <td id="a7"><a href="AddTaggerToParser.html" class="el_class">AddTaggerToParser</a></td>
+     <td class="bar" id="b96"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="111" alt="111"></td>
+     <td class="ctr2" id="c116">0%</td>
+     <td class="bar" id="d94"></td>
+     <td class="ctr2" id="e98">0%</td>
+     <td class="ctr1" id="f106">7</td>
+     <td class="ctr2" id="g109">7</td>
+     <td class="ctr1" id="h87">24</td>
+     <td class="ctr2" id="i94">24</td>
+     <td class="ctr1" id="j114">2</td>
+     <td class="ctr2" id="k131">2</td>
+     <td class="ctr1" id="l72">1</td>
+     <td class="ctr2" id="m96">1</td>
+    </tr>
+    <tr>
+     <td id="a138"><a href="TreeAnnotatorAndBinarizer$TreeNullAnnotator.html" class="el_class">TreeAnnotatorAndBinarizer.TreeNullAnnotator</a></td>
+     <td class="bar" id="b97"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="110" alt="110"></td>
+     <td class="ctr2" id="c36">11%</td>
+     <td class="bar" id="d95"></td>
+     <td class="ctr2" id="e99">0%</td>
+     <td class="ctr1" id="f107">7</td>
+     <td class="ctr2" id="g105">8</td>
+     <td class="ctr1" id="h85">25</td>
+     <td class="ctr2" id="i86">29</td>
+     <td class="ctr1" id="j115">2</td>
+     <td class="ctr2" id="k109">3</td>
+     <td class="ctr1" id="l131">0</td>
+     <td class="ctr2" id="m97">1</td>
+    </tr>
+    <tr>
+     <td id="a104"><a href="MLEDependencyGrammarExtractor.html" class="el_class">MLEDependencyGrammarExtractor</a></td>
+     <td class="bar" id="b98"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="108" alt="108"></td>
+     <td class="ctr2" id="c117">0%</td>
+     <td class="bar" id="d113"></td>
+     <td class="ctr2" id="e100">0%</td>
+     <td class="ctr1" id="f119">5</td>
+     <td class="ctr2" id="g123">5</td>
+     <td class="ctr1" id="h94">21</td>
+     <td class="ctr2" id="i105">21</td>
+     <td class="ctr1" id="j97">3</td>
+     <td class="ctr2" id="k110">3</td>
+     <td class="ctr1" id="l73">1</td>
+     <td class="ctr2" id="m98">1</td>
+    </tr>
+    <tr>
+     <td id="a90"><a href="ItalianTreebankParserParams.html" class="el_class">ItalianTreebankParserParams</a></td>
+     <td class="bar" id="b99"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="102" alt="102"></td>
+     <td class="ctr2" id="c28">20%</td>
+     <td class="bar" id="d114"></td>
+     <td class="ctr2" id="e101">0%</td>
+     <td class="ctr1" id="f85">12</td>
+     <td class="ctr2" id="g83">14</td>
+     <td class="ctr1" id="h96">18</td>
+     <td class="ctr2" id="i95">24</td>
+     <td class="ctr1" id="j46">10</td>
+     <td class="ctr2" id="k43">12</td>
+     <td class="ctr1" id="l132">0</td>
+     <td class="ctr2" id="m99">1</td>
+    </tr>
+    <tr>
+     <td id="a95"><a href="LatticeEdge.html" class="el_class">LatticeEdge</a></td>
+     <td class="bar" id="b100"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="101" alt="101"></td>
+     <td class="ctr2" id="c118">0%</td>
+     <td class="bar" id="d123"></td>
+     <td class="ctr2" id="e102">0%</td>
+     <td class="ctr1" id="f108">7</td>
+     <td class="ctr2" id="g110">7</td>
+     <td class="ctr1" id="h97">18</td>
+     <td class="ctr2" id="i109">18</td>
+     <td class="ctr1" id="j71">6</td>
+     <td class="ctr2" id="k75">6</td>
+     <td class="ctr1" id="l74">1</td>
+     <td class="ctr2" id="m100">1</td>
+    </tr>
+    <tr>
+     <td id="a4"><a href="AbstractTreebankParserParams$SubcategoryStripper.html" class="el_class">AbstractTreebankParserParams.SubcategoryStripper</a></td>
+     <td class="bar" id="b101"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="100" alt="100"></td>
+     <td class="ctr2" id="c119">0%</td>
+     <td class="bar" id="d105"></td>
+     <td class="ctr2" id="e103">0%</td>
+     <td class="ctr1" id="f120">5</td>
+     <td class="ctr2" id="g124">5</td>
+     <td class="ctr1" id="h88">24</td>
+     <td class="ctr2" id="i96">24</td>
+     <td class="ctr1" id="j116">2</td>
+     <td class="ctr2" id="k132">2</td>
+     <td class="ctr1" id="l75">1</td>
+     <td class="ctr2" id="m101">1</td>
+    </tr>
+    <tr>
+     <td id="a45"><a href="CNFTransformers$FromCNFTransformer.html" class="el_class">CNFTransformers.FromCNFTransformer</a></td>
+     <td class="bar" id="b102"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="99" alt="99"></td>
+     <td class="ctr2" id="c120">0%</td>
+     <td class="bar" id="d98"></td>
+     <td class="ctr2" id="e104">0%</td>
+     <td class="ctr1" id="f112">6</td>
+     <td class="ctr2" id="g115">6</td>
+     <td class="ctr1" id="h95">20</td>
+     <td class="ctr2" id="i106">20</td>
+     <td class="ctr1" id="j117">2</td>
+     <td class="ctr2" id="k133">2</td>
+     <td class="ctr1" id="l76">1</td>
+     <td class="ctr2" id="m102">1</td>
+    </tr>
+    <tr>
+     <td id="a85"><a href="HungarianTreebankParserParams.html" class="el_class">HungarianTreebankParserParams</a></td>
+     <td class="bar" id="b103"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="98" alt="98"></td>
+     <td class="ctr2" id="c26">20%</td>
+     <td class="bar" id="d115"></td>
+     <td class="ctr2" id="e105">0%</td>
+     <td class="ctr1" id="f86">12</td>
+     <td class="ctr2" id="g84">14</td>
+     <td class="ctr1" id="h98">18</td>
+     <td class="ctr2" id="i97">24</td>
+     <td class="ctr1" id="j47">10</td>
+     <td class="ctr2" id="k44">12</td>
+     <td class="ctr1" id="l133">0</td>
+     <td class="ctr2" id="m103">1</td>
+    </tr>
+    <tr>
+     <td id="a25"><a href="BiLexPCFGParser$N5BiLexPCFGParser.html" class="el_class">BiLexPCFGParser.N5BiLexPCFGParser</a></td>
+     <td class="bar" id="b104"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="98" alt="98"></td>
+     <td class="ctr2" id="c121">0%</td>
+     <td class="bar" id="d106"></td>
+     <td class="ctr2" id="e106">0%</td>
+     <td class="ctr1" id="f113">6</td>
+     <td class="ctr2" id="g116">6</td>
+     <td class="ctr1" id="h102">16</td>
+     <td class="ctr2" id="i114">16</td>
+     <td class="ctr1" id="j98">3</td>
+     <td class="ctr2" id="k111">3</td>
+     <td class="ctr1" id="l77">1</td>
+     <td class="ctr2" id="m104">1</td>
+    </tr>
+    <tr>
+     <td id="a141"><a href="TreeCollinizer.html" class="el_class">TreeCollinizer</a></td>
+     <td class="bar" id="b105"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="97" alt="97"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="181" alt="181"></td>
+     <td class="ctr2" id="c7">65%</td>
+     <td class="bar" id="d65"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="21" alt="21"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="25" alt="25"></td>
+     <td class="ctr2" id="e3">54%</td>
+     <td class="ctr1" id="f66">17</td>
+     <td class="ctr2" id="g46">30</td>
+     <td class="ctr1" id="h113">12</td>
+     <td class="ctr2" id="i55">57</td>
+     <td class="ctr1" id="j140">1</td>
+     <td class="ctr2" id="k68">7</td>
+     <td class="ctr1" id="l134">0</td>
+     <td class="ctr2" id="m105">1</td>
+    </tr>
+    <tr>
+     <td id="a60"><a href="ExhaustivePCFGParser$Derivation.html" class="el_class">ExhaustivePCFGParser.Derivation</a></td>
+     <td class="bar" id="b106"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="87" alt="87"></td>
+     <td class="ctr2" id="c122">0%</td>
+     <td class="bar" id="d64"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="22" alt="22"></td>
+     <td class="ctr2" id="e107">0%</td>
+     <td class="ctr1" id="f77">14</td>
+     <td class="ctr2" id="g85">14</td>
+     <td class="ctr1" id="h105">14</td>
+     <td class="ctr2" id="i117">14</td>
+     <td class="ctr1" id="j99">3</td>
+     <td class="ctr2" id="k112">3</td>
+     <td class="ctr1" id="l78">1</td>
+     <td class="ctr2" id="m106">1</td>
+    </tr>
+    <tr>
+     <td id="a61"><a href="ExhaustivePCFGParser$Vertex.html" class="el_class">ExhaustivePCFGParser.Vertex</a></td>
+     <td class="bar" id="b107"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="83" alt="83"></td>
+     <td class="ctr2" id="c123">0%</td>
+     <td class="bar" id="d96"></td>
+     <td class="ctr2" id="e108">0%</td>
+     <td class="ctr1" id="f94">9</td>
+     <td class="ctr2" id="g98">9</td>
+     <td class="ctr1" id="h110">13</td>
+     <td class="ctr2" id="i120">13</td>
+     <td class="ctr1" id="j92">4</td>
+     <td class="ctr2" id="k98">4</td>
+     <td class="ctr1" id="l79">1</td>
+     <td class="ctr2" id="m107">1</td>
+    </tr>
+    <tr>
+     <td id="a14"><a href="ArabicTreebankParserParams$AnnotatePunctuationFunction2.html" class="el_class">ArabicTreebankParserParams.AnnotatePunctuationFunction2</a></td>
+     <td class="bar" id="b108"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="80" alt="80"></td>
+     <td class="ctr2" id="c42">4%</td>
+     <td class="bar" id="d59"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="24" alt="24"></td>
+     <td class="ctr2" id="e109">0%</td>
+     <td class="ctr1" id="f78">14</td>
+     <td class="ctr2" id="g80">15</td>
+     <td class="ctr1" id="h86">25</td>
+     <td class="ctr2" id="i89">26</td>
+     <td class="ctr1" id="j118">2</td>
+     <td class="ctr2" id="k113">3</td>
+     <td class="ctr1" id="l135">0</td>
+     <td class="ctr2" id="m108">1</td>
+    </tr>
+    <tr>
+     <td id="a6"><a href="AbstractUnknownWordModelTrainer.html" class="el_class">AbstractUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b109"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="76" alt="76"></td>
+     <td class="ctr2" id="c124">0%</td>
+     <td class="bar" id="d116"></td>
+     <td class="ctr2" id="e110">0%</td>
+     <td class="ctr1" id="f99">8</td>
+     <td class="ctr2" id="g106">8</td>
+     <td class="ctr1" id="h89">24</td>
+     <td class="ctr2" id="i98">24</td>
+     <td class="ctr1" id="j72">6</td>
+     <td class="ctr2" id="k76">6</td>
+     <td class="ctr1" id="l80">1</td>
+     <td class="ctr2" id="m109">1</td>
+    </tr>
+    <tr>
+     <td id="a146"><a href="TwinScorer.html" class="el_class">TwinScorer</a></td>
+     <td class="bar" id="b110"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="75" alt="75"></td>
+     <td class="ctr2" id="c125">0%</td>
+     <td class="bar" id="d82"></td>
+     <td class="ctr2" id="e111">0%</td>
+     <td class="ctr1" id="f87">12</td>
+     <td class="ctr2" id="g91">12</td>
+     <td class="ctr1" id="h114">11</td>
+     <td class="ctr2" id="i123">11</td>
+     <td class="ctr1" id="j73">6</td>
+     <td class="ctr2" id="k77">6</td>
+     <td class="ctr1" id="l81">1</td>
+     <td class="ctr2" id="m110">1</td>
+    </tr>
+    <tr>
+     <td id="a92"><a href="Item.html" class="el_class">Item</a></td>
+     <td class="bar" id="b111"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="75" alt="75"></td>
+     <td class="ctr2" id="c126">0%</td>
+     <td class="bar" id="d124"></td>
+     <td class="ctr2" id="e112">0%</td>
+     <td class="ctr1" id="f109">7</td>
+     <td class="ctr2" id="g111">7</td>
+     <td class="ctr1" id="h93">22</td>
+     <td class="ctr2" id="i103">22</td>
+     <td class="ctr1" id="j74">6</td>
+     <td class="ctr2" id="k78">6</td>
+     <td class="ctr1" id="l82">1</td>
+     <td class="ctr2" id="m111">1</td>
+    </tr>
+    <tr>
+     <td id="a40"><a href="ChineseTreebankParserParams$1.html" class="el_class">ChineseTreebankParserParams.new MLEDependencyGrammarExtractor() {...}</a></td>
+     <td class="bar" id="b112"><img src="../jacoco-resources/redbar.gif" width="1" height="10" title="72" alt="72"></td>
+     <td class="ctr2" id="c127">0%</td>
+     <td class="bar" id="d117"></td>
+     <td class="ctr2" id="e113">0%</td>
+     <td class="ctr1" id="f125">4</td>
+     <td class="ctr2" id="g128">4</td>
+     <td class="ctr1" id="h117">10</td>
+     <td class="ctr2" id="i126">10</td>
+     <td class="ctr1" id="j119">2</td>
+     <td class="ctr2" id="k134">2</td>
+     <td class="ctr1" id="l83">1</td>
+     <td class="ctr2" id="m112">1</td>
+    </tr>
+    <tr>
+     <td id="a44"><a href="CNFTransformers.html" class="el_class">CNFTransformers</a></td>
+     <td class="bar" id="b113"></td>
+     <td class="ctr2" id="c128">0%</td>
+     <td class="bar" id="d125"></td>
+     <td class="ctr2" id="e114">0%</td>
+     <td class="ctr1" id="f137">2</td>
+     <td class="ctr2" id="g144">2</td>
+     <td class="ctr1" id="h103">16</td>
+     <td class="ctr2" id="i115">16</td>
+     <td class="ctr1" id="j141">1</td>
+     <td class="ctr2" id="k145">1</td>
+     <td class="ctr1" id="l84">1</td>
+     <td class="ctr2" id="m113">1</td>
+    </tr>
+    <tr>
+     <td id="a59"><a href="ExhaustivePCFGParser$Arc.html" class="el_class">ExhaustivePCFGParser.Arc</a></td>
+     <td class="bar" id="b114"></td>
+     <td class="ctr2" id="c129">0%</td>
+     <td class="bar" id="d99"></td>
+     <td class="ctr2" id="e115">0%</td>
+     <td class="ctr1" id="f100">8</td>
+     <td class="ctr2" id="g107">8</td>
+     <td class="ctr1" id="h111">13</td>
+     <td class="ctr2" id="i121">13</td>
+     <td class="ctr1" id="j93">4</td>
+     <td class="ctr2" id="k99">4</td>
+     <td class="ctr1" id="l85">1</td>
+     <td class="ctr2" id="m114">1</td>
+    </tr>
+    <tr>
+     <td id="a9"><a href="ArabicTreebankParserParams$AddEquivalencedConjNode.html" class="el_class">ArabicTreebankParserParams.AddEquivalencedConjNode</a></td>
+     <td class="bar" id="b115"></td>
+     <td class="ctr2" id="c13">38%</td>
+     <td class="bar" id="d107"></td>
+     <td class="ctr2" id="e116">0%</td>
+     <td class="ctr1" id="f121">5</td>
+     <td class="ctr2" id="g112">7</td>
+     <td class="ctr1" id="h118">10</td>
+     <td class="ctr2" id="i110">18</td>
+     <td class="ctr1" id="j120">2</td>
+     <td class="ctr2" id="k100">4</td>
+     <td class="ctr1" id="l136">0</td>
+     <td class="ctr2" id="m115">1</td>
+    </tr>
+    <tr>
+     <td id="a131"><a href="TaggerReranker$Query.html" class="el_class">TaggerReranker.Query</a></td>
+     <td class="bar" id="b116"></td>
+     <td class="ctr2" id="c130">0%</td>
+     <td class="bar" id="d118"></td>
+     <td class="ctr2" id="e117">0%</td>
+     <td class="ctr1" id="f126">4</td>
+     <td class="ctr2" id="g129">4</td>
+     <td class="ctr1" id="h115">11</td>
+     <td class="ctr2" id="i124">11</td>
+     <td class="ctr1" id="j121">2</td>
+     <td class="ctr2" id="k135">2</td>
+     <td class="ctr1" id="l86">1</td>
+     <td class="ctr2" id="m116">1</td>
+    </tr>
+    <tr>
+     <td id="a143"><a href="TregexPoweredTreebankParserParams$AnnotateHeadFunction.html" class="el_class">TregexPoweredTreebankParserParams.AnnotateHeadFunction</a></td>
+     <td class="bar" id="b117"></td>
+     <td class="ctr2" id="c29">20%</td>
+     <td class="bar" id="d108"></td>
+     <td class="ctr2" id="e118">0%</td>
+     <td class="ctr1" id="f122">5</td>
+     <td class="ctr2" id="g113">7</td>
+     <td class="ctr1" id="h116">11</td>
+     <td class="ctr2" id="i111">17</td>
+     <td class="ctr1" id="j122">2</td>
+     <td class="ctr2" id="k101">4</td>
+     <td class="ctr1" id="l137">0</td>
+     <td class="ctr2" id="m117">1</td>
+    </tr>
+    <tr>
+     <td id="a81"><a href="HookChart$ChartIndex.html" class="el_class">HookChart.ChartIndex</a></td>
+     <td class="bar" id="b118"></td>
+     <td class="ctr2" id="c131">0%</td>
+     <td class="bar" id="d83"></td>
+     <td class="ctr2" id="e119">0%</td>
+     <td class="ctr1" id="f101">8</td>
+     <td class="ctr2" id="g108">8</td>
+     <td class="ctr1" id="h126">7</td>
+     <td class="ctr2" id="i135">7</td>
+     <td class="ctr1" id="j123">2</td>
+     <td class="ctr2" id="k136">2</td>
+     <td class="ctr1" id="l87">1</td>
+     <td class="ctr2" id="m118">1</td>
+    </tr>
+    <tr>
+     <td id="a10"><a href="ArabicTreebankParserParams$AddEquivalencedNodeFunction.html" class="el_class">ArabicTreebankParserParams.AddEquivalencedNodeFunction</a></td>
+     <td class="bar" id="b119"></td>
+     <td class="ctr2" id="c33">14%</td>
+     <td class="bar" id="d119"></td>
+     <td class="ctr2" id="e120">0%</td>
+     <td class="ctr1" id="f127">4</td>
+     <td class="ctr2" id="g125">5</td>
+     <td class="ctr1" id="h127">7</td>
+     <td class="ctr2" id="i125">11</td>
+     <td class="ctr1" id="j124">2</td>
+     <td class="ctr2" id="k114">3</td>
+     <td class="ctr1" id="l138">0</td>
+     <td class="ctr2" id="m119">1</td>
+    </tr>
+    <tr>
+     <td id="a133"><a href="TestTagProjection.html" class="el_class">TestTagProjection</a></td>
+     <td class="bar" id="b120"></td>
+     <td class="ctr2" id="c132">0%</td>
+     <td class="bar" id="d100"></td>
+     <td class="ctr2" id="e121">0%</td>
+     <td class="ctr1" id="f110">7</td>
+     <td class="ctr2" id="g114">7</td>
+     <td class="ctr1" id="h106">14</td>
+     <td class="ctr2" id="i118">14</td>
+     <td class="ctr1" id="j100">3</td>
+     <td class="ctr2" id="k115">3</td>
+     <td class="ctr1" id="l88">1</td>
+     <td class="ctr2" id="m120">1</td>
+    </tr>
+    <tr>
+     <td id="a132"><a href="TestOptions.html" class="el_class">TestOptions</a></td>
+     <td class="bar" id="b121"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="179" alt="179"></td>
+     <td class="ctr2" id="c4">77%</td>
+     <td class="bar" id="d135"></td>
+     <td class="ctr2" id="e135">n/a</td>
+     <td class="ctr1" id="f138">2</td>
+     <td class="ctr2" id="g126">5</td>
+     <td class="ctr1" id="h135">4</td>
+     <td class="ctr2" id="i60">53</td>
+     <td class="ctr1" id="j125">2</td>
+     <td class="ctr2" id="k87">5</td>
+     <td class="ctr1" id="l139">0</td>
+     <td class="ctr2" id="m121">1</td>
+    </tr>
+    <tr>
+     <td id="a11"><a href="ArabicTreebankParserParams$AddEquivalencedNodeFunctionVar.html" class="el_class">ArabicTreebankParserParams.AddEquivalencedNodeFunctionVar</a></td>
+     <td class="bar" id="b122"></td>
+     <td class="ctr2" id="c32">15%</td>
+     <td class="bar" id="d109"></td>
+     <td class="ctr2" id="e122">0%</td>
+     <td class="ctr1" id="f123">5</td>
+     <td class="ctr2" id="g117">6</td>
+     <td class="ctr1" id="h133">5</td>
+     <td class="ctr2" id="i128">9</td>
+     <td class="ctr1" id="j126">2</td>
+     <td class="ctr2" id="k116">3</td>
+     <td class="ctr1" id="l140">0</td>
+     <td class="ctr2" id="m122">1</td>
+    </tr>
+    <tr>
+     <td id="a63"><a href="FactoredLexiconEvent.html" class="el_class">FactoredLexiconEvent</a></td>
+     <td class="bar" id="b123"></td>
+     <td class="ctr2" id="c133">0%</td>
+     <td class="bar" id="d136"></td>
+     <td class="ctr2" id="e136">n/a</td>
+     <td class="ctr1" id="f95">9</td>
+     <td class="ctr2" id="g99">9</td>
+     <td class="ctr1" id="h100">17</td>
+     <td class="ctr2" id="i112">17</td>
+     <td class="ctr1" id="j49">9</td>
+     <td class="ctr2" id="k50">9</td>
+     <td class="ctr1" id="l89">1</td>
+     <td class="ctr2" id="m123">1</td>
+    </tr>
+    <tr>
+     <td id="a34"><a href="ChineseLexicon.html" class="el_class">ChineseLexicon</a></td>
+     <td class="bar" id="b124"></td>
+     <td class="ctr2" id="c134">0%</td>
+     <td class="bar" id="d120"></td>
+     <td class="ctr2" id="e123">0%</td>
+     <td class="ctr1" id="f128">4</td>
+     <td class="ctr2" id="g130">4</td>
+     <td class="ctr1" id="h119">10</td>
+     <td class="ctr2" id="i127">10</td>
+     <td class="ctr1" id="j127">2</td>
+     <td class="ctr2" id="k137">2</td>
+     <td class="ctr1" id="l90">1</td>
+     <td class="ctr2" id="m124">1</td>
+    </tr>
+    <tr>
+     <td id="a28"><a href="BinaryHeadFinder.html" class="el_class">BinaryHeadFinder</a></td>
+     <td class="bar" id="b125"></td>
+     <td class="ctr2" id="c9">57%</td>
+     <td class="bar" id="d97"></td>
+     <td class="ctr2" id="e2">59%</td>
+     <td class="ctr1" id="f102">8</td>
+     <td class="ctr2" id="g73">16</td>
+     <td class="ctr1" id="h121">9</td>
+     <td class="ctr2" id="i90">26</td>
+     <td class="ctr1" id="j128">2</td>
+     <td class="ctr2" id="k88">5</td>
+     <td class="ctr1" id="l141">0</td>
+     <td class="ctr2" id="m125">1</td>
+    </tr>
+    <tr>
+     <td id="a73"><a href="GermanUnknownWordModel.html" class="el_class">GermanUnknownWordModel</a></td>
+     <td class="bar" id="b126"></td>
+     <td class="ctr2" id="c135">0%</td>
+     <td class="bar" id="d121"></td>
+     <td class="ctr2" id="e124">0%</td>
+     <td class="ctr1" id="f124">5</td>
+     <td class="ctr2" id="g127">5</td>
+     <td class="ctr1" id="h112">13</td>
+     <td class="ctr2" id="i122">13</td>
+     <td class="ctr1" id="j101">3</td>
+     <td class="ctr2" id="k117">3</td>
+     <td class="ctr1" id="l91">1</td>
+     <td class="ctr2" id="m126">1</td>
+    </tr>
+    <tr>
+     <td id="a82"><a href="HookChart$WeakChartIndex.html" class="el_class">HookChart.WeakChartIndex</a></td>
+     <td class="bar" id="b127"></td>
+     <td class="ctr2" id="c136">0%</td>
+     <td class="bar" id="d101"></td>
+     <td class="ctr2" id="e125">0%</td>
+     <td class="ctr1" id="f114">6</td>
+     <td class="ctr2" id="g118">6</td>
+     <td class="ctr1" id="h128">7</td>
+     <td class="ctr2" id="i136">7</td>
+     <td class="ctr1" id="j129">2</td>
+     <td class="ctr2" id="k138">2</td>
+     <td class="ctr1" id="l92">1</td>
+     <td class="ctr2" id="m127">1</td>
+    </tr>
+    <tr>
+     <td id="a86"><a href="HungarianTreebankParserParams$HungarianSubcategoryStripper.html" class="el_class">HungarianTreebankParserParams.HungarianSubcategoryStripper</a></td>
+     <td class="bar" id="b128"></td>
+     <td class="ctr2" id="c137">0%</td>
+     <td class="bar" id="d126"></td>
+     <td class="ctr2" id="e126">0%</td>
+     <td class="ctr1" id="f130">3</td>
+     <td class="ctr2" id="g134">3</td>
+     <td class="ctr1" id="h124">8</td>
+     <td class="ctr2" id="i132">8</td>
+     <td class="ctr1" id="j130">2</td>
+     <td class="ctr2" id="k139">2</td>
+     <td class="ctr1" id="l93">1</td>
+     <td class="ctr2" id="m128">1</td>
+    </tr>
+    <tr>
+     <td id="a123"><a href="SpanishTreebankParserParams$MarkPrefixFunction.html" class="el_class">SpanishTreebankParserParams.MarkPrefixFunction</a></td>
+     <td class="bar" id="b129"></td>
+     <td class="ctr2" id="c31">16%</td>
+     <td class="bar" id="d137"></td>
+     <td class="ctr2" id="e137">n/a</td>
+     <td class="ctr1" id="f139">2</td>
+     <td class="ctr2" id="g135">3</td>
+     <td class="ctr1" id="h131">6</td>
+     <td class="ctr2" id="i129">9</td>
+     <td class="ctr1" id="j131">2</td>
+     <td class="ctr2" id="k118">3</td>
+     <td class="ctr1" id="l142">0</td>
+     <td class="ctr2" id="m129">1</td>
+    </tr>
+    <tr>
+     <td id="a74"><a href="GermanUnknownWordModelTrainer.html" class="el_class">GermanUnknownWordModelTrainer</a></td>
+     <td class="bar" id="b130"></td>
+     <td class="ctr2" id="c138">0%</td>
+     <td class="bar" id="d127"></td>
+     <td class="ctr2" id="e127">0%</td>
+     <td class="ctr1" id="f131">3</td>
+     <td class="ctr2" id="g136">3</td>
+     <td class="ctr1" id="h134">5</td>
+     <td class="ctr2" id="i140">5</td>
+     <td class="ctr1" id="j132">2</td>
+     <td class="ctr2" id="k140">2</td>
+     <td class="ctr1" id="l94">1</td>
+     <td class="ctr2" id="m130">1</td>
+    </tr>
+    <tr>
+     <td id="a2"><a href="AbstractTreebankParserParams$AnnotatePunctuationFunction.html" class="el_class">AbstractTreebankParserParams.AnnotatePunctuationFunction</a></td>
+     <td class="bar" id="b131"></td>
+     <td class="ctr2" id="c21">25%</td>
+     <td class="bar" id="d128"></td>
+     <td class="ctr2" id="e128">0%</td>
+     <td class="ctr1" id="f132">3</td>
+     <td class="ctr2" id="g131">4</td>
+     <td class="ctr1" id="h136">4</td>
+     <td class="ctr2" id="i133">8</td>
+     <td class="ctr1" id="j133">2</td>
+     <td class="ctr2" id="k119">3</td>
+     <td class="ctr1" id="l143">0</td>
+     <td class="ctr2" id="m131">1</td>
+    </tr>
+    <tr>
+     <td id="a72"><a href="GenericTreebankParserParams.html" class="el_class">GenericTreebankParserParams</a></td>
+     <td class="bar" id="b132"></td>
+     <td class="ctr2" id="c139">0%</td>
+     <td class="bar" id="d138"></td>
+     <td class="ctr2" id="e138">n/a</td>
+     <td class="ctr1" id="f82">13</td>
+     <td class="ctr2" id="g89">13</td>
+     <td class="ctr1" id="h107">14</td>
+     <td class="ctr2" id="i119">14</td>
+     <td class="ctr1" id="j34">13</td>
+     <td class="ctr2" id="k39">13</td>
+     <td class="ctr1" id="l95">1</td>
+     <td class="ctr2" id="m132">1</td>
+    </tr>
+    <tr>
+     <td id="a69"><a href="FrenchTreebankParserParams$AnnotatePunctuationFunction.html" class="el_class">FrenchTreebankParserParams.AnnotatePunctuationFunction</a></td>
+     <td class="bar" id="b133"></td>
+     <td class="ctr2" id="c140">0%</td>
+     <td class="bar" id="d110"></td>
+     <td class="ctr2" id="e129">0%</td>
+     <td class="ctr1" id="f115">6</td>
+     <td class="ctr2" id="g119">6</td>
+     <td class="ctr1" id="h125">8</td>
+     <td class="ctr2" id="i134">8</td>
+     <td class="ctr1" id="j134">2</td>
+     <td class="ctr2" id="k141">2</td>
+     <td class="ctr1" id="l96">1</td>
+     <td class="ctr2" id="m133">1</td>
+    </tr>
+    <tr>
+     <td id="a127"><a href="SplittingGrammarExtractor$1.html" class="el_class">SplittingGrammarExtractor.new Comparator() {...}</a></td>
+     <td class="bar" id="b134"></td>
+     <td class="ctr2" id="c141">0%</td>
+     <td class="bar" id="d129"></td>
+     <td class="ctr2" id="e130">0%</td>
+     <td class="ctr1" id="f129">4</td>
+     <td class="ctr2" id="g132">4</td>
+     <td class="ctr1" id="h139">3</td>
+     <td class="ctr2" id="i144">3</td>
+     <td class="ctr1" id="j102">3</td>
+     <td class="ctr2" id="k120">3</td>
+     <td class="ctr1" id="l97">1</td>
+     <td class="ctr2" id="m134">1</td>
+    </tr>
+    <tr>
+     <td id="a108"><a href="NullGrammarProjection.html" class="el_class">NullGrammarProjection</a></td>
+     <td class="bar" id="b135"></td>
+     <td class="ctr2" id="c142">0%</td>
+     <td class="bar" id="d139"></td>
+     <td class="ctr2" id="e139">n/a</td>
+     <td class="ctr1" id="f116">6</td>
+     <td class="ctr2" id="g120">6</td>
+     <td class="ctr1" id="h122">9</td>
+     <td class="ctr2" id="i130">9</td>
+     <td class="ctr1" id="j75">6</td>
+     <td class="ctr2" id="k79">6</td>
+     <td class="ctr1" id="l98">1</td>
+     <td class="ctr2" id="m135">1</td>
+    </tr>
+    <tr>
+     <td id="a130"><a href="TaggerReranker.html" class="el_class">TaggerReranker</a></td>
+     <td class="bar" id="b136"></td>
+     <td class="ctr2" id="c143">0%</td>
+     <td class="bar" id="d140"></td>
+     <td class="ctr2" id="e140">n/a</td>
+     <td class="ctr1" id="f133">3</td>
+     <td class="ctr2" id="g137">3</td>
+     <td class="ctr1" id="h129">7</td>
+     <td class="ctr2" id="i137">7</td>
+     <td class="ctr1" id="j103">3</td>
+     <td class="ctr2" id="k121">3</td>
+     <td class="ctr1" id="l99">1</td>
+     <td class="ctr2" id="m136">1</td>
+    </tr>
+    <tr>
+     <td id="a88"><a href="Interner.html" class="el_class">Interner</a></td>
+     <td class="bar" id="b137"></td>
+     <td class="ctr2" id="c144">0%</td>
+     <td class="bar" id="d130"></td>
+     <td class="ctr2" id="e131">0%</td>
+     <td class="ctr1" id="f134">3</td>
+     <td class="ctr2" id="g138">3</td>
+     <td class="ctr1" id="h130">7</td>
+     <td class="ctr2" id="i138">7</td>
+     <td class="ctr1" id="j135">2</td>
+     <td class="ctr2" id="k142">2</td>
+     <td class="ctr1" id="l100">1</td>
+     <td class="ctr2" id="m137">1</td>
+    </tr>
+    <tr>
+     <td id="a105"><a href="NegraPennCollinizer.html" class="el_class">NegraPennCollinizer</a></td>
+     <td class="bar" id="b138"><img src="../jacoco-resources/greenbar.gif" width="2" height="10" title="158" alt="158"></td>
+     <td class="ctr2" id="c3">87%</td>
+     <td class="bar" id="d102"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="19" alt="19"></td>
+     <td class="ctr2" id="e1">73%</td>
+     <td class="ctr1" id="f111">7</td>
+     <td class="ctr2" id="g68">17</td>
+     <td class="ctr1" id="h137">4</td>
+     <td class="ctr2" id="i77">36</td>
+     <td class="ctr1" id="j146">0</td>
+     <td class="ctr2" id="k102">4</td>
+     <td class="ctr1" id="l144">0</td>
+     <td class="ctr2" id="m138">1</td>
+    </tr>
+    <tr>
+     <td id="a23"><a href="BasicCategoryTagProjection.html" class="el_class">BasicCategoryTagProjection</a></td>
+     <td class="bar" id="b139"></td>
+     <td class="ctr2" id="c145">0%</td>
+     <td class="bar" id="d141"></td>
+     <td class="ctr2" id="e141">n/a</td>
+     <td class="ctr1" id="f135">3</td>
+     <td class="ctr2" id="g139">3</td>
+     <td class="ctr1" id="h132">6</td>
+     <td class="ctr2" id="i139">6</td>
+     <td class="ctr1" id="j104">3</td>
+     <td class="ctr2" id="k122">3</td>
+     <td class="ctr1" id="l101">1</td>
+     <td class="ctr2" id="m139">1</td>
+    </tr>
+    <tr>
+     <td id="a30"><a href="BoundaryRemover.html" class="el_class">BoundaryRemover</a></td>
+     <td class="bar" id="b140"></td>
+     <td class="ctr2" id="c10">52%</td>
+     <td class="bar" id="d122"></td>
+     <td class="ctr2" id="e4">50%</td>
+     <td class="ctr1" id="f140">2</td>
+     <td class="ctr2" id="g133">4</td>
+     <td class="ctr1" id="h140">3</td>
+     <td class="ctr2" id="i131">9</td>
+     <td class="ctr1" id="j147">0</td>
+     <td class="ctr2" id="k143">2</td>
+     <td class="ctr1" id="l145">0</td>
+     <td class="ctr2" id="m140">1</td>
+    </tr>
+    <tr>
+     <td id="a144"><a href="TregexPoweredTreebankParserParams$SimpleStringFunction.html" class="el_class">TregexPoweredTreebankParserParams.SimpleStringFunction</a></td>
+     <td class="bar" id="b141"></td>
+     <td class="ctr2" id="c16">28%</td>
+     <td class="bar" id="d142"></td>
+     <td class="ctr2" id="e142">n/a</td>
+     <td class="ctr1" id="f141">2</td>
+     <td class="ctr2" id="g140">3</td>
+     <td class="ctr1" id="h143">2</td>
+     <td class="ctr2" id="i141">5</td>
+     <td class="ctr1" id="j136">2</td>
+     <td class="ctr2" id="k123">3</td>
+     <td class="ctr1" id="l146">0</td>
+     <td class="ctr2" id="m141">1</td>
+    </tr>
+    <tr>
+     <td id="a16"><a href="ArabicTreebankParserParams$SimpleStringFunction.html" class="el_class">ArabicTreebankParserParams.SimpleStringFunction</a></td>
+     <td class="bar" id="b142"></td>
+     <td class="ctr2" id="c17">28%</td>
+     <td class="bar" id="d143"></td>
+     <td class="ctr2" id="e143">n/a</td>
+     <td class="ctr1" id="f142">2</td>
+     <td class="ctr2" id="g141">3</td>
+     <td class="ctr1" id="h144">2</td>
+     <td class="ctr2" id="i142">5</td>
+     <td class="ctr1" id="j137">2</td>
+     <td class="ctr2" id="k124">3</td>
+     <td class="ctr1" id="l147">0</td>
+     <td class="ctr2" id="m142">1</td>
+    </tr>
+    <tr>
+     <td id="a122"><a href="SpanishTreebankParserParams$MarkConjTypeFunction.html" class="el_class">SpanishTreebankParserParams.MarkConjTypeFunction</a></td>
+     <td class="bar" id="b143"></td>
+     <td class="ctr2" id="c146">0%</td>
+     <td class="bar" id="d144"></td>
+     <td class="ctr2" id="e144">n/a</td>
+     <td class="ctr1" id="f145">1</td>
+     <td class="ctr2" id="g146">1</td>
+     <td class="ctr1" id="h145">2</td>
+     <td class="ctr2" id="i147">2</td>
+     <td class="ctr1" id="j142">1</td>
+     <td class="ctr2" id="k146">1</td>
+     <td class="ctr1" id="l102">1</td>
+     <td class="ctr2" id="m143">1</td>
+    </tr>
+    <tr>
+     <td id="a98"><a href="LexicalizedParser$1.html" class="el_class">LexicalizedParser.new ThreadsafeProcessor() {...}</a></td>
+     <td class="bar" id="b144"></td>
+     <td class="ctr2" id="c147">0%</td>
+     <td class="bar" id="d145"></td>
+     <td class="ctr2" id="e145">n/a</td>
+     <td class="ctr1" id="f136">3</td>
+     <td class="ctr2" id="g142">3</td>
+     <td class="ctr1" id="h141">3</td>
+     <td class="ctr2" id="i145">3</td>
+     <td class="ctr1" id="j105">3</td>
+     <td class="ctr2" id="k125">3</td>
+     <td class="ctr1" id="l103">1</td>
+     <td class="ctr2" id="m144">1</td>
+    </tr>
+    <tr>
+     <td id="a91"><a href="ItalianTreebankParserParams$ItalianSubcategoryStripper.html" class="el_class">ItalianTreebankParserParams.ItalianSubcategoryStripper</a></td>
+     <td class="bar" id="b145"></td>
+     <td class="ctr2" id="c148">0%</td>
+     <td class="bar" id="d146"></td>
+     <td class="ctr2" id="e146">n/a</td>
+     <td class="ctr1" id="f143">2</td>
+     <td class="ctr2" id="g145">2</td>
+     <td class="ctr1" id="h142">3</td>
+     <td class="ctr2" id="i146">3</td>
+     <td class="ctr1" id="j138">2</td>
+     <td class="ctr2" id="k144">2</td>
+     <td class="ctr1" id="l104">1</td>
+     <td class="ctr2" id="m145">1</td>
+    </tr>
+    <tr>
+     <td id="a150"><a href="UnknownWordModelTrainer.html" class="el_class">UnknownWordModelTrainer</a></td>
+     <td class="bar" id="b146"></td>
+     <td class="ctr2" id="c149">0%</td>
+     <td class="bar" id="d147"></td>
+     <td class="ctr2" id="e147">n/a</td>
+     <td class="ctr1" id="f146">1</td>
+     <td class="ctr2" id="g147">1</td>
+     <td class="ctr1" id="h146">1</td>
+     <td class="ctr2" id="i149">1</td>
+     <td class="ctr1" id="j143">1</td>
+     <td class="ctr2" id="k147">1</td>
+     <td class="ctr1" id="l105">1</td>
+     <td class="ctr2" id="m146">1</td>
+    </tr>
+    <tr>
+     <td id="a48"><a href="Debinarizer.html" class="el_class">Debinarizer</a></td>
+     <td class="bar" id="b147"><img src="../jacoco-resources/greenbar.gif" width="1" height="10" title="103" alt="103"></td>
+     <td class="ctr2" id="c2">94%</td>
+     <td class="bar" id="d131"></td>
+     <td class="ctr2" id="e0">90%</td>
+     <td class="ctr1" id="f147">1</td>
+     <td class="ctr2" id="g100">9</td>
+     <td class="ctr1" id="h147">1</td>
+     <td class="ctr2" id="i92">25</td>
+     <td class="ctr1" id="j148">0</td>
+     <td class="ctr2" id="k103">4</td>
+     <td class="ctr1" id="l148">0</td>
+     <td class="ctr2" id="m147">1</td>
+    </tr>
+    <tr>
+     <td id="a103"><a href="MLEDependencyGrammar$EndHead.html" class="el_class">MLEDependencyGrammar.EndHead</a></td>
+     <td class="bar" id="b148"></td>
+     <td class="ctr2" id="c150">0%</td>
+     <td class="bar" id="d148"></td>
+     <td class="ctr2" id="e148">n/a</td>
+     <td class="ctr1" id="f148">1</td>
+     <td class="ctr2" id="g148">1</td>
+     <td class="ctr1" id="h148">1</td>
+     <td class="ctr2" id="i150">1</td>
+     <td class="ctr1" id="j144">1</td>
+     <td class="ctr2" id="k148">1</td>
+     <td class="ctr1" id="l106">1</td>
+     <td class="ctr2" id="m148">1</td>
+    </tr>
+    <tr>
+     <td id="a135"><a href="TrainOptions$TransformMatrixType.html" class="el_class">TrainOptions.TransformMatrixType</a></td>
+     <td class="bar" id="b149"></td>
+     <td class="ctr2" id="c0">100%</td>
+     <td class="bar" id="d149"></td>
+     <td class="ctr2" id="e149">n/a</td>
+     <td class="ctr1" id="f149">0</td>
+     <td class="ctr2" id="g149">1</td>
+     <td class="ctr1" id="h149">0</td>
+     <td class="ctr2" id="i148">2</td>
+     <td class="ctr1" id="j149">0</td>
+     <td class="ctr2" id="k149">1</td>
+     <td class="ctr1" id="l149">0</td>
+     <td class="ctr2" id="m149">1</td>
+    </tr>
+    <tr>
+     <td id="a52"><a href="EnglishTreebankParserParams$EnglishTest.html" class="el_class">EnglishTreebankParserParams.EnglishTest</a></td>
+     <td class="bar" id="b150"></td>
+     <td class="ctr2" id="c1">100%</td>
+     <td class="bar" id="d150"></td>
+     <td class="ctr2" id="e150">n/a</td>
+     <td class="ctr1" id="f150">0</td>
+     <td class="ctr2" id="g150">1</td>
+     <td class="ctr1" id="h150">0</td>
+     <td class="ctr2" id="i143">5</td>
+     <td class="ctr1" id="j150">0</td>
+     <td class="ctr2" id="k150">1</td>
+     <td class="ctr1" id="l150">0</td>
+     <td class="ctr2" id="m150">1</td>
+    </tr>
+   </tbody>
+  </table>
+  <div class="footer">
+   <span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span>
+  </div>
+ </body>
+</html>

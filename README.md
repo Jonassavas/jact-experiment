@@ -19,10 +19,14 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 `publicDeclaredVsNonDeclared()`
 ---
 
-#### [commons-validator:](https://github.com/apache/commons-validator)  
+#### [commons-validator:](https://github.com/apache/commons-validator)  (NOT DONE)
 - Commit: [commit sha](link to commit)  
 - [JACT-Report](./template-jact-report/)
 
+---
+#### [CoreNLP:](https://github.com/stanfordnlp/CoreNLP)  LATEST RELEASE (NOT DEPTRIM) Faulty commit link on deptrim
+- Commit: [commit sha](link to commit)  
+- [JACT-Report](./template-jact-report/)
 
 
 ---
