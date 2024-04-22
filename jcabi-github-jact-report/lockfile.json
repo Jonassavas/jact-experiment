@@ -1,0 +1,1295 @@
+{
+  "artifactId": "jcabi-github",
+  "groupId": "com.jcabi",
+  "version": "1.3.2",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-core",
+      "version": "2.13.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "4c2e043200edd9ee7ba6fc378bd5c17784a5bf2388e152d208068b51fd0839cf",
+      "scope": "test",
+      "selectedVersion": "2.13.4",
+      "id": "com.fasterxml.jackson.core:jackson-core:2.13.4",
+      "children": []
+    },
+    {
+      "groupId": "com.fasterxml.jackson.core",
+      "artifactId": "jackson-databind",
+      "version": "2.13.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "c9faff420d9e2c7e1e4711dbeebec2506a32c9942027211c5c293d8d87807eb6",
+      "scope": "test",
+      "selectedVersion": "2.13.4",
+      "id": "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+      "children": [
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-annotations",
+          "version": "2.13.4",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ac5b27a634942391ca113850ee7db01df1499a240174021263501c05fc653b44",
+          "scope": "test",
+          "selectedVersion": "2.13.4",
+          "id": "com.fasterxml.jackson.core:jackson-annotations:2.13.4",
+          "parent": "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+          "children": []
+        },
+        {
+          "groupId": "com.fasterxml.jackson.core",
+          "artifactId": "jackson-core",
+          "version": "2.13.4",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "4c2e043200edd9ee7ba6fc378bd5c17784a5bf2388e152d208068b51fd0839cf",
+          "scope": "test",
+          "selectedVersion": "2.13.4",
+          "id": "com.fasterxml.jackson.core:jackson-core:2.13.4",
+          "parent": "com.fasterxml.jackson.core:jackson-databind:2.13.4",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.google.guava",
+      "artifactId": "guava",
+      "version": "31.1-jre",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "a42edc9cab792e39fe39bb94f3fca655ed157ff87a8af78e1d6ba5b07c4a00ab",
+      "scope": "compile",
+      "selectedVersion": "31.1-jre",
+      "id": "com.google.guava:guava:31.1-jre",
+      "children": [
+        {
+          "groupId": "com.google.code.findbugs",
+          "artifactId": "jsr305",
+          "version": "3.0.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+          "scope": "compile",
+          "selectedVersion": "3.0.2",
+          "id": "com.google.code.findbugs:jsr305:3.0.2",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        },
+        {
+          "groupId": "com.google.errorprone",
+          "artifactId": "error_prone_annotations",
+          "version": "2.11.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "721cb91842b46fa056847d104d5225c8b8e1e8b62263b993051e1e5a0137b7ec",
+          "scope": "compile",
+          "selectedVersion": "2.11.0",
+          "id": "com.google.errorprone:error_prone_annotations:2.11.0",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        },
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "failureaccess",
+          "version": "1.0.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+          "scope": "compile",
+          "selectedVersion": "1.0.1",
+          "id": "com.google.guava:failureaccess:1.0.1",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        },
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "listenablefuture",
+          "version": "9999.0-empty-to-avoid-conflict-with-guava",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+          "scope": "compile",
+          "selectedVersion": "9999.0-empty-to-avoid-conflict-with-guava",
+          "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        },
+        {
+          "groupId": "com.google.j2objc",
+          "artifactId": "j2objc-annotations",
+          "version": "1.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
+          "scope": "compile",
+          "selectedVersion": "1.3",
+          "id": "com.google.j2objc:j2objc-annotations:1.3",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        },
+        {
+          "groupId": "org.checkerframework",
+          "artifactId": "checker-qual",
+          "version": "3.12.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ff10785ac2a357ec5de9c293cb982a2cbb605c0309ea4cc1cb9b9bc6dbe7f3cb",
+          "scope": "compile",
+          "selectedVersion": "3.12.0",
+          "id": "org.checkerframework:checker-qual:3.12.0",
+          "parent": "com.google.guava:guava:31.1-jre",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi",
+      "artifactId": "jcabi-aspects",
+      "version": "0.24.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "423506e2f58369efd5b5653ef01ea81def497435f90c9227eac89c1d3ffbf2a1",
+      "scope": "compile",
+      "selectedVersion": "0.24.1",
+      "id": "com.jcabi:jcabi-aspects:0.24.1",
+      "children": [
+        {
+          "groupId": "javax.validation",
+          "artifactId": "validation-api",
+          "version": "2.0.1.Final",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "9873b46df1833c9ee8f5bc1ff6853375115dadd8897bcb5a0dffb5848835ee6c",
+          "scope": "compile",
+          "selectedVersion": "2.0.1.Final",
+          "id": "javax.validation:validation-api:2.0.1.Final",
+          "parent": "com.jcabi:jcabi-aspects:0.24.1",
+          "children": []
+        },
+        {
+          "groupId": "org.aspectj",
+          "artifactId": "aspectjrt",
+          "version": "1.9.9.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a58900100bc76fa7a5c5ddb9772b0cf5bb2c8fd5c571a62028af6f06be6f36df",
+          "scope": "compile",
+          "selectedVersion": "1.9.9.1",
+          "id": "org.aspectj:aspectjrt:1.9.9.1",
+          "parent": "com.jcabi:jcabi-aspects:0.24.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi",
+      "artifactId": "jcabi-http",
+      "version": "1.20.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "f7a61f88bc9b76dc3900d1c2b3f780e52807c3b238d15245d25e56d861a05a1f",
+      "scope": "compile",
+      "selectedVersion": "1.20.1",
+      "id": "com.jcabi:jcabi-http:1.20.1",
+      "children": [
+        {
+          "groupId": "com.jcabi",
+          "artifactId": "jcabi-aspects",
+          "version": "0.24.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "423506e2f58369efd5b5653ef01ea81def497435f90c9227eac89c1d3ffbf2a1",
+          "scope": "compile",
+          "selectedVersion": "0.24.1",
+          "id": "com.jcabi:jcabi-aspects:0.24.1",
+          "parent": "com.jcabi:jcabi-http:1.20.1",
+          "children": []
+        },
+        {
+          "groupId": "com.jcabi",
+          "artifactId": "jcabi-immutable",
+          "version": "1.5",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "cd20149e9d75e34987083fb876749c62c7c1bd39ffbc3afe1c1a11c3fd1f0809",
+          "scope": "compile",
+          "selectedVersion": "1.5",
+          "id": "com.jcabi:jcabi-immutable:1.5",
+          "parent": "com.jcabi:jcabi-http:1.20.1",
+          "children": []
+        },
+        {
+          "groupId": "com.jcabi",
+          "artifactId": "jcabi-manifests",
+          "version": "1.2.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "773a611dc5a7342f0b96ca3d03ee644ddb1e6749fa53187b791491699a7ca6cc",
+          "scope": "compile",
+          "selectedVersion": "1.2.1",
+          "id": "com.jcabi:jcabi-manifests:1.2.1",
+          "parent": "com.jcabi:jcabi-http:1.20.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi",
+      "artifactId": "jcabi-immutable",
+      "version": "1.5",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "cd20149e9d75e34987083fb876749c62c7c1bd39ffbc3afe1c1a11c3fd1f0809",
+      "scope": "compile",
+      "selectedVersion": "1.5",
+      "id": "com.jcabi:jcabi-immutable:1.5",
+      "children": [
+        {
+          "groupId": "com.jcabi",
+          "artifactId": "jcabi-aspects",
+          "version": "0.24.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "423506e2f58369efd5b5653ef01ea81def497435f90c9227eac89c1d3ffbf2a1",
+          "scope": "compile",
+          "selectedVersion": "0.24.1",
+          "id": "com.jcabi:jcabi-aspects:0.24.1",
+          "parent": "com.jcabi:jcabi-immutable:1.5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi",
+      "artifactId": "jcabi-log",
+      "version": "0.22.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "532382159cd57ff8c9d4b4933229ae6cfdd6ee3736a469ceef1c9be18be728d0",
+      "scope": "compile",
+      "selectedVersion": "0.22.0",
+      "id": "com.jcabi:jcabi-log:0.22.0",
+      "children": [
+        {
+          "groupId": "org.mockito",
+          "artifactId": "mockito-core",
+          "version": "4.6.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ee3b91cdf4c23cff92960c32364371c683ee6415f1ec4678317bcea79c9f9819",
+          "scope": "compile",
+          "selectedVersion": "4.6.1",
+          "id": "org.mockito:mockito-core:4.6.1",
+          "parent": "com.jcabi:jcabi-log:0.22.0",
+          "children": []
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "2.0.0-beta1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "43d689cc4271355490a4824d9b749dd44a9ef41eddfd3d456b7f2834945e3ed6",
+          "scope": "compile",
+          "selectedVersion": "2.0.0-beta1",
+          "id": "org.slf4j:slf4j-api:2.0.0-beta1",
+          "parent": "com.jcabi:jcabi-log:0.22.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi",
+      "artifactId": "jcabi-xml",
+      "version": "0.25.3",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "2dbc9e4a0852b1f2369695d43978b4519bc708b934e2fe835efc14c74381d205",
+      "scope": "compile",
+      "selectedVersion": "0.25.3",
+      "id": "com.jcabi:jcabi-xml:0.25.3",
+      "children": [
+        {
+          "groupId": "org.cactoos",
+          "artifactId": "cactoos",
+          "version": "0.54.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "76b6b9747a3ef3a27592ca057f3aa370f4f2c8f52c2c479b65399c488227b79d",
+          "scope": "compile",
+          "selectedVersion": "0.54.0",
+          "id": "org.cactoos:cactoos:0.54.0",
+          "parent": "com.jcabi:jcabi-xml:0.25.3",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcabi.incubator",
+      "artifactId": "xembly",
+      "version": "0.28.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "02993ae8bed67e13f65750c6b51ed079bbaf4dfb389c5eef79dd80cef0196261",
+      "scope": "compile",
+      "selectedVersion": "0.28.1",
+      "id": "com.jcabi.incubator:xembly:0.28.1",
+      "children": [
+        {
+          "groupId": "org.antlr",
+          "artifactId": "antlr4-runtime",
+          "version": "4.10.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "da66be0c98acfb29bc708300d05f1a3269c40f9984a4cb9251cf2ba1898d1334",
+          "scope": "compile",
+          "selectedVersion": "4.10.1",
+          "id": "org.antlr:antlr4-runtime:4.10.1",
+          "parent": "com.jcabi.incubator:xembly:0.28.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.jcraft",
+      "artifactId": "jsch",
+      "version": "0.1.55",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "d492b15a6d2ea3f1cc39c422c953c40c12289073dbe8360d98c0f6f9ec74fc44",
+      "scope": "test",
+      "selectedVersion": "0.1.55",
+      "id": "com.jcraft:jsch:0.1.55",
+      "children": []
+    },
+    {
+      "groupId": "com.sun.jersey",
+      "artifactId": "jersey-client",
+      "version": "1.12",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "69c5d2cbb2216b0983847f75a2fdfee10d67d529be1ec265d9ef236d64d58752",
+      "scope": "runtime",
+      "selectedVersion": "1.12",
+      "id": "com.sun.jersey:jersey-client:1.12",
+      "children": [
+        {
+          "groupId": "com.sun.jersey",
+          "artifactId": "jersey-core",
+          "version": "1.12",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "51ec3e79cfef670e13cec574120dab780918cd2467ec6c1a6cbf6b0f5f3da1e4",
+          "scope": "runtime",
+          "selectedVersion": "1.12",
+          "id": "com.sun.jersey:jersey-core:1.12",
+          "parent": "com.sun.jersey:jersey-client:1.12",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "com.sun.xml.bind",
+      "artifactId": "jaxb-core",
+      "version": "4.0.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "d9989f8451d7b5913a908b5c67bf621f1576f99ae17c6f4c20ce090e3b24f4f0",
+      "scope": "runtime",
+      "selectedVersion": "4.0.0",
+      "id": "com.sun.xml.bind:jaxb-core:4.0.0",
+      "children": [
+        {
+          "groupId": "jakarta.xml.bind",
+          "artifactId": "jakarta.xml.bind-api",
+          "version": "4.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "57e3796ad5753640088f5f9d3c53c183f2c250b7dad90529ea3e19a5515aa122",
+          "scope": "runtime",
+          "selectedVersion": "4.0.0",
+          "id": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.0",
+          "parent": "com.sun.xml.bind:jaxb-core:4.0.0",
+          "children": [
+            {
+              "groupId": "jakarta.activation",
+              "artifactId": "jakarta.activation-api",
+              "version": "2.1.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "56e8d994095fe49c28138c60291482f66f18d12ac2b720e938697dce6a3135c7",
+              "scope": "runtime",
+              "selectedVersion": "2.1.0",
+              "id": "jakarta.activation:jakarta.activation-api:2.1.0",
+              "parent": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.eclipse.angus",
+          "artifactId": "angus-activation",
+          "version": "1.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "e37aff147e18ed48c50aa9fb78cc85e7478cbfd01257b02d53d3a186d1832245",
+          "scope": "runtime",
+          "selectedVersion": "1.0.0",
+          "id": "org.eclipse.angus:angus-activation:1.0.0",
+          "parent": "com.sun.xml.bind:jaxb-core:4.0.0",
+          "children": [
+            {
+              "groupId": "jakarta.activation",
+              "artifactId": "jakarta.activation-api",
+              "version": "2.1.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "56e8d994095fe49c28138c60291482f66f18d12ac2b720e938697dce6a3135c7",
+              "scope": "runtime",
+              "selectedVersion": "2.1.0",
+              "id": "jakarta.activation:jakarta.activation-api:2.1.0",
+              "parent": "org.eclipse.angus:angus-activation:1.0.0",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "com.sun.xml.bind",
+      "artifactId": "jaxb-impl",
+      "version": "4.0.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "151fc1c2df4ea70502b5701c45c49a32556ba979702a654235aef0219fa42d28",
+      "scope": "runtime",
+      "selectedVersion": "4.0.0",
+      "id": "com.sun.xml.bind:jaxb-impl:4.0.0",
+      "children": [
+        {
+          "groupId": "com.sun.xml.bind",
+          "artifactId": "jaxb-core",
+          "version": "4.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "d9989f8451d7b5913a908b5c67bf621f1576f99ae17c6f4c20ce090e3b24f4f0",
+          "scope": "runtime",
+          "selectedVersion": "4.0.0",
+          "id": "com.sun.xml.bind:jaxb-core:4.0.0",
+          "parent": "com.sun.xml.bind:jaxb-impl:4.0.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "commons-codec",
+      "artifactId": "commons-codec",
+      "version": "1.15",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
+      "scope": "test",
+      "selectedVersion": "1.15",
+      "id": "commons-codec:commons-codec:1.15",
+      "children": []
+    },
+    {
+      "groupId": "commons-collections",
+      "artifactId": "commons-collections",
+      "version": "20040616",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "43b0482529da299c59e5b4091d23ab4c980dbb6f8342b91e7d768016dc481bbe",
+      "scope": "test",
+      "selectedVersion": "20040616",
+      "id": "commons-collections:commons-collections:20040616",
+      "children": []
+    },
+    {
+      "groupId": "commons-io",
+      "artifactId": "commons-io",
+      "version": "2.11.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908",
+      "scope": "compile",
+      "selectedVersion": "2.11.0",
+      "id": "commons-io:commons-io:2.11.0",
+      "children": []
+    },
+    {
+      "groupId": "javax.json",
+      "artifactId": "javax.json-api",
+      "version": "1.1.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "0bdb79a0a5e0cce2d8d2d339ad53453cdf90045fe34c5e4b19b064bb1aee5876",
+      "scope": "provided",
+      "selectedVersion": "1.1.4",
+      "id": "javax.json:javax.json-api:1.1.4",
+      "children": []
+    },
+    {
+      "groupId": "javax.validation",
+      "artifactId": "validation-api",
+      "version": "2.0.1.Final",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "9873b46df1833c9ee8f5bc1ff6853375115dadd8897bcb5a0dffb5848835ee6c",
+      "scope": "test",
+      "selectedVersion": "2.0.1.Final",
+      "id": "javax.validation:validation-api:2.0.1.Final",
+      "children": []
+    },
+    {
+      "groupId": "javax.ws.rs",
+      "artifactId": "jsr311-api",
+      "version": "1.1.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "ab1534b73b5fa055808e6598a5e73b599ccda28c3159c3c0908977809422ee4a",
+      "scope": "provided",
+      "selectedVersion": "1.1.1",
+      "id": "javax.ws.rs:jsr311-api:1.1.1",
+      "children": []
+    },
+    {
+      "groupId": "javax.xml.bind",
+      "artifactId": "jaxb-api",
+      "version": "2.4.0-b180830.0359",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "56b9e9702753763007435162ea788055efcfefc86ab920f032c0411dc547b836",
+      "scope": "provided",
+      "selectedVersion": "2.4.0-b180830.0359",
+      "id": "javax.xml.bind:jaxb-api:2.4.0-b180830.0359",
+      "children": [
+        {
+          "groupId": "javax.activation",
+          "artifactId": "javax.activation-api",
+          "version": "1.2.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "43fdef0b5b6ceb31b0424b208b930c74ab58fac2ceeb7b3f6fd3aeb8b5ca4393",
+          "scope": "provided",
+          "selectedVersion": "1.2.0",
+          "id": "javax.activation:javax.activation-api:1.2.0",
+          "parent": "javax.xml.bind:jaxb-api:2.4.0-b180830.0359",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+      "scope": "test",
+      "selectedVersion": "4.13.2",
+      "id": "junit:junit:4.13.2",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "1.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+          "scope": "test",
+          "selectedVersion": "1.3",
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "parent": "junit:junit:4.13.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "log4j",
+      "artifactId": "log4j",
+      "version": "1.2.17",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9",
+      "scope": "test",
+      "selectedVersion": "1.2.17",
+      "id": "log4j:log4j:1.2.17",
+      "children": []
+    },
+    {
+      "groupId": "net.sf.saxon",
+      "artifactId": "Saxon-HE",
+      "version": "11.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "42e35494dc2e6b5e97256ae7cdf2b7ce30439c352566f35de02bed3a06a2b169",
+      "scope": "test",
+      "selectedVersion": "11.4",
+      "id": "net.sf.saxon:Saxon-HE:11.4",
+      "children": [
+        {
+          "groupId": "org.xmlresolver",
+          "artifactId": "xmlresolver",
+          "version": "4.4.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "9d642c96c3f6811e20a9f6cfee3ca15ec84ecb939f6be639fee065670773a7d1",
+          "scope": "test",
+          "selectedVersion": "4.4.3",
+          "id": "org.xmlresolver:xmlresolver:4.4.3",
+          "parent": "net.sf.saxon:Saxon-HE:11.4",
+          "children": [
+            {
+              "groupId": "org.apache.httpcomponents.client5",
+              "artifactId": "httpclient5",
+              "version": "5.1.3",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "28c759254f4e35319e078bb6ffea75676608dc12cb243b24fb3c8732522977fe",
+              "scope": "test",
+              "selectedVersion": "5.1.3",
+              "id": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": [
+                {
+                  "groupId": "commons-codec",
+                  "artifactId": "commons-codec",
+                  "version": "1.15",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
+                  "scope": "test",
+                  "selectedVersion": "1.15",
+                  "id": "commons-codec:commons-codec:1.15",
+                  "parent": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.httpcomponents.core5",
+                  "artifactId": "httpcore5",
+                  "version": "5.1.3",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe",
+                  "scope": "test",
+                  "selectedVersion": "5.1.3",
+                  "id": "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+                  "parent": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.httpcomponents.core5",
+                  "artifactId": "httpcore5-h2",
+                  "version": "5.1.3",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d0e78ba15aa8ebe77982b660ac4b09a95d6e035dbdbea762577dc1c8e2935807",
+                  "scope": "test",
+                  "selectedVersion": "5.1.3",
+                  "id": "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3",
+                  "parent": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+                  "children": [
+                    {
+                      "groupId": "org.apache.httpcomponents.core5",
+                      "artifactId": "httpcore5",
+                      "version": "5.1.3",
+                      "checksumAlgorithm": "SHA-256",
+                      "checksum": "f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe",
+                      "scope": "test",
+                      "selectedVersion": "5.1.3",
+                      "id": "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+                      "parent": "org.apache.httpcomponents.core5:httpcore5-h2:5.1.3",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.httpcomponents.core5",
+              "artifactId": "httpcore5",
+              "version": "5.1.3",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe",
+              "scope": "test",
+              "selectedVersion": "5.1.3",
+              "id": "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis",
+              "version": "1.4.01",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad",
+              "scope": "test",
+              "selectedVersion": "1.4.01",
+              "id": "xml-apis:xml-apis:1.4.01",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.xmlresolver",
+          "artifactId": "xmlresolver",
+          "version": "4.4.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a57db23d75c3580cb15eb6e1a854683f4579cfd265f5cf1011a6983d9aed0f1f",
+          "scope": "test",
+          "selectedVersion": "4.4.3",
+          "id": "org.xmlresolver:xmlresolver:4.4.3",
+          "parent": "net.sf.saxon:Saxon-HE:11.4",
+          "children": [
+            {
+              "groupId": "org.apache.httpcomponents.client5",
+              "artifactId": "httpclient5",
+              "version": "5.1.3",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "28c759254f4e35319e078bb6ffea75676608dc12cb243b24fb3c8732522977fe",
+              "scope": "test",
+              "selectedVersion": "5.1.3",
+              "id": "org.apache.httpcomponents.client5:httpclient5:5.1.3",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.httpcomponents.core5",
+              "artifactId": "httpcore5",
+              "version": "5.1.3",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "f2bf2f2c7772169c9e30699719667ad30f9b46c4e9d7841907deb2d12d9923fe",
+              "scope": "test",
+              "selectedVersion": "5.1.3",
+              "id": "org.apache.httpcomponents.core5:httpcore5:5.1.3",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis",
+              "version": "1.4.01",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad",
+              "scope": "test",
+              "selectedVersion": "1.4.01",
+              "id": "xml-apis:xml-apis:1.4.01",
+              "parent": "org.xmlresolver:xmlresolver:4.4.3",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.12.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "d919d904486c037f8d193412da0c92e22a9fa24230b9d67a57855c5c31c7e94e",
+      "scope": "compile",
+      "selectedVersion": "3.12.0",
+      "id": "org.apache.commons:commons-lang3:3.12.0",
+      "children": []
+    },
+    {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpclient",
+      "version": "4.5.13",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6fe9026a566c6a5001608cf3fc32196641f6c1e5e1986d1037ccdbd5f31ef743",
+      "scope": "runtime",
+      "selectedVersion": "4.5.13",
+      "id": "org.apache.httpcomponents:httpclient:4.5.13",
+      "children": [
+        {
+          "groupId": "commons-codec",
+          "artifactId": "commons-codec",
+          "version": "1.15",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
+          "scope": "runtime",
+          "selectedVersion": "1.15",
+          "id": "commons-codec:commons-codec:1.15",
+          "parent": "org.apache.httpcomponents:httpclient:4.5.13",
+          "children": []
+        },
+        {
+          "groupId": "commons-logging",
+          "artifactId": "commons-logging",
+          "version": "1.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "daddea1ea0be0f56978ab3006b8ac92834afeefbd9b7e4e6316fca57df0fa636",
+          "scope": "runtime",
+          "selectedVersion": "1.2",
+          "id": "commons-logging:commons-logging:1.2",
+          "parent": "org.apache.httpcomponents:httpclient:4.5.13",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.httpcomponents",
+      "artifactId": "httpcore",
+      "version": "4.4.15",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "3cbaed088c499a10f96dde58f39dc0e7985171abd88138ca1655a872011bb142",
+      "scope": "runtime",
+      "selectedVersion": "4.4.15",
+      "id": "org.apache.httpcomponents:httpcore:4.4.15",
+      "children": []
+    },
+    {
+      "groupId": "org.aspectj",
+      "artifactId": "aspectjrt",
+      "version": "1.9.9.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "a58900100bc76fa7a5c5ddb9772b0cf5bb2c8fd5c571a62028af6f06be6f36df",
+      "scope": "runtime",
+      "selectedVersion": "1.9.9.1",
+      "id": "org.aspectj:aspectjrt:1.9.9.1",
+      "children": []
+    },
+    {
+      "groupId": "org.glassfish",
+      "artifactId": "javax.json",
+      "version": "1.1.4",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "17fdeb7e22375a7fb40bb0551306f6dcf2b5743078668adcdf6c642c9a9ec955",
+      "scope": "runtime",
+      "selectedVersion": "1.1.4",
+      "id": "org.glassfish:javax.json:1.1.4",
+      "children": []
+    },
+    {
+      "groupId": "org.glassfish.grizzly",
+      "artifactId": "grizzly-http-servlet-server",
+      "version": "4.0.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "48dd89ffc92a8ffe2bcbb450e96daac79f413d9d7cc827fe380af8521ad650d4",
+      "scope": "test",
+      "selectedVersion": "4.0.0",
+      "id": "org.glassfish.grizzly:grizzly-http-servlet-server:4.0.0",
+      "children": [
+        {
+          "groupId": "org.glassfish.grizzly",
+          "artifactId": "grizzly-http-server-core",
+          "version": "4.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "7580b45dcfaab18babc1392308e3133d3171bbb9fb92f97ac665cf703ba1b7fb",
+          "scope": "test",
+          "selectedVersion": "4.0.0",
+          "id": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+          "parent": "org.glassfish.grizzly:grizzly-http-servlet-server:4.0.0",
+          "children": [
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-core",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "02fbb621327b99e91bea467d6afda11a9be2decb04b5ca81c5b7d2aca4bdb76a",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-core:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": [
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-framework",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d39f1e2ffd7feb91f235619d043f3f1d5266b37e6af4eb25ed70229cbd57ce0e",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-framework:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-core:4.0.0",
+                  "children": []
+                },
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-portunif",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "4e4be6bb603e67927ece8176caa29ec4811cafc3f978f201bd976631e3dd142c",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-portunif:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-core:4.0.0",
+                  "children": [
+                    {
+                      "groupId": "org.glassfish.grizzly",
+                      "artifactId": "grizzly-framework",
+                      "version": "4.0.0",
+                      "checksumAlgorithm": "SHA-256",
+                      "checksum": "d39f1e2ffd7feb91f235619d043f3f1d5266b37e6af4eb25ed70229cbd57ce0e",
+                      "scope": "test",
+                      "selectedVersion": "4.0.0",
+                      "id": "org.glassfish.grizzly:grizzly-framework:4.0.0",
+                      "parent": "org.glassfish.grizzly:grizzly-portunif:4.0.0",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-ajp",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "6666b1f5a67b170a39a08c28bb26a5a48c9aa240e97ca0c0c2936d8197841245",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-ajp:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": [
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-http-server",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "dc156f248a282856bb2cb232f7bb1a0339cecbfce0eafa64c311f4ee3d4b3861",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-http-server:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-http-ajp:4.0.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-server",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "dc156f248a282856bb2cb232f7bb1a0339cecbfce0eafa64c311f4ee3d4b3861",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-server:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": [
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-http",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "1b1cc6326759595aa47ffa2e76028399816a048066405a05604df1a589721720",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-http:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-http-server:4.0.0",
+                  "children": [
+                    {
+                      "groupId": "org.glassfish.grizzly",
+                      "artifactId": "grizzly-framework",
+                      "version": "4.0.0",
+                      "checksumAlgorithm": "SHA-256",
+                      "checksum": "d39f1e2ffd7feb91f235619d043f3f1d5266b37e6af4eb25ed70229cbd57ce0e",
+                      "scope": "test",
+                      "selectedVersion": "4.0.0",
+                      "id": "org.glassfish.grizzly:grizzly-framework:4.0.0",
+                      "parent": "org.glassfish.grizzly:grizzly-http:4.0.0",
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-server-multipart",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "bb24f462c9476c9afe903e01b493ed54f3aff76c06a6f23538589adf64326245",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-server-multipart:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": [
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-framework",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d39f1e2ffd7feb91f235619d043f3f1d5266b37e6af4eb25ed70229cbd57ce0e",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-framework:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-http-server-multipart:4.0.0",
+                  "children": []
+                },
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-http-server",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "dc156f248a282856bb2cb232f7bb1a0339cecbfce0eafa64c311f4ee3d4b3861",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-http-server:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-http-server-multipart:4.0.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http2",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "9b4ae30950650c3d56869091865ae1748baff6ab0ba784f13336656bee73b269",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http2:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": [
+                {
+                  "groupId": "org.glassfish.grizzly",
+                  "artifactId": "grizzly-http",
+                  "version": "4.0.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "1b1cc6326759595aa47ffa2e76028399816a048066405a05604df1a589721720",
+                  "scope": "test",
+                  "selectedVersion": "4.0.0",
+                  "id": "org.glassfish.grizzly:grizzly-http:4.0.0",
+                  "parent": "org.glassfish.grizzly:grizzly-http2:4.0.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-npn-api",
+              "version": "2.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "77a1ad3ed84a8cf93645f3d2ab95b2885c9c860d8160496d2a4e7aa1a3cb293b",
+              "scope": "test",
+              "selectedVersion": "2.0.0",
+              "id": "org.glassfish.grizzly:grizzly-npn-api:2.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-server-core:4.0.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.glassfish.grizzly",
+          "artifactId": "grizzly-http-servlet",
+          "version": "4.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "81b14d1632ecc95bba656f3dee9b1034d4848bc2b5810656f1f3a56701032b7e",
+          "scope": "test",
+          "selectedVersion": "4.0.0",
+          "id": "org.glassfish.grizzly:grizzly-http-servlet:4.0.0",
+          "parent": "org.glassfish.grizzly:grizzly-http-servlet-server:4.0.0",
+          "children": [
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-server",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "dc156f248a282856bb2cb232f7bb1a0339cecbfce0eafa64c311f4ee3d4b3861",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-server:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-servlet:4.0.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.glassfish.grizzly",
+          "artifactId": "grizzly-http-servlet-extras",
+          "version": "4.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "c00be294e154445eb9c823c6f6d1a52f2c48dca823ae8efe5818e0b4cbae6d1b",
+          "scope": "test",
+          "selectedVersion": "4.0.0",
+          "id": "org.glassfish.grizzly:grizzly-http-servlet-extras:4.0.0",
+          "parent": "org.glassfish.grizzly:grizzly-http-servlet-server:4.0.0",
+          "children": [
+            {
+              "groupId": "jakarta.servlet",
+              "artifactId": "jakarta.servlet-api",
+              "version": "6.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "c034eb1afb158987dbb53a5fea0cadf611c8dae8daadd59c44d9d5ab70129cef",
+              "scope": "test",
+              "selectedVersion": "6.0.0",
+              "id": "jakarta.servlet:jakarta.servlet-api:6.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-servlet-extras:4.0.0",
+              "children": []
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-server-multipart",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "bb24f462c9476c9afe903e01b493ed54f3aff76c06a6f23538589adf64326245",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-server-multipart:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-servlet-extras:4.0.0",
+              "children": []
+            },
+            {
+              "groupId": "org.glassfish.grizzly",
+              "artifactId": "grizzly-http-servlet",
+              "version": "4.0.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "81b14d1632ecc95bba656f3dee9b1034d4848bc2b5810656f1f3a56701032b7e",
+              "scope": "test",
+              "selectedVersion": "4.0.0",
+              "id": "org.glassfish.grizzly:grizzly-http-servlet:4.0.0",
+              "parent": "org.glassfish.grizzly:grizzly-http-servlet-extras:4.0.0",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.hamcrest",
+      "artifactId": "hamcrest",
+      "version": "2.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "5e62846a89f05cd78cd9c1a553f340d002458380c320455dd1f8fc5497a8a1c1",
+      "scope": "compile",
+      "selectedVersion": "2.2",
+      "id": "org.hamcrest:hamcrest:2.2",
+      "children": []
+    },
+    {
+      "groupId": "org.mockito",
+      "artifactId": "mockito-core",
+      "version": "4.6.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "ee3b91cdf4c23cff92960c32364371c683ee6415f1ec4678317bcea79c9f9819",
+      "scope": "test",
+      "selectedVersion": "4.6.1",
+      "id": "org.mockito:mockito-core:4.6.1",
+      "children": [
+        {
+          "groupId": "net.bytebuddy",
+          "artifactId": "byte-buddy",
+          "version": "1.12.10",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "1a1ac9ce65eddcea54ead958387bb0b3863d02a2ffe856ab6a57ac79737c19cf",
+          "scope": "test",
+          "selectedVersion": "1.12.10",
+          "id": "net.bytebuddy:byte-buddy:1.12.10",
+          "parent": "org.mockito:mockito-core:4.6.1",
+          "children": []
+        },
+        {
+          "groupId": "net.bytebuddy",
+          "artifactId": "byte-buddy-agent",
+          "version": "1.12.10",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "5e8606d14a844c1ec70d2eb8f50c4009fb16138905dee8ca50a328116c041257",
+          "scope": "test",
+          "selectedVersion": "1.12.10",
+          "id": "net.bytebuddy:byte-buddy-agent:1.12.10",
+          "parent": "org.mockito:mockito-core:4.6.1",
+          "children": []
+        },
+        {
+          "groupId": "org.objenesis",
+          "artifactId": "objenesis",
+          "version": "3.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "03d960bd5aef03c653eb000413ada15eb77cdd2b8e4448886edf5692805e35f3",
+          "scope": "test",
+          "selectedVersion": "3.2",
+          "id": "org.objenesis:objenesis:3.2",
+          "parent": "org.mockito:mockito-core:4.6.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.projectlombok",
+      "artifactId": "lombok",
+      "version": "1.18.24",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "d3584bc2db03f059f984fb0a9c119aac1fa0da578a448e69fc3f68b36584c749",
+      "scope": "provided",
+      "selectedVersion": "1.18.24",
+      "id": "org.projectlombok:lombok:1.18.24",
+      "children": []
+    },
+    {
+      "groupId": "org.reflections",
+      "artifactId": "reflections",
+      "version": "0.9.10",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6eecd8b68f937e7220cf4da839403730e102cc31d25ccf5685a2dba0ea8d7553",
+      "scope": "test",
+      "selectedVersion": "0.9.10",
+      "id": "org.reflections:reflections:0.9.10",
+      "children": [
+        {
+          "groupId": "com.google.code.findbugs",
+          "artifactId": "annotations",
+          "version": "2.0.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "893b2203a27e4a8ba9d16cd6ed6e9f730736b4878a6bfffeff06861f32e6631b",
+          "scope": "test",
+          "selectedVersion": "2.0.1",
+          "id": "com.google.code.findbugs:annotations:2.0.1",
+          "parent": "org.reflections:reflections:0.9.10",
+          "children": []
+        },
+        {
+          "groupId": "com.google.guava",
+          "artifactId": "guava",
+          "version": "31.1-jre",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a42edc9cab792e39fe39bb94f3fca655ed157ff87a8af78e1d6ba5b07c4a00ab",
+          "scope": "test",
+          "selectedVersion": "31.1-jre",
+          "id": "com.google.guava:guava:31.1-jre",
+          "parent": "org.reflections:reflections:0.9.10",
+          "children": []
+        },
+        {
+          "groupId": "org.javassist",
+          "artifactId": "javassist",
+          "version": "3.19.0-GA",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "d19c1ef43ccd9cb1b39466bb2f1c8e45c2b6752f1e13a3dfb60096543d1791fa",
+          "scope": "test",
+          "selectedVersion": "3.19.0-GA",
+          "id": "org.javassist:javassist:3.19.0-GA",
+          "parent": "org.reflections:reflections:0.9.10",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-log4j12",
+      "version": "2.0.0-alpha5",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "5571b2857c14ca29edf9390d4a25600466bd8bd1f16bb5c07d4f76ea40a072de",
+      "scope": "test",
+      "selectedVersion": "2.0.0-alpha5",
+      "id": "org.slf4j:slf4j-log4j12:2.0.0-alpha5",
+      "children": [
+        {
+          "groupId": "log4j",
+          "artifactId": "log4j",
+          "version": "1.2.17",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "1d31696445697720527091754369082a6651bd49781b6005deb94e56753406f9",
+          "scope": "test",
+          "selectedVersion": "1.2.17",
+          "id": "log4j:log4j:1.2.17",
+          "parent": "org.slf4j:slf4j-log4j12:2.0.0-alpha5",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-reload4j",
+      "version": "2.0.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "7a663d4dc18e49f0ea1cf8dc9362e6f216ad3ca2db8dd49760f76060a03236aa",
+      "scope": "test",
+      "selectedVersion": "2.0.0",
+      "id": "org.slf4j:slf4j-reload4j:2.0.0",
+      "children": [
+        {
+          "groupId": "ch.qos.reload4j",
+          "artifactId": "reload4j",
+          "version": "1.2.19",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "fa07aa7adedf2a65eb09007443bb60b51c725b1b5b88e481e00c529ff2d3b5b5",
+          "scope": "test",
+          "selectedVersion": "1.2.19",
+          "id": "ch.qos.reload4j:reload4j:1.2.19",
+          "parent": "org.slf4j:slf4j-reload4j:2.0.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "xml-apis",
+      "artifactId": "xml-apis",
+      "version": "1.4.01",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad",
+      "scope": "provided",
+      "selectedVersion": "1.4.01",
+      "id": "xml-apis:xml-apis:1.4.01",
+      "children": []
+    }
+  ],
+  "mavenPlugins": [],
+  "metaData": {
+    "environment": {
+      "osName": "Windows 11",
+      "mavenVersion": "3.9.6",
+      "javaVersion": "11.0.22"
+    },
+    "config": {
+      "includeMavenPlugins": false,
+      "reduced": true,
+      "mavenLockfileVersion": "5.0.0",
+      "checksumMode": "maven_local",
+      "checksumAlgorithm": "SHA-256"
+    }
+  }
+}
