@@ -63,6 +63,45 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - [JACT-Report](./immutables-gson-jact-report/)
 - Module: gson
 
+---
+#### [jacop:](https://github.com/radsz/jacop)
+- Commit: [6ed0cd0](https://github.com/radsz/jacop/commit/1a395e6add22caf79590fe9d1b2223bfb6ed0cd0)
+- [JACT-Report](./jacop-jact-report/)
+
+---
+#### [java-faker:](https://github.com/DiUS/java-faker)
+- Commit: [b0b9e6e](https://github.com/DiUS/java-faker/commit/e23d6067c8f83b335a037d24e6107a37eb0b9e6e)
+- [JACT-Report](./java-faker-jact-report/)
+
+---
+#### [jacabi-github:](https://github.com/jcabi/jcabi-github)
+- Commit: [462d724](https://github.com/jcabi/jcabi-github/commit/02f3ab93156349c2f66989ac675bd6292462d724)
+- [JACT-Report](./jcabi-github-jact-report/)
+
+---
+#### [jimfs:](https://github.com/google/jimfs)
+- Commit: [9ef38d1](https://github.com/google/jimfs/commit/3bc54fae2feb218dcf5427d2626720fc09ef38d1)
+- [JACT-Report](./jimfs-jimfs-jact-report/)
+- Module: jimfs
+
+---
+#### [jooby:](https://github.com/jooby-project/jooby) DIDN'T WORK
+- Commit: [1c78357](https://github.com/jooby-project/jooby/commit/4d7be54dad429b5aeb5266387df14b0781c78357)
+- [JACT-Report](./template-jact-report/)
+- Module: jooby
+
+---
+#### [lettuce:](https://github.com/redis/lettuce)
+- Commit: [fc94fcb](https://github.com/redis/lettuce/commit/77c4ea587fdba73f688c95a481d2743b6fc94fcb)
+- [JACT-Report](./lettuce-core-jact-report/)
+- Module: core
+
+---
+#### [Template:](link to repo)
+- Commit: [commit sha](link to commit)
+- [JACT-Report](./template-jact-report/)
+
+
 
 ---
 #### [Template:](link to repo)  
