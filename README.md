@@ -52,9 +52,16 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Module: openapi
 
 ---
-#### [Template:](link to repo)
-- Commit: [commit sha](link to commit)
-- [JACT-Report](./template-jact-report/)
+#### [httpcomponents-client:](https://github.com/apache/httpcomponents-client)
+- Commit: [cb8bdf7](https://github.com/apache/httpcomponents-client/commit/d8f702fb4d44c746bb0edf00643aa7139cb8bdf7)
+- [JACT-Report](./httpcomponents-client-httpclient5-jact-report/)
+- Module: httpclient5
+
+---
+#### [immutables:](https://github.com/immutables/immutables)
+- Commit: [413aa37](https://github.com/immutables/immutables/commit/6e192030320eaf7a8b5f146c39ae5a17b413aa37)
+- [JACT-Report](./immutables-gson-jact-report/)
+- Module: gson
 
 
 ---
