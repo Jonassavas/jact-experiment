@@ -1,0 +1,176 @@
+{
+  "artifactId": "woodstox-core",
+  "groupId": "com.fasterxml.woodstox",
+  "version": "6.4.0",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "biz.aQute.bnd",
+      "artifactId": "biz.aQute.bnd.annotation",
+      "version": "6.3.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8a41b9eab9f6529966d5923d0aa2bbbfe81011d662b2823cf1e56e338e8a1400",
+      "scope": "provided",
+      "selectedVersion": "6.3.1",
+      "id": "biz.aQute.bnd:biz.aQute.bnd.annotation:6.3.1",
+      "children": [
+        {
+          "groupId": "org.osgi",
+          "artifactId": "org.osgi.resource",
+          "version": "1.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "81fc50f1f1d38a4af28e131907d4afe213249aab05060484edca0e60c4af9b4a",
+          "scope": "provided",
+          "selectedVersion": "1.0.0",
+          "id": "org.osgi:org.osgi.resource:1.0.0",
+          "parent": "biz.aQute.bnd:biz.aQute.bnd.annotation:6.3.1",
+          "children": []
+        },
+        {
+          "groupId": "org.osgi",
+          "artifactId": "org.osgi.service.serviceloader",
+          "version": "1.0.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "8f876ce2a9aa4e95b1f1952950255103e2487425050a654f3285447ba601c154",
+          "scope": "provided",
+          "selectedVersion": "1.0.0",
+          "id": "org.osgi:org.osgi.service.serviceloader:1.0.0",
+          "parent": "biz.aQute.bnd:biz.aQute.bnd.annotation:6.3.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "junit",
+      "artifactId": "junit",
+      "version": "4.13.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3",
+      "scope": "test",
+      "selectedVersion": "4.13.2",
+      "id": "junit:junit:4.13.2",
+      "children": [
+        {
+          "groupId": "org.hamcrest",
+          "artifactId": "hamcrest-core",
+          "version": "1.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9",
+          "scope": "test",
+          "selectedVersion": "1.3",
+          "id": "org.hamcrest:hamcrest-core:1.3",
+          "parent": "junit:junit:4.13.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "net.java.dev.msv",
+      "artifactId": "msv-core",
+      "version": "2013.6.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "8e865cf159a9f183bae4c89ebc015191848eed6d0f79aeeb8fa466e485a280bd",
+      "scope": "compile",
+      "selectedVersion": "2013.6.1",
+      "id": "net.java.dev.msv:msv-core:2013.6.1",
+      "children": [
+        {
+          "groupId": "com.sun.xml.bind.jaxb",
+          "artifactId": "isorelax",
+          "version": "20090621",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "842b8eef4d1819521a7c3180837ed5438fd08f1f7e6fd3bcc30227c435904db2",
+          "scope": "compile",
+          "selectedVersion": "20090621",
+          "id": "com.sun.xml.bind.jaxb:isorelax:20090621",
+          "parent": "net.java.dev.msv:msv-core:2013.6.1",
+          "children": []
+        },
+        {
+          "groupId": "net.java.dev.msv",
+          "artifactId": "xsdlib",
+          "version": "2013.6.1",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "62472a211e4b99c9a053cd656e9662852165b1eb232acc42585b7187eaad4575",
+          "scope": "compile",
+          "selectedVersion": "2013.6.1",
+          "id": "net.java.dev.msv:xsdlib:2013.6.1",
+          "parent": "net.java.dev.msv:msv-core:2013.6.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "net.java.dev.msv",
+      "artifactId": "xsdlib",
+      "version": "2013.6.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "62472a211e4b99c9a053cd656e9662852165b1eb232acc42585b7187eaad4575",
+      "scope": "compile",
+      "selectedVersion": "2013.6.1",
+      "id": "net.java.dev.msv:xsdlib:2013.6.1",
+      "children": [
+        {
+          "groupId": "relaxngDatatype",
+          "artifactId": "relaxngDatatype",
+          "version": "20020414",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "2a2563efc911f431250214220570fac8ec3f43c3ec1e47328cee78062f81b218",
+          "scope": "compile",
+          "selectedVersion": "20020414",
+          "id": "relaxngDatatype:relaxngDatatype:20020414",
+          "parent": "net.java.dev.msv:xsdlib:2013.6.1",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.codehaus.woodstox",
+      "artifactId": "stax2-api",
+      "version": "4.2.1",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "678567e48b51a42c65c699f266539ad3d676d4b1a5b0ad7d89ece8b9d5772579",
+      "scope": "compile",
+      "selectedVersion": "4.2.1",
+      "id": "org.codehaus.woodstox:stax2-api:4.2.1",
+      "children": []
+    },
+    {
+      "groupId": "org.osgi",
+      "artifactId": "osgi.core",
+      "version": "5.0.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "22fe6c64753a0479fb450bcb740ea5e51747cca2e1aabb8a582d50c02c3eec94",
+      "scope": "provided",
+      "selectedVersion": "5.0.0",
+      "id": "org.osgi:osgi.core:5.0.0",
+      "children": []
+    },
+    {
+      "groupId": "relaxngDatatype",
+      "artifactId": "relaxngDatatype",
+      "version": "20020414",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "2a2563efc911f431250214220570fac8ec3f43c3ec1e47328cee78062f81b218",
+      "scope": "compile",
+      "selectedVersion": "20020414",
+      "id": "relaxngDatatype:relaxngDatatype:20020414",
+      "children": []
+    }
+  ],
+  "mavenPlugins": [],
+  "metaData": {
+    "environment": {
+      "osName": "Windows 11",
+      "mavenVersion": "3.9.6",
+      "javaVersion": "11.0.22"
+    },
+    "config": {
+      "includeMavenPlugins": false,
+      "reduced": true,
+      "mavenLockfileVersion": "5.0.0",
+      "checksumMode": "maven_local",
+      "checksumAlgorithm": "SHA-256"
+    }
+  }
+}

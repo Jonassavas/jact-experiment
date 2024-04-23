@@ -1,0 +1,1761 @@
+{
+  "artifactId": "poi-tl",
+  "groupId": "com.deepoove",
+  "version": "1.12.2-SNAPSHOT",
+  "lockFileVersion": 1,
+  "dependencies": [
+    {
+      "groupId": "ch.qos.logback",
+      "artifactId": "logback-classic",
+      "version": "1.2.10",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "3160ae988af82c8bf3024ddbe034a82da98bb186fd09e76c50543c5b9da5cc5e",
+      "scope": "test",
+      "selectedVersion": "1.2.10",
+      "id": "ch.qos.logback:logback-classic:1.2.10",
+      "children": [
+        {
+          "groupId": "ch.qos.logback",
+          "artifactId": "logback-core",
+          "version": "1.2.10",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ba51a3fe56691f9dd7fe742e4a73c3ab4aaaa32202c73409ba56f18687399a08",
+          "scope": "test",
+          "selectedVersion": "1.2.10",
+          "id": "ch.qos.logback:logback-core:1.2.10",
+          "parent": "ch.qos.logback:logback-classic:1.2.10",
+          "children": []
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-api",
+          "version": "1.7.32",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
+          "scope": "test",
+          "selectedVersion": "1.7.32",
+          "id": "org.slf4j:slf4j-api:1.7.32",
+          "parent": "ch.qos.logback:logback-classic:1.2.10",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "ch.qos.logback",
+      "artifactId": "logback-core",
+      "version": "1.2.10",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "ba51a3fe56691f9dd7fe742e4a73c3ab4aaaa32202c73409ba56f18687399a08",
+      "scope": "test",
+      "selectedVersion": "1.2.10",
+      "id": "ch.qos.logback:logback-core:1.2.10",
+      "children": []
+    },
+    {
+      "groupId": "io.swagger",
+      "artifactId": "swagger-parser",
+      "version": "1.0.50",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "871943cbcbb81725091a05a4a9687610754b5900a8e4ae53794d7c11a8b11531",
+      "scope": "test",
+      "selectedVersion": "1.0.50",
+      "id": "io.swagger:swagger-parser:1.0.50",
+      "children": [
+        {
+          "groupId": "io.swagger",
+          "artifactId": "swagger-core",
+          "version": "1.6.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "be20810f3ac72c7bbb68d28b53405c2f56179fd95353ac26c5f506beb5014359",
+          "scope": "test",
+          "selectedVersion": "1.6.0",
+          "id": "io.swagger:swagger-core:1.6.0",
+          "parent": "io.swagger:swagger-parser:1.0.50",
+          "children": [
+            {
+              "groupId": "com.fasterxml.jackson.core",
+              "artifactId": "jackson-annotations",
+              "version": "2.10.1",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "673f8ae16becea4fa937404b3a851417faf42df3bbc592028bbe2bfe0cc9d8cb",
+              "scope": "test",
+              "selectedVersion": "2.10.1",
+              "id": "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": []
+            },
+            {
+              "groupId": "com.fasterxml.jackson.core",
+              "artifactId": "jackson-databind",
+              "version": "2.10.1",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "2d23f47001492233565adf5a34f225f2ae89564cee08024873ec36b7842ede46",
+              "scope": "test",
+              "selectedVersion": "2.10.1",
+              "id": "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": [
+                {
+                  "groupId": "com.fasterxml.jackson.core",
+                  "artifactId": "jackson-core",
+                  "version": "2.10.1",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "79bffbdcd349f69a5ac252e2b4096131704386af4fa14d95395ea9a0e423cf33",
+                  "scope": "test",
+                  "selectedVersion": "2.10.1",
+                  "id": "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                  "parent": "com.fasterxml.jackson.core:jackson-databind:2.10.1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "com.fasterxml.jackson.dataformat",
+              "artifactId": "jackson-dataformat-yaml",
+              "version": "2.10.1",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "d1f0a32e15894aa3639cf31680b813f5fbb39650618a145cb2631e65ad1cd9c2",
+              "scope": "test",
+              "selectedVersion": "2.10.1",
+              "id": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.1",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": [
+                {
+                  "groupId": "com.fasterxml.jackson.core",
+                  "artifactId": "jackson-core",
+                  "version": "2.10.1",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "79bffbdcd349f69a5ac252e2b4096131704386af4fa14d95395ea9a0e423cf33",
+                  "scope": "test",
+                  "selectedVersion": "2.10.1",
+                  "id": "com.fasterxml.jackson.core:jackson-core:2.10.1",
+                  "parent": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.1",
+                  "children": []
+                },
+                {
+                  "groupId": "org.yaml",
+                  "artifactId": "snakeyaml",
+                  "version": "1.24",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d3f7f09989d5b0ce5c4791818ef937ee7663f1e359c2ef2d312f938aad0763da",
+                  "scope": "test",
+                  "selectedVersion": "1.24",
+                  "id": "org.yaml:snakeyaml:1.24",
+                  "parent": "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.10.1",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "com.google.guava",
+              "artifactId": "guava",
+              "version": "27.0.1-android",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "caf0955aed29a1e6d149f85cfb625a89161b5cf88e0e246552b7ffa358204e28",
+              "scope": "test",
+              "selectedVersion": "27.0.1-android",
+              "id": "com.google.guava:guava:27.0.1-android",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": [
+                {
+                  "groupId": "com.google.code.findbugs",
+                  "artifactId": "jsr305",
+                  "version": "3.0.2",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
+                  "scope": "test",
+                  "selectedVersion": "3.0.2",
+                  "id": "com.google.code.findbugs:jsr305:3.0.2",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "com.google.errorprone",
+                  "artifactId": "error_prone_annotations",
+                  "version": "2.2.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "6ebd22ca1b9d8ec06d41de8d64e0596981d9607b42035f9ed374f9de271a481a",
+                  "scope": "test",
+                  "selectedVersion": "2.2.0",
+                  "id": "com.google.errorprone:error_prone_annotations:2.2.0",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "com.google.guava",
+                  "artifactId": "failureaccess",
+                  "version": "1.0.1",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
+                  "scope": "test",
+                  "selectedVersion": "1.0.1",
+                  "id": "com.google.guava:failureaccess:1.0.1",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "com.google.guava",
+                  "artifactId": "listenablefuture",
+                  "version": "9999.0-empty-to-avoid-conflict-with-guava",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
+                  "scope": "test",
+                  "selectedVersion": "9999.0-empty-to-avoid-conflict-with-guava",
+                  "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "com.google.j2objc",
+                  "artifactId": "j2objc-annotations",
+                  "version": "1.1",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "2994a7eb78f2710bd3d3bfb639b2c94e219cedac0d4d084d516e78c16dddecf6",
+                  "scope": "test",
+                  "selectedVersion": "1.1",
+                  "id": "com.google.j2objc:j2objc-annotations:1.1",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "org.checkerframework",
+                  "artifactId": "checker-compat-qual",
+                  "version": "2.5.2",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d7291cebf5e158d169807ae49d4b16ff672986f0c6d803e5f207c40cb61ef982",
+                  "scope": "test",
+                  "selectedVersion": "2.5.2",
+                  "id": "org.checkerframework:checker-compat-qual:2.5.2",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                },
+                {
+                  "groupId": "org.codehaus.mojo",
+                  "artifactId": "animal-sniffer-annotations",
+                  "version": "1.17",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "92654f493ecfec52082e76354f0ebf87648dc3d5cec2e3c3cdb947c016747a53",
+                  "scope": "test",
+                  "selectedVersion": "1.17",
+                  "id": "org.codehaus.mojo:animal-sniffer-annotations:1.17",
+                  "parent": "com.google.guava:guava:27.0.1-android",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "io.swagger",
+              "artifactId": "swagger-models",
+              "version": "1.6.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "b01d93e774416b4bfc086dc8c64519d5c51fb7f814ce9e7edf78fc8a80e31343",
+              "scope": "test",
+              "selectedVersion": "1.6.0",
+              "id": "io.swagger:swagger-models:1.6.0",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": [
+                {
+                  "groupId": "com.fasterxml.jackson.core",
+                  "artifactId": "jackson-annotations",
+                  "version": "2.10.1",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "673f8ae16becea4fa937404b3a851417faf42df3bbc592028bbe2bfe0cc9d8cb",
+                  "scope": "test",
+                  "selectedVersion": "2.10.1",
+                  "id": "com.fasterxml.jackson.core:jackson-annotations:2.10.1",
+                  "parent": "io.swagger:swagger-models:1.6.0",
+                  "children": []
+                },
+                {
+                  "groupId": "io.swagger",
+                  "artifactId": "swagger-annotations",
+                  "version": "1.6.0",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "477baf349533bd3f31d31432c1c5c7abcd0bf852e8ab69e243469a944320e5e5",
+                  "scope": "test",
+                  "selectedVersion": "1.6.0",
+                  "id": "io.swagger:swagger-annotations:1.6.0",
+                  "parent": "io.swagger:swagger-models:1.6.0",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "javax.validation",
+              "artifactId": "validation-api",
+              "version": "1.1.0.Final",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "f39d7ba7253e35f5ac48081ec1bc28c5df9b32ac4b7db20853e5a8e76bf7b0ed",
+              "scope": "test",
+              "selectedVersion": "1.1.0.Final",
+              "id": "javax.validation:validation-api:1.1.0.Final",
+              "parent": "io.swagger:swagger-core:1.6.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.slf4j",
+          "artifactId": "slf4j-ext",
+          "version": "1.7.28",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a5ea85ee27d0c2a1bae03c7c298770896d0aa52e0a9297a1cf45b0e3e65363cf",
+          "scope": "test",
+          "selectedVersion": "1.7.28",
+          "id": "org.slf4j:slf4j-ext:1.7.28",
+          "parent": "io.swagger:swagger-parser:1.0.50",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.commons",
+      "artifactId": "commons-lang3",
+      "version": "3.3.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "6b81d10754dadf184d386011486e6509c2cc0c3d33565ced4fb4402b9413d47d",
+      "scope": "compile",
+      "selectedVersion": "3.3.2",
+      "id": "org.apache.commons:commons-lang3:3.3.2",
+      "children": []
+    },
+    {
+      "groupId": "org.apache.poi",
+      "artifactId": "poi-ooxml",
+      "version": "5.2.2",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "07104ec94ca97f342d66aec59346f9651ee8c8b896710b6add72c85e91c0b8d1",
+      "scope": "compile",
+      "selectedVersion": "5.2.2",
+      "id": "org.apache.poi:poi-ooxml:5.2.2",
+      "children": [
+        {
+          "groupId": "com.github.virtuald",
+          "artifactId": "curvesapi",
+          "version": "1.07",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b31539cdcf189d9e68a1f6998cba09ea912f99f5f24bcd0650212b1af9d355a2",
+          "scope": "compile",
+          "selectedVersion": "1.07",
+          "id": "com.github.virtuald:curvesapi:1.07",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        },
+        {
+          "groupId": "commons-io",
+          "artifactId": "commons-io",
+          "version": "2.11.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908",
+          "scope": "compile",
+          "selectedVersion": "2.11.0",
+          "id": "commons-io:commons-io:2.11.0",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-collections4",
+          "version": "4.4",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1",
+          "scope": "compile",
+          "selectedVersion": "4.4",
+          "id": "org.apache.commons:commons-collections4:4.4",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.commons",
+          "artifactId": "commons-compress",
+          "version": "1.21",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "6aecfd5459728a595601cfa07258d131972ffc39b492eb48bdd596577a2f244a",
+          "scope": "compile",
+          "selectedVersion": "1.21",
+          "id": "org.apache.commons:commons-compress:1.21",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.logging.log4j",
+          "artifactId": "log4j-api",
+          "version": "2.17.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "09351b5a03828f369cdcff76f4ed39e6a6fc20f24f046935d0b28ef5152f8ce4",
+          "scope": "compile",
+          "selectedVersion": "2.17.2",
+          "id": "org.apache.logging.log4j:log4j-api:2.17.2",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.poi",
+          "artifactId": "poi",
+          "version": "5.2.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "eeef0dd476b1748d66defa98dcb6abbf0a049b48889af80b985ba713ac7d9409",
+          "scope": "compile",
+          "selectedVersion": "5.2.2",
+          "id": "org.apache.poi:poi:5.2.2",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": [
+            {
+              "groupId": "com.zaxxer",
+              "artifactId": "SparseBitSet",
+              "version": "1.2",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "91e6b318c901a0f2dd1f6ce781d62474435ae627d22fbac9b21bbc39ffd804b6",
+              "scope": "compile",
+              "selectedVersion": "1.2",
+              "id": "com.zaxxer:SparseBitSet:1.2",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            },
+            {
+              "groupId": "commons-codec",
+              "artifactId": "commons-codec",
+              "version": "1.15",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "b3e9f6d63a790109bf0d056611fbed1cf69055826defeb9894a71369d246ed63",
+              "scope": "compile",
+              "selectedVersion": "1.15",
+              "id": "commons-codec:commons-codec:1.15",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            },
+            {
+              "groupId": "commons-io",
+              "artifactId": "commons-io",
+              "version": "2.11.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "961b2f6d87dbacc5d54abf45ab7a6e2495f89b75598962d8c723cea9bc210908",
+              "scope": "compile",
+              "selectedVersion": "2.11.0",
+              "id": "commons-io:commons-io:2.11.0",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-collections4",
+              "version": "4.4",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "1df8b9430b5c8ed143d7815e403e33ef5371b2400aadbe9bda0883762e0846d1",
+              "scope": "compile",
+              "selectedVersion": "4.4",
+              "id": "org.apache.commons:commons-collections4:4.4",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.commons",
+              "artifactId": "commons-math3",
+              "version": "3.6.1",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "1e56d7b058d28b65abd256b8458e3885b674c1d588fa43cd7d1cbb9c7ef2b308",
+              "scope": "compile",
+              "selectedVersion": "3.6.1",
+              "id": "org.apache.commons:commons-math3:3.6.1",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.logging.log4j",
+              "artifactId": "log4j-api",
+              "version": "2.17.2",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "09351b5a03828f369cdcff76f4ed39e6a6fc20f24f046935d0b28ef5152f8ce4",
+              "scope": "compile",
+              "selectedVersion": "2.17.2",
+              "id": "org.apache.logging.log4j:log4j-api:2.17.2",
+              "parent": "org.apache.poi:poi:5.2.2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.poi",
+          "artifactId": "poi-ooxml-lite",
+          "version": "5.2.2",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "77fb2b66efb4ad324095642b67147c655234a9d134bd73dcda357f82c3b88f13",
+          "scope": "compile",
+          "selectedVersion": "5.2.2",
+          "id": "org.apache.poi:poi-ooxml-lite:5.2.2",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": [
+            {
+              "groupId": "org.apache.xmlbeans",
+              "artifactId": "xmlbeans",
+              "version": "5.0.3",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "b662cba69fe211084c603ecd5733d93d4f97d64c5e273b9c7fdd521122f63fe9",
+              "scope": "compile",
+              "selectedVersion": "5.0.3",
+              "id": "org.apache.xmlbeans:xmlbeans:5.0.3",
+              "parent": "org.apache.poi:poi-ooxml-lite:5.2.2",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlbeans",
+          "artifactId": "xmlbeans",
+          "version": "5.0.3",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "b662cba69fe211084c603ecd5733d93d4f97d64c5e273b9c7fdd521122f63fe9",
+          "scope": "compile",
+          "selectedVersion": "5.0.3",
+          "id": "org.apache.xmlbeans:xmlbeans:5.0.3",
+          "parent": "org.apache.poi:poi-ooxml:5.2.2",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.xmlgraphics",
+      "artifactId": "batik-codec",
+      "version": "1.14",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "c6c0ea0f4ca00ca13d76f7ff0bf37042e5788af9f16cbe5892f40c91711359c4",
+      "scope": "compile",
+      "selectedVersion": "1.14",
+      "id": "org.apache.xmlgraphics:batik-codec:1.14",
+      "children": [
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-awt-util",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+          "parent": "org.apache.xmlgraphics:batik-codec:1.14",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-bridge",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "fc137699f14f9289732d4ff8214f0a14a7ea4f5ea7a6b24b745d9d6d943c259e",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-bridge:1.14",
+          "parent": "org.apache.xmlgraphics:batik-codec:1.14",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-shared-resources",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+          "parent": "org.apache.xmlgraphics:batik-codec:1.14",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-transcoder",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "c5f863137fbfe440911b376a0a3e605c9e1b196d1b4a83854007e303a95b9889",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "parent": "org.apache.xmlgraphics:batik-codec:1.14",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-util",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-util:1.14",
+          "parent": "org.apache.xmlgraphics:batik-codec:1.14",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.apache.xmlgraphics",
+      "artifactId": "batik-transcoder",
+      "version": "1.14",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "c5f863137fbfe440911b376a0a3e605c9e1b196d1b4a83854007e303a95b9889",
+      "scope": "compile",
+      "selectedVersion": "1.14",
+      "id": "org.apache.xmlgraphics:batik-transcoder:1.14",
+      "children": [
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-anim",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a1953099e04c202ee32d8e13912326d15cc488538051c691e897b0b7d2523b40",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-anim:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-awt-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-css",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "968ba271cab6dfdd0458eb9ff42cc51e258d471499225b9063edbda61becbe17",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-css:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-css:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-css:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "xmlgraphics-commons",
+                  "version": "2.6",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "25f21c93462d767d05e340f1dc754862995b9bf8b4618ab5b07cd703d400d413",
+                  "scope": "compile",
+                  "selectedVersion": "2.6",
+                  "id": "org.apache.xmlgraphics:xmlgraphics-commons:2.6",
+                  "parent": "org.apache.xmlgraphics:batik-css:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis-ext",
+                  "version": "1.3.04",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+                  "scope": "compile",
+                  "selectedVersion": "1.3.04",
+                  "id": "xml-apis:xml-apis-ext:1.3.04",
+                  "parent": "org.apache.xmlgraphics:batik-css:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-dom",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "6b71b91514f2cbe9b9e46f9699803c1fe7434addf61388b07755d586e20c57de",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-dom:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-ext",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "1f74fc638058c5d05b6da7b207e895d1a04c19d64250ae9f52c059689e681a7a",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-ext:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-ext:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-parser",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "aca5e08b52e54af0a1acaf9c134082a0ed0b357b8eef74de369bdba054d1e1e2",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-parser:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-awt-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-xml",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "673a82f56185a023e5196a59eb16f8503071477af4a82bb58e7267bb3d4ff828",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-xml:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis-ext",
+                  "version": "1.3.04",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+                  "scope": "compile",
+                  "selectedVersion": "1.3.04",
+                  "id": "xml-apis:xml-apis-ext:1.3.04",
+                  "parent": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-svg-dom",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "c6023eca4fe1c6c2616173d2308217713c76895b780167f19382db0e57eac412",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-awt-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-css",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "968ba271cab6dfdd0458eb9ff42cc51e258d471499225b9063edbda61becbe17",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-css:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-dom",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "6b71b91514f2cbe9b9e46f9699803c1fe7434addf61388b07755d586e20c57de",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-dom:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-ext",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "1f74fc638058c5d05b6da7b207e895d1a04c19d64250ae9f52c059689e681a7a",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-ext:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-parser",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "aca5e08b52e54af0a1acaf9c134082a0ed0b357b8eef74de369bdba054d1e1e2",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-parser:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis-ext",
+                  "version": "1.3.04",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+                  "scope": "compile",
+                  "selectedVersion": "1.3.04",
+                  "id": "xml-apis:xml-apis-ext:1.3.04",
+                  "parent": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis-ext",
+              "version": "1.3.04",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+              "scope": "compile",
+              "selectedVersion": "1.3.04",
+              "id": "xml-apis:xml-apis-ext:1.3.04",
+              "parent": "org.apache.xmlgraphics:batik-anim:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-awt-util",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "xmlgraphics-commons",
+              "version": "2.6",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "25f21c93462d767d05e340f1dc754862995b9bf8b4618ab5b07cd703d400d413",
+              "scope": "compile",
+              "selectedVersion": "2.6",
+              "id": "org.apache.xmlgraphics:xmlgraphics-commons:2.6",
+              "parent": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "children": [
+                {
+                  "groupId": "commons-logging",
+                  "artifactId": "commons-logging",
+                  "version": "1.0.4",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "e94af49749384c11f5aa50e8d0f5fe679be771295b52030338d32843c980351e",
+                  "scope": "compile",
+                  "selectedVersion": "1.0.4",
+                  "id": "commons-logging:commons-logging:1.0.4",
+                  "parent": "org.apache.xmlgraphics:xmlgraphics-commons:2.6",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-bridge",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "fc137699f14f9289732d4ff8214f0a14a7ea4f5ea7a6b24b745d9d6d943c259e",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-bridge:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-anim",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a1953099e04c202ee32d8e13912326d15cc488538051c691e897b0b7d2523b40",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-anim:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-awt-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-css",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "968ba271cab6dfdd0458eb9ff42cc51e258d471499225b9063edbda61becbe17",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-css:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-dom",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "6b71b91514f2cbe9b9e46f9699803c1fe7434addf61388b07755d586e20c57de",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-dom:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-gvt",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "5230e4339035867bbb9c82683a065fb2abe135779f57c43a70b7766395aeab38",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-gvt:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-parser",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "aca5e08b52e54af0a1acaf9c134082a0ed0b357b8eef74de369bdba054d1e1e2",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-parser:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-script",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "d3584655227b4f1b56beea081a5b0b1fa228aeb165f19895f10dfbae999bc4e4",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-script:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-anim",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "a1953099e04c202ee32d8e13912326d15cc488538051c691e897b0b7d2523b40",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-anim:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-script:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-script:1.14",
+                  "children": []
+                },
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-util",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-util:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-script:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-svg-dom",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "c6023eca4fe1c6c2616173d2308217713c76895b780167f19382db0e57eac412",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-svg-dom:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-xml",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "673a82f56185a023e5196a59eb16f8503071477af4a82bb58e7267bb3d4ff828",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-xml:1.14",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "xmlgraphics-commons",
+              "version": "2.6",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "25f21c93462d767d05e340f1dc754862995b9bf8b4618ab5b07cd703d400d413",
+              "scope": "compile",
+              "selectedVersion": "2.6",
+              "id": "org.apache.xmlgraphics:xmlgraphics-commons:2.6",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis-ext",
+              "version": "1.3.04",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+              "scope": "compile",
+              "selectedVersion": "1.3.04",
+              "id": "xml-apis:xml-apis-ext:1.3.04",
+              "parent": "org.apache.xmlgraphics:batik-bridge:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-dom",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "6b71b91514f2cbe9b9e46f9699803c1fe7434addf61388b07755d586e20c57de",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-dom:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-css",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "968ba271cab6dfdd0458eb9ff42cc51e258d471499225b9063edbda61becbe17",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-css:1.14",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-ext",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "1f74fc638058c5d05b6da7b207e895d1a04c19d64250ae9f52c059689e681a7a",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-ext:1.14",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-xml",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "673a82f56185a023e5196a59eb16f8503071477af4a82bb58e7267bb3d4ff828",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-xml:1.14",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis",
+              "version": "1.4.01",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a840968176645684bb01aed376e067ab39614885f9eee44abe35a5f20ebe7fad",
+              "scope": "compile",
+              "selectedVersion": "1.4.01",
+              "id": "xml-apis:xml-apis:1.4.01",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            },
+            {
+              "groupId": "xml-apis",
+              "artifactId": "xml-apis-ext",
+              "version": "1.3.04",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+              "scope": "compile",
+              "selectedVersion": "1.3.04",
+              "id": "xml-apis:xml-apis-ext:1.3.04",
+              "parent": "org.apache.xmlgraphics:batik-dom:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-gvt",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "5230e4339035867bbb9c82683a065fb2abe135779f57c43a70b7766395aeab38",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-gvt:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-awt-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-gvt:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-gvt:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-gvt:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-shared-resources",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": []
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-svggen",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "c2a7fba84eddc3815992a1f14f554feeccaabf9c1730867b28569dcbbbc272e2",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-svggen:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-awt-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "9cbaeae98dacad502aa2b08f206a5c04f14703afe9d99d905f0f7f8b733db5e7",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-awt-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-svggen:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-svggen:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-svggen:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-util",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-util:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-constants",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "7882eb789257905413bcb0adcb1562dd50b8103cadef9534c33612bf51527990",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-constants:1.14",
+              "parent": "org.apache.xmlgraphics:batik-util:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-constants:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-i18n",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "fb1ad02ccaa36f5a60c4115316e15ac071386f96445e5d89bdad0c7e45da9560",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-i18n:1.14",
+              "parent": "org.apache.xmlgraphics:batik-util:1.14",
+              "children": [
+                {
+                  "groupId": "org.apache.xmlgraphics",
+                  "artifactId": "batik-shared-resources",
+                  "version": "1.14",
+                  "checksumAlgorithm": "SHA-256",
+                  "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+                  "scope": "compile",
+                  "selectedVersion": "1.14",
+                  "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+                  "parent": "org.apache.xmlgraphics:batik-i18n:1.14",
+                  "children": []
+                }
+              ]
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-util:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.apache.xmlgraphics",
+          "artifactId": "batik-xml",
+          "version": "1.14",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "673a82f56185a023e5196a59eb16f8503071477af4a82bb58e7267bb3d4ff828",
+          "scope": "compile",
+          "selectedVersion": "1.14",
+          "id": "org.apache.xmlgraphics:batik-xml:1.14",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": [
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-shared-resources",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "987ceb566e2101418465bb3227ec60812b71e7c4b2c3e842d977efa732fa90f5",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-shared-resources:1.14",
+              "parent": "org.apache.xmlgraphics:batik-xml:1.14",
+              "children": []
+            },
+            {
+              "groupId": "org.apache.xmlgraphics",
+              "artifactId": "batik-util",
+              "version": "1.14",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "ad76103ecb3fcad91aac1cd0a34f6d46cd1e4224d0406a5d58b269a64f6c3788",
+              "scope": "compile",
+              "selectedVersion": "1.14",
+              "id": "org.apache.xmlgraphics:batik-util:1.14",
+              "parent": "org.apache.xmlgraphics:batik-xml:1.14",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "xml-apis",
+          "artifactId": "xml-apis-ext",
+          "version": "1.3.04",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "d0b4887dc34d57de49074a58affad439a013d0baffa1a8034f8ef2a5ea191646",
+          "scope": "compile",
+          "selectedVersion": "1.3.04",
+          "id": "xml-apis:xml-apis-ext:1.3.04",
+          "parent": "org.apache.xmlgraphics:batik-transcoder:1.14",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.jsoup",
+      "artifactId": "jsoup",
+      "version": "1.15.3",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "e20a5e78b1372f2a4e620832db4442d5077e5cbde280b24c666a3770844999bc",
+      "scope": "test",
+      "selectedVersion": "1.15.3",
+      "id": "org.jsoup:jsoup:1.15.3",
+      "children": []
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-api",
+      "version": "5.6.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "128a9828798f978fadfcda255ba365f908e58f6c37275c9e5f671cbd660a9a33",
+      "scope": "test",
+      "selectedVersion": "5.6.0",
+      "id": "org.junit.jupiter:junit-jupiter-api:5.6.0",
+      "children": [
+        {
+          "groupId": "org.apiguardian",
+          "artifactId": "apiguardian-api",
+          "version": "1.1.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
+          "scope": "test",
+          "selectedVersion": "1.1.0",
+          "id": "org.apiguardian:apiguardian-api:1.1.0",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.6.0",
+          "children": []
+        },
+        {
+          "groupId": "org.junit.platform",
+          "artifactId": "junit-platform-commons",
+          "version": "1.6.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "18accffaf3f1fe66daf9f13daa7d59b2ac6d06396f816a73b4d733d82d28ace6",
+          "scope": "test",
+          "selectedVersion": "1.6.0",
+          "id": "org.junit.platform:junit-platform-commons:1.6.0",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.6.0",
+          "children": [
+            {
+              "groupId": "org.apiguardian",
+              "artifactId": "apiguardian-api",
+              "version": "1.1.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
+              "scope": "test",
+              "selectedVersion": "1.1.0",
+              "id": "org.apiguardian:apiguardian-api:1.1.0",
+              "parent": "org.junit.platform:junit-platform-commons:1.6.0",
+              "children": []
+            }
+          ]
+        },
+        {
+          "groupId": "org.opentest4j",
+          "artifactId": "opentest4j",
+          "version": "1.2.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2",
+          "scope": "test",
+          "selectedVersion": "1.2.0",
+          "id": "org.opentest4j:opentest4j:1.2.0",
+          "parent": "org.junit.jupiter:junit-jupiter-api:5.6.0",
+          "children": []
+        }
+      ]
+    },
+    {
+      "groupId": "org.junit.jupiter",
+      "artifactId": "junit-jupiter-engine",
+      "version": "5.6.0",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "670c95d2e60099ce747e2ffefd716dbed5afedd0b995949a3592d7c88e796d2d",
+      "scope": "test",
+      "selectedVersion": "5.6.0",
+      "id": "org.junit.jupiter:junit-jupiter-engine:5.6.0",
+      "children": [
+        {
+          "groupId": "org.apiguardian",
+          "artifactId": "apiguardian-api",
+          "version": "1.1.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
+          "scope": "test",
+          "selectedVersion": "1.1.0",
+          "id": "org.apiguardian:apiguardian-api:1.1.0",
+          "parent": "org.junit.jupiter:junit-jupiter-engine:5.6.0",
+          "children": []
+        },
+        {
+          "groupId": "org.junit.jupiter",
+          "artifactId": "junit-jupiter-api",
+          "version": "5.6.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "128a9828798f978fadfcda255ba365f908e58f6c37275c9e5f671cbd660a9a33",
+          "scope": "test",
+          "selectedVersion": "5.6.0",
+          "id": "org.junit.jupiter:junit-jupiter-api:5.6.0",
+          "parent": "org.junit.jupiter:junit-jupiter-engine:5.6.0",
+          "children": []
+        },
+        {
+          "groupId": "org.junit.platform",
+          "artifactId": "junit-platform-engine",
+          "version": "1.6.0",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "7aed5424cb31a8255daecb1fcb0c173b0b64b1262e1eb2eaf87bbc7aec5e6d76",
+          "scope": "test",
+          "selectedVersion": "1.6.0",
+          "id": "org.junit.platform:junit-platform-engine:1.6.0",
+          "parent": "org.junit.jupiter:junit-jupiter-engine:5.6.0",
+          "children": [
+            {
+              "groupId": "org.apiguardian",
+              "artifactId": "apiguardian-api",
+              "version": "1.1.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "a9aae9ff8ae3e17a2a18f79175e82b16267c246fbbd3ca9dfbbb290b08dcfdd4",
+              "scope": "test",
+              "selectedVersion": "1.1.0",
+              "id": "org.apiguardian:apiguardian-api:1.1.0",
+              "parent": "org.junit.platform:junit-platform-engine:1.6.0",
+              "children": []
+            },
+            {
+              "groupId": "org.junit.platform",
+              "artifactId": "junit-platform-commons",
+              "version": "1.6.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "18accffaf3f1fe66daf9f13daa7d59b2ac6d06396f816a73b4d733d82d28ace6",
+              "scope": "test",
+              "selectedVersion": "1.6.0",
+              "id": "org.junit.platform:junit-platform-commons:1.6.0",
+              "parent": "org.junit.platform:junit-platform-engine:1.6.0",
+              "children": []
+            },
+            {
+              "groupId": "org.opentest4j",
+              "artifactId": "opentest4j",
+              "version": "1.2.0",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "58812de60898d976fb81ef3b62da05c6604c18fd4a249f5044282479fc286af2",
+              "scope": "test",
+              "selectedVersion": "1.2.0",
+              "id": "org.opentest4j:opentest4j:1.2.0",
+              "parent": "org.junit.platform:junit-platform-engine:1.6.0",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "groupId": "org.slf4j",
+      "artifactId": "slf4j-api",
+      "version": "1.7.32",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
+      "scope": "compile",
+      "selectedVersion": "1.7.32",
+      "id": "org.slf4j:slf4j-api:1.7.32",
+      "children": []
+    },
+    {
+      "groupId": "org.springframework",
+      "artifactId": "spring-expression",
+      "version": "5.3.18",
+      "checksumAlgorithm": "SHA-256",
+      "checksum": "c0fea3c2a8dcc231070a74a473f7589b39db22fbd03edf4fd3f4740434ff7814",
+      "scope": "provided",
+      "selectedVersion": "5.3.18",
+      "id": "org.springframework:spring-expression:5.3.18",
+      "children": [
+        {
+          "groupId": "org.springframework",
+          "artifactId": "spring-core",
+          "version": "5.3.18",
+          "checksumAlgorithm": "SHA-256",
+          "checksum": "ca6fbdcf571fe1ee036d8e0b990175169baf629d38a8714f59e0e0fdc8f7a361",
+          "scope": "provided",
+          "selectedVersion": "5.3.18",
+          "id": "org.springframework:spring-core:5.3.18",
+          "parent": "org.springframework:spring-expression:5.3.18",
+          "children": [
+            {
+              "groupId": "org.springframework",
+              "artifactId": "spring-jcl",
+              "version": "5.3.18",
+              "checksumAlgorithm": "SHA-256",
+              "checksum": "5769aae0e6addd8f5f59cbacd1b0635d819851e66baec4fce7d6c1fad1fadf8e",
+              "scope": "provided",
+              "selectedVersion": "5.3.18",
+              "id": "org.springframework:spring-jcl:5.3.18",
+              "parent": "org.springframework:spring-core:5.3.18",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mavenPlugins": [],
+  "metaData": {
+    "environment": {
+      "osName": "Windows 11",
+      "mavenVersion": "3.9.6",
+      "javaVersion": "11.0.22"
+    },
+    "config": {
+      "includeMavenPlugins": false,
+      "reduced": true,
+      "mavenLockfileVersion": "5.0.0",
+      "checksumMode": "maven_local",
+      "checksumAlgorithm": "SHA-256"
+    }
+  }
+}
