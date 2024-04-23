@@ -85,7 +85,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Module: jimfs
 
 ---
-#### [jooby:](https://github.com/jooby-project/jooby) DIDN'T WORK
+#### [jooby:](https://github.com/jooby-project/jooby) DID NOT WORK YET
 - Commit: [1c78357](https://github.com/jooby-project/jooby/commit/4d7be54dad429b5aeb5266387df14b0781c78357)
 - [JACT-Report](./template-jact-report/)
 - Module: jooby
@@ -97,10 +97,69 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Module: core
 
 ---
-#### [Template:](link to repo)
+#### [modelmapper:](https://github.com/modelmapper/modelmapper)
 - Commit: [commit sha](link to commit)
 - [JACT-Report](./template-jact-report/)
 
+---
+#### [mybatis-3:](https://github.com/mybatis/mybatis-3) LATEST
+- Commit: [47662a2](https://github.com/mybatis/mybatis-3/commit/78bb677e2bf04b43386d3f1544cec51ff47662a2)
+- [JACT-Report](./mybatis-3-jact-report/)
+
+---
+#### [OpenPDF:](https://github.com/LibrePDF/OpenPDF) DID NOT WORK YET
+- Commit: [bd0d458](https://github.com/LibrePDF/OpenPDF/commit/0c9c4ca393b01444b7cb13bb1d12da202bd0d458)
+- [JACT-Report](./template-jact-report/)
+- Module: openpdf
+
+---
+#### [pf4j:](https://github.com/pf4j/pf4j)
+- Commit: [fd00c63](https://github.com/pf4j/pf4j/commit/efaed93c10dd9d114335e2a344e8bca04fd00c63)
+- [JACT-Report](./pf4j-pf4j-jact-report/)
+- Module: pf4j
+
+---
+#### [poi-tl:](https://github.com/Sayi/poi-tl)
+- Commit: [71b5969](https://github.com/Sayi/poi-tl/commit/5d5004311a406b7d5843be76322bf208071b5969)
+- [JACT-Report](./poi-tl-jact-report/)
+
+---
+#### [Recaf:](https://github.com/Col-E/Recaf)
+- Commit: [a30dce0](https://github.com/Col-E/Recaf/commit/c66f23801493bd866db757b0594c1fceaa30dce0)
+- [JACT-Report](./recaf-jact-report/)
+
+---
+#### [RxRelay:](https://github.com/JakeWharton/RxRelay)
+- Commit: [commit sha](https://github.com/JakeWharton/RxRelay/commit/e9fc1586192ca1ecdbc41ae39036cbf0d09428b5)
+- [JACT-Report](./rxrelay-jact-report/)
+
+---
+#### [scribejava:](https://github.com/scribejava/scribejava)
+- Commit: [commit sha](https://github.com/scribejava/scribejava/commit/763a959f7b05ba5b9d3dabb39c8cd6511299c419)
+- [JACT-Report](./scribejava-core-jact-report/)
+- Module: scribejava-core
+
+---
+#### [tablesaw:](https://github.com/jtablesaw/tablesaw)
+- Commit: [80d5334](https://github.com/jtablesaw/tablesaw/commit/05823f66246ea191e62ad0658d2fed0b080d5334)
+- [JACT-Report](./tablesaw-json-jact-report/)
+- Module: json
+
+---
+#### [tika:](https://github.com/apache/tika)
+- Commit: [commit sha](https://github.com/apache/tika/commit/41319f3c294b13de5342a80570b4540f7dd04a3e)
+- [JACT-Report](./tika-core-jact-report/)
+- Module: tika-core
+
+---
+#### [undertow:](https://github.com/undertow-io/undertow)
+- Commit: [commit sha](link to commit)
+- [JACT-Report](./template-jact-report/)
+
+---
+#### [woodstox:](https://github.com/FasterXML/woodstox)
+- Commit: [58bd89e](https://github.com/FasterXML/woodstox/commit/e8f00401bebd103f62d51383ef53da2cd58bd89e)
+- [JACT-Report](./woodstox-jact-report/)
 
 
 ---
