@@ -53,8 +53,9 @@ for file_path in csv_files:
 
 # Sort file names alphabetically in reverse order, ignoring case
 file_names.sort(key=str.lower, reverse=True)
+print(file_names)
 
-# Create boxplot
+# Create boxplot with customized box properties
 fig, ax = plt.subplots(figsize=(10, 7))
 
 # Plot the data for each CSV file with different colors
@@ -62,7 +63,12 @@ colors = plt.cm.tab10.colors
 num_colors = len(colors)
 for i, data in enumerate(data_list):
     color = colors[i % num_colors]  # Cycling through colors if there are more CSV files than available colors
-    ax.boxplot(data['Coverage_Percentage'], vert=False, positions=[i], widths=0.6, boxprops=dict(color=color))
+    # Customizing box properties
+    box = ax.boxplot(data['Coverage_Percentage'], vert=False, positions=[i], widths=0.6, patch_artist=True, boxprops=dict(color='black'), flierprops=dict(markerfacecolor='green', marker='o', markersize=10), medianprops=dict(color='red'), whiskerprops=dict(color='black'), capprops=dict(color='black'))
+    
+    #Fill the box with green color
+    for box_artist in box['boxes']:
+        box_artist.set_facecolor('lightgreen')
 
 # Set y-axis labels to file names
 ax.set_yticks(range(len(data_list)))
@@ -77,14 +83,6 @@ ax.set_title('Direct Dependency Coverage')
 
 # Save plot as an image file
 plt.savefig('boxplot.png', bbox_inches='tight')
-
-# Optionally, you can specify the DPI (dots per inch) for better resolution
-# plt.savefig('boxplot.png', dpi=300)
-
-# Optionally, you can specify the file format (e.g., PDF, SVG) by changing the file extension
-# plt.savefig('boxplot.pdf')
-
-# Optionally, you can specify additional parameters such as bbox_inches and pad_inches to adjust the bounding box and padding
 
 # Optionally, you can close the plot to release memory
 plt.close()
