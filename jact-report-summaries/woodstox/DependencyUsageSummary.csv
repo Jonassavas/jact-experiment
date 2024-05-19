@@ -1,6 +1,0 @@
-DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
-org.codehaus.woodstox:stax2-api:4.2.1,true,11134,19624,615,1204,92,101
-com.sun.xml.bind.jaxb:isorelax:20090621,false,0,5169,0,380,0,36
-net.java.dev.msv:msv-core:2013.6.1,true,9872,52057,719,2862,172,475
-net.java.dev.msv:xsdlib:2013.6.1,true,2261,30495,178,1040,57,140
-relaxngDatatype:relaxngDatatype:20020414,true,285,457,13,28,5,9

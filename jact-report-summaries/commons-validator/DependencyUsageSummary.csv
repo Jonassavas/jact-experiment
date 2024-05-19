@@ -1,5 +1,0 @@
-DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
-commons-digester:commons-digester:2.1,true,2436,14396,132,728,33,114
-commons-collections:commons-collections:3.2.2,true,222,57713,22,3900,6,422
-commons-beanutils:commons-beanutils:1.9.4,true,2836,27312,158,1256,40,127
-commons-logging:commons-logging:1.2,true,1107,5670,75,297,13,27

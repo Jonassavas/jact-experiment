@@ -1,6 +1,0 @@
-DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
-org.apache.httpcomponents.core5:httpcore5-h2:5.2,true,222,19852,20,803,7,115
-org.conscrypt:conscrypt-openjdk-uber:2.5.2,true,0,40623,0,2104,0,284
-org.brotli:dec:0.1.2,true,1335,13736,31,81,6,19
-org.slf4j:slf4j-api:1.7.36,true,283,3452,27,349,5,23
-org.apache.httpcomponents.core5:httpcore5:5.2,true,15544,58384,934,3679,175,450
