@@ -40,41 +40,41 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [flink:](https://github.com/apache/flink)  
 - Commit: [eaffd22](https://github.com/apache/flink/commit/eaffd227d853e0cdef03f1af5016e00f950930a9)  
-- [JACT-Report-Summary](./jact-report-summaries/flink-flink-java/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/flink/jactReportSummary.md/)
 - Module: flink-java
 - #Tests: 855 (38 skipped)
 
 ---
 #### [Graphhopper:](https://github.com/graphhopper/graphhopper)  
 - Commit: [6d3da379](https://github.com/graphhopper/graphhopper/commit/6d3da37960f56aa6b9c4b1ffd77f70ebebff8747)  
-- [JACT-Report-Summary](./jact-report-summaries/graphhopper-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/graphhopper/jactReportSummary.md/)
 - Module: core
 - #Tests: 2460 (29 skipped)
 
 ---
 #### [guice:](https://github.com/google/guice)
 - Commit: [b0ff10c](https://github.com/google/guice/commit/b0ff10c8ec8911137451623a333d6daa65f73d8a)
-- [JACT-Report-Summary](./jact-report-summaries/guice-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/guice/jactReportSummary.md/)
 - #Tests: 979
 
 ---
 #### [helidon:](https://github.com/helidon-io/helidon)
 - Commit: [99cf5ad](https://github.com/helidon-io/helidon/commit/99cf5add9b4049581f08aae9eddaf0280070f2bb)
-- [JACT-Report-Summary](./jact-report-summaries/helidon-openapi/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/helidon/jactReportSummary.md/)
 - Module: openapi
 - #Tests: 30
 
 ---
 #### [httpcomponents-client:](https://github.com/apache/httpcomponents-client)
 - Commit: [d8f702f](https://github.com/apache/httpcomponents-client/commit/d8f702fb4d44c746bb0edf00643aa7139cb8bdf7)
-- [JACT-Report-Summary](./jact-report-summaries/httpcomponents-client-httpclient5/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/httpcomponents/jactReportSummary.md/)
 - Module: httpclient5
 - #Tests: 669
 
 ---
 #### [immutables:](https://github.com/immutables/immutables)
 - Commit: [6e19203](https://github.com/immutables/immutables/commit/6e192030320eaf7a8b5f146c39ae5a17b413aa37)
-- [JACT-Report-Summary](./jact-report-summaries/immutables-gson/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/immutables/jactReportSummary.md/)
 - Module: gson
 - #Tests: 37
 
@@ -99,7 +99,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [jimfs:](https://github.com/google/jimfs)
 - Commit: [3bc54fa](https://github.com/google/jimfs/commit/3bc54fae2feb218dcf5427d2626720fc09ef38d1)
-- [JACT-Report-Summary](./jact-report-summaries/jimfs-jimfs/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/jimfs/jactReportSummary.md/)
 - Module: jimfs
 - #Tests: 5893
 
@@ -113,14 +113,14 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [lettuce:](https://github.com/redis/lettuce)
 - Commit: [77c4ea](https://github.com/redis/lettuce/commit/77c4ea587fdba73f688c95a481d2743b6fc94fcb)
-- [JACT-Report-Summary](./jact-report-summaries/lettuce-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/lettuce/jactReportSummary.md/)
 - Module: core
 - #Tests: 2600 (Skipped 1)
 
 ---
 #### [modelmapper:](https://github.com/modelmapper/modelmapper)
 - Commit: [894c658](https://github.com/modelmapper/modelmapper/commit/894c658609f47f817ce20e41f6e87e1f803663ee)
-- [JACT-Report-Summary](./jact-report-summaries/modelmapper-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/modelmapper/jactReportSummary.md/)
 - Module: core
 - #Tests: 614
 
@@ -133,7 +133,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [OpenPDF:](https://github.com/LibrePDF/OpenPDF)
 - Commit: [0c9c4ca](https://github.com/LibrePDF/OpenPDF/commit/0c9c4ca393b01444b7cb13bb1d12da202bd0d458)
-- [JACT-Report-Summary](./jact-report-summaries/openpdf-openpdf/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/openpdf/jactReportSummary.md/)
 - Module: openpdf
 - #Tests: 35
 
@@ -141,7 +141,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 
 #### [pdfbox:](https://github.com/apache/pdfbox)
 - Commit: [9a1fc84](https://github.com/apache/pdfbox/commit/9a1fc842799d6a4a1e9df33b0f3ebc687294935f)  _(Latest release, not DepTrim)_
-- [JACT-Report-Summary](./jact-report-summaries/pdfbox-pdfbox/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/pdfbox/jactReportSummary.md/)
 - #Tests: 624
 - Manually excluded a test that was excluded by surefire:
     - _"pdfbox/pdfbox/src/test/java/org/apache/pdfbox/rendering/TestPDFToImage.java/testRenderImage()"_
@@ -149,7 +149,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [pf4j:](https://github.com/pf4j/pf4j)
 - Commit: [efaed93](https://github.com/pf4j/pf4j/commit/efaed93c10dd9d114335e2a344e8bca04fd00c63)
-- [JACT-Report-Summary](./jact-report-summaries/pf4j-pf4j/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/pf4j/jactReportSummary.md/)
 - Module: pf4j
 - #Tests: 151
 
@@ -174,28 +174,28 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 ---
 #### [scribejava:](https://github.com/scribejava/scribejava)
 - Commit: [763a959](https://github.com/scribejava/scribejava/commit/763a959f7b05ba5b9d3dabb39c8cd6511299c419)
-- [JACT-Report-Summary](./jact-report-summaries/scribejava-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/scribejava/jactReportSummary.md/)
 - Module: scribejava-core
 - #Tests: 82
 
 ---
 #### [tablesaw:](https://github.com/jtablesaw/tablesaw)
 - Commit: [05823f6](https://github.com/jtablesaw/tablesaw/commit/05823f66246ea191e62ad0658d2fed0b080d5334)
-- [JACT-Report-Summary](./jact-report-summaries/tablesaw-json/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/tablesaw/jactReportSummary.md/)
 - Module: json
 - #Tests: 9
 
 ---
 #### [tika:](https://github.com/apache/tika)
 - Commit: [41319f3](https://github.com/apache/tika/commit/41319f3c294b13de5342a80570b4540f7dd04a3e)
-- [JACT-Report-Summary](./jact-report-summaries/tika-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/tika/jactReportSummary.md/)
 - Module: tika-core
 - #Tests: 305 (Skipped 2)
 
 ---
 #### [undertow:](https://github.com/undertow-io/undertow) 
 - Commit: [2b13a06](https://github.com/undertow-io/undertow/commit/2b13a067463a9cf60365db7c30e3f127737d0ed9) _(Latest release, not DepTrim)_
-- [JACT-Report-Summary](./jact-report-summaries/undertow-core/jactReportSummary.md/)
+- [JACT-Report-Summary](./jact-report-summaries/undertow/jactReportSummary.md/)
 - Manually skipped 1 failing test:  
     - _"undertow/core/src/test/java/io/undertow/server/handlers/file/FileHandlerIndexTestCase.java/testDirectoryIndex()"_
 - Module: core
