@@ -1,0 +1,7 @@
+DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
+org.ow2.asm:asm-tree:9.4,true,8902,29780,217,761,24,72
+net.bytebuddy:byte-buddy-dep:1.12.3,true,33658,206544,2248,11401,630,2037
+org.ow2.asm:asm-commons:9.2,false,0,10310,0,468,0,26
+org.ow2.asm:asm:9.4,false,154,602,15,42,2,3
+org.objenesis:objenesis:3.2,true,214,2034,22,111,7,39
+net.jodah:typetools:0.6.3,true,957,1764,22,42,3,6

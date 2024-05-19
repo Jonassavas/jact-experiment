@@ -1,0 +1,9 @@
+DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
+com.fasterxml.jackson.core:jackson-core:2.14.0,false,5186,87183,231,2496,50,134
+com.fasterxml.jackson.core:jackson-annotations:2.14.0,false,633,4472,35,259,11,30
+javax.xml.bind:jaxb-api:2.3.0,true,0,227,0,5,0,1
+com.github.scribejava:scribejava-java8:8.3.3,true,17,17,4,4,1,1
+com.fasterxml.jackson.core:jackson-databind:2.14.0,true,9504,147043,622,7775,155,664
+jakarta.activation:jakarta.activation-api:2.1.0,false,0,4810,0,207,0,35
+commons-codec:commons-codec:1.15,true,1853,49312,30,923,5,96
+jakarta.xml.bind:jakarta.xml.bind-api:4.0.0,true,385,6888,13,466,3,56
