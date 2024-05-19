@@ -1,0 +1,10 @@
+DEPENDENCY_ID,DIRECT_DEPENDENCY,INSTRUCTION_COVERED,INSTRUCTION_TOTAL,METHOD_COVERED,METHOD_TOTAL,CLASS_COVERED,CLASS_TOTAL
+com.google.errorprone:error_prone_annotations:2.26.1,false,0,75,0,1,0,1
+org.checkerframework:checker-qual:3.42.0,true,0,1446,0,26,0,7
+com.google.j2objc:j2objc-annotations:3.0.0,false,0,30,0,2,0,2
+com.google.guava:guava:33.1.0-jre,true,13139,183263,1113,13082,315,1779
+com.google.code.findbugs:jsr305:3.0.2,true,0,153,0,9,0,5
+com.ibm.icu:icu4j:75.1,true,8926,477914,76,11583,16,1456
+com.google.auto.service:auto-service-annotations:1.1.1,true,0,0,0,0,0,0
+com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava,false,0,0,0,0,0,0
+com.google.guava:failureaccess:1.0.2,false,3,6,1,2,1,2
