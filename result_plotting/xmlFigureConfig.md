@@ -1,0 +1,11 @@
+```xml
+<project>
+    ...
+    <plugins>
+        <plugin>jacoco-maven-plugin</plugin>
+        <plugin>maven-shade-plugin</plugin>
+        <plugin>jact</plugin>
+    </plugins>
+    ...
+</project>
+```
