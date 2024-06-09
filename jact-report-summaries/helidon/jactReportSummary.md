@@ -8,29 +8,29 @@
 - **#DIRECT:** 12  
 - **#INDIRECT:** 27  
 ### COMPILE-SCOPE COVERAGE (covered, total):  
-**INSTRUCTION** &nbsp;74012 : 14.4119% | 513547  
-**METHOD** &nbsp;4805 : 16.7101% | 28755  
-**CLASS** &nbsp;1000 : 29.5334% | 3386  
+**INSTRUCTION** &nbsp;74245 : 14.4573% | 513547  
+**METHOD** &nbsp;4832 : 16.804% | 28755  
+**CLASS** &nbsp;1004 : 29.6515% | 3386  
   
 ### DIRECT DEPENDENCY COVERAGE (covered, total):  
-**INSTRUCTION** &nbsp;34307 : 24.4343% | 140405  
-**METHOD** &nbsp;2185 : 27.4291% | 7966  
-**CLASS** &nbsp;465 : 45.9033% | 1013  
+**INSTRUCTION** &nbsp;34307 : 21.5808% | 158970  
+**METHOD** &nbsp;2185 : 23.7371% | 9205  
+**CLASS** &nbsp;465 : 37.9282% | 1226  
   
 ### INDIRECT DEPENDENCY COVERAGE (covered, total):  
-**INSTRUCTION** &nbsp;39705 : 10.6289% | 373556  
-**METHOD** &nbsp;2620 : 12.5744% | 20836  
-**CLASS** &nbsp;535 : 22.4507% | 2383  
+**INSTRUCTION** &nbsp;39938 : 10.6913% | 373556  
+**METHOD** &nbsp;2647 : 12.704% | 20836  
+**CLASS** &nbsp;539 : 22.6185% | 2383  
   
 ### TOTAL DEPENDENCY COVERAGE _[Direct + Indirect]_ (covered, total):  
-**INSTRUCTION** &nbsp;74012 : 14.4003% | 513961  
-**METHOD** &nbsp;4805 : 16.6829% | 28802  
-**CLASS** &nbsp;1000 : 29.4464% | 3396  
+**INSTRUCTION** &nbsp;74245 : 13.942% | 532526  
+**METHOD** &nbsp;4832 : 16.0847% | 30041  
+**CLASS** &nbsp;1004 : 27.8193% | 3609  
   
 ### TOTAL COVERAGE _[Project + Dependencies]_ (covered, total):  
-**INSTRUCTION** &nbsp;77404 : 14.9319% | 518381  
-**METHOD** &nbsp;4968 : 17.1063% | 29042  
-**CLASS** &nbsp;1025 : 29.9532% | 3422  
+**INSTRUCTION** &nbsp;77637 : 14.459% | 536946  
+**METHOD** &nbsp;4995 : 16.4955% | 30281  
+**CLASS** &nbsp;1029 : 28.3081% | 3635  
   
 ----------------------------------------------------------------  
 ## MULTIPLE:  
@@ -41,16 +41,16 @@ once in the Uber-jar._
 - **#DIRECT:** 12  
 - **#MULTIPLE INDIRECT:** 83  
 ### MULTIPLE INDIRECT COVERAGE (covered, total):  
-**INSTRUCTION** &nbsp;3012094 : 16.8366% | 17890160  
-**METHOD** &nbsp;217494 : 18.3201% | 1187187  
-**CLASS** &nbsp;43284 : 35.1582% | 123112  
+**INSTRUCTION** &nbsp;3048923 : 17.0425% | 17890160  
+**METHOD** &nbsp;221525 : 18.6597% | 1187187  
+**CLASS** &nbsp;43946 : 35.696% | 123112  
   
 ### MULTIPLE TOTAL DEPENDENCY COVERAGE _[Direct + Multiple Indirect]_ (covered, total):  
-**INSTRUCTION** &nbsp;1980025 : 16.7743% | 11803889  
-**METHOD** &nbsp;142414 : 18.2876% | 778746  
-**CLASS** &nbsp;28421 : 34.9556% | 81306  
+**INSTRUCTION** &nbsp;2003401 : 16.9457% | 11822454  
+**METHOD** &nbsp;144974 : 18.5868% | 779985  
+**CLASS** &nbsp;28841 : 35.3795% | 81519  
   
 ### MULTIPLE TOTAL COVERAGE _[Project + Dependencies]_ (covered, total):  
-**INSTRUCTION** &nbsp;1983417 : 16.7968% | 11808309  
-**METHOD** &nbsp;142577 : 18.3029% | 778986  
-**CLASS** &nbsp;28446 : 34.9752% | 81332  
+**INSTRUCTION** &nbsp;2006793 : 16.9681% | 11826874  
+**METHOD** &nbsp;145137 : 18.6019% | 780225  
+**CLASS** &nbsp;28866 : 35.3989% | 81545  
