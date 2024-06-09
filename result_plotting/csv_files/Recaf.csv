@@ -19,7 +19,7 @@ com.google.guava:guava:31.1-jre,true,1425,184567,175,12934,63,1791
 org.jline:jline-style:3.21.0,false,0,0,0,0,0,0
 commons-codec:commons-codec:1.15,true,0,49312,0,923,0,96
 org.jline:jline:3.19.0,false,0,149179,0,3580,0,326
-org.fxmisc.richtext:richtextfx:0.10.6,true,0,711,0,38,0,4
+org.fxmisc.richtext:richtextfx:0.10.6,true,147,22656,12,1677,5,123
 org.jline:jline-builtins:3.21.0,true,0,0,0,0,0,0
 org.w3c.css:sac:1.3,false,0,226,0,32,0,4
 com.eclipsesource.minimal-json:minimal-json:0.9.5,true,961,3701,71,280,13,22
@@ -54,4 +54,4 @@ io.github.soc:directories:12,true,245,2304,7,37,2,5
 com.github.Col-E:CAFED00D:1.9.6,true,0,10994,0,697,0,121
 com.google.code.findbugs:jsr305:3.0.2,false,0,0,0,0,0,0
 info.picocli:picocli:4.6.3,true,0,0,0,0,0,0
-net.minecraftforge:forgeflower:1.5.498.29,true,31726,97963,906,1920,132,212
+net.minecraftforge:forgeflower:1.5.498.29,true,34385,105019,1001,2126,145,233

@@ -31,7 +31,7 @@ def process_csv(file_path):
         )
 
         # Drop rows where Coverage_Percentage is NA
-        filtered_data = filtered_data.dropna(subset=['Coverage_Percentage'])
+        #filtered_data = filtered_data.dropna(subset=['Coverage_Percentage'])
 
         # Get the name of the CSV file without extension
         file_name = os.path.splitext(os.path.basename(file_path))[0]
@@ -46,6 +46,7 @@ def process_csv(file_path):
 
 # List CSV files in the ./csv_files directory
 csv_files = [f'csv_files/{file}' for file in os.listdir('csv_files') if file.endswith('.csv')]
+csv_files = sorted(csv_files, key=str.lower, reverse=True)
 
 # Process each CSV file and collect data
 data_dict = {}
@@ -54,10 +55,11 @@ for file_path in csv_files:
     if data is not None:
         if file_name == "OpenPDF":
             print(f"DATA: {data}")
+            print(f"COV: {data['Coverage_Percentage'].values}" )
         data_dict[file_name] = data
 
 # Sort file names alphabetically in reverse order, ignoring case
-sorted_file_names = sorted(data_dict.keys(), key=str.lower, reverse=True)
+#sorted_file_names = sorted(data_dict.keys(), key=str.lower, reverse=True)
 
 # Create boxplot with customized box properties
 fig, ax = plt.subplots(figsize=(16, 16)) 
@@ -65,7 +67,7 @@ fig, ax = plt.subplots(figsize=(16, 16))
 # Plot the data for each CSV file with different colors
 colors = plt.cm.tab10.colors
 num_colors = len(colors)
-for i, file_name in enumerate(sorted_file_names):
+for i, file_name in enumerate(data_dict):
     data = data_dict[file_name]
     color = colors[i % num_colors]  # Cycling through colors if there are more CSV files than available colors
     # Customizing box properties
@@ -79,8 +81,8 @@ for i, file_name in enumerate(sorted_file_names):
 ax.grid(True, which='both', axis='both', linestyle='--', linewidth=0.5)
 
 # Set y-axis labels to file names
-ax.set_yticks(range(len(sorted_file_names)))
-ax.set_yticklabels(sorted_file_names, fontsize=18)  # Increased font size for y-axis labels
+ax.set_yticks(range(len(data_dict)))
+ax.set_yticklabels(data_dict, fontsize=18)  # Increased font size for y-axis labels
 
 # Set x-axis label and limits
 ax.set_xlabel('Instruction Coverage (%)', fontsize=20)  # Increased font size for x-axis label
