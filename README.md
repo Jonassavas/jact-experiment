@@ -128,7 +128,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 
 ---
 #### [lettuce:](https://github.com/redis/lettuce)
-- Commit: [77c4ea](https://github.com/redis/lettuce/commit/77c4ea587fdba73f688c95a481d2743b6fc94fcb)
+- Commit: [77c4ea5](https://github.com/redis/lettuce/commit/77c4ea587fdba73f688c95a481d2743b6fc94fcb)
 - [JACT-Report-Summary](./jact-report-summaries/lettuce/jactReportSummary.md/)
 - Module: core
 - LoC: 53165
