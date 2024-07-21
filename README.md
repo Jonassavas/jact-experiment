@@ -52,7 +52,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 
 ---
 #### [Graphhopper:](https://github.com/graphhopper/graphhopper)  
-- Commit: [6d3da379](https://github.com/graphhopper/graphhopper/commit/6d3da37960f56aa6b9c4b1ffd77f70ebebff8747)  
+- Commit: [6d3da37](https://github.com/graphhopper/graphhopper/commit/6d3da37960f56aa6b9c4b1ffd77f70ebebff8747)  
 - [JACT-Report-Summary](./jact-report-summaries/graphhopper/jactReportSummary.md/)
 - Module: core
 - LoC: 66119
