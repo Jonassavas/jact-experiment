@@ -72,7 +72,9 @@ for i, file_name in enumerate(data_dict):
     color = colors[i % num_colors]  # Cycling through colors if there are more CSV files than available colors
     # Customizing box properties
     box = ax.boxplot(data['Coverage_Percentage'], vert=False, positions=[i], widths=0.6, patch_artist=True, boxprops=dict(color='black'), flierprops=dict(markerfacecolor='green', marker='o', markersize=10), medianprops=dict(color='red'), whiskerprops=dict(color='black'), capprops=dict(color='black'))
-    
+    if file_name == "commons-validator":
+            print(f"DATA: {data}")
+            print(f"COV: {data['Coverage_Percentage'].values}" )
     # Fill the box with green color
     for box_artist in box['boxes']:
         box_artist.set_facecolor('lightgreen')

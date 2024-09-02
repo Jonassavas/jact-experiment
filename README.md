@@ -1,6 +1,6 @@
 # JACT-experiment
 
-_This repository contains the summaries for all the results evaluating [JACT](https://github.com/Jonassavas/jact). The complete JACT reports for all projects can be downloaded as a 450MB .zip file [here](https://drive.google.com/file/d/1L-_eYI_pu1itNeLHzZr9KgIuEwqrLhGp/view?usp=drive_link). The results contain 30 open-source Java projects chosen for their compatability and relevance with related work, [DepTrim](https://arxiv.org/abs/2302.08370)._
+_This repository contains the summaries for all the results evaluating [JACT](https://github.com/Jonassavas/jact). The complete JACT reports for all projects can be downloaded as a 450MB .zip file [here](https://drive.google.com/file/d/1RooJfobyn9oXz7tG85zECJS5RxqpXzZ4/view?usp=sharing). The results contain 30 open-source Java projects chosen for their compatability and relevance with related work, [DepTrim](https://arxiv.org/abs/2302.08370)._
 
 
 ---
@@ -15,7 +15,7 @@ _This repository contains the summaries for all the results evaluating [JACT](ht
 - Commit: [608c6f9](https://github.com/OpenHFT/Chronicle-Map/commit/608c6f9d1c8560522ead73aca856d994690e5c46) _(Latest release, not DepTrim)_
 - [JACT-Report-Summary](./jact-report-summaries/chronicle-map/jactReportSummary.md/)
 - LoC: 51463
-- #Tests: 1291 (73 Skipped)
+- #Tests: 1291
 ---
 
 
@@ -26,14 +26,14 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 `publicAndPrivateDeclaredVsNonDeclared()`  
 `publicDeclaredVsNonDeclared()`
 - LoC: 30133
-- #Tests: 168 (Skipped 2)
+- #Tests: 168
 ---
 
 #### [commons-validator:](https://github.com/apache/commons-validator)
 - Commit: [f9bb217](https://github.com/apache/commons-validator/commit/f9bb21748a9f9c50fbc31862de25ed49433ecc88)  
 - [JACT-Report-Summary](./jact-report-summaries/commons-validator/jactReportSummary.md/)
 - LoC: 16781
-- #Tests: 576 (Skipped 1)
+- #Tests: 576
 
 ---
 #### [CoreNLP:](https://github.com/stanfordnlp/CoreNLP)  
@@ -48,7 +48,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - [JACT-Report-Summary](./jact-report-summaries/flink/jactReportSummary.md/)
 - Module: flink-java
 - LoC: 35539
-- #Tests: 855 (38 skipped)
+- #Tests: 855
 
 ---
 #### [Graphhopper:](https://github.com/graphhopper/graphhopper)  
@@ -56,7 +56,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - [JACT-Report-Summary](./jact-report-summaries/graphhopper/jactReportSummary.md/)
 - Module: core
 - LoC: 66119
-- #Tests: 2460 (29 skipped)
+- #Tests: 2460
 
 ---
 #### [guice:](https://github.com/google/guice)
@@ -108,7 +108,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Commit: [02f3ab9](https://github.com/jcabi/jcabi-github/commit/02f3ab93156349c2f66989ac675bd6292462d724)
 - [JACT-Report-Summary](./jact-report-summaries/jcabi-github/jactReportSummary.md/)
 - LoC: 33514
-- #Tests: 83 (Skipped 80)
+- #Tests: 83
 
 ---
 #### [jimfs:](https://github.com/google/jimfs)
@@ -132,7 +132,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - [JACT-Report-Summary](./jact-report-summaries/lettuce/jactReportSummary.md/)
 - Module: core
 - LoC: 53165
-- #Tests: 2600 (Skipped 1)
+- #Tests: 2600
 
 ---
 #### [modelmapper:](https://github.com/modelmapper/modelmapper)
@@ -147,7 +147,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Commit: [78bb677](https://github.com/mybatis/mybatis-3/commit/78bb677e2bf04b43386d3f1544cec51ff47662a2) _(Latest release, not DepTrim)_
 - [JACT-Report-Summary](./jact-report-summaries/mybatis-3/jactReportSummary.md/)
 - LoC: 64011
-- #Tests: 1790 (Skipped 19)
+- #Tests: 1790
 
 ---
 #### [OpenPDF:](https://github.com/LibrePDF/OpenPDF)
@@ -188,14 +188,14 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - Commit: [c66f238](https://github.com/Col-E/Recaf/commit/c66f23801493bd866db757b0594c1fceaa30dce0)
 - [JACT-Report-Summary](./jact-report-summaries/recaf/jactReportSummary.md/)
 - LoC: 31201
-- #Tests: 274 (Skipped 1)
+- #Tests: 274
 
 ---
 #### [RxRelay:](https://github.com/JakeWharton/RxRelay)
 - Commit: [e9fc158](https://github.com/JakeWharton/RxRelay/commit/e9fc1586192ca1ecdbc41ae39036cbf0d09428b5)
 - [JACT-Report-Summary](./jact-report-summaries/rxrelay/jactReportSummary.md/)
 - LoC: 2405
-- #Tests: 64 (Skipped 3)
+- #Tests: 64
 
 ---
 #### [scribejava:](https://github.com/scribejava/scribejava)
@@ -219,7 +219,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
 - [JACT-Report-Summary](./jact-report-summaries/tika/jactReportSummary.md/)
 - Module: tika-core
 - LoC: 32388
-- #Tests: 305 (Skipped 2)
+- #Tests: 305
 
 ---
 #### [undertow:](https://github.com/undertow-io/undertow) 
@@ -229,7 +229,7 @@ Note: Had to remove two tests for JaCoCo to work in classgraph/src/test/java/io/
     - _"undertow/core/src/test/java/io/undertow/server/handlers/file/FileHandlerIndexTestCase.java/testDirectoryIndex()"_
 - Module: core
 - LoC: 105046
-- #Tests: 725 (Skipped 20)
+- #Tests: 725
 
 ---
 #### [woodstox:](https://github.com/FasterXML/woodstox)
