@@ -1,0 +1,12 @@
+INTERFACE missed: com/mifmif/common/regex/util/Iterable.class
+INTERFACE missed: com/mifmif/common/regex/util/Iterator.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/java-faker/original/compile-scope-dependencies/dependency/generex-1.0.2.jar:
+Classes found in both JAR and HTML: 5
+Classes in JAR but not found in HTML: 2
+Interfaces missed: 2
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

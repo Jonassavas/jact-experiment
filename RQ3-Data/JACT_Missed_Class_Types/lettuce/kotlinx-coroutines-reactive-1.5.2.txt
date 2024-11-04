@@ -1,0 +1,22 @@
+REGULAR CLASS missed: kotlinx/coroutines/reactive/FlowKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/reactive/FlowSubscription$createInitialContinuation$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/PublisherAsFlow$collectImpl$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/PublisherCoroutine$send$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/AwaitKt$awaitSingleOrElse$1.class
+INTERFACE missed: kotlinx/coroutines/reactive/ContextInjector.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/reactive/FlowKt__MigrationKt.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/ChannelKt$collect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/ReactiveSubscriber$takeNextOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/AwaitKt$awaitFirstOrElse$1.class
+REGULAR CLASS missed: kotlinx/coroutines/reactive/FlowSubscription$flowProcessing$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/reactive/AwaitKt$awaitOne$2$1$WhenMappings.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/kotlinx-coroutines-reactive-1.5.2.jar:
+Classes found in both JAR and HTML: 21
+Classes in JAR but not found in HTML: 12
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 3
+Regular classes missed: 8

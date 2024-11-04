@@ -1,0 +1,61 @@
+INTERFACE missed: org/apache/commons/compress/archivers/ArchiveEntry.class
+INTERFACE missed: org/apache/commons/compress/archivers/ArchiveStreamProvider.class
+INTERFACE missed: org/apache/commons/compress/archivers/EntryStreamOffsets.class
+INTERFACE missed: org/apache/commons/compress/archivers/cpio/CpioConstants.class
+REGULAR CLASS missed: org/apache/commons/compress/archivers/dump/DumpArchiveConstants.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/dump/TapeInputStream$1.class
+INTERFACE missed: org/apache/commons/compress/archivers/examples/Expander$ArchiveEntrySupplier.class
+INTERFACE missed: org/apache/commons/compress/archivers/examples/Expander$EntryWriter.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/sevenz/CLI$1.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/sevenz/SevenZFileOptions$1.class
+INTERFACE missed: org/apache/commons/compress/archivers/tar/TarConstants.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/CharsetAccessor.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/ExtraFieldParsingBehavior.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/UnixStat.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/UnparseableExtraFieldBehavior.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/zip/ZipArchiveEntry$1.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/ZipArchiveEntryPredicate.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/ZipArchiveEntryRequestSupplier.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/zip/ZipArchiveInputStream$1.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/zip/ZipArchiveOutputStream$1.class
+REGULAR CLASS missed: org/apache/commons/compress/archivers/zip/ZipConstants.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/ZipEncoding.class
+INTERFACE missed: org/apache/commons/compress/archivers/zip/ZipExtraField.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/zip/ZipFile$2.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/archivers/zip/ZipSplitReadOnlySeekableByteChannel$1.class
+INTERFACE missed: org/apache/commons/compress/changes/ChangeSetPerformer$ArchiveEntryIterator.class
+INTERFACE missed: org/apache/commons/compress/compressors/CompressorStreamProvider.class
+INTERFACE missed: org/apache/commons/compress/compressors/bzip2/BZip2Constants.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$1.class
+ABSTRACT CLASS missed: org/apache/commons/compress/compressors/deflate64/HuffmanDecoder$DecoderState.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorInputStream$1.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/lz4/BlockLZ4CompressorOutputStream$1.class
+INTERFACE missed: org/apache/commons/compress/compressors/lz77support/LZ77Compressor$Callback.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/lz77support/Parameters$1.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/snappy/SnappyCompressorInputStream$1.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/compressors/snappy/SnappyCompressorOutputStream$1.class
+INTERFACE missed: org/apache/commons/compress/harmony/pack200/NewAttributeBands$AttributeLayoutElement.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/harmony/pack200/SegmentHeader$1.class
+INTERFACE missed: org/apache/commons/compress/harmony/unpack200/IMatcher.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/harmony/unpack200/NewAttributeBands$1.class
+INTERFACE missed: org/apache/commons/compress/harmony/unpack200/NewAttributeBands$AttributeLayoutElement.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/harmony/unpack200/bytecode/NewAttribute$1.class
+INTERFACE missed: org/apache/commons/compress/java/util/jar/Pack200$Packer.class
+INTERFACE missed: org/apache/commons/compress/java/util/jar/Pack200$Unpacker.class
+INTERFACE missed: org/apache/commons/compress/parallel/InputStreamSupplier.class
+INTERFACE missed: org/apache/commons/compress/parallel/ScatterGatherBackingStore.class
+INTERFACE missed: org/apache/commons/compress/parallel/ScatterGatherBackingStoreSupplier.class
+INTERFACE missed: org/apache/commons/compress/utils/ByteUtils$ByteConsumer.class
+INTERFACE missed: org/apache/commons/compress/utils/ByteUtils$ByteSupplier.class
+SYNTHETIC CLASS missed: org/apache/commons/compress/utils/FixedLengthBlockOutputStream$1.class
+INTERFACE missed: org/apache/commons/compress/utils/InputStreamStatistics.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/commons-compress-1.21.jar:
+Classes found in both JAR and HTML: 473
+Classes in JAR but not found in HTML: 51
+Interfaces missed: 30
+Abstract classes missed: 1
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 18
+Regular classes missed: 2

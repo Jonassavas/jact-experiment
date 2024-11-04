@@ -1,0 +1,37 @@
+INTERFACE missed: io/netty/handler/codec/DecoderResultProvider.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/LzfDecoder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/base64/Base64$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/SnappyFrameDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/serialization/ClassResolver.class
+INTERFACE missed: io/netty/handler/codec/compression/CompressionOptions.class
+INTERFACE missed: io/netty/handler/codec/ValueConverter.class
+INTERFACE missed: io/netty/handler/codec/ByteToMessageDecoder$Cumulator.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/BrotliEncoder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/Bzip2Encoder$4.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/JdkZlibEncoder$4.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/DefaultHeaders$1.class
+INTERFACE missed: io/netty/handler/codec/marshalling/UnmarshallerProvider.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/FastLzFrameDecoder$1.class
+REGULAR CLASS missed: io/netty/handler/codec/compression/Lz4Constants.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/AsciiHeadersEncoder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/JdkZlibDecoder$1.class
+REGULAR CLASS missed: io/netty/handler/codec/compression/Bzip2Constants.class
+INTERFACE missed: io/netty/handler/codec/CodecOutputList$CodecOutputListRecycler.class
+REGULAR CLASS missed: io/netty/handler/codec/compression/ZstdConstants.class
+INTERFACE missed: io/netty/handler/codec/Headers.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/ZlibUtil$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/Snappy$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/Bzip2Decoder$1.class
+INTERFACE missed: io/netty/handler/codec/marshalling/MarshallerProvider.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/Lz4FrameDecoder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/compression/BrotliDecoder$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/netty-codec-4.1.86.Final.jar:
+Classes found in both JAR and HTML: 190
+Classes in JAR but not found in HTML: 27
+Interfaces missed: 9
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 15
+Regular classes missed: 3

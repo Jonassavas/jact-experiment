@@ -30,8 +30,8 @@ for i in range(n_categories):
     ax.bar(x[i], dataFound[i], width=bar_width, color=colors[i])
 
 # Add labels and title with increased font size
-ax.set_ylabel('# of Classes (Log Scale)', fontsize=16, labelpad=15)  # Shift y-label to the left
-ax.set_title('JACT: Included vs Total Classes by Type', fontsize=18, pad=15)  # Increased padding for title
+ax.set_ylabel('# of Class Files (Log Scale)', fontsize=16, labelpad=15)  # Shift y-label to the left
+#ax.set_title('JACT: Included vs Total Classes by Type', fontsize=18, pad=15)  # Increased padding for title
 
 # Apply a log scale to the y-axis
 ax.set_yscale('log')
@@ -50,7 +50,7 @@ ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y, _: '{:.0f}'.format(y)))
 ax.yaxis.set_major_locator(plt.LogLocator(base=10.0, subs=np.arange(1.0, 10.0), numticks=10))  # More y-axis ticks
 
 # Increase font size for y-tick labels
-ax.tick_params(axis='y', labelsize=12)  # Increase size of y-tick labels
+ax.tick_params(axis='y', labelsize=10)  # Increase size of y-tick labels
 
 # Display the plot
 plt.tight_layout()

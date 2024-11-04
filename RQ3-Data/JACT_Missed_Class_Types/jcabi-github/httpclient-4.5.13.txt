@@ -1,0 +1,106 @@
+INTERFACE missed: org/apache/http/client/ServiceUnavailableRetryStrategy.class
+INTERFACE missed: org/apache/http/client/RedirectStrategy.class
+INTERFACE missed: org/apache/http/client/methods/HttpExecutionAware.class
+SYNTHETIC CLASS missed: org/apache/http/client/methods/HttpRequestWrapper$1.class
+INTERFACE missed: org/apache/http/cookie/Cookie.class
+INTERFACE missed: org/apache/http/cookie/CookieAttributeHandler.class
+INTERFACE missed: org/apache/http/cookie/SetCookie.class
+INTERFACE missed: org/apache/http/cookie/ClientCookie.class
+INTERFACE missed: org/apache/http/cookie/SM.class
+INTERFACE missed: org/apache/http/cookie/CookieSpec.class
+INTERFACE missed: org/apache/http/auth/AuthSchemeProvider.class
+INTERFACE missed: org/apache/http/conn/ConnectionKeepAliveStrategy.class
+INTERFACE missed: org/apache/http/conn/scheme/SchemeSocketFactory.class
+INTERFACE missed: org/apache/http/conn/scheme/SchemeLayeredSocketFactory.class
+INTERFACE missed: org/apache/http/conn/ConnectionRequest.class
+REGULAR CLASS missed: org/apache/http/client/params/AuthPolicy.class
+INTERFACE missed: org/apache/http/client/RedirectHandler.class
+REGULAR CLASS missed: org/apache/http/client/config/CookieSpecs.class
+REGULAR CLASS missed: org/apache/http/client/config/AuthSchemes.class
+INTERFACE missed: org/apache/http/client/AuthenticationStrategy.class
+INTERFACE missed: org/apache/http/client/AuthCache.class
+INTERFACE missed: org/apache/http/client/HttpRequestRetryHandler.class
+INTERFACE missed: org/apache/http/client/BackoffManager.class
+INTERFACE missed: org/apache/http/client/ConnectionBackoffStrategy.class
+INTERFACE missed: org/apache/http/client/methods/Configurable.class
+INTERFACE missed: org/apache/http/client/methods/CloseableHttpResponse.class
+INTERFACE missed: org/apache/http/impl/client/Clock.class
+INTERFACE missed: org/apache/http/auth/AuthScheme.class
+INTERFACE missed: org/apache/http/client/utils/Idn.class
+SYNTHETIC CLASS missed: org/apache/http/client/protocol/RequestAuthenticationBase$1.class
+INTERFACE missed: org/apache/http/cookie/SetCookie2.class
+INTERFACE missed: org/apache/http/cookie/CookieSpecFactory.class
+INTERFACE missed: org/apache/http/impl/conn/tsccm/PoolEntryRequest.class
+SYNTHETIC CLASS missed: org/apache/http/impl/conn/SystemDefaultRoutePlanner$1.class
+SYNTHETIC CLASS missed: org/apache/http/impl/conn/ProxySelectorRoutePlanner$1.class
+INTERFACE missed: org/apache/http/conn/socket/ConnectionSocketFactory.class
+INTERFACE missed: org/apache/http/client/params/AllClientPNames.class
+INTERFACE missed: org/apache/http/client/params/ClientPNames.class
+REGULAR CLASS missed: org/apache/http/client/params/CookiePolicy.class
+INTERFACE missed: org/apache/http/client/HttpClient.class
+INTERFACE missed: org/apache/http/client/ResponseHandler.class
+INTERFACE missed: org/apache/http/client/RequestDirector.class
+INTERFACE missed: org/apache/http/cookie/CookieSpecProvider.class
+INTERFACE missed: org/apache/http/impl/auth/SpnegoTokenGenerator.class
+INTERFACE missed: org/apache/http/conn/routing/HttpRouteDirector.class
+INTERFACE missed: org/apache/http/conn/ManagedClientConnection.class
+INTERFACE missed: org/apache/http/conn/HttpConnectionFactory.class
+INTERFACE missed: org/apache/http/client/CredentialsProvider.class
+INTERFACE missed: org/apache/http/client/methods/HttpUriRequest.class
+INTERFACE missed: org/apache/http/client/methods/AbortableHttpRequest.class
+SYNTHETIC CLASS missed: org/apache/http/impl/cookie/RFC6265CookieSpecProvider$2.class
+INTERFACE missed: org/apache/http/auth/params/AuthPNames.class
+INTERFACE missed: org/apache/http/conn/ClientConnectionRequest.class
+INTERFACE missed: org/apache/http/conn/ClientConnectionManagerFactory.class
+INTERFACE missed: org/apache/http/conn/params/ConnPerRoute.class
+INTERFACE missed: org/apache/http/conn/params/ConnRoutePNames.class
+INTERFACE missed: org/apache/http/conn/params/ConnConnectionPNames.class
+INTERFACE missed: org/apache/http/conn/scheme/LayeredSocketFactory.class
+INTERFACE missed: org/apache/http/conn/scheme/HostNameResolver.class
+INTERFACE missed: org/apache/http/conn/routing/RouteInfo.class
+INTERFACE missed: org/apache/http/client/UserTokenHandler.class
+SYNTHETIC CLASS missed: org/apache/http/conn/ssl/DefaultHostnameVerifier$1.class
+INTERFACE missed: org/apache/http/conn/params/ConnManagerPNames.class
+INTERFACE missed: org/apache/http/conn/scheme/LayeredSchemeSocketFactory.class
+INTERFACE missed: org/apache/http/conn/SchemePortResolver.class
+INTERFACE missed: org/apache/http/conn/routing/HttpRoutePlanner.class
+INTERFACE missed: org/apache/http/conn/ConnectionReleaseTrigger.class
+INTERFACE missed: org/apache/http/conn/DnsResolver.class
+INTERFACE missed: org/apache/http/conn/OperatedClientConnection.class
+INTERFACE missed: org/apache/http/client/entity/InputStreamFactory.class
+INTERFACE missed: org/apache/http/client/protocol/ClientContext.class
+SYNTHETIC CLASS missed: org/apache/http/client/protocol/ResponseAuthCache$1.class
+INTERFACE missed: org/apache/http/cookie/params/CookieSpecPNames.class
+INTERFACE missed: org/apache/http/impl/execchain/ClientExecChain.class
+INTERFACE missed: org/apache/http/auth/Credentials.class
+INTERFACE missed: org/apache/http/auth/ContextAwareAuthScheme.class
+INTERFACE missed: org/apache/http/auth/AuthSchemeFactory.class
+REGULAR CLASS missed: org/apache/http/auth/AUTH.class
+INTERFACE missed: org/apache/http/conn/ssl/TrustStrategy.class
+INTERFACE missed: org/apache/http/conn/ssl/PrivateKeyStrategy.class
+INTERFACE missed: org/apache/http/conn/ssl/X509HostnameVerifier.class
+INTERFACE missed: org/apache/http/conn/scheme/SocketFactory.class
+INTERFACE missed: org/apache/http/conn/HttpClientConnectionManager.class
+INTERFACE missed: org/apache/http/conn/HttpClientConnectionOperator.class
+INTERFACE missed: org/apache/http/conn/HttpRoutedConnection.class
+INTERFACE missed: org/apache/http/conn/EofSensorWatcher.class
+INTERFACE missed: org/apache/http/client/CookieStore.class
+INTERFACE missed: org/apache/http/client/AuthenticationHandler.class
+INTERFACE missed: org/apache/http/cookie/CommonCookieAttributeHandler.class
+INTERFACE missed: org/apache/http/impl/auth/NTLMEngine.class
+SYNTHETIC CLASS missed: org/apache/http/impl/auth/HttpAuthenticator$1.class
+SYNTHETIC CLASS missed: org/apache/http/impl/auth/GGSSchemeBase$1.class
+INTERFACE missed: org/apache/http/conn/ManagedHttpClientConnection.class
+INTERFACE missed: org/apache/http/conn/ClientConnectionOperator.class
+INTERFACE missed: org/apache/http/conn/ClientConnectionManager.class
+INTERFACE missed: org/apache/http/conn/socket/LayeredConnectionSocketFactory.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/httpclient-4.5.13.jar:
+Classes found in both JAR and HTML: 374
+Classes in JAR but not found in HTML: 96
+Interfaces missed: 82
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 9
+Regular classes missed: 5

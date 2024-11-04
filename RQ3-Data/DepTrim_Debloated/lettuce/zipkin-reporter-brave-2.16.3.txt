@@ -1,0 +1,7 @@
+zipkin2/reporter/brave/ZipkinSpanHandler$Builder.class
+zipkin2/reporter/brave/ConvertingZipkinSpanHandler$Builder.class
+zipkin2/reporter/brave/ConvertingSpanReporter$Consumer.class
+zipkin2/reporter/brave/ConvertingZipkinSpanHandler.class
+zipkin2/reporter/brave/ConvertingSpanReporter.class
+zipkin2/reporter/brave/ZipkinSpanHandler.class
+Number of .class files: 6

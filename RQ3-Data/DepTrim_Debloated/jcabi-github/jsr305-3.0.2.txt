@@ -1,0 +1,9 @@
+javax/annotation/Nonnull$Checker.class
+javax/annotation/Nonnull.class
+javax/annotation/CheckForNull.class
+javax/annotation/meta/When.class
+javax/annotation/meta/TypeQualifierDefault.class
+javax/annotation/meta/TypeQualifierValidator.class
+javax/annotation/meta/TypeQualifierNickname.class
+javax/annotation/meta/TypeQualifier.class
+Number of .class files: 8

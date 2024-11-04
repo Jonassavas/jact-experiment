@@ -1,0 +1,65 @@
+INTERFACE missed: org/apache/logging/log4j/util/BiConsumer.class
+INTERFACE missed: org/apache/logging/log4j/message/Message.class
+INTERFACE missed: org/apache/logging/log4j/Marker.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/util/Timer$2.class
+INTERFACE missed: org/apache/logging/log4j/message/TimestampMessage.class
+INTERFACE missed: org/apache/logging/log4j/spi/ObjectThreadContextMap.class
+INTERFACE missed: org/apache/logging/log4j/message/ParameterConsumer.class
+INTERFACE missed: org/apache/logging/log4j/message/ThreadInformation.class
+ANNOTATION missed: org/apache/logging/log4j/message/AsynchronouslyFormattable.class
+INTERFACE missed: org/apache/logging/log4j/message/Clearable.class
+INTERFACE missed: org/apache/logging/log4j/status/StatusListener.class
+INTERFACE missed: org/apache/logging/log4j/util/TriConsumer.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/util/PropertiesUtil$1.class
+INTERFACE missed: org/apache/logging/log4j/util/StringBuilderFormattable.class
+INTERFACE missed: org/apache/logging/log4j/util/IndexedStringMap.class
+INTERFACE missed: org/apache/logging/log4j/util/Supplier.class
+INTERFACE missed: org/apache/logging/log4j/message/ParameterVisitable.class
+INTERFACE missed: org/apache/logging/log4j/message/MultiformatMessage.class
+INTERFACE missed: org/apache/logging/log4j/message/MessageFactory2.class
+INTERFACE missed: org/apache/logging/log4j/spi/LoggerContextShutdownAware.class
+INTERFACE missed: org/apache/logging/log4j/spi/ReadOnlyThreadContextMap.class
+INTERFACE missed: org/apache/logging/log4j/message/EntryMessage.class
+INTERFACE missed: org/apache/logging/log4j/message/ThreadDumpMessage$ThreadInfoFactory.class
+INTERFACE missed: org/apache/logging/log4j/spi/LocationAwareLogger.class
+INTERFACE missed: org/apache/logging/log4j/message/ReusableMessage.class
+INTERFACE missed: org/apache/logging/log4j/spi/ThreadContextMap2.class
+INTERFACE missed: org/apache/logging/log4j/util/MultiFormatStringBuilderFormattable.class
+INTERFACE missed: org/apache/logging/log4j/spi/CopyOnWrite.class
+INTERFACE missed: org/apache/logging/log4j/spi/ThreadContextStack.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/message/MapMessage$1.class
+INTERFACE missed: org/apache/logging/log4j/spi/CleanableThreadContextMap.class
+INTERFACE missed: org/apache/logging/log4j/util/ReadOnlyStringMap.class
+INTERFACE missed: org/apache/logging/log4j/message/MessageFactory.class
+INTERFACE missed: org/apache/logging/log4j/spi/Terminable.class
+INTERFACE missed: org/apache/logging/log4j/spi/LoggerAdapter.class
+INTERFACE missed: org/apache/logging/log4j/message/MessageCollectionMessage.class
+INTERFACE missed: org/apache/logging/log4j/spi/ThreadContextMap.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/CloseableThreadContext$1.class
+INTERFACE missed: org/apache/logging/log4j/message/FlowMessage.class
+INTERFACE missed: org/apache/logging/log4j/spi/LoggerRegistry$MapFactory.class
+INTERFACE missed: org/apache/logging/log4j/ThreadContext$ContextStack.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/util/PrivateSecurityManagerStackTraceUtil$1.class
+INTERFACE missed: org/apache/logging/log4j/message/ExitMessage.class
+INTERFACE missed: org/apache/logging/log4j/message/LoggerNameAwareMessage.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/ThreadContext$1.class
+INTERFACE missed: org/apache/logging/log4j/spi/ExtendedLogger.class
+INTERFACE missed: org/apache/logging/log4j/spi/LoggerContextShutdownEnabled.class
+ANNOTATION missed: org/apache/logging/log4j/util/PerformanceSensitive.class
+INTERFACE missed: org/apache/logging/log4j/util/MessageSupplier.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/util/Unbox$1.class
+INTERFACE missed: org/apache/logging/log4j/message/FlowMessageFactory.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/util/LoaderUtil$1.class
+INTERFACE missed: org/apache/logging/log4j/util/IndexedReadOnlyStringMap.class
+INTERFACE missed: org/apache/logging/log4j/util/StringMap.class
+SYNTHETIC CLASS missed: org/apache/logging/log4j/message/ThreadDumpMessage$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/log4j-api-2.17.2.jar:
+Classes found in both JAR and HTML: 120
+Classes in JAR but not found in HTML: 55
+Interfaces missed: 44
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 2
+Synthetic classes missed: 9
+Regular classes missed: 0

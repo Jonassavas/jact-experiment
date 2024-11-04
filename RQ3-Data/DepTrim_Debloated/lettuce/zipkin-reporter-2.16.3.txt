@@ -1,0 +1,4 @@
+zipkin2/reporter/Reporter.class
+zipkin2/reporter/Reporter$1.class
+zipkin2/reporter/Reporter$2.class
+Number of .class files: 3

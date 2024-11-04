@@ -1,0 +1,12 @@
+INTERFACE missed: com/jcabi/manifests/Mfs.class
+INTERFACE missed: com/jcabi/manifests/MfMap.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jcabi-manifests-1.2.1.jar:
+Classes found in both JAR and HTML: 5
+Classes in JAR but not found in HTML: 2
+Interfaces missed: 2
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

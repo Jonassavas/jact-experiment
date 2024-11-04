@@ -1,0 +1,11 @@
+org/objectweb/asm/commons/ModuleRemapper.class
+org/objectweb/asm/commons/Remapper.class
+org/objectweb/asm/commons/FieldRemapper.class
+org/objectweb/asm/commons/SignatureRemapper.class
+org/objectweb/asm/commons/AnnotationRemapper.class
+org/objectweb/asm/commons/RecordComponentRemapper.class
+org/objectweb/asm/commons/ClassRemapper.class
+org/objectweb/asm/commons/MethodRemapper.class
+org/objectweb/asm/commons/SimpleRemapper.class
+org/objectweb/asm/commons/ModuleHashesAttribute.class
+Number of .class files: 10

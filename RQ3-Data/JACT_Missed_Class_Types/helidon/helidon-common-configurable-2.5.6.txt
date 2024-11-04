@@ -1,0 +1,15 @@
+INTERFACE missed: io/helidon/common/configurable/spi/ExecutorServiceSupplierObserver$MethodInvocation.class
+INTERFACE missed: io/helidon/common/configurable/spi/ExecutorServiceSupplierObserver.class
+INTERFACE missed: io/helidon/common/configurable/spi/ExecutorServiceSupplierObserver$SupplierObserverContext.class
+INTERFACE missed: io/helidon/common/configurable/spi/package-info.class
+INTERFACE missed: io/helidon/common/configurable/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/helidon-common-configurable-2.5.6.jar:
+Classes found in both JAR and HTML: 33
+Classes in JAR but not found in HTML: 5
+Interfaces missed: 5
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

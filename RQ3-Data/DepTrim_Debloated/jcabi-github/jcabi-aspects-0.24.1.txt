@@ -1,0 +1,7 @@
+com/jcabi/aspects/Immutable$Array.class
+com/jcabi/aspects/RetryOnFailure.class
+com/jcabi/aspects/Immutable.class
+com/jcabi/aspects/Loggable$Quiet.class
+com/jcabi/aspects/Tv.class
+com/jcabi/aspects/Loggable.class
+Number of .class files: 6

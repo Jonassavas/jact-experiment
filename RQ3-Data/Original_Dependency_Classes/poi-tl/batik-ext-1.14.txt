@@ -1,0 +1,8 @@
+org/apache/batik/w3c/dom/events/MutationNameEvent.class
+org/apache/batik/w3c/dom/events/KeyboardEvent.class
+org/apache/batik/w3c/dom/events/CustomEvent.class
+org/apache/batik/w3c/dom/events/TextEvent.class
+org/apache/batik/w3c/dom/Window.class
+org/apache/batik/w3c/dom/ElementTraversal.class
+org/apache/batik/w3c/dom/Location.class
+Number of .class files: 7

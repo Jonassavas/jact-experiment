@@ -1,0 +1,62 @@
+SYNTHETIC CLASS missed: org/apache/commons/lang3/CharRange$1.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableBiConsumer.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableBiFunction.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableBiPredicate.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableCallable.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableConsumer.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableFunction.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailablePredicate.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableRunnable.class
+INTERFACE missed: org/apache/commons/lang3/Functions$FailableSupplier.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/ThreadUtils$1.class
+INTERFACE missed: org/apache/commons/lang3/ThreadUtils$ThreadGroupPredicate.class
+INTERFACE missed: org/apache/commons/lang3/ThreadUtils$ThreadPredicate.class
+INTERFACE missed: org/apache/commons/lang3/builder/Builder.class
+INTERFACE missed: org/apache/commons/lang3/builder/Diffable.class
+ANNOTATION missed: org/apache/commons/lang3/builder/EqualsExclude.class
+ANNOTATION missed: org/apache/commons/lang3/builder/HashCodeExclude.class
+ANNOTATION missed: org/apache/commons/lang3/builder/ToStringExclude.class
+ANNOTATION missed: org/apache/commons/lang3/builder/ToStringSummary.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/compare/ComparableUtils$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/AbstractCircuitBreaker$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/BasicThreadFactory$1.class
+INTERFACE missed: org/apache/commons/lang3/concurrent/CircuitBreaker.class
+INTERFACE missed: org/apache/commons/lang3/concurrent/Computable.class
+INTERFACE missed: org/apache/commons/lang3/concurrent/ConcurrentInitializer.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$1.class
+INTERFACE missed: org/apache/commons/lang3/exception/ExceptionContext.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableBooleanSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableCallable.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableDoubleBinaryOperator.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableDoubleSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableIntBinaryOperator.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableIntSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableLongBinaryOperator.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableLongSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableRunnable.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableShortSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/FailableSupplier.class
+INTERFACE missed: org/apache/commons/lang3/function/ToBooleanBiFunction.class
+INTERFACE missed: org/apache/commons/lang3/mutable/Mutable.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/reflect/TypeUtils$1.class
+INTERFACE missed: org/apache/commons/lang3/reflect/Typed.class
+INTERFACE missed: org/apache/commons/lang3/text/FormatFactory.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/text/StrLookup$1.class
+INTERFACE missed: org/apache/commons/lang3/time/DateParser.class
+INTERFACE missed: org/apache/commons/lang3/time/DatePrinter.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/time/DurationUtils$1.class
+INTERFACE missed: org/apache/commons/lang3/time/FastDatePrinter$NumberRule.class
+INTERFACE missed: org/apache/commons/lang3/time/FastDatePrinter$Rule.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/time/StopWatch$1.class
+REGULAR CLASS missed: org/apache/commons/lang3/time/TimeZones.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/commons-lang3-3.12.0.jar:
+Classes found in both JAR and HTML: 293
+Classes in JAR but not found in HTML: 52
+Interfaces missed: 36
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 4
+Synthetic classes missed: 11
+Regular classes missed: 1

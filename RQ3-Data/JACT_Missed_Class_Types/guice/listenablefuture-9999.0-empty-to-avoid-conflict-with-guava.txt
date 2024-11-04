@@ -1,0 +1,10 @@
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/guice/core/original/compile-scope-dependencies/dependency/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:
+Classes found in both JAR and HTML: 0
+Classes in JAR but not found in HTML: 0
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

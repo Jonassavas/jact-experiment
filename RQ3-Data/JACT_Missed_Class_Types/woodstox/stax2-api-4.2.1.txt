@@ -1,0 +1,33 @@
+INTERFACE missed: org/codehaus/stax2/AttributeInfo.class
+INTERFACE missed: org/codehaus/stax2/DTDInfo.class
+INTERFACE missed: org/codehaus/stax2/LocationInfo.class
+INTERFACE missed: org/codehaus/stax2/XMLEventReader2.class
+INTERFACE missed: org/codehaus/stax2/XMLReporter2.class
+INTERFACE missed: org/codehaus/stax2/XMLStreamProperties.class
+INTERFACE missed: org/codehaus/stax2/XMLStreamReader2.class
+INTERFACE missed: org/codehaus/stax2/XMLStreamWriter2.class
+INTERFACE missed: org/codehaus/stax2/evt/DTD2.class
+INTERFACE missed: org/codehaus/stax2/evt/NotationDeclaration2.class
+INTERFACE missed: org/codehaus/stax2/evt/XMLEvent2.class
+INTERFACE missed: org/codehaus/stax2/io/EscapingWriterFactory.class
+INTERFACE missed: org/codehaus/stax2/osgi/Stax2InputFactoryProvider.class
+INTERFACE missed: org/codehaus/stax2/osgi/Stax2OutputFactoryProvider.class
+INTERFACE missed: org/codehaus/stax2/osgi/Stax2ValidationSchemaFactoryProvider.class
+INTERFACE missed: org/codehaus/stax2/typed/TypedXMLStreamReader.class
+INTERFACE missed: org/codehaus/stax2/typed/TypedXMLStreamWriter.class
+INTERFACE missed: org/codehaus/stax2/validation/AttributeContainer.class
+INTERFACE missed: org/codehaus/stax2/validation/DTDValidationSchema.class
+INTERFACE missed: org/codehaus/stax2/validation/Validatable.class
+INTERFACE missed: org/codehaus/stax2/validation/ValidationContext.class
+INTERFACE missed: org/codehaus/stax2/validation/ValidationProblemHandler.class
+INTERFACE missed: org/codehaus/stax2/validation/XMLValidationSchema.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/woodstox/original/compile-scope-dependencies/dependency/stax2-api-4.2.1.jar:
+Classes found in both JAR and HTML: 101
+Classes in JAR but not found in HTML: 23
+Interfaces missed: 23
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

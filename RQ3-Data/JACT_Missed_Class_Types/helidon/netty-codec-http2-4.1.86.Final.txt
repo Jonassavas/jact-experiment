@@ -1,0 +1,72 @@
+INTERFACE missed: io/netty/handler/codec/http2/StreamByteDistributor.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2WindowUpdateFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2PriorityFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2SettingsReceivedConsumer.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2PushPromiseFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Headers.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2RemoteFlowController$FlowControlled.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2RemoteFlowController.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/Http2MultiplexHandler$4.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2ConnectionEncoder.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2StreamChannel.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/Http2Exception$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/HpackHuffmanEncoder$1.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2DataWriter.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2PingFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2ConnectionDecoder.class
+INTERFACE missed: io/netty/handler/codec/http2/InboundHttp2ToHttpAdapter$ImmediateSendDetector.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/HpackDecoder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2HeadersEncoder$SensitivityDetector.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/DefaultHttp2ConnectionEncoder$2.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2UnknownFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2RemoteFlowController$Listener.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Connection$PropertyKey.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/WeightedFairQueueByteDistributor$2.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2HeadersDecoder.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2HeadersDecoder$Configuration.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/Http2MultiplexCodec$2.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/AbstractHttp2StreamChannel$5.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/ReadOnlyHttp2Headers$1.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2DataFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/DefaultHttp2LocalFlowController$FlowState.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2HeadersEncoder$Configuration.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameWriter.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameSizePolicy.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Stream.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/HpackEncoder$1.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2HeadersFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Connection$Endpoint.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameListener.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/DefaultHttp2Connection$2.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2SettingsFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/StreamByteDistributor$StreamState.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameReader.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Frame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2StreamVisitor.class
+INTERFACE missed: io/netty/handler/codec/http2/StreamByteDistributor$Writer.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameStream.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2ResetFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FlowController.class
+INTERFACE missed: io/netty/handler/codec/http2/DefaultHttp2Connection$Event.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Connection.class
+REGULAR CLASS missed: io/netty/handler/codec/http2/Http2FrameTypes.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameReader$Configuration.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2StreamFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameWriter$Configuration.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http2/Http2ConnectionHandler$6.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2LocalFlowController.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2GoAwayFrame.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2FrameStreamVisitor.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2Connection$Listener.class
+INTERFACE missed: io/netty/handler/codec/http2/Http2LifecycleManager.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/netty-codec-http2-4.1.86.Final.jar:
+Classes found in both JAR and HTML: 215
+Classes in JAR but not found in HTML: 62
+Interfaces missed: 48
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 13
+Regular classes missed: 1

@@ -1,0 +1,3 @@
+com/google/j2objc/annotations/Weak.class
+com/google/j2objc/annotations/RetainedWith.class
+Number of .class files: 2

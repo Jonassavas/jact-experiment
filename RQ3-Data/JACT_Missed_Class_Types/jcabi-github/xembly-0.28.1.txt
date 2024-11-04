@@ -1,0 +1,15 @@
+INTERFACE missed: org/xembly/Directive$Cursor.class
+INTERFACE missed: org/xembly/Directive$Stack.class
+INTERFACE missed: org/xembly/Directive.class
+INTERFACE missed: org/xembly/XemblyListener.class
+INTERFACE missed: org/xembly/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/xembly-0.28.1.jar:
+Classes found in both JAR and HTML: 35
+Classes in JAR but not found in HTML: 5
+Interfaces missed: 5
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

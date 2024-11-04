@@ -1,0 +1,517 @@
+INTERFACE missed: net/bytebuddy/description/method/MethodDescription$InGenericShape.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterDescription.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterDescription$InDefinedShape.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterDescription$ForLoadedParameter$ParameterAnnotationSource.class
+INTERFACE missed: net/bytebuddy/description/method/MethodDescription$InDefinedShape$AbstractBase$Executable.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterDescription$ForLoadedParameter$Parameter.class
+INTERFACE missed: net/bytebuddy/description/method/MethodDescription$InDefinedShape.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterDescription$InGenericShape.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterList$ForLoadedExecutable$Executable.class
+INTERFACE missed: net/bytebuddy/description/method/ParameterList.class
+INTERFACE missed: net/bytebuddy/description/method/MethodList.class
+INTERFACE missed: net/bytebuddy/description/type/RecordComponentDescription$InGenericShape.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForWildcardLowerBoundType$AnnotatedWildcardType.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$Visitor$Assigner$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/RecordComponentList.class
+INTERFACE missed: net/bytebuddy/description/type/RecordComponentDescription$InDefinedShape.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDefinition.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForTypeVariableBoundType$AnnotatedTypeVariable.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$ForLoadedType$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForTypeArgument$AnnotatedParameterizedType.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForWildcardUpperBoundType$AnnotatedWildcardType.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$OfByteCodeElement.class
+INTERFACE missed: net/bytebuddy/description/field/FieldDescription$InDefinedShape.class
+INTERFACE missed: net/bytebuddy/description/field/FieldList.class
+INTERFACE missed: net/bytebuddy/description/field/FieldDescription$InGenericShape.class
+INTERFACE missed: net/bytebuddy/description/ByteCodeElement$TypeDependant.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$ForFieldDescription.class
+SYNTHETIC CLASS missed: net/bytebuddy/description/annotation/AnnotationDescription$1.class
+INTERFACE missed: net/bytebuddy/description/annotation/AnnotationDescription$Loadable.class
+SYNTHETIC CLASS missed: net/bytebuddy/description/annotation/AnnotationValue$1.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$ForMethodDescription.class
+INTERFACE missed: net/bytebuddy/description/modifier/ModifierContributor.class
+SYNTHETIC CLASS missed: net/bytebuddy/description/modifier/Visibility$1.class
+INTERFACE missed: net/bytebuddy/description/modifier/ModifierContributor$ForField.class
+INTERFACE missed: net/bytebuddy/description/modifier/ModifierContributor$ForMethod.class
+INTERFACE missed: net/bytebuddy/description/modifier/ModifierContributor$ForParameter.class
+INTERFACE missed: net/bytebuddy/description/modifier/ModifierContributor$ForType.class
+INTERFACE missed: net/bytebuddy/description/DeclaredByType.class
+INTERFACE missed: net/bytebuddy/description/NamedElement$WithRuntimeName.class
+INTERFACE missed: net/bytebuddy/description/ByteCodeElement$Token.class
+INTERFACE missed: net/bytebuddy/description/ByteCodeElement.class
+INTERFACE missed: net/bytebuddy/description/NamedElement$WithGenericName.class
+INTERFACE missed: net/bytebuddy/description/TypeVariableSource$Visitor.class
+INTERFACE missed: net/bytebuddy/description/NamedElement$WithOptionalName.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$ForTypeDefinition.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$OfAbstraction.class
+INTERFACE missed: net/bytebuddy/description/enumeration/EnumerationDescription.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$ForParameterDescription.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable$OfEnumeration.class
+INTERFACE missed: net/bytebuddy/description/ModifierReviewable.class
+INTERFACE missed: net/bytebuddy/utility/Invoker.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$MethodHandle$MethodHandles$Lookup.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$MethodType$Dispatcher.class
+INTERFACE missed: net/bytebuddy/utility/FileSystem$ForNio2CapableVm$Dispatcher.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfMethodHandleDesc.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfMethodTypeDesc.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfClassDesc.class
+INTERFACE missed: net/bytebuddy/utility/JavaModule$Resolver.class
+SYNTHETIC CLASS missed: net/bytebuddy/utility/JavaConstant$1.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$MethodHandle$MethodHandles.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher.class
+INTERFACE missed: net/bytebuddy/NamingStrategy$Suffixing$BaseNameResolver.class
+INTERFACE missed: net/bytebuddy/NamingStrategy.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$AssignerConfigurable.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TargetHandler$Factory.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/auxiliary/MethodCallProxy$1.class
+INTERFACE missed: net/bytebuddy/implementation/auxiliary/TypeProxy$InvocationFactory.class
+INTERFACE missed: net/bytebuddy/implementation/auxiliary/AuxiliaryType$NamingStrategy.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/auxiliary/TypeProxy$1.class
+ANNOTATION missed: net/bytebuddy/implementation/auxiliary/AuxiliaryType$SignatureRelevant.class
+INTERFACE missed: net/bytebuddy/implementation/ToStringMethod$PrefixResolver.class
+INTERFACE missed: net/bytebuddy/implementation/HashCodeMethod$NullValueGuard.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$MethodInvoker.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/Implementation$1.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$ReturnTypeProvider.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bytecode/assign/Assigner$1.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/member/MethodVariableAccess$MethodLoading$TypeCastingHandler.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bytecode/member/FieldAccess$1.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/member/FieldAccess$Defined.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/member/MethodInvocation$WithImplicitInvocationTargetType.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/collection/CollectionFactory.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Argument.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/DefaultMethod.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/Morph$Binder$DefaultMethodLocator.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bind/annotation/Super$1.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/FieldProxy$Binder$FieldResolver.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/DefaultCall.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Super.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/BindingPriority.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/SuperCall.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Default.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/FieldProxy.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/This.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/IgnoreForBinding.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$MethodLocator$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$FieldLocation$Prepared.class
+INTERFACE missed: net/bytebuddy/implementation/InvocationHandlerAdapter$AssignerConfigurable.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$MethodLocator.class
+INTERFACE missed: net/bytebuddy/implementation/ExceptionMethod$ConstructionDelegate.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Target$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$FieldNameExtractor.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/EqualsMethod$1.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/SuperMethodCall$1.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/FieldAccessor$1.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TargetHandler.class
+INTERFACE missed: net/bytebuddy/implementation/MethodAccessorFactory.class
+SYNTHETIC CLASS missed: net/bytebuddy/pool/TypePool$1.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Resolution.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$TypeContainment.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$AnnotationRegistrant.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$AnnotationToken$Resolution.class
+INTERFACE missed: net/bytebuddy/pool/TypePool.class
+INTERFACE missed: net/bytebuddy/ClassFileVersion$VersionLocator.class
+INTERFACE missed: net/bytebuddy/dynamic/Transformer.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator.class
+INTERFACE missed: net/bytebuddy/dynamic/TypeResolutionStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$TypeVariableDefinition$Annotatable.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ImplementationDefinition$Optional.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$MethodPool.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/InstrumentedType$Prepareable.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$RecordComponentPool$Record.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodRegistry$Compiled.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$Default$ForInlining$WithFullProcessing$InitializationHandler.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph$Compiler$Default$Merger.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/FieldLocator.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodRegistry.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/scaffold/InstrumentedType$1.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeInitializer$Drain.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/FieldRegistry.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$Default$ValidatingClassVisitor$Constraint.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph$Compiler$Default$Harmonizer.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/InstrumentedType.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/InstrumentedType$Factory.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$Default$ClassDumpAction$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$FieldPool.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph$Node.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy$1.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/scaffold/subclass/SubclassImplementationTarget$1.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$RecordComponentPool.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/FieldLocator$Factory.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph$Compiler$Default$Key$Store$Entry.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ExceptionDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$RecordComponentDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ParameterDefinition$Simple$Annotatable.class
+INTERFACE missed: net/bytebuddy/dynamic/TypeResolutionStrategy$Resolved.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$InnerTypeDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ParameterDefinition$Simple.class
+INTERFACE missed: net/bytebuddy/dynamic/NexusAccessor$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ParameterDefinition$Initial.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ParameterDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$InnerTypeDefinition$ForType.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Loaded.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$FieldDefinition$Optional.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator$Resolution.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$FieldDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/VisibilityBridgeStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ParameterDefinition$Annotatable.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ReceiverTypeDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/PackageDefinitionStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ByteArrayClassLoader$SynchronizationStrategy$Initializable.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingJna$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection$System.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingUnsafe$Dispatcher$Initializable.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/loading/ByteArrayClassLoader$1.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingInstrumentation$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/PackageDefinitionStrategy$ManifestReading$SealBaseLocator.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/loading/ClassReloadingStrategy$1.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingUnsafe$Factory$AccessResolver.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingLookup$MethodHandles$Lookup.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ByteArrayClassLoader$PackageLookupStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$RecordComponentDefinition$Optional.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Identified$Narrowable.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$TypeStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/ResettableClassFileTransformer.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Listener.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$BatchAllocator.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Identified.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$LambdaInstrumentationStrategy$LambdaInstanceFactory$LambdaMethodImplementation$Appender$Dispatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$ResubmissionStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$InitializationStrategy$Dispatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RawMatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Ignored.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$WithoutBatchStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$WithResubmissionSpecification.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$ResubmissionEnforcer.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$Listener.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$PoolStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$FallbackStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$WithImplicitDiscoveryStrategy.class
+SYNTHETIC CLASS missed: net/bytebuddy/agent/builder/AgentBuilder$1.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Default$NativeMethodStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Identified$Extendable.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Default$ExecutingTransformer$Factory.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$DiscoveryStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$CircularityLock.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$LambdaInstrumentationStrategy$LambdaMetafactoryFactory$Loader.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$ResubmissionScheduler$Cancelable.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$ResubmissionOnErrorMatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Default$WarmupStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$ResubmissionScheduler.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Factory$UsingReflection$ArgumentResolver$Resolution.class
+SYNTHETIC CLASS missed: net/bytebuddy/build/HashCodeAndEqualsPlugin$1.class
+ANNOTATION missed: net/bytebuddy/build/AccessControllerPlugin$Enhance.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Dispatcher$Factory.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$PoolStrategy.class
+ANNOTATION missed: net/bytebuddy/build/HashCodeAndEqualsPlugin$Sorted.class
+INTERFACE missed: net/bytebuddy/build/Plugin$WithPreprocessor.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Listener.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Dispatcher$Materializable.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine.class
+ANNOTATION missed: net/bytebuddy/build/Plugin$Factory$UsingReflection$Priority.class
+ANNOTATION missed: net/bytebuddy/build/ToStringPlugin$Enhance.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Target.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Target$Sink.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Factory.class
+ANNOTATION missed: net/bytebuddy/build/RepeatedAnnotationPlugin$Enhance.class
+INTERFACE missed: net/bytebuddy/NamingStrategy$SuffixingRandom$BaseNameResolver.class
+INTERFACE missed: net/bytebuddy/matcher/LatentMatcher.class
+SYNTHETIC CLASS missed: net/bytebuddy/matcher/StringMatcher$1.class
+INTERFACE missed: net/bytebuddy/matcher/ElementMatcher.class
+INTERFACE missed: net/bytebuddy/matcher/FilterableList.class
+INTERFACE missed: net/bytebuddy/asm/Advice$StackMapFrameHandler$ForPostProcessor.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Delegator.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Replacement$Binding.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$ForFieldAccess$FieldResolver.class
+INTERFACE missed: net/bytebuddy/asm/Advice$StackMapFrameHandler$ForAdvice.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$Unresolved.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$Factory.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$Chain$Step$Resolution.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToReturned.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToArguments.class
+INTERFACE missed: net/bytebuddy/asm/AsmVisitorWrapper$ForDeclaredMethods$MethodVisitorWrapper.class
+INTERFACE missed: net/bytebuddy/asm/Advice$OffsetMapping$Factory.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Return.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$Chain$Step$Factory.class
+INTERFACE missed: net/bytebuddy/asm/Advice$OffsetMapping$Target.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$ForMethodInvocation$MethodResolver.class
+INTERFACE missed: net/bytebuddy/asm/Advice$OffsetMapping.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Origin.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToThrown.class
+INTERFACE missed: net/bytebuddy/asm/Advice$PostProcessor.class
+INTERFACE missed: net/bytebuddy/asm/Advice$MethodSizeHandler.class
+INTERFACE missed: net/bytebuddy/asm/Advice$ArgumentHandler.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Replacement.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AllArguments.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$RelocationHandler$Bound.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Local.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$This.class
+INTERFACE missed: net/bytebuddy/asm/Advice$AssignReturned$ExceptionHandler$Factory.class
+INTERFACE missed: net/bytebuddy/asm/Advice$PostProcessor$Factory.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Thrown.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToThis.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToArguments$ToArgument.class
+INTERFACE missed: net/bytebuddy/asm/Advice$ArgumentHandler$ForInstrumentedMethod.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForComponentType$AnnotatedParameterizedType.class
+SYNTHETIC CLASS missed: net/bytebuddy/description/type/TypeList$1.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$Visitor.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableExceptionType$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/RecordComponentDescription.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForOwnerType$AnnotatedType.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedField$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$ForTypeVariableBoundType$OfFormalTypeVariable$FormalTypeVariable.class
+SYNTHETIC CLASS missed: net/bytebuddy/description/type/TypeDescription$1.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedExecutableParameterType$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/TypeList$Generic.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$SuperTypeLoading$ClassLoadingDelegate.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDescription$Generic$AnnotationReader$Delegator$ForLoadedMethodReturnType$Dispatcher.class
+INTERFACE missed: net/bytebuddy/description/type/RecordComponentDescription$ForLoadedRecordComponent$RecordComponent.class
+INTERFACE missed: net/bytebuddy/description/type/TypeDefinition$Sort$AnnotatedType.class
+INTERFACE missed: net/bytebuddy/description/annotation/AnnotationList.class
+INTERFACE missed: net/bytebuddy/description/annotation/AnnotationSource.class
+INTERFACE missed: net/bytebuddy/description/annotation/AnnotationValue$Loaded.class
+INTERFACE missed: net/bytebuddy/description/annotation/AnnotationValue$ForConstant$PropertyDelegate.class
+INTERFACE missed: net/bytebuddy/utility/FileSystem$ForNio2CapableVm$StandardCopyOption.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfDirectMethodHandleDesc.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$MethodHandle$MethodHandleInfo.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfDirectMethodHandleDesc$ForKind.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Simple$Dispatcher$OfDynamicConstantDesc.class
+INTERFACE missed: net/bytebuddy/utility/JavaModule$Module.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$MethodHandle$MethodType.class
+SYNTHETIC CLASS missed: net/bytebuddy/utility/visitor/StackAwareMethodVisitor$1.class
+INTERFACE missed: net/bytebuddy/utility/FileSystem$ForNio2CapableVm$Files.class
+INTERFACE missed: net/bytebuddy/utility/JavaConstant$Visitor.class
+INTERFACE missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$Dispatcher.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$Container.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$Instance.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$Defaults.class
+SYNTHETIC CLASS missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$1.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$IsConstructor.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$IsStatic.class
+INTERFACE missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$DynamicClassLoader$Resolver.class
+ANNOTATION missed: net/bytebuddy/utility/dispatcher/JavaDispatcher$Proxied.class
+INTERFACE missed: net/bytebuddy/implementation/MethodDelegation$ImplementationDelegate.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/HashCodeMethod$1.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Context$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Context$ExtractableView.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$ArgumentLoader.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$ArgumentLoader$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$PropertyConfigurable.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Target.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$Target$Resolved.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TargetHandler$ForField$Location.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$OwnerTypeLocatable.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/InvokeDynamic$1.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$MethodInvoker$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/FieldAccessor$FieldLocation.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$NameProvider.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/MethodAttributeAppender.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/attribute/AnnotationAppender$1.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/RecordComponentAttributeAppender.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/MethodAttributeAppender$Factory.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/attribute/MethodAttributeAppender$1.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/FieldAttributeAppender.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/RecordComponentAttributeAppender$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/MethodAttributeAppender$Explicit$Target.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/FieldAttributeAppender$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/TypeAttributeAppender.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/attribute/AnnotationValueFilter$1.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/AnnotationValueFilter$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/AnnotationValueFilter.class
+INTERFACE missed: net/bytebuddy/implementation/attribute/AnnotationAppender$Target.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/ByteCodeAppender.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bytecode/Duplication$4.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/assign/primitive/PrimitiveUnboxingDelegate$UnboxingResponsible.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/constant/MethodConstant$CanCache.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bytecode/Removal$2.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bytecode/StackSize$1.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/StackManipulation.class
+INTERFACE missed: net/bytebuddy/implementation/bytecode/StackManipulation$Simple$Dispatcher.class
+INTERFACE missed: net/bytebuddy/implementation/HashCodeMethod$OffsetProvider.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$SpecialMethodInvocation.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$TerminationHandler.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$1.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Origin.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/DefaultMethod$Binder$MethodLocator.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/DefaultCall$Binder$DefaultMethodLocator.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/AllArguments.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bind/annotation/Argument$1.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/TargetMethodAnnotationDrivenBinder$DelegationProcessor$Handler.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Pipe.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/RuntimeType.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/StubValue.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/SuperMethod.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/bind/annotation/Pipe$1.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/FieldValue.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Empty.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/Super$Binder$TypeLocator.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/FieldProxy$Binder$FieldResolver$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/bind/annotation/Default$Binder$TypeLocator.class
+ANNOTATION missed: net/bytebuddy/implementation/bind/annotation/Morph.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$MethodInvoker.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$Record.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$ParameterBinding.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$BindingResolver.class
+INTERFACE missed: net/bytebuddy/implementation/bind/MethodDelegationBinder$MethodBinding.class
+INTERFACE missed: net/bytebuddy/implementation/LoadedTypeInitializer.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TerminationHandler$Factory.class
+INTERFACE missed: net/bytebuddy/implementation/InvocationHandlerAdapter$WithoutPrivilegeConfiguration.class
+INTERFACE missed: net/bytebuddy/implementation/MethodDelegation$ImplementationDelegate$Compiled.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TerminationHandler.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Context.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$ArgumentProvider.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Composable.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/MethodCall$1.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/ToStringMethod$1.class
+INTERFACE missed: net/bytebuddy/implementation/EqualsMethod$NullValueGuard.class
+INTERFACE missed: net/bytebuddy/implementation/FixedValue$AssignerConfigurable.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$TargetHandler$Resolved.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$Target.class
+SYNTHETIC CLASS missed: net/bytebuddy/implementation/FixedValue$1.class
+INTERFACE missed: net/bytebuddy/implementation/InvokeDynamic$InvocationProvider$ArgumentProvider$Resolved.class
+INTERFACE missed: net/bytebuddy/implementation/Implementation$Simple$Dispatcher.class
+INTERFACE missed: net/bytebuddy/implementation/MethodCall$ArgumentLoader$ArgumentProvider.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$OfFormalTypeVariable.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$GenericTypeExtractor$IncompleteToken.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$GenericTypeRegistrant.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$ComponentTypeLocator.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$Resolution$ForField.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$Resolution.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$Resolution$ForMethod.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$Resolution$ForRecordComponent.class
+INTERFACE missed: net/bytebuddy/pool/TypePool$Default$LazyTypeDescription$GenericTypeToken$Resolution$ForType.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Unloaded.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodGraph$Linked.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/RecordComponentRegistry$Compiled.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/scaffold/ClassWriterStrategy$1.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/FieldLocator$Resolution.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/inline/MethodRebaseResolver$Resolution.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/inline/MethodNameTransformer.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/inline/MethodRebaseResolver.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeInitializer.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodRegistry$Handler$Compiled.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/RecordComponentRegistry.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodRegistry$Handler.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/InstrumentedType$WithFlexibleName.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$MethodPool$Record.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/TypeWriter$FieldPool$Record.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/FieldRegistry$Compiled.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/MethodRegistry$Prepared.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/ClassWriterStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/scaffold/subclass/ConstructorStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$ImplementationDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$MethodDefinition$TypeVariableDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/ClassFileLocator$ForInstrumentation$ClassLoadingDelegate$ForDelegatingClassLoader$Dispatcher$Initializable.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$FieldDefinition$Optional$Valuable.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$TypeVariableDefinition.class
+INTERFACE missed: net/bytebuddy/dynamic/DynamicType$Builder$FieldDefinition$Valuable.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/VisibilityBridgeStrategy$1.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingJna$Dispatcher$Jvm.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingLookup$MethodHandles.class
+SYNTHETIC CLASS missed: net/bytebuddy/dynamic/loading/ClassInjector$1.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingUnsafe$System.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassLoadingStrategy$Configurable.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingReflection$Dispatcher$Initializable.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ByteArrayClassLoader$SynchronizationStrategy.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/PackageDefinitionStrategy$Definition.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassReloadingStrategy$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassInjector$UsingUnsafe$Dispatcher.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassFilePostProcessor.class
+INTERFACE missed: net/bytebuddy/dynamic/loading/ClassReloadingStrategy$BootstrapInjection.class
+SYNTHETIC CLASS missed: net/bytebuddy/TypeCache$1.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Matchable.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$ClassFileBufferStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$InjectionStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$LocationStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Transformer.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$DescriptionStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Default$Dispatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$TransformerDecorator.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$Default$WarmupStrategy$Enabled$Dispatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$InitializationStrategy.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionStrategy$Dispatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$ResubmissionImmediateMatcher.class
+INTERFACE missed: net/bytebuddy/agent/builder/AgentBuilder$RedefinitionListenable$WithoutResubmissionSpecification.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Factory$UsingReflection$ArgumentResolver.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Source.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Dispatcher.class
+INTERFACE missed: net/bytebuddy/build/EntryPoint.class
+ANNOTATION missed: net/bytebuddy/build/ToStringPlugin$Exclude.class
+INTERFACE missed: net/bytebuddy/build/BuildLogger.class
+ANNOTATION missed: net/bytebuddy/build/CachedReturnPlugin$CacheField.class
+ANNOTATION missed: net/bytebuddy/build/HashCodeAndEqualsPlugin$ValueHandling.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Factory$UsingReflection$Instantiator.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$TypeStrategy.class
+INTERFACE missed: net/bytebuddy/build/Plugin.class
+ANNOTATION missed: net/bytebuddy/build/CachedReturnPlugin$Enhance.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$ErrorHandler.class
+SYNTHETIC CLASS missed: net/bytebuddy/build/Plugin$1.class
+INTERFACE missed: net/bytebuddy/build/Plugin$Engine$Source$Element.class
+SYNTHETIC CLASS missed: net/bytebuddy/build/EntryPoint$1.class
+ANNOTATION missed: net/bytebuddy/build/HashCodeAndEqualsPlugin$Enhance.class
+INTERFACE missed: net/bytebuddy/matcher/ElementMatcher$Junction.class
+SYNTHETIC CLASS missed: net/bytebuddy/matcher/MethodSortMatcher$1.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$FieldValue.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToAllArguments.class
+INTERFACE missed: net/bytebuddy/asm/Advice$MethodSizeHandler$ForInstrumentedMethod.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$StubValue.class
+SYNTHETIC CLASS missed: net/bytebuddy/asm/MemberAttributeExtension$1.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$RelocationHandler$Relocation.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$SuppressionHandler$Bound.class
+INTERFACE missed: net/bytebuddy/asm/Advice$AssignReturned$Handler$Factory.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$OnMethodEnter.class
+INTERFACE missed: net/bytebuddy/asm/Advice$ArgumentHandler$ForAdvice.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToFields.class
+INTERFACE missed: net/bytebuddy/asm/Advice$ExceptionHandler.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$Resolved$ForMethodExit.class
+INTERFACE missed: net/bytebuddy/asm/Advice$StackMapFrameHandler$ForInstrumentedMethod.class
+INTERFACE missed: net/bytebuddy/asm/Advice$OffsetMapping$ForOrigin$Renderer.class
+SYNTHETIC CLASS missed: net/bytebuddy/asm/MemberSubstitution$1.class
+INTERFACE missed: net/bytebuddy/asm/AsmVisitorWrapper$ForDeclaredFields$FieldVisitorWrapper.class
+INTERFACE missed: net/bytebuddy/asm/Advice$AssignReturned$Handler.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$ToFields$ToField.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Replacement$Factory.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$AssignReturned$AsScalar.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$TypePoolResolver.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$Bound.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Enter.class
+INTERFACE missed: net/bytebuddy/asm/Advice$MethodSizeHandler$ForAdvice.class
+INTERFACE missed: net/bytebuddy/asm/AsmVisitorWrapper.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Argument.class
+INTERFACE missed: net/bytebuddy/asm/MemberSubstitution$Substitution$Chain$Step.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$Resolved.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$OnMethodExit.class
+INTERFACE missed: net/bytebuddy/asm/Advice$StackMapFrameHandler.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Unused.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$RelocationHandler.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$Resolved$ForMethodEnter.class
+INTERFACE missed: net/bytebuddy/asm/Advice$Dispatcher$SuppressionHandler.class
+ANNOTATION missed: net/bytebuddy/asm/Advice$Exit.class
+SYNTHETIC CLASS missed: net/bytebuddy/asm/Advice$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/modelmapper/core/original/compile-scope-dependencies/dependency/byte-buddy-dep-1.12.3.jar:
+Classes found in both JAR and HTML: 2037
+Classes in JAR but not found in HTML: 507
+Interfaces missed: 398
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 59
+Synthetic classes missed: 50
+Regular classes missed: 0

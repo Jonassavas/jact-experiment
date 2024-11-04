@@ -1,0 +1,16 @@
+ANNOTATION missed: javax/inject/Inject.class
+ANNOTATION missed: javax/inject/Named.class
+INTERFACE missed: javax/inject/Provider.class
+ANNOTATION missed: javax/inject/Qualifier.class
+ANNOTATION missed: javax/inject/Scope.class
+ANNOTATION missed: javax/inject/Singleton.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/javax.inject-1.jar:
+Classes found in both JAR and HTML: 0
+Classes in JAR but not found in HTML: 6
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 5
+Synthetic classes missed: 0
+Regular classes missed: 0

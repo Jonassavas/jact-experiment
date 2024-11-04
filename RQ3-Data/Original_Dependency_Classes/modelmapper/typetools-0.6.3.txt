@@ -1,0 +1,9 @@
+net/jodah/typetools/ReifiedParameterizedType.class
+net/jodah/typetools/TypeResolver$1.class
+net/jodah/typetools/TypeResolver$2.class
+net/jodah/typetools/TypeResolver$3.class
+net/jodah/typetools/TypeResolver$4.class
+net/jodah/typetools/TypeResolver$AccessMaker.class
+net/jodah/typetools/TypeResolver$Unknown.class
+net/jodah/typetools/TypeResolver.class
+Number of .class files: 8

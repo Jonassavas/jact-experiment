@@ -1,0 +1,11 @@
+SYNTHETIC CLASS missed: com/eclipsesource/json/PrettyPrint$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/tablesaw/json/original/compile-scope-dependencies/dependency/minimal-json-0.9.5.jar:
+Classes found in both JAR and HTML: 22
+Classes in JAR but not found in HTML: 1
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

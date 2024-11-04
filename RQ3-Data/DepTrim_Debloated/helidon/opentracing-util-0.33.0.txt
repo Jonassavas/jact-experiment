@@ -1,0 +1,4 @@
+io/opentracing/util/GlobalTracer$1.class
+io/opentracing/util/GlobalTracer.class
+io/opentracing/util/GlobalTracer$2.class
+Number of .class files: 3

@@ -1,0 +1,49 @@
+INTERFACE missed: org/apache/batik/ext/awt/image/ComponentTransferFunction.class
+INTERFACE missed: org/apache/batik/ext/awt/image/Light.class
+INTERFACE missed: org/apache/batik/ext/awt/image/spi/ErrorConstants.class
+INTERFACE missed: org/apache/batik/ext/awt/image/spi/ImageWriter.class
+INTERFACE missed: org/apache/batik/ext/awt/image/spi/URLRegistryEntry.class
+INTERFACE missed: org/apache/batik/ext/awt/image/spi/RegistryEntry.class
+INTERFACE missed: org/apache/batik/ext/awt/image/spi/StreamRegistryEntry.class
+INTERFACE missed: org/apache/batik/ext/awt/image/rendered/LRUCache$LRUObj.class
+INTERFACE missed: org/apache/batik/ext/awt/image/rendered/TileGenerator.class
+INTERFACE missed: org/apache/batik/ext/awt/image/rendered/TileStore.class
+INTERFACE missed: org/apache/batik/ext/awt/image/rendered/CachableRed.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/OffsetRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/GaussianBlurRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/FilterResRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/AffineRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/ConvolveMatrixRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/PadRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/ComponentTransferRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/SpecularLightingRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/TurbulenceRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/CompositeRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/FilterChainRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/DisplacementMapRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/FloodRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/DiffuseLightingRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/Filter.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/MorphologyRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/PaintRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/TileRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/FilterColorInterpolation.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/ClipRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/renderable/ColorMatrixRable.class
+INTERFACE missed: org/apache/batik/ext/awt/image/TransferFunction.class
+INTERFACE missed: org/apache/batik/ext/awt/geom/ExtendedPathIterator.class
+INTERFACE missed: org/apache/batik/ext/awt/geom/Segment.class
+INTERFACE missed: org/apache/batik/ext/awt/geom/ExtendedShape.class
+SYNTHETIC CLASS missed: org/apache/batik/ext/swing/JGridBagPanel$1.class
+INTERFACE missed: org/apache/batik/ext/swing/GridBagConstants.class
+INTERFACE missed: org/apache/batik/ext/swing/JGridBagPanel$InsetsManager.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-awt-util-1.14.jar:
+Classes found in both JAR and HTML: 183
+Classes in JAR but not found in HTML: 39
+Interfaces missed: 38
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

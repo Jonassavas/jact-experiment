@@ -1,0 +1,4 @@
+module-info.class
+io/helidon/common/mapper/Mapper.class
+io/helidon/common/mapper/spi/MapperProvider.class
+Number of .class files: 3

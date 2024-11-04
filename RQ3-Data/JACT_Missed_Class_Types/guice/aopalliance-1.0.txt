@@ -1,0 +1,18 @@
+INTERFACE missed: org/aopalliance/aop/Advice.class
+INTERFACE missed: org/aopalliance/intercept/ConstructorInterceptor.class
+INTERFACE missed: org/aopalliance/intercept/ConstructorInvocation.class
+INTERFACE missed: org/aopalliance/intercept/Interceptor.class
+INTERFACE missed: org/aopalliance/intercept/Invocation.class
+INTERFACE missed: org/aopalliance/intercept/Joinpoint.class
+INTERFACE missed: org/aopalliance/intercept/MethodInterceptor.class
+INTERFACE missed: org/aopalliance/intercept/MethodInvocation.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/guice/core/original/compile-scope-dependencies/dependency/aopalliance-1.0.jar:
+Classes found in both JAR and HTML: 1
+Classes in JAR but not found in HTML: 8
+Interfaces missed: 8
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

@@ -1,0 +1,43 @@
+INTERFACE missed: org/apache/batik/bridge/Mark.class
+INTERFACE missed: org/apache/batik/bridge/Bridge.class
+INTERFACE missed: org/apache/batik/bridge/svg12/BindingListener.class
+INTERFACE missed: org/apache/batik/bridge/svg12/AbstractContentSelector$ContentSelectorFactory.class
+INTERFACE missed: org/apache/batik/bridge/svg12/ContentSelectionChangedListener.class
+INTERFACE missed: org/apache/batik/bridge/svg12/SVG12BridgeUpdateHandler.class
+INTERFACE missed: org/apache/batik/bridge/GenericBridge.class
+INTERFACE missed: org/apache/batik/bridge/MarkerBridge.class
+INTERFACE missed: org/apache/batik/bridge/MaskBridge.class
+INTERFACE missed: org/apache/batik/bridge/ErrorConstants.class
+INTERFACE missed: org/apache/batik/bridge/BridgeUpdateHandler.class
+INTERFACE missed: org/apache/batik/bridge/TextLayoutFactory.class
+INTERFACE missed: org/apache/batik/bridge/TextPainter.class
+INTERFACE missed: org/apache/batik/bridge/Viewport.class
+INTERFACE missed: org/apache/batik/bridge/FontFamilyResolver.class
+INTERFACE missed: org/apache/batik/bridge/DocumentBridge.class
+INTERFACE missed: org/apache/batik/bridge/FilterPrimitiveBridge.class
+INTERFACE missed: org/apache/batik/bridge/RhinoInterpreter$ArgumentsBuilder.class
+INTERFACE missed: org/apache/batik/bridge/Window$URLResponseHandler.class
+INTERFACE missed: org/apache/batik/bridge/SVGAnimationEngine$Factory.class
+INTERFACE missed: org/apache/batik/bridge/ScriptHandler.class
+INTERFACE missed: org/apache/batik/bridge/UpdateManagerListener.class
+INTERFACE missed: org/apache/batik/bridge/FilterBridge.class
+INTERFACE missed: org/apache/batik/bridge/ExternalResourceSecurity.class
+INTERFACE missed: org/apache/batik/bridge/Window.class
+INTERFACE missed: org/apache/batik/bridge/PaintBridge.class
+INTERFACE missed: org/apache/batik/bridge/TextSpanLayout.class
+INTERFACE missed: org/apache/batik/bridge/UserAgent.class
+INTERFACE missed: org/apache/batik/bridge/ScriptSecurity.class
+INTERFACE missed: org/apache/batik/bridge/NoRepaintRunnable.class
+INTERFACE missed: org/apache/batik/bridge/GraphicsNodeBridge.class
+INTERFACE missed: org/apache/batik/bridge/BridgeExtension.class
+INTERFACE missed: org/apache/batik/bridge/ClipBridge.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-bridge-1.14.jar:
+Classes found in both JAR and HTML: 366
+Classes in JAR but not found in HTML: 33
+Interfaces missed: 33
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

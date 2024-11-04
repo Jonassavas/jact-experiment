@@ -1,0 +1,42 @@
+INTERFACE missed: io/helidon/config/spi/MetaConfigurableProvider.class
+INTERFACE missed: io/helidon/config/spi/ConfigNode.class
+INTERFACE missed: io/helidon/config/spi/PollingStrategyProvider.class
+INTERFACE missed: io/helidon/config/spi/NodeConfigSource.class
+INTERFACE missed: io/helidon/config/spi/package-info.class
+INTERFACE missed: io/helidon/config/spi/RetryPolicyProvider.class
+INTERFACE missed: io/helidon/config/spi/ParsableSource$Builder.class
+INTERFACE missed: io/helidon/config/MergeableNode.class
+INTERFACE missed: io/helidon/config/Config$Context.class
+SYNTHETIC CLASS missed: io/helidon/config/ValueNodeImpl$1.class
+SYNTHETIC CLASS missed: io/helidon/config/AbstractNodeBuilderImpl$1.class
+INTERFACE missed: io/helidon/config/spi/ConfigMapper.class
+INTERFACE missed: io/helidon/config/spi/LazyConfigSource.class
+REGULAR CLASS missed: io/helidon/config/spi/SpiHelper.class
+INTERFACE missed: io/helidon/config/spi/OverrideSourceProvider.class
+INTERFACE missed: io/helidon/config/spi/ConfigContext.class
+SYNTHETIC CLASS missed: io/helidon/config/ConfigSourcesRuntime$1.class
+INTERFACE missed: io/helidon/config/spi/PollableSource.class
+INTERFACE missed: io/helidon/config/spi/PollingStrategy$Polled.class
+INTERFACE missed: io/helidon/config/spi/EventConfigSource.class
+INTERFACE missed: io/helidon/config/spi/WatchableSource$Builder.class
+SYNTHETIC CLASS missed: io/helidon/config/spi/FallbackMergingStrategy$1.class
+INTERFACE missed: io/helidon/config/spi/ChangeWatcherProvider.class
+INTERFACE missed: io/helidon/config/BuilderImpl$PrioritizedMapperProvider.class
+INTERFACE missed: io/helidon/config/ConfigSourceRuntime.class
+SYNTHETIC CLASS missed: io/helidon/config/ScheduledPollingStrategy$1.class
+SYNTHETIC CLASS missed: io/helidon/config/AbstractConfigSource$1.class
+SYNTHETIC CLASS missed: io/helidon/config/ConfigFactory$1.class
+SYNTHETIC CLASS missed: io/helidon/config/ObjectNodeImpl$1.class
+INTERFACE missed: io/helidon/config/package-info.class
+SYNTHETIC CLASS missed: io/helidon/config/ConfigHelper$1.class
+SYNTHETIC CLASS missed: io/helidon/config/ListNodeImpl$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/helidon-config-2.5.6.jar:
+Classes found in both JAR and HTML: 192
+Classes in JAR but not found in HTML: 32
+Interfaces missed: 21
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 10
+Regular classes missed: 1

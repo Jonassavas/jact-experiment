@@ -1,0 +1,14 @@
+org/objectweb/asm/util/TraceModuleVisitor.class
+org/objectweb/asm/util/TraceClassVisitor.class
+org/objectweb/asm/util/Printer.class
+org/objectweb/asm/util/TraceMethodVisitor.class
+org/objectweb/asm/util/ASMifierSupport.class
+org/objectweb/asm/util/TraceRecordComponentVisitor.class
+org/objectweb/asm/util/ASMifier.class
+org/objectweb/asm/util/TextifierSupport.class
+org/objectweb/asm/util/Textifier.class
+org/objectweb/asm/util/TraceSignatureVisitor.class
+org/objectweb/asm/util/TraceFieldVisitor.class
+org/objectweb/asm/util/TraceAnnotationVisitor.class
+module-info.class
+Number of .class files: 13

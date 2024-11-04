@@ -1,0 +1,40 @@
+ANNOTATION missed: org/intellij/lang/annotations/Flow.class
+ANNOTATION missed: org/intellij/lang/annotations/Identifier.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$AdjustableOrientation.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$BoxLayoutAxis.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$CalendarMonth.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$CursorType.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$FlowLayoutAlignment.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$FontStyle.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$HorizontalAlignment.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$InputEventMask.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$ListSelectionMode.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$PatternFlags.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$TabLayoutPolicy.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$TabPlacement.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$TitledBorderJustification.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$TitledBorderTitlePosition.class
+ANNOTATION missed: org/intellij/lang/annotations/JdkConstants$TreeSelectionMode.class
+ANNOTATION missed: org/intellij/lang/annotations/Language.class
+ANNOTATION missed: org/intellij/lang/annotations/MagicConstant.class
+ANNOTATION missed: org/intellij/lang/annotations/Pattern.class
+ANNOTATION missed: org/intellij/lang/annotations/PrintFormat.class
+ANNOTATION missed: org/intellij/lang/annotations/RegExp.class
+ANNOTATION missed: org/intellij/lang/annotations/Subst.class
+ANNOTATION missed: org/jetbrains/annotations/Contract.class
+ANNOTATION missed: org/jetbrains/annotations/Nls.class
+ANNOTATION missed: org/jetbrains/annotations/NonNls.class
+ANNOTATION missed: org/jetbrains/annotations/NotNull.class
+ANNOTATION missed: org/jetbrains/annotations/Nullable.class
+ANNOTATION missed: org/jetbrains/annotations/PropertyKey.class
+ANNOTATION missed: org/jetbrains/annotations/TestOnly.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/annotations-13.0.jar:
+Classes found in both JAR and HTML: 2
+Classes in JAR but not found in HTML: 30
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 30
+Synthetic classes missed: 0
+Regular classes missed: 0

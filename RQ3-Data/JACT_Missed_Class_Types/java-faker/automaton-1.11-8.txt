@@ -1,0 +1,12 @@
+INTERFACE missed: dk/brics/automaton/AutomatonProvider.class
+SYNTHETIC CLASS missed: dk/brics/automaton/RegExp$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/java-faker/original/compile-scope-dependencies/dependency/automaton-1.11-8.jar:
+Classes found in both JAR and HTML: 23
+Classes in JAR but not found in HTML: 2
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

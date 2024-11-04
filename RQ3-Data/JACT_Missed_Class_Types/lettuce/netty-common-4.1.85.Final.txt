@@ -1,0 +1,89 @@
+INTERFACE missed: io/netty/util/collection/ByteObjectMap.class
+INTERFACE missed: io/netty/util/concurrent/RejectedExecutionHandler.class
+SYNTHETIC CLASS missed: io/netty/util/HashedWheelTimer$1.class
+INTERFACE missed: io/netty/util/internal/ObjectPool$ObjectCreator.class
+INTERFACE missed: io/netty/util/Timer.class
+INTERFACE missed: io/netty/util/Recycler$Handle.class
+INTERFACE missed: io/netty/util/concurrent/ProgressiveFuture.class
+INTERFACE missed: io/netty/util/concurrent/SingleThreadEventExecutor$NonWakeupRunnable.class
+REGULAR CLASS missed: io/netty/util/ByteProcessorUtils.class
+INTERFACE missed: io/netty/util/internal/ObjectPool$Handle.class
+REGULAR CLASS missed: io/netty/util/internal/svm/UnsafeRefArrayAccessSubstitution.class
+INTERFACE missed: io/netty/util/concurrent/EventExecutor.class
+SYNTHETIC CLASS missed: io/netty/util/NetUtil$1.class
+SYNTHETIC CLASS missed: io/netty/util/collection/IntCollections$1.class
+INTERFACE missed: io/netty/util/collection/CharObjectMap.class
+INTERFACE missed: io/netty/util/collection/ByteObjectMap$PrimitiveEntry.class
+SYNTHETIC CLASS missed: io/netty/util/internal/logging/AbstractInternalLogger$1.class
+INTERFACE missed: io/netty/util/TimerTask.class
+INTERFACE missed: io/netty/util/concurrent/Future.class
+INTERFACE missed: io/netty/util/concurrent/EventExecutorChooserFactory.class
+INTERFACE missed: io/netty/util/ResourceLeak.class
+INTERFACE missed: io/netty/util/collection/LongObjectMap$PrimitiveEntry.class
+SYNTHETIC CLASS missed: io/netty/util/collection/LongCollections$1.class
+INTERFACE missed: io/netty/util/collection/LongObjectMap.class
+INTERFACE missed: io/netty/util/concurrent/GenericProgressiveFutureListener.class
+INTERFACE missed: io/netty/util/AsciiString$CharEqualityComparator.class
+SYNTHETIC CLASS missed: io/netty/util/internal/logging/Log4J2Logger$2.class
+INTERFACE missed: io/netty/util/ReferenceCounted.class
+INTERFACE missed: io/netty/util/Mapping.class
+INTERFACE missed: io/netty/util/concurrent/ScheduledFuture.class
+SYNTHETIC CLASS missed: io/netty/util/collection/ByteCollections$1.class
+INTERFACE missed: io/netty/util/internal/LongCounter.class
+SYNTHETIC CLASS missed: io/netty/util/internal/DefaultPriorityQueue$1.class
+ANNOTATION missed: io/netty/util/internal/SuppressJava6Requirement.class
+INTERFACE missed: io/netty/util/internal/Cleaner.class
+INTERFACE missed: io/netty/util/ResourceLeakHint.class
+INTERFACE missed: io/netty/util/concurrent/OrderedEventExecutor.class
+INTERFACE missed: io/netty/util/Timeout.class
+INTERFACE missed: io/netty/util/collection/IntObjectMap.class
+INTERFACE missed: io/netty/util/internal/PriorityQueueNode.class
+INTERFACE missed: io/netty/util/ResourceLeakTracker.class
+SYNTHETIC CLASS missed: io/netty/util/DomainNameMappingBuilder$1.class
+INTERFACE missed: io/netty/util/internal/PlatformDependent$ThreadLocalRandomProvider.class
+INTERFACE missed: io/netty/util/concurrent/ThreadProperties.class
+INTERFACE missed: io/netty/util/Attribute.class
+SYNTHETIC CLASS missed: io/netty/util/collection/CharCollections$1.class
+INTERFACE missed: io/netty/util/internal/logging/InternalLogger.class
+INTERFACE missed: io/netty/util/AttributeMap.class
+INTERFACE missed: io/netty/util/concurrent/GenericFutureListener.class
+REGULAR CLASS missed: io/netty/util/NetUtilSubstitutions.class
+ANNOTATION missed: io/netty/util/SuppressForbidden.class
+INTERFACE missed: io/netty/util/collection/ShortObjectMap.class
+INTERFACE missed: io/netty/util/concurrent/FutureListener.class
+INTERFACE missed: io/netty/util/concurrent/Promise.class
+INTERFACE missed: io/netty/util/Constant.class
+INTERFACE missed: io/netty/util/collection/CharObjectMap$PrimitiveEntry.class
+INTERFACE missed: io/netty/util/collection/IntObjectMap$PrimitiveEntry.class
+REGULAR CLASS missed: io/netty/util/internal/svm/PlatformDependentSubstitution.class
+REGULAR CLASS missed: io/netty/util/internal/svm/PlatformDependent0Substitution.class
+SYNTHETIC CLASS missed: io/netty/util/ResourceLeakDetector$1.class
+SYNTHETIC CLASS missed: io/netty/util/collection/ShortCollections$1.class
+INTERFACE missed: io/netty/util/concurrent/EventExecutorGroup.class
+INTERFACE missed: io/netty/util/concurrent/ProgressivePromise.class
+INTERFACE missed: io/netty/util/concurrent/AbstractEventExecutor$LazyRunnable.class
+INTERFACE missed: io/netty/util/IntSupplier.class
+REGULAR CLASS missed: io/netty/util/internal/svm/CleanerJava6Substitution.class
+INTERFACE missed: io/netty/util/concurrent/EventExecutorChooserFactory$EventExecutorChooser.class
+INTERFACE missed: io/netty/util/collection/ShortObjectMap$PrimitiveEntry.class
+ANNOTATION missed: io/netty/util/internal/UnstableApi.class
+INTERFACE missed: io/netty/util/internal/PriorityQueue.class
+INTERFACE missed: io/netty/util/AsyncMapping.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/IndexedQueueSizeUtil$IndexedQueue.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/MessagePassingQueue$Consumer.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/MessagePassingQueue$ExitCondition.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/MessagePassingQueue$Supplier.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/MessagePassingQueue$WaitStrategy.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/MessagePassingQueue.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/QueueProgressIndicators.class
+INTERFACE missed: io/netty/util/internal/shaded/org/jctools/queues/SupportsIterator.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/netty-common-4.1.85.Final.jar:
+Classes found in both JAR and HTML: 409
+Classes in JAR but not found in HTML: 79
+Interfaces missed: 58
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 3
+Synthetic classes missed: 12
+Regular classes missed: 6

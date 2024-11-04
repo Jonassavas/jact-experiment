@@ -1,0 +1,109 @@
+INTERFACE missed: org/glassfish/jaxb/runtime/api/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/unmarshaller/Patcher.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/annotation/RuntimeAnnotationReader.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/annotation/package-info.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/model/impl/PropertyInfoImpl$1.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/model/impl/ClassInfoImpl$1.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/impl/PropertySeed.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/model/impl/AttributePropertyInfoImpl$1.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/impl/DummyPropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/impl/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeElementPropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeClassInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeNonElement.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeTypeInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeElement.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeTypeRef.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeNonElementRef.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeAttributePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeTypeInfoSet.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeElementInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeEnumLeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeLeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeArrayInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeBuiltinLeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeValuePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeMapPropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/model/runtime/RuntimeReferencePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/property/Property.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/runtime/property/PropertyFactory$1.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/reflect/ListIterator.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/reflect/opt/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/reflect/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/Receiver.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/XmlVisitor$TextPredictor.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/XmlVisitor.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/Intercepter.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/Patcher.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/StructureLoader$1.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/unmarshaller/AttributesEx.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/Transducer.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/output/XmlOutput.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/output/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/NamespaceContext2.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/AttributeAccessor.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/runtime/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/TypeHost.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Schema.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SchemaTop.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Redefinable.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexTypeHost.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleTypeHost.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/AttrDecls.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/AttributeType.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ExplicitGroup.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Annotated.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/NestedParticle.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Occurs.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Annotation.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Appinfo.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Documentation.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/LocalElement.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Element.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/FixedOrDefault.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Any.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Wildcard.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/LocalAttribute.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ContentModelContainer.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/TypeDefParticle.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Particle.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Import.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/TopLevelAttribute.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/TopLevelElement.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexType.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexTypeModel.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleContent.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexContent.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexExtension.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ExtensionType.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/ComplexRestriction.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleExtension.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleRestriction.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleRestrictionModel.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/NoFixedFacet.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleType.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/SimpleDerivation.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/Union.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/xmlschema/List.class
+SYNTHETIC CLASS missed: org/glassfish/jaxb/runtime/v2/schemagen/XmlSchemaGenerator$2.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/schemagen/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/v2/package-info.class
+INTERFACE missed: org/glassfish/jaxb/runtime/AccessorFactory.class
+ANNOTATION missed: org/glassfish/jaxb/runtime/XmlAccessorFactory.class
+INTERFACE missed: org/glassfish/jaxb/runtime/ValidationEventLocatorEx.class
+INTERFACE missed: org/glassfish/jaxb/runtime/InternalAccessorFactory.class
+INTERFACE missed: org/glassfish/jaxb/runtime/CycleRecoverable$Context.class
+INTERFACE missed: org/glassfish/jaxb/runtime/CycleRecoverable.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jaxb-impl-4.0.0.jar:
+Classes found in both JAR and HTML: 439
+Classes in JAR but not found in HTML: 99
+Interfaces missed: 92
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 1
+Synthetic classes missed: 6
+Regular classes missed: 0

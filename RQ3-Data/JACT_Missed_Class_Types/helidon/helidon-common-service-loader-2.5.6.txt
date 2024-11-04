@@ -1,0 +1,11 @@
+INTERFACE missed: io/helidon/common/serviceloader/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/helidon-common-service-loader-2.5.6.jar:
+Classes found in both JAR and HTML: 4
+Classes in JAR but not found in HTML: 1
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

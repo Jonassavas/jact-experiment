@@ -1,0 +1,4 @@
+module-info.class
+io/helidon/logging/common/HelidonMdc.class
+io/helidon/logging/common/spi/MdcProvider.class
+Number of .class files: 3

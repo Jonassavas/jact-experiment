@@ -1,0 +1,11 @@
+REGULAR CLASS missed: kotlinx/coroutines/stream/StreamFlow$collect$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/kotlinx-coroutines-jdk8-1.5.2.jar:
+Classes found in both JAR and HTML: 9
+Classes in JAR but not found in HTML: 1
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 1

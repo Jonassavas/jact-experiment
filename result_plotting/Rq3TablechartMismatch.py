@@ -28,8 +28,8 @@ for i in range(n_categories):
             ha='center', va='bottom', fontsize=12, color='black')
 
 # Add labels and title with increased font size
-ax.set_ylabel('# of Classes', fontsize=16, labelpad=15)  # Shift y-label to the left
-ax.set_title('JACT: Mismatched Classes by Type', fontsize=18, pad=20)  # Increased padding for title
+ax.set_ylabel('# of Class Files', fontsize=16, labelpad=15)  # Shift y-label to the left
+#ax.set_title('JACT vs DepTrim: Mismatched Classes by Type', fontsize=18, pad=20)  # Increased padding for title
 
 # Modify x-tick labels to have newlines and increase tick label font size
 ax.set_xticks(x)

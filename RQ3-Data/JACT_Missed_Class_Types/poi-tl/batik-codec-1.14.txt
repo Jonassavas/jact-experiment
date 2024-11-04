@@ -1,0 +1,14 @@
+INTERFACE missed: org/apache/batik/ext/awt/image/codec/util/ImageDecoder.class
+INTERFACE missed: org/apache/batik/ext/awt/image/codec/util/ImageDecodeParam.class
+INTERFACE missed: org/apache/batik/ext/awt/image/codec/util/ImageEncodeParam.class
+INTERFACE missed: org/apache/batik/ext/awt/image/codec/util/ImageEncoder.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-codec-1.14.jar:
+Classes found in both JAR and HTML: 41
+Classes in JAR but not found in HTML: 4
+Interfaces missed: 4
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

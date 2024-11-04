@@ -1,0 +1,26 @@
+INTERFACE missed: org/apache/batik/svggen/StyleHandler.class
+INTERFACE missed: org/apache/batik/svggen/SVGConverter.class
+INTERFACE missed: org/apache/batik/svggen/ImageHandler.class
+INTERFACE missed: org/apache/batik/svggen/ErrorConstants.class
+INTERFACE missed: org/apache/batik/svggen/SVGDescriptor.class
+INTERFACE missed: org/apache/batik/svggen/GenericImageHandler.class
+INTERFACE missed: org/apache/batik/svggen/font/table/Table.class
+INTERFACE missed: org/apache/batik/svggen/font/table/FeatureTags.class
+INTERFACE missed: org/apache/batik/svggen/font/table/GlyphDescription.class
+INTERFACE missed: org/apache/batik/svggen/font/table/ScriptTags.class
+INTERFACE missed: org/apache/batik/svggen/font/table/LookupSubtableFactory.class
+INTERFACE missed: org/apache/batik/svggen/SVGFilterConverter.class
+INTERFACE missed: org/apache/batik/svggen/ExtensionHandler.class
+INTERFACE missed: org/apache/batik/svggen/SVGSyntax.class
+INTERFACE missed: org/apache/batik/svggen/ErrorHandler.class
+INTERFACE missed: org/apache/batik/svggen/CachedImageHandler.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-svggen-1.14.jar:
+Classes found in both JAR and HTML: 141
+Classes in JAR but not found in HTML: 16
+Interfaces missed: 16
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

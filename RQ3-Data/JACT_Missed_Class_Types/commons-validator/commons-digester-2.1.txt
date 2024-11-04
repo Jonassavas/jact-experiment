@@ -1,0 +1,51 @@
+INTERFACE missed: org/apache/commons/digester/annotations/AnnotationRuleProvider.class
+ANNOTATION missed: org/apache/commons/digester/annotations/CreationRule.class
+INTERFACE missed: org/apache/commons/digester/annotations/DigesterLoaderHandler.class
+ANNOTATION missed: org/apache/commons/digester/annotations/DigesterRule.class
+ANNOTATION missed: org/apache/commons/digester/annotations/DigesterRuleList.class
+INTERFACE missed: org/apache/commons/digester/annotations/handlers/DefaultLoaderHandler.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/AttributeCallParam$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/AttributeCallParam.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/BeanPropertySetter$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/BeanPropertySetter.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/CallMethod$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/CallMethod.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/CallParam$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/CallParam.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/FactoryCreate$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/FactoryCreate.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/ObjectCreate$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/ObjectCreate.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/PathCallParam$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/PathCallParam.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetNext.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetProperty$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetProperty.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetRoot.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetTop$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/SetTop.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/StackCallParam$List.class
+ANNOTATION missed: org/apache/commons/digester/annotations/rules/StackCallParam.class
+INTERFACE missed: org/apache/commons/digester/annotations/spi/AnnotationRuleProviderFactory.class
+INTERFACE missed: org/apache/commons/digester/annotations/spi/DigesterLoaderHandlerFactory.class
+INTERFACE missed: org/apache/commons/digester/ObjectCreationFactory.class
+INTERFACE missed: org/apache/commons/digester/plugins/InitializableRule.class
+INTERFACE missed: org/apache/commons/digester/Rules.class
+INTERFACE missed: org/apache/commons/digester/RuleSet.class
+REGULAR CLASS missed: org/apache/commons/digester/SetNestedPropertiesRule$1.class
+INTERFACE missed: org/apache/commons/digester/StackAction.class
+INTERFACE missed: org/apache/commons/digester/substitution/VariableExpander.class
+REGULAR CLASS missed: org/apache/commons/digester/xmlrules/DigesterRuleParser$1.class
+INTERFACE missed: org/apache/commons/digester/xmlrules/DigesterRulesSource.class
+REGULAR CLASS missed: org/apache/commons/digester/xmlrules/FromXmlRuleSet$1.class
+ABSTRACT CLASS missed: org/apache/commons/digester/xmlrules/FromXmlRuleSet$XMLRulesLoader.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/commons-validator/original/compile-scope-dependencies/dependency/commons-digester-2.1.jar:
+Classes found in both JAR and HTML: 114
+Classes in JAR but not found in HTML: 41
+Interfaces missed: 12
+Abstract classes missed: 1
+Enums missed: 0
+Annotations missed: 25
+Synthetic classes missed: 0
+Regular classes missed: 3

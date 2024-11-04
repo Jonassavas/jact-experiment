@@ -1,0 +1,35 @@
+ANNOTATION missed: org/apache/commons/lang3/builder/ToStringExclude.class
+INTERFACE missed: org/apache/commons/lang3/concurrent/CircuitBreaker.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/ThreadUtils$1.class
+INTERFACE missed: org/apache/commons/lang3/ThreadUtils$ThreadGroupPredicate.class
+INTERFACE missed: org/apache/commons/lang3/ThreadUtils$ThreadPredicate.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/CharRange$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/MultiBackgroundInitializer$1.class
+INTERFACE missed: org/apache/commons/lang3/time/DatePrinter.class
+INTERFACE missed: org/apache/commons/lang3/time/FastDatePrinter$Rule.class
+ANNOTATION missed: org/apache/commons/lang3/builder/EqualsExclude.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/AbstractCircuitBreaker$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/BasicThreadFactory$1.class
+INTERFACE missed: org/apache/commons/lang3/time/FastDatePrinter$NumberRule.class
+INTERFACE missed: org/apache/commons/lang3/builder/Builder.class
+INTERFACE missed: org/apache/commons/lang3/builder/Diffable.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/concurrent/EventCountCircuitBreaker$1.class
+ANNOTATION missed: org/apache/commons/lang3/builder/HashCodeExclude.class
+INTERFACE missed: org/apache/commons/lang3/reflect/Typed.class
+INTERFACE missed: org/apache/commons/lang3/text/FormatFactory.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/text/StrLookup$1.class
+SYNTHETIC CLASS missed: org/apache/commons/lang3/time/StopWatch$1.class
+INTERFACE missed: org/apache/commons/lang3/concurrent/ConcurrentInitializer.class
+INTERFACE missed: org/apache/commons/lang3/exception/ExceptionContext.class
+INTERFACE missed: org/apache/commons/lang3/mutable/Mutable.class
+INTERFACE missed: org/apache/commons/lang3/time/DateParser.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/java-faker/original/compile-scope-dependencies/dependency/commons-lang3-3.5.jar:
+Classes found in both JAR and HTML: 235
+Classes in JAR but not found in HTML: 25
+Interfaces missed: 14
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 3
+Synthetic classes missed: 8
+Regular classes missed: 0

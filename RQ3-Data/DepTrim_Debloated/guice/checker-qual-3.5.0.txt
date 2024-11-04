@@ -1,0 +1,13 @@
+org/checkerframework/framework/qual/LiteralKind.class
+org/checkerframework/framework/qual/DefaultFor.class
+org/checkerframework/framework/qual/TypeUseLocation.class
+org/checkerframework/framework/qual/DefaultQualifierInHierarchy.class
+org/checkerframework/framework/qual/UpperBoundFor.class
+org/checkerframework/framework/qual/MonotonicQualifier.class
+org/checkerframework/framework/qual/TypeKind.class
+org/checkerframework/framework/qual/SubtypeOf.class
+org/checkerframework/framework/qual/QualifierForLiterals.class
+org/checkerframework/checker/nullness/qual/Nullable.class
+org/checkerframework/checker/nullness/qual/NonNull.class
+org/checkerframework/checker/nullness/qual/MonotonicNonNull.class
+Number of .class files: 12

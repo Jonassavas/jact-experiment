@@ -1,0 +1,27 @@
+module-info.class
+org/objectweb/asm/util/ASMifier.class
+org/objectweb/asm/util/ASMifierSupport.class
+org/objectweb/asm/util/CheckAnnotationAdapter.class
+org/objectweb/asm/util/CheckClassAdapter$1.class
+org/objectweb/asm/util/CheckClassAdapter.class
+org/objectweb/asm/util/CheckFieldAdapter.class
+org/objectweb/asm/util/CheckMethodAdapter$1.class
+org/objectweb/asm/util/CheckMethodAdapter$Method.class
+org/objectweb/asm/util/CheckMethodAdapter$MethodWriterWrapper.class
+org/objectweb/asm/util/CheckMethodAdapter.class
+org/objectweb/asm/util/CheckModuleAdapter$NameSet.class
+org/objectweb/asm/util/CheckModuleAdapter.class
+org/objectweb/asm/util/CheckRecordComponentAdapter.class
+org/objectweb/asm/util/CheckSignatureAdapter$State.class
+org/objectweb/asm/util/CheckSignatureAdapter.class
+org/objectweb/asm/util/Printer.class
+org/objectweb/asm/util/Textifier.class
+org/objectweb/asm/util/TextifierSupport.class
+org/objectweb/asm/util/TraceAnnotationVisitor.class
+org/objectweb/asm/util/TraceClassVisitor.class
+org/objectweb/asm/util/TraceFieldVisitor.class
+org/objectweb/asm/util/TraceMethodVisitor.class
+org/objectweb/asm/util/TraceModuleVisitor.class
+org/objectweb/asm/util/TraceRecordComponentVisitor.class
+org/objectweb/asm/util/TraceSignatureVisitor.class
+Number of .class files: 26

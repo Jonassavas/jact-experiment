@@ -1,0 +1,41 @@
+INTERFACE missed: com/typesafe/config/Config.class
+INTERFACE missed: com/typesafe/config/ConfigIncludeContext.class
+INTERFACE missed: com/typesafe/config/ConfigIncluder.class
+INTERFACE missed: com/typesafe/config/ConfigIncluderClasspath.class
+INTERFACE missed: com/typesafe/config/ConfigIncluderFile.class
+INTERFACE missed: com/typesafe/config/ConfigIncluderURL.class
+INTERFACE missed: com/typesafe/config/ConfigList.class
+INTERFACE missed: com/typesafe/config/ConfigLoadingStrategy.class
+INTERFACE missed: com/typesafe/config/ConfigMergeable.class
+INTERFACE missed: com/typesafe/config/ConfigObject.class
+INTERFACE missed: com/typesafe/config/ConfigOrigin.class
+INTERFACE missed: com/typesafe/config/ConfigParseable.class
+INTERFACE missed: com/typesafe/config/ConfigResolver.class
+INTERFACE missed: com/typesafe/config/ConfigValue.class
+ANNOTATION missed: com/typesafe/config/Optional.class
+INTERFACE missed: com/typesafe/config/impl/AbstractConfigValue$Modifier.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/ConfigParser$1.class
+INTERFACE missed: com/typesafe/config/impl/Container.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/DefaultTransformer$2.class
+INTERFACE missed: com/typesafe/config/impl/FullIncluder.class
+INTERFACE missed: com/typesafe/config/impl/MergeableValue.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/Parseable$3.class
+INTERFACE missed: com/typesafe/config/impl/Parseable$Relativizer.class
+INTERFACE missed: com/typesafe/config/impl/ReplaceableMergeStack.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/SerializedConfigValue$1.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/SimpleConfig$1.class
+SYNTHETIC CLASS missed: com/typesafe/config/impl/SimpleConfigOrigin$1.class
+INTERFACE missed: com/typesafe/config/impl/SimpleIncluder$NameSource.class
+INTERFACE missed: com/typesafe/config/impl/Unmergeable.class
+INTERFACE missed: com/typesafe/config/parser/ConfigDocument.class
+INTERFACE missed: com/typesafe/config/parser/ConfigNode.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/config-1.4.2.jar:
+Classes found in both JAR and HTML: 150
+Classes in JAR but not found in HTML: 31
+Interfaces missed: 24
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 1
+Synthetic classes missed: 6
+Regular classes missed: 0

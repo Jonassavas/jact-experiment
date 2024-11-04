@@ -1,0 +1,62 @@
+INTERFACE missed: jakarta/xml/bind/ValidationEvent.class
+INTERFACE missed: jakarta/xml/bind/ValidationEventLocator.class
+INTERFACE missed: jakarta/xml/bind/NotIdentifiableEvent.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElementWrapper.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/adapters/XmlJavaTypeAdapter$DEFAULT.class
+ANNOTATION missed: jakarta/xml/bind/annotation/adapters/XmlJavaTypeAdapter.class
+ANNOTATION missed: jakarta/xml/bind/annotation/adapters/XmlJavaTypeAdapters.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElementRefs.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/XmlElementRef$DEFAULT.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElementRef.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlRegistry.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAnyElement.class
+INTERFACE missed: jakarta/xml/bind/annotation/DomHandler.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlInlineBinaryData.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAttachmentRef.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlValue.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlMimeType.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlSeeAlso.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAnyAttribute.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlSchemaTypes.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/XmlSchemaType$DEFAULT.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlSchemaType.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAccessorOrder.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlIDREF.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlMixed.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlEnumValue.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAttribute.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/XmlElement$DEFAULT.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElement.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlNs.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlRootElement.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlSchema.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlList.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlID.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/XmlElementDecl$GLOBAL.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElementDecl.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlAccessorType.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlTransient.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlEnum.class
+REGULAR CLASS missed: jakarta/xml/bind/annotation/XmlType$DEFAULT.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlType.class
+ANNOTATION missed: jakarta/xml/bind/annotation/XmlElements.class
+INTERFACE missed: jakarta/xml/bind/JAXBContextFactory.class
+INTERFACE missed: jakarta/xml/bind/Unmarshaller.class
+INTERFACE missed: jakarta/xml/bind/Marshaller.class
+REGULAR CLASS missed: jakarta/xml/bind/JAXBElement$GlobalScope.class
+INTERFACE missed: jakarta/xml/bind/ValidationEventHandler.class
+INTERFACE missed: jakarta/xml/bind/UnmarshallerHandler.class
+INTERFACE missed: jakarta/xml/bind/PrintConversionEvent.class
+INTERFACE missed: jakarta/xml/bind/DatatypeConverterInterface.class
+INTERFACE missed: jakarta/xml/bind/ParseConversionEvent.class
+INTERFACE missed: jakarta/xml/bind/Element.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jakarta.xml.bind-api-4.0.0.jar:
+Classes found in both JAR and HTML: 56
+Classes in JAR but not found in HTML: 52
+Interfaces missed: 13
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 32
+Synthetic classes missed: 0
+Regular classes missed: 7

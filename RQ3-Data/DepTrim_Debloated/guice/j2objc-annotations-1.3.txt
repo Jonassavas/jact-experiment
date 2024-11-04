@@ -1,0 +1,5 @@
+com/google/j2objc/annotations/Weak.class
+com/google/j2objc/annotations/RetainedWith.class
+com/google/j2objc/annotations/ReflectionSupport.class
+com/google/j2objc/annotations/ReflectionSupport$Level.class
+Number of .class files: 4

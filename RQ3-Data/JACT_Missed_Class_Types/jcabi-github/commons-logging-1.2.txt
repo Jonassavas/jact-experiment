@@ -1,0 +1,11 @@
+INTERFACE missed: org/apache/commons/logging/Log.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/commons-logging-1.2.jar:
+Classes found in both JAR and HTML: 27
+Classes in JAR but not found in HTML: 1
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

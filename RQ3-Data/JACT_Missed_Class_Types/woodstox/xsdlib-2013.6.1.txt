@@ -1,0 +1,18 @@
+INTERFACE missed: com/sun/msv/datatype/xsd/XSDatatype.class
+INTERFACE missed: com/sun/msv/datatype/xsd/Comparator.class
+INTERFACE missed: com/sun/msv/datatype/xsd/datetime/IDateTimeValueType.class
+INTERFACE missed: com/sun/msv/datatype/xsd/datetime/ITimeDurationValueType.class
+INTERFACE missed: com/sun/msv/datatype/xsd/regex/RegExp.class
+INTERFACE missed: com/sun/msv/datatype/xsd/Discrete.class
+INTERFACE missed: com/sun/msv/datatype/DatabindableDatatype.class
+INTERFACE missed: com/sun/msv/datatype/SerializationContext.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/woodstox/original/compile-scope-dependencies/dependency/xsdlib-2013.6.1.jar:
+Classes found in both JAR and HTML: 140
+Classes in JAR but not found in HTML: 8
+Interfaces missed: 8
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

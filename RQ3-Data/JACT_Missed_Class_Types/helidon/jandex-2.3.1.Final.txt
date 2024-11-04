@@ -1,0 +1,25 @@
+INTERFACE missed: org/jboss/jandex/AnnotationTarget.class
+REGULAR CLASS missed: org/jboss/jandex/ClassInfo$NestingInfo.class
+SYNTHETIC CLASS missed: org/jboss/jandex/DotName$1.class
+REGULAR CLASS missed: org/jboss/jandex/DotName$IndexState.class
+SYNTHETIC CLASS missed: org/jboss/jandex/GenericSignatureParser$1.class
+REGULAR CLASS missed: org/jboss/jandex/Index.class
+SYNTHETIC CLASS missed: org/jboss/jandex/IndexReaderV2$1.class
+INTERFACE missed: org/jboss/jandex/IndexView.class
+SYNTHETIC CLASS missed: org/jboss/jandex/IndexWriterV2$1.class
+SYNTHETIC CLASS missed: org/jboss/jandex/Indexer$2.class
+REGULAR CLASS missed: org/jboss/jandex/Indexer$BooleanHolder.class
+REGULAR CLASS missed: org/jboss/jandex/Indexer$IgnoreModuleInfoException.class
+REGULAR CLASS missed: org/jboss/jandex/Indexer$IntegerHolder.class
+SYNTHETIC CLASS missed: org/jboss/jandex/StrongInternPool$1.class
+SYNTHETIC CLASS missed: org/jboss/jandex/Type$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/jandex-2.3.1.Final.jar:
+Classes found in both JAR and HTML: 91
+Classes in JAR but not found in HTML: 15
+Interfaces missed: 2
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 7
+Regular classes missed: 6

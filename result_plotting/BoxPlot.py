@@ -30,9 +30,6 @@ def process_csv(file_path):
             axis=1
         )
 
-        # Drop rows where Coverage_Percentage is NA
-        #filtered_data = filtered_data.dropna(subset=['Coverage_Percentage'])
-
         # Get the name of the CSV file without extension
         file_name = os.path.splitext(os.path.basename(file_path))[0]
         return filtered_data, file_name
@@ -58,26 +55,48 @@ for file_path in csv_files:
             print(f"COV: {data['Coverage_Percentage'].values}" )
         data_dict[file_name] = data
 
-# Sort file names alphabetically in reverse order, ignoring case
-#sorted_file_names = sorted(data_dict.keys(), key=str.lower, reverse=True)
-
 # Create boxplot with customized box properties
 fig, ax = plt.subplots(figsize=(16, 16)) 
 
 # Plot the data for each CSV file with different colors
 colors = plt.cm.tab10.colors
 num_colors = len(colors)
+
+# Initialize list to store medians for the datasets
+medians = []
+
+# Calculate the medians for each dataset and store them
+for i, file_name in enumerate(data_dict):
+    data = data_dict[file_name]
+    median = data['Coverage_Percentage'].median()
+    medians.append(median)
+
+# Calculate the global median across all datasets
+global_median = pd.Series(medians).median()
+
+# Add a vertical line at the global median (drawn first, so it's behind the boxplots)
+ax.axvline(global_median, color='#FF6347', linestyle='-', linewidth=2, label=f'Median: {global_median:.2f}%')
+
+# Now plot the boxplots after the median line, so they appear on top of the line
 for i, file_name in enumerate(data_dict):
     data = data_dict[file_name]
     color = colors[i % num_colors]  # Cycling through colors if there are more CSV files than available colors
+    
     # Customizing box properties
-    box = ax.boxplot(data['Coverage_Percentage'], vert=False, positions=[i], widths=0.6, patch_artist=True, boxprops=dict(color='black'), flierprops=dict(markerfacecolor='green', marker='o', markersize=10), medianprops=dict(color='red'), whiskerprops=dict(color='black'), capprops=dict(color='black'))
-    if file_name == "commons-validator":
-            print(f"DATA: {data}")
-            print(f"COV: {data['Coverage_Percentage'].values}" )
+    box = ax.boxplot(data['Coverage_Percentage'], vert=False, positions=[i], widths=0.6, patch_artist=True,
+                     boxprops=dict(color='black'),
+                     flierprops=dict(markerfacecolor='green', marker='o', markersize=10),
+                     medianprops=dict(color='red'),
+                     whiskerprops=dict(color='black'),
+                     capprops=dict(color='black'))
+    
     # Fill the box with green color
     for box_artist in box['boxes']:
         box_artist.set_facecolor('lightgreen')
+
+    if file_name == "commons-validator":
+        print(f"DATA: {data}")
+        print(f"COV: {data['Coverage_Percentage'].values}")
 
 # Enable grid
 ax.grid(True, which='both', axis='both', linestyle='--', linewidth=0.5)
@@ -93,8 +112,11 @@ ax.set_xlim(0, 100)
 # Increase font size of tick labels
 ax.tick_params(axis='both', which='major', labelsize=18)
 
+# Add legend for the median line
+ax.legend(fontsize=18)
+
 # Save plot as an image file
-plt.savefig('boxplot.png', bbox_inches='tight')
+plt.savefig('boxplot_with_orange_median.png', bbox_inches='tight')
 
 # Optionally, you can close the plot to release memory
 plt.close()

@@ -1,0 +1,2 @@
+org/apache/batik/constants/XMLConstants.class
+Number of .class files: 1

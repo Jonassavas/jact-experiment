@@ -1,0 +1,13 @@
+INTERFACE missed: com/jcabi/log/Formatted.class
+INTERFACE missed: com/jcabi/log/Supplier.class
+INTERFACE missed: com/jcabi/log/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jcabi-log-0.22.0.jar:
+Classes found in both JAR and HTML: 36
+Classes in JAR but not found in HTML: 3
+Interfaces missed: 3
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

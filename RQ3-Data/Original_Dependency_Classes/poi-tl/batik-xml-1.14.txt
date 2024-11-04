@@ -1,0 +1,7 @@
+org/apache/batik/xml/LexicalUnits.class
+org/apache/batik/xml/XMLScanner.class
+org/apache/batik/xml/XMLStreamNormalizingReader.class
+org/apache/batik/xml/XMLUtilities.class
+org/apache/batik/xml/XMLException.class
+org/apache/batik/xml/XMLCharacters.class
+Number of .class files: 6

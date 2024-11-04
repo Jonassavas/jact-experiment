@@ -1,0 +1,72 @@
+SYNTHETIC CLASS missed: reactor/adapter/JdkFlowAdapter$1.class
+INTERFACE missed: reactor/adapter/package-info.class
+INTERFACE missed: reactor/core/CorePublisher.class
+INTERFACE missed: reactor/core/Disposable$Swap.class
+INTERFACE missed: reactor/core/Fuseable$ConditionalSubscriber.class
+INTERFACE missed: reactor/core/Fuseable$ScalarCallable.class
+INTERFACE missed: reactor/core/package-info.class
+INTERFACE missed: reactor/core/publisher/AssemblyOp.class
+INTERFACE missed: reactor/core/publisher/ContextHolder.class
+INTERFACE missed: reactor/core/publisher/DirectInnerContainer.class
+SYNTHETIC CLASS missed: reactor/core/publisher/DirectProcessor$1.class
+INTERFACE missed: reactor/core/publisher/FluxConcatArray$SubscriptionAware.class
+SYNTHETIC CLASS missed: reactor/core/publisher/FluxConcatMap$1.class
+INTERFACE missed: reactor/core/publisher/FluxConcatMap$FluxConcatMapSupport.class
+SYNTHETIC CLASS missed: reactor/core/publisher/FluxConcatMapNoPrefetch$1.class
+SYNTHETIC CLASS missed: reactor/core/publisher/FluxCreate$1.class
+INTERFACE missed: reactor/core/publisher/FluxGroupJoin$JoinSupport.class
+SYNTHETIC CLASS missed: reactor/core/publisher/FluxOnAssembly$1.class
+SYNTHETIC CLASS missed: reactor/core/publisher/FluxOnBackpressureBufferStrategy$1.class
+INTERFACE missed: reactor/core/publisher/FluxPublishMulticast$PublishMulticasterParent.class
+INTERFACE missed: reactor/core/publisher/FluxReplay$ReplayBuffer.class
+INTERFACE missed: reactor/core/publisher/FluxReplay$ReplaySubscription.class
+INTERFACE missed: reactor/core/publisher/FluxTimeout$IndexedCancellable.class
+INTERFACE missed: reactor/core/publisher/FluxUsingWhen$UsingWhenParent.class
+SYNTHETIC CLASS missed: reactor/core/publisher/ImmutableSignal$1.class
+INTERFACE missed: reactor/core/publisher/InnerConsumer.class
+SYNTHETIC CLASS missed: reactor/core/publisher/InternalEmptySink$1.class
+SYNTHETIC CLASS missed: reactor/core/publisher/InternalManySink$1.class
+SYNTHETIC CLASS missed: reactor/core/publisher/InternalOneSink$1.class
+INTERFACE missed: reactor/core/publisher/MonoCacheInvalidateIf$State.class
+REGULAR CLASS missed: reactor/core/publisher/MonoExtensionsKt$sam$java_util_concurrent_Callable$0.class
+REGULAR CLASS missed: reactor/core/publisher/MonoExtensionsKt$sam$java_util_function_Supplier$0.class
+SYNTHETIC CLASS missed: reactor/core/publisher/MonoExtensionsKt$toMono$1.class
+REGULAR CLASS missed: reactor/core/publisher/MonoWhenFunctionsKt$sam$java_util_function_Function$0.class
+SYNTHETIC CLASS missed: reactor/core/publisher/NextProcessor$1.class
+INTERFACE missed: reactor/core/publisher/OptimizableOperator.class
+SYNTHETIC CLASS missed: reactor/core/publisher/SignalType$1.class
+INTERFACE missed: reactor/core/publisher/SinkEmptyMulticast$Inner.class
+INTERFACE missed: reactor/core/publisher/Sinks$Empty.class
+INTERFACE missed: reactor/core/publisher/Sinks$Many.class
+INTERFACE missed: reactor/core/publisher/Sinks$ManySpec.class
+INTERFACE missed: reactor/core/publisher/Sinks$MulticastReplaySpec.class
+INTERFACE missed: reactor/core/publisher/Sinks$MulticastSpec.class
+INTERFACE missed: reactor/core/publisher/Sinks$One.class
+INTERFACE missed: reactor/core/publisher/Sinks$RootSpec.class
+INTERFACE missed: reactor/core/publisher/Sinks$UnicastSpec.class
+INTERFACE missed: reactor/core/publisher/Timed.class
+SYNTHETIC CLASS missed: reactor/core/publisher/UnicastManySinkNoBackpressure$1.class
+SYNTHETIC CLASS missed: reactor/core/publisher/UnicastProcessor$1.class
+INTERFACE missed: reactor/core/publisher/package-info.class
+INTERFACE missed: reactor/core/scheduler/ExecutorScheduler$WorkerDelete.class
+INTERFACE missed: reactor/core/scheduler/NonBlocking.class
+INTERFACE missed: reactor/core/scheduler/package-info.class
+INTERFACE missed: reactor/util/Logger$ChoiceOfMessageSupplier.class
+SYNTHETIC CLASS missed: reactor/util/Loggers$1.class
+ANNOTATION missed: reactor/util/annotation/NonNull.class
+ANNOTATION missed: reactor/util/annotation/NonNullApi.class
+ANNOTATION missed: reactor/util/annotation/Nullable.class
+INTERFACE missed: reactor/util/concurrent/package-info.class
+INTERFACE missed: reactor/util/context/package-info.class
+INTERFACE missed: reactor/util/function/package-info.class
+INTERFACE missed: reactor/util/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/reactor-core-3.4.18.jar:
+Classes found in both JAR and HTML: 829
+Classes in JAR but not found in HTML: 62
+Interfaces missed: 39
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 3
+Synthetic classes missed: 17
+Regular classes missed: 3

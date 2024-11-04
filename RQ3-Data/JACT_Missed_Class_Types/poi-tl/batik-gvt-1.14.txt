@@ -1,0 +1,35 @@
+INTERFACE missed: org/apache/batik/gvt/Selector.class
+INTERFACE missed: org/apache/batik/gvt/Mask.class
+INTERFACE missed: org/apache/batik/gvt/event/GraphicsNodeChangeListener.class
+INTERFACE missed: org/apache/batik/gvt/event/GraphicsNodeMouseWheelListener.class
+INTERFACE missed: org/apache/batik/gvt/event/GraphicsNodeMouseListener.class
+INTERFACE missed: org/apache/batik/gvt/event/SelectionListener.class
+INTERFACE missed: org/apache/batik/gvt/event/GraphicsNodeFocusListener.class
+INTERFACE missed: org/apache/batik/gvt/event/EventDispatcher.class
+INTERFACE missed: org/apache/batik/gvt/event/GraphicsNodeKeyListener.class
+INTERFACE missed: org/apache/batik/gvt/ShapePainter.class
+INTERFACE missed: org/apache/batik/gvt/Selectable.class
+SYNTHETIC CLASS missed: org/apache/batik/gvt/CompositeGraphicsNode$1.class
+INTERFACE missed: org/apache/batik/gvt/font/GVTFontFamily.class
+INTERFACE missed: org/apache/batik/gvt/font/AltGlyphHandler.class
+INTERFACE missed: org/apache/batik/gvt/font/GVTGlyphVector.class
+INTERFACE missed: org/apache/batik/gvt/font/GVTFont.class
+INTERFACE missed: org/apache/batik/gvt/filter/GraphicsNodeRable.class
+INTERFACE missed: org/apache/batik/gvt/filter/Mask.class
+INTERFACE missed: org/apache/batik/gvt/filter/GraphicsNodeRableFactory.class
+INTERFACE missed: org/apache/batik/gvt/text/GVTAttributedCharacterIterator$AttributeFilter.class
+INTERFACE missed: org/apache/batik/gvt/text/GVTAttributedCharacterIterator.class
+INTERFACE missed: org/apache/batik/gvt/renderer/RendererFactory.class
+INTERFACE missed: org/apache/batik/gvt/renderer/ImageRendererFactory.class
+INTERFACE missed: org/apache/batik/gvt/renderer/Renderer.class
+INTERFACE missed: org/apache/batik/gvt/renderer/ImageRenderer.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-gvt-1.14.jar:
+Classes found in both JAR and HTML: 78
+Classes in JAR but not found in HTML: 25
+Interfaces missed: 24
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

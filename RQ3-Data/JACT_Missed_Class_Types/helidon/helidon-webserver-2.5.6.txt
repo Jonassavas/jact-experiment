@@ -1,0 +1,28 @@
+INTERFACE missed: io/helidon/webserver/BareResponse.class
+INTERFACE missed: io/helidon/webserver/DirectHandler$TransportRequest.class
+INTERFACE missed: io/helidon/webserver/ServerResponseSubscription.class
+INTERFACE missed: io/helidon/webserver/Handler$EntityHandler.class
+INTERFACE missed: io/helidon/webserver/package-info.class
+INTERFACE missed: io/helidon/webserver/ErrorHandler.class
+INTERFACE missed: io/helidon/webserver/PathMatcher$PrefixResult.class
+SYNTHETIC CLASS missed: io/helidon/webserver/Request$1.class
+INTERFACE missed: io/helidon/webserver/Routing$Rules.class
+INTERFACE missed: io/helidon/webserver/KeyPerformanceIndicatorSupport.class
+INTERFACE missed: io/helidon/webserver/BareRequest.class
+INTERFACE missed: io/helidon/webserver/Service.class
+INTERFACE missed: io/helidon/webserver/RequestPredicate$Condition.class
+INTERFACE missed: io/helidon/webserver/RequestHeaders.class
+SYNTHETIC CLASS missed: io/helidon/webserver/Response$1.class
+INTERFACE missed: io/helidon/webserver/PathMatcher$Result.class
+REGULAR CLASS missed: io/helidon/webserver/NettyWebServer$NettyLog.class
+INTERFACE missed: io/helidon/webserver/Transport.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/helidon-webserver-2.5.6.jar:
+Classes found in both JAR and HTML: 137
+Classes in JAR but not found in HTML: 18
+Interfaces missed: 15
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 2
+Regular classes missed: 1

@@ -1,0 +1,25 @@
+INTERFACE missed: org/yaml/snakeyaml/constructor/Construct.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/constructor/SafeConstructor$1.class
+INTERFACE missed: org/yaml/snakeyaml/emitter/Emitable.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/emitter/Emitter$1.class
+INTERFACE missed: org/yaml/snakeyaml/emitter/EmitterState.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/env/EnvScalarConstructor$1.class
+INTERFACE missed: org/yaml/snakeyaml/external/com/google/gdata/util/common/base/Escaper.class
+INTERFACE missed: org/yaml/snakeyaml/parser/Parser.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/parser/ParserImpl$1.class
+INTERFACE missed: org/yaml/snakeyaml/parser/Production.class
+INTERFACE missed: org/yaml/snakeyaml/representer/Represent.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/resolver/Resolver$1.class
+INTERFACE missed: org/yaml/snakeyaml/scanner/Scanner.class
+INTERFACE missed: org/yaml/snakeyaml/serializer/AnchorGenerator.class
+SYNTHETIC CLASS missed: org/yaml/snakeyaml/serializer/Serializer$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/snakeyaml-1.32.jar:
+Classes found in both JAR and HTML: 211
+Classes in JAR but not found in HTML: 15
+Interfaces missed: 9
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 6
+Regular classes missed: 0

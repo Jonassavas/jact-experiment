@@ -1,0 +1,93 @@
+ANNOTATION missed: com/sun/jersey/api/provider/jaxb/XmlHeader.class
+SYNTHETIC CLASS missed: com/sun/jersey/api/uri/UriComponent$1.class
+SYNTHETIC CLASS missed: com/sun/jersey/api/uri/UriPattern$1.class
+INTERFACE missed: com/sun/jersey/api/uri/UriTemplateParser$CharacterIterator.class
+INTERFACE missed: com/sun/jersey/core/header/QualityFactor.class
+INTERFACE missed: com/sun/jersey/core/header/reader/HttpHeaderReader$ListElementCreator.class
+INTERFACE missed: com/sun/jersey/core/provider/CompletableReader.class
+INTERFACE missed: com/sun/jersey/core/provider/jaxb/AbstractListElementProvider$JaxbTypeChecker.class
+INTERFACE missed: com/sun/jersey/core/reflection/MethodList$Filter.class
+SYNTHETIC CLASS missed: com/sun/jersey/core/spi/component/ComponentConstructor$1.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ComponentContext.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ComponentProviderFactory.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ProviderFactory$Destroyable.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ProviderServices$ProviderListener.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCComponentProcessor.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCComponentProcessorFactory.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCComponentProcessorFactoryInitializer.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCComponentProviderFactory.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCDestroyable.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCFullyManagedComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCInstantiatedComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCManagedComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/component/ioc/IoCProxiedComponentProvider.class
+INTERFACE missed: com/sun/jersey/core/spi/scanning/Scanner.class
+INTERFACE missed: com/sun/jersey/core/spi/scanning/ScannerListener.class
+INTERFACE missed: com/sun/jersey/core/spi/scanning/uri/UriSchemeScanner.class
+INTERFACE missed: com/sun/jersey/core/util/Closing$Closure.class
+INTERFACE missed: com/sun/jersey/core/util/FeaturesAndProperties.class
+INTERFACE missed: com/sun/jersey/core/util/KeyComparator.class
+SYNTHETIC CLASS missed: com/sun/jersey/core/util/KeyComparatorHashMap$1.class
+SYNTHETIC CLASS missed: com/sun/jersey/core/util/KeyComparatorLinkedHashMap$1.class
+INTERFACE missed: com/sun/jersey/spi/CloseableService.class
+INTERFACE missed: com/sun/jersey/spi/HeaderDelegateProvider.class
+INTERFACE missed: com/sun/jersey/spi/MessageBodyWorkers.class
+ANNOTATION missed: com/sun/jersey/spi/StringReader$ValidateDefaultValue.class
+INTERFACE missed: com/sun/jersey/spi/StringReader.class
+INTERFACE missed: com/sun/jersey/spi/StringReaderProvider.class
+INTERFACE missed: com/sun/jersey/spi/StringReaderWorkers.class
+ANNOTATION missed: com/sun/jersey/spi/inject/ConstrainedTo.class
+SYNTHETIC CLASS missed: com/sun/jersey/spi/inject/Errors$1.class
+INTERFACE missed: com/sun/jersey/spi/inject/Errors$Closure.class
+ANNOTATION missed: com/sun/jersey/spi/inject/Inject.class
+INTERFACE missed: com/sun/jersey/spi/inject/Injectable.class
+INTERFACE missed: com/sun/jersey/spi/inject/InjectableProvider.class
+INTERFACE missed: com/sun/jersey/spi/inject/InjectableProviderContext.class
+SYNTHETIC CLASS missed: com/sun/jersey/spi/service/ServiceFinder$1.class
+ANNOTATION missed: javax/ws/rs/ApplicationPath.class
+ANNOTATION missed: javax/ws/rs/Consumes.class
+ANNOTATION missed: javax/ws/rs/CookieParam.class
+ANNOTATION missed: javax/ws/rs/DELETE.class
+ANNOTATION missed: javax/ws/rs/DefaultValue.class
+ANNOTATION missed: javax/ws/rs/Encoded.class
+ANNOTATION missed: javax/ws/rs/FormParam.class
+ANNOTATION missed: javax/ws/rs/GET.class
+ANNOTATION missed: javax/ws/rs/HEAD.class
+ANNOTATION missed: javax/ws/rs/HeaderParam.class
+ANNOTATION missed: javax/ws/rs/HttpMethod.class
+ANNOTATION missed: javax/ws/rs/MatrixParam.class
+ANNOTATION missed: javax/ws/rs/OPTIONS.class
+ANNOTATION missed: javax/ws/rs/POST.class
+ANNOTATION missed: javax/ws/rs/PUT.class
+ANNOTATION missed: javax/ws/rs/Path.class
+ANNOTATION missed: javax/ws/rs/PathParam.class
+ANNOTATION missed: javax/ws/rs/Produces.class
+ANNOTATION missed: javax/ws/rs/QueryParam.class
+ANNOTATION missed: javax/ws/rs/core/Context.class
+INTERFACE missed: javax/ws/rs/core/HttpHeaders.class
+INTERFACE missed: javax/ws/rs/core/MultivaluedMap.class
+INTERFACE missed: javax/ws/rs/core/PathSegment.class
+INTERFACE missed: javax/ws/rs/core/Request.class
+INTERFACE missed: javax/ws/rs/core/Response$StatusType.class
+INTERFACE missed: javax/ws/rs/core/SecurityContext.class
+INTERFACE missed: javax/ws/rs/core/StreamingOutput.class
+INTERFACE missed: javax/ws/rs/core/UriInfo.class
+INTERFACE missed: javax/ws/rs/ext/ContextResolver.class
+INTERFACE missed: javax/ws/rs/ext/ExceptionMapper.class
+INTERFACE missed: javax/ws/rs/ext/MessageBodyReader.class
+INTERFACE missed: javax/ws/rs/ext/MessageBodyWriter.class
+ANNOTATION missed: javax/ws/rs/ext/Provider.class
+INTERFACE missed: javax/ws/rs/ext/Providers.class
+INTERFACE missed: javax/ws/rs/ext/RuntimeDelegate$HeaderDelegate.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jersey-core-1.12.jar:
+Classes found in both JAR and HTML: 265
+Classes in JAR but not found in HTML: 83
+Interfaces missed: 51
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 25
+Synthetic classes missed: 7
+Regular classes missed: 0

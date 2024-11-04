@@ -1,0 +1,24 @@
+io/opentracing/Scope.class
+io/opentracing/tag/Tag.class
+io/opentracing/tag/StringTag.class
+io/opentracing/tag/BooleanTag.class
+io/opentracing/tag/AbstractTag.class
+io/opentracing/tag/IntTag.class
+io/opentracing/tag/IntOrStringTag.class
+io/opentracing/tag/Tags.class
+io/opentracing/Tracer.class
+io/opentracing/ScopeManager.class
+io/opentracing/Span.class
+io/opentracing/Tracer$SpanBuilder.class
+io/opentracing/SpanContext.class
+io/opentracing/propagation/Binary.class
+io/opentracing/propagation/BinaryInject.class
+io/opentracing/propagation/TextMapExtractAdapter.class
+io/opentracing/propagation/TextMapAdapter.class
+io/opentracing/propagation/TextMapInject.class
+io/opentracing/propagation/TextMapExtract.class
+io/opentracing/propagation/Format$Builtin.class
+io/opentracing/propagation/BinaryExtract.class
+io/opentracing/propagation/TextMap.class
+io/opentracing/propagation/Format.class
+Number of .class files: 23

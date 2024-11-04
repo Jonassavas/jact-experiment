@@ -1,0 +1,16 @@
+javax/annotation/security/PermitAll.class
+javax/annotation/security/RunAs.class
+javax/annotation/security/RolesAllowed.class
+javax/annotation/security/DenyAll.class
+javax/annotation/security/DeclareRoles.class
+javax/annotation/sql/DataSourceDefinition.class
+javax/annotation/sql/DataSourceDefinitions.class
+javax/annotation/Resources.class
+javax/annotation/Resource$AuthenticationType.class
+javax/annotation/Resource.class
+javax/annotation/PreDestroy.class
+javax/annotation/Priority.class
+javax/annotation/Generated.class
+javax/annotation/PostConstruct.class
+javax/annotation/ManagedBean.class
+Number of .class files: 15

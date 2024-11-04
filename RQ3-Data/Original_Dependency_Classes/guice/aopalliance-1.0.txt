@@ -1,0 +1,10 @@
+org/aopalliance/aop/Advice.class
+org/aopalliance/aop/AspectException.class
+org/aopalliance/intercept/ConstructorInterceptor.class
+org/aopalliance/intercept/ConstructorInvocation.class
+org/aopalliance/intercept/Interceptor.class
+org/aopalliance/intercept/Invocation.class
+org/aopalliance/intercept/Joinpoint.class
+org/aopalliance/intercept/MethodInterceptor.class
+org/aopalliance/intercept/MethodInvocation.class
+Number of .class files: 9

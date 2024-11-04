@@ -1,0 +1,24 @@
+io/netty/handler/codec/ByteToMessageDecoder$Cumulator.class
+io/netty/handler/codec/TooLongFrameException.class
+io/netty/handler/codec/DecoderException.class
+io/netty/handler/codec/ByteToMessageDecoder$1.class
+io/netty/handler/codec/EncoderException.class
+io/netty/handler/codec/CodecOutputList$CodecOutputLists.class
+io/netty/handler/codec/ByteToMessageDecoder$2.class
+io/netty/handler/codec/MessageToMessageDecoder.class
+io/netty/handler/codec/CodecOutputList.class
+io/netty/handler/codec/CodecOutputList$1.class
+io/netty/handler/codec/CorruptedFrameException.class
+io/netty/handler/codec/MessageToByteEncoder.class
+io/netty/handler/codec/LengthFieldBasedFrameDecoder.class
+io/netty/handler/codec/UnsupportedMessageTypeException.class
+io/netty/handler/codec/ByteToMessageDecoder.class
+io/netty/handler/codec/CodecException.class
+io/netty/handler/codec/CodecOutputList$2.class
+io/netty/handler/codec/MessageToMessageEncoder.class
+io/netty/handler/codec/base64/Base64$1.class
+io/netty/handler/codec/base64/Base64Dialect.class
+io/netty/handler/codec/base64/Base64$Decoder.class
+io/netty/handler/codec/base64/Base64.class
+io/netty/handler/codec/CodecOutputList$CodecOutputListRecycler.class
+Number of .class files: 23

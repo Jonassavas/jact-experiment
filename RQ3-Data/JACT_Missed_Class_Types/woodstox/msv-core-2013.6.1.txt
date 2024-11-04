@@ -1,0 +1,59 @@
+INTERFACE missed: com/sun/msv/reader/xmlschema/AnyAttributeOwner.class
+INTERFACE missed: com/sun/msv/reader/xmlschema/XMLSchemaReader$RefResolver.class
+INTERFACE missed: com/sun/msv/reader/xmlschema/XMLSchemaReader$Type.class
+SYNTHETIC CLASS missed: com/sun/msv/reader/xmlschema/WSDLSchemaReader$1.class
+REGULAR CLASS missed: com/sun/msv/reader/trex/ng/comp/DefAttCompatibilityChecker$Abort.class
+REGULAR CLASS missed: com/sun/msv/reader/trex/ng/RELAXNGReader$AbortException.class
+SYNTHETIC CLASS missed: com/sun/msv/reader/trex/ng/RELAXNGReader$1.class
+INTERFACE missed: com/sun/msv/reader/trex/NameClassOwner.class
+SYNTHETIC CLASS missed: com/sun/msv/reader/trex/classic/TREXGrammarReader$1.class
+INTERFACE missed: com/sun/msv/reader/GrammarReader$PrefixResolver.class
+INTERFACE missed: com/sun/msv/reader/GrammarReader$BackPatch.class
+INTERFACE missed: com/sun/msv/reader/GrammarReaderController2.class
+INTERFACE missed: com/sun/msv/reader/GrammarReaderController.class
+INTERFACE missed: com/sun/msv/reader/datatype/xsd/XSTypeIncubator.class
+INTERFACE missed: com/sun/msv/reader/datatype/xsd/XSTypeOwner.class
+INTERFACE missed: com/sun/msv/reader/datatype/xsd/XSDatatypeResolver.class
+INTERFACE missed: com/sun/msv/reader/datatype/xsd/FacetStateParent.class
+INTERFACE missed: com/sun/msv/reader/datatype/xsd/XSDatatypeExp$Renderer.class
+INTERFACE missed: com/sun/msv/reader/datatype/DataTypeVocabulary.class
+INTERFACE missed: com/sun/msv/reader/datatype/TypeOwner.class
+INTERFACE missed: com/sun/msv/reader/ExpressionOwner.class
+INTERFACE missed: com/sun/msv/reader/DOMLSInput.class
+INTERFACE missed: com/sun/msv/grammar/IDContextProvider2.class
+INTERFACE missed: com/sun/msv/grammar/IDContextProvider.class
+INTERFACE missed: com/sun/msv/grammar/Grammar.class
+INTERFACE missed: com/sun/msv/grammar/ExpressionVisitor.class
+INTERFACE missed: com/sun/msv/grammar/relax/RELAXExpressionVisitor.class
+INTERFACE missed: com/sun/msv/grammar/relax/RELAXExpressionVisitorExpression.class
+INTERFACE missed: com/sun/msv/grammar/relax/RELAXExpressionVisitorBoolean.class
+INTERFACE missed: com/sun/msv/grammar/relax/RELAXExpressionVisitorVoid.class
+INTERFACE missed: com/sun/msv/grammar/relax/Exportable.class
+INTERFACE missed: com/sun/msv/grammar/ExpressionVisitorExpression.class
+INTERFACE missed: com/sun/msv/grammar/ExpressionVisitorBoolean.class
+INTERFACE missed: com/sun/msv/grammar/ExpressionVisitorVoid.class
+INTERFACE missed: com/sun/msv/grammar/DataOrValueExp.class
+INTERFACE missed: com/sun/msv/grammar/NameClassAndExpression.class
+INTERFACE missed: com/sun/msv/grammar/NameClassVisitor.class
+INTERFACE missed: com/sun/msv/grammar/xmlschema/AttWildcardExp.class
+INTERFACE missed: com/sun/msv/scanner/dtd/DTDEventListener.class
+INTERFACE missed: com/sun/msv/driver/textui/Driver$DocumentVerifier.class
+INTERFACE missed: com/sun/msv/verifier/DocumentDeclaration.class
+INTERFACE missed: com/sun/msv/verifier/Acceptor.class
+INTERFACE missed: com/sun/msv/verifier/IVerifier.class
+SYNTHETIC CLASS missed: com/sun/msv/verifier/jarv/FactoryImpl$1.class
+INTERFACE missed: com/sun/msv/verifier/psvi/TypedContentHandler.class
+SYNTHETIC CLASS missed: com/sun/msv/relaxns/reader/NamespaceState$1.class
+SYNTHETIC CLASS missed: com/sun/msv/relaxns/reader/relax/RELAXCoreIslandSchemaReader$1.class
+INTERFACE missed: com/sun/msv/writer/relaxng/Context.class
+INTERFACE missed: com/sun/msv/writer/GrammarWriter.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/woodstox/original/compile-scope-dependencies/dependency/msv-core-2013.6.1.jar:
+Classes found in both JAR and HTML: 475
+Classes in JAR but not found in HTML: 49
+Interfaces missed: 41
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 6
+Regular classes missed: 2

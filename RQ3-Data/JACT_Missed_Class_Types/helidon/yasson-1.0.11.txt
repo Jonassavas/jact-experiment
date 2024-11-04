@@ -1,0 +1,34 @@
+INTERFACE missed: org/eclipse/yasson/internal/model/customization/Customization.class
+INTERFACE missed: org/eclipse/yasson/internal/model/customization/ComponentBoundCustomization.class
+INTERFACE missed: org/eclipse/yasson/internal/model/GetValueCommand.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/model/ReflectionPropagation$1.class
+INTERFACE missed: org/eclipse/yasson/internal/serializer/CurrentItem.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/serializer/DeserializerBuilder$1.class
+INTERFACE missed: org/eclipse/yasson/internal/serializer/EmbeddedItem.class
+INTERFACE missed: org/eclipse/yasson/internal/serializer/ISerializerProvider.class
+INTERFACE missed: org/eclipse/yasson/internal/serializer/IDeserializerProvider.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/serializer/BooleanTypeDeserializer$1.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/serializer/JsonValueDeserializer$1.class
+INTERFACE missed: org/eclipse/yasson/internal/components/JsonbComponentInstanceCreatorFactory$BeanManagerProvider.class
+INTERFACE missed: org/eclipse/yasson/internal/RuntimeTypeInfo.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/JsonbRiParser$1.class
+INTERFACE missed: org/eclipse/yasson/internal/JsonbParser.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/jsonstructure/JsonObjectIterator$1.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/jsonstructure/JsonStructureIterator$1.class
+INTERFACE missed: org/eclipse/yasson/YassonJsonb.class
+ANNOTATION missed: org/eclipse/yasson/ImplementationClass.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/model/MethodHandleValuePropagation$1.class
+INTERFACE missed: org/eclipse/yasson/internal/model/SetValueCommand.class
+INTERFACE missed: org/eclipse/yasson/internal/serializer/ContainerSerializerProvider.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/serializer/AbstractContainerDeserializer$1.class
+SYNTHETIC CLASS missed: org/eclipse/yasson/internal/serializer/MapEntriesArrayDeserializer$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/yasson-1.0.11.jar:
+Classes found in both JAR and HTML: 219
+Classes in JAR but not found in HTML: 24
+Interfaces missed: 13
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 1
+Synthetic classes missed: 10
+Regular classes missed: 0

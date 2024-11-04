@@ -1,0 +1,75 @@
+INTERFACE missed: org/glassfish/jaxb/core/marshaller/CharacterEscapeHandler.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/schemagen/episode/package-info.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/schemagen/episode/SchemaBindings.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/schemagen/episode/Package.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/schemagen/episode/Bindings.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/schemagen/episode/Klass.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/package-info.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/TypeRef.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/NonElementRef.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/TypeInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/PropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ErrorHandler.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/BuiltinLeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/LeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/MaybeElement.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/Element.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ClassInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/TypeInfoSet.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ArrayInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/EnumLeafInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ElementInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ElementPropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/EnumConstant.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/WildcardTypeInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/AttributePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/RegistryInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ValuePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/ReferencePropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/core/MapPropertyInfo.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/annotation/Locatable.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/annotation/AnnotationSource.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/annotation/AnnotationReader.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/nav/Navigator.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/nav/package-info.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/model/impl/ModelBuilderI.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/runtime/Location.class
+INTERFACE missed: org/glassfish/jaxb/core/v2/runtime/unmarshaller/LocatorEx.class
+ABSTRACT CLASS missed: org/glassfish/jaxb/core/v2/WellKnownNamespace.class
+INTERFACE missed: org/glassfish/jaxb/core/unmarshaller/InfosetScanner.class
+INTERFACE missed: org/glassfish/jaxb/core/api/ErrorListener.class
+ANNOTATION missed: org/glassfish/jaxb/core/annotation/XmlLocation.class
+ANNOTATION missed: org/glassfish/jaxb/core/annotation/OverrideAnnotationOf.class
+ANNOTATION missed: org/glassfish/jaxb/core/annotation/XmlIsSet.class
+INTERFACE missed: org/glassfish/jaxb/core/Locatable.class
+INTERFACE missed: com/sun/xml/txw2/output/CharacterEscapeHandler.class
+INTERFACE missed: com/sun/xml/txw2/output/XmlSerializer.class
+INTERFACE missed: com/sun/xml/txw2/output/package-info.class
+ANNOTATION missed: com/sun/xml/txw2/annotation/XmlCDATA.class
+ANNOTATION missed: com/sun/xml/txw2/annotation/XmlElement.class
+ANNOTATION missed: com/sun/xml/txw2/annotation/XmlAttribute.class
+ANNOTATION missed: com/sun/xml/txw2/annotation/XmlNamespace.class
+ANNOTATION missed: com/sun/xml/txw2/annotation/XmlValue.class
+INTERFACE missed: com/sun/xml/txw2/annotation/package-info.class
+INTERFACE missed: com/sun/xml/txw2/TypedXmlWriter.class
+INTERFACE missed: com/sun/xml/txw2/NamespaceResolver.class
+INTERFACE missed: com/sun/xml/txw2/ContentVisitor.class
+INTERFACE missed: com/sun/xml/txw2/package-info.class
+INTERFACE missed: com/sun/istack/localization/LocalizableMessageFactory$ResourceBundleSupplier.class
+INTERFACE missed: com/sun/istack/localization/Localizable.class
+ANNOTATION missed: com/sun/istack/Interned.class
+INTERFACE missed: com/sun/istack/Pool.class
+ANNOTATION missed: com/sun/istack/Nullable.class
+ANNOTATION missed: com/sun/istack/NotNull.class
+INTERFACE missed: com/sun/istack/Builder.class
+INTERFACE missed: com/sun/istack/package-info.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jaxb-core-4.0.0.jar:
+Classes found in both JAR and HTML: 120
+Classes in JAR but not found in HTML: 65
+Interfaces missed: 53
+Abstract classes missed: 1
+Enums missed: 0
+Annotations missed: 11
+Synthetic classes missed: 0
+Regular classes missed: 0

@@ -1,0 +1,12 @@
+INTERFACE missed: com/jcabi/immutable/ArrayComparator.class
+SYNTHETIC CLASS missed: com/jcabi/immutable/ArrayMap$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jcabi-github/original/compile-scope-dependencies/dependency/jcabi-immutable-1.5.jar:
+Classes found in both JAR and HTML: 9
+Classes in JAR but not found in HTML: 2
+Interfaces missed: 1
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

@@ -1,0 +1,10 @@
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/kotlin-stdlib-common-1.6.21.jar:
+Classes found in both JAR and HTML: 0
+Classes in JAR but not found in HTML: 0
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

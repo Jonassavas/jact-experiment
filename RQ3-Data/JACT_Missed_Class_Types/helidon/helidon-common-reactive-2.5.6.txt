@@ -1,0 +1,13 @@
+INTERFACE missed: io/helidon/common/reactive/package-info.class
+INTERFACE missed: io/helidon/common/reactive/Collector.class
+INTERFACE missed: io/helidon/common/reactive/NamedOperator.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/helidon-common-reactive-2.5.6.jar:
+Classes found in both JAR and HTML: 191
+Classes in JAR but not found in HTML: 3
+Interfaces missed: 3
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

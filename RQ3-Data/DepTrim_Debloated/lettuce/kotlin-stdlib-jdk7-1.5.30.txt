@@ -1,0 +1,2 @@
+kotlin/internal/jdk7/JDK7PlatformImplementations.class
+Number of .class files: 1

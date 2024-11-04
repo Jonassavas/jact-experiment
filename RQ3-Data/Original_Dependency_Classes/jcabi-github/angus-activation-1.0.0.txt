@@ -1,0 +1,10 @@
+com/sun/activation/registries/MailcapTokenizer.class
+com/sun/activation/registries/MailcapFile.class
+com/sun/activation/registries/MailcapParseException.class
+com/sun/activation/registries/MailcapRegistryProviderImpl.class
+com/sun/activation/registries/MimeTypeFile.class
+com/sun/activation/registries/LineTokenizer.class
+com/sun/activation/registries/LogSupport.class
+com/sun/activation/registries/MimeTypeRegistryProviderImpl.class
+module-info.class
+Number of .class files: 9

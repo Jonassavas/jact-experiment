@@ -1,0 +1,46 @@
+SYNTHETIC CLASS missed: io/smallrye/openapi/api/models/PathItemImpl$1.class
+INTERFACE missed: io/smallrye/openapi/api/models/ModelImpl.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/Referenceable.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/contact/ContactConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/discriminator/DiscriminatorConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/encoding/EncodingConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/mediatype/MediaTypeConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/servervariable/ServerVariableConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/content/ContentConstant.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/io/operation/OperationReader$1.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/info/InfoConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/Parameterizable.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/link/LinkConstant.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/io/parameter/ParameterReader$1.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/components/ComponentsConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/xml/XmlConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/paths/PathsConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/externaldocs/ExternalDocsConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/example/ExampleConstant.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/io/license/LicenseConstant.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/util/TypeUtil$1.class
+REGULAR CLASS missed: io/smallrye/openapi/runtime/util/TypeUtil$DataFormat.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/util/ModelUtil$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/util/JandexUtil$1.class
+INTERFACE missed: io/smallrye/openapi/runtime/scanner/CustomSchemaRegistry.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/processor/JavaSecurityProcessor$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/FilteredIndexView$1.class
+INTERFACE missed: io/smallrye/openapi/runtime/scanner/dataobject/BeanValidationScanner$RequirementHandler.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/dataobject/DataObjectDeque$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/dataobject/IgnoreResolver$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/dataobject/TypeResolver$1.class
+INTERFACE missed: io/smallrye/openapi/runtime/scanner/dataobject/IgnoreResolver$IgnoreAnnotationHandler.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/dataobject/BeanValidationScanner$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/spi/AnnotationScanner$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/spi/AbstractParameterProcessor$1.class
+SYNTHETIC CLASS missed: io/smallrye/openapi/runtime/scanner/SchemaRegistry$1.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/smallrye-open-api-core-2.0.26.jar:
+Classes found in both JAR and HTML: 198
+Classes in JAR but not found in HTML: 36
+Interfaces missed: 4
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 15
+Regular classes missed: 17

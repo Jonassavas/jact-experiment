@@ -1,0 +1,240 @@
+INTERFACE missed: kotlinx/coroutines/CopyableThreadContextElement.class
+REGULAR CLASS missed: kotlinx/coroutines/DelayKt$awaitCancellation$1.class
+REGULAR CLASS missed: kotlinx/coroutines/CoroutineName$Key.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/JobKt__JobKt.class
+INTERFACE missed: kotlinx/coroutines/ThreadContextElement.class
+INTERFACE missed: kotlinx/coroutines/CoroutineScope.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/CancellableFlowImpl$collect$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/SubscribedSharedFlow$collect$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/StateFlowImpl$collect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$invokeSafely$1.class
+INTERFACE missed: kotlinx/coroutines/flow/Flow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$runningReduce$1$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ZipKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/SharedFlowImpl$collect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$5$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$map$$inlined$unsafeTransform$1$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$10$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ErrorsKt$retryWhen$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$1$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$takeWhile$lambda-6$$inlined$collectWhile$1$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/SharedFlowImpl$WhenMappings.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$fold$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$first$3.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__DelayKt$sample$2$values$1$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ShareKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$reduce$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$4$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CollectKt$collect$3$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__MergeKt$flatMapConcat$$inlined$map$1$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$3$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__DistinctKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$drop$2$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ErrorsKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filter$$inlined$unsafeTransform$1$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filterNotNull$$inlined$unsafeTransform$1$2$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__MergeKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$fold$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ChannelsKt$emitAllImpl$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$take$2$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filterNot$$inlined$unsafeTransform$1$2$1.class
+INTERFACE missed: kotlinx/coroutines/flow/internal/FusibleFlow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$second$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/SafeCollector_commonKt$unsafeFlow$1$collect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/CombineKt$zipImpl$1$1$2$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/ChannelFlowMerge$collectTo$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/ChannelFlowTransformLatest$flowCollect$3$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/internal/SafeCollectorKt$emitFun$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/internal/CombineKt$combineInternal$2$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/CallbackFlowBuilder$collectTo$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filterNot$$inlined$unsafeTransform$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$6$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CountKt$count$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filter$$inlined$unsafeTransform$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$collectWhile$collector$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$onEach$$inlined$unsafeTransform$1$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$7$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$flowOf$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CountKt$count$4$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$map$$inlined$unsafeTransform$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$singleOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$onEmpty$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$lastOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ZipKt$combine$$inlined$unsafeFlow$2$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ChannelsKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$3$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__CollectKt.class
+INTERFACE missed: kotlinx/coroutines/flow/CancellableFlow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$onCompletion$$inlined$unsafeFlow$1$1.class
+INTERFACE missed: kotlinx/coroutines/flow/FlowCollector.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$8$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$single$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CollectKt$collectIndexed$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$takeWhile$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CollectionKt$toCollection$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$filterIsInstance$$inlined$filter$1$2$1.class
+INTERFACE missed: kotlinx/coroutines/flow/SharedFlow.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__CountKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/StartedLazily$command$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$first$$inlined$collectWhile$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$last$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$onEmpty$1$1$emit$1.class
+INTERFACE missed: kotlinx/coroutines/flow/MutableSharedFlow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$onStart$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$take$$inlined$unsafeFlow$1$1.class
+INTERFACE missed: kotlinx/coroutines/flow/SharingStarted.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$3.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$transformWhile$1$invokeSuspend$$inlined$collectWhile$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$runningFold$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$emitAbort$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$withIndex$1$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__CollectionKt.class
+INTERFACE missed: kotlinx/coroutines/flow/StateFlow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/DistinctFlowImpl$collect$2$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__DelayKt$debounceInternal$1$values$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ErrorsKt$catchImpl$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$9$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$transform$1$1$emit$1.class
+INTERFACE missed: kotlinx/coroutines/flow/MutableStateFlow.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/SubscribedFlowCollector$onSubscription$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__EmittersKt$unsafeTransform$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ErrorsKt$catch$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$dropWhile$1$1$emit$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__MigrationKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__DelayKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__CountKt$count$3.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$first$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/AbstractFlow$collect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ReduceKt$firstOrNull$$inlined$collectWhile$2$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ShareKt$launchSharing$1$2$WhenMappings.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__MergeKt$flattenConcat$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$runningFold$1$1$emit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__MergeKt$flatMapMerge$$inlined$map$1$2$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/flow/FlowKt__ContextKt.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__TransformKt$mapNotNull$$inlined$unsafeTransform$1$2$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__ZipKt$combineUnsafe$$inlined$unsafeFlow$1$1.class
+REGULAR CLASS missed: kotlinx/coroutines/flow/FlowKt__LimitKt$collectWhile$1.class
+REGULAR CLASS missed: kotlinx/coroutines/ChildHandle$DefaultImpls.class
+REGULAR CLASS missed: kotlinx/coroutines/CoroutineExceptionHandler$Key.class
+INTERFACE missed: kotlinx/coroutines/ChildHandle.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$first$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumeEach$3.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/AbstractChannel$receiveCatching$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/channels/ChannelsKt__ChannelsKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/channels/ChannelsKt__Channels_commonKt.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/TickerChannelsKt$fixedPeriodTicker$1.class
+INTERFACE missed: kotlinx/coroutines/channels/BroadcastChannel.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$minWith$1.class
+INTERFACE missed: kotlinx/coroutines/channels/ReceiveOrClosed.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ReceiveChannel$receiveOrNull$1.class
+INTERFACE missed: kotlinx/coroutines/channels/ActorScope.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$firstOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$singleOrNull$1.class
+INTERFACE missed: kotlinx/coroutines/channels/ReceiveChannel.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$elementAtOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$last$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$toChannel$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$none$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/channels/ArrayChannel$WhenMappings.class
+INTERFACE missed: kotlinx/coroutines/channels/Channel.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ConflatedBroadcastChannel$Companion.class
+INTERFACE missed: kotlinx/coroutines/channels/ChannelIterator.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$filterNotNullTo$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$elementAt$1.class
+INTERFACE missed: kotlinx/coroutines/channels/SendChannel.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$consumeEach$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__Channels_commonKt$toList$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$indexOf$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$single$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelIterator$next0$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt.class
+INTERFACE missed: kotlinx/coroutines/channels/ProducerScope.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/TickerChannelsKt$fixedDelayTicker$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$toCollection$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$any$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$lastOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$count$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$filterNotNullTo$3.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/channels/TickerChannelsKt$ticker$3$WhenMappings.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$lastIndexOf$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$toMap$2.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ProduceKt$awaitClose$1.class
+REGULAR CLASS missed: kotlinx/coroutines/channels/ChannelsKt__DeprecatedKt$maxWith$1.class
+REGULAR CLASS missed: kotlinx/coroutines/TimeoutKt$withTimeoutOrNull$1.class
+REGULAR CLASS missed: kotlinx/coroutines/debug/internal/DebugCoroutineInfoImpl$yieldFrames$1.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/debug/internal/DebugProbesImpl$SequenceNumberRefVolatile.class
+REGULAR CLASS missed: kotlinx/coroutines/debug/internal/DebugCoroutineInfoImplKt.class
+INTERFACE missed: kotlinx/coroutines/ChildJob.class
+ANNOTATION missed: kotlinx/coroutines/FlowPreview.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/CoroutineStart$WhenMappings.class
+INTERFACE missed: kotlinx/coroutines/sync/Mutex.class
+REGULAR CLASS missed: kotlinx/coroutines/sync/SemaphoreKt$withPermit$1.class
+REGULAR CLASS missed: kotlinx/coroutines/sync/MutexKt$withLock$1.class
+INTERFACE missed: kotlinx/coroutines/sync/Semaphore.class
+INTERFACE missed: kotlinx/coroutines/CompletableJob.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/internal/SystemPropsKt__SystemProps_commonKt.class
+REGULAR CLASS missed: kotlinx/coroutines/internal/LockFreeTaskQueueKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/internal/LockFreeLinkedListNode$toString$1.class
+INTERFACE missed: kotlinx/coroutines/internal/ThreadSafeHeapNode.class
+REGULAR CLASS missed: kotlinx/coroutines/internal/LocalAtomicsKt.class
+REGULAR CLASS missed: kotlinx/coroutines/internal/Concurrent_commonKt.class
+INTERFACE missed: kotlinx/coroutines/internal/MainDispatcherFactory.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/internal/SystemPropsKt__SystemPropsKt.class
+REGULAR CLASS missed: kotlinx/coroutines/internal/ThreadLocalKt.class
+REGULAR CLASS missed: kotlinx/coroutines/internal/InternalAnnotationsKt.class
+INTERFACE missed: kotlinx/coroutines/ParentJob.class
+INTERFACE missed: kotlinx/coroutines/Job.class
+REGULAR CLASS missed: kotlinx/coroutines/CompletionHandler_commonKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/BuildersKt__Builders_commonKt.class
+INTERFACE missed: kotlinx/coroutines/CompletableDeferred.class
+REGULAR CLASS missed: kotlinx/coroutines/YieldContext$Key.class
+INTERFACE missed: kotlinx/coroutines/selects/SelectClause1.class
+INTERFACE missed: kotlinx/coroutines/selects/SelectClause2.class
+INTERFACE missed: kotlinx/coroutines/selects/SelectInstance.class
+INTERFACE missed: kotlinx/coroutines/selects/SelectBuilder.class
+INTERFACE missed: kotlinx/coroutines/selects/SelectClause0.class
+REGULAR CLASS missed: kotlinx/coroutines/selects/WhileSelectKt$whileSelect$1.class
+REGULAR CLASS missed: kotlinx/coroutines/Job$Key.class
+INTERFACE missed: kotlinx/coroutines/CancellableContinuation.class
+INTERFACE missed: kotlinx/coroutines/CoroutineExceptionHandler.class
+INTERFACE missed: kotlinx/coroutines/Deferred.class
+INTERFACE missed: kotlinx/coroutines/CopyableThrowable.class
+INTERFACE missed: kotlinx/coroutines/scheduling/TaskContext.class
+REGULAR CLASS missed: kotlinx/coroutines/scheduling/CoroutineScheduler$Companion.class
+REGULAR CLASS missed: kotlinx/coroutines/scheduling/WorkQueueKt.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/scheduling/CoroutineScheduler$WhenMappings.class
+REGULAR CLASS missed: kotlinx/coroutines/DispatchersKt.class
+REGULAR CLASS missed: kotlinx/coroutines/AwaitKt$joinAll$3.class
+ANNOTATION missed: kotlinx/coroutines/ExperimentalCoroutinesApi.class
+INTERFACE missed: kotlinx/coroutines/Delay.class
+INTERFACE missed: kotlinx/coroutines/DisposableHandle.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/JobKt__FutureKt.class
+ANNOTATION missed: kotlinx/coroutines/InternalCoroutinesApi.class
+SYNTHETIC CLASS missed: kotlinx/coroutines/BuildersKt__BuildersKt.class
+REGULAR CLASS missed: kotlinx/coroutines/CoroutineId$Key.class
+ANNOTATION missed: kotlinx/coroutines/DelicateCoroutinesApi.class
+ANNOTATION missed: kotlinx/coroutines/ObsoleteCoroutinesApi.class
+REGULAR CLASS missed: kotlinx/coroutines/AwaitKt$joinAll$1.class
+INTERFACE missed: kotlinx/coroutines/NotCompleted.class
+INTERFACE missed: kotlinx/coroutines/Incomplete.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/kotlinx-coroutines-core-jvm-1.6.2.jar:
+Classes found in both JAR and HTML: 615
+Classes in JAR but not found in HTML: 230
+Interfaces missed: 44
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 5
+Synthetic classes missed: 35
+Regular classes missed: 146

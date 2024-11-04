@@ -1,0 +1,265 @@
+REGULAR CLASS missed: kotlin/jvm/internal/DefaultConstructorMarker.class
+INTERFACE missed: kotlin/jvm/internal/FunctionAdapter.class
+REGULAR CLASS missed: kotlin/jvm/internal/Intrinsics$Kotlin.class
+REGULAR CLASS missed: kotlin/jvm/internal/Ref.class
+REGULAR CLASS missed: kotlin/ArrayIntrinsicsKt.class
+ANNOTATION missed: kotlin/BuilderInference.class
+ANNOTATION missed: kotlin/Deprecated.class
+ANNOTATION missed: kotlin/DeprecatedSinceKotlin.class
+ENUM missed: kotlin/DeprecationLevel.class
+ANNOTATION missed: kotlin/DslMarker.class
+REGULAR CLASS missed: kotlin/ExceptionsKt.class
+ENUM missed: kotlin/Experimental$Level.class
+ANNOTATION missed: kotlin/Experimental.class
+ANNOTATION missed: kotlin/ExperimentalMultiplatform.class
+ANNOTATION missed: kotlin/ExperimentalStdlibApi.class
+ANNOTATION missed: kotlin/ExperimentalUnsignedTypes.class
+ANNOTATION missed: kotlin/ExtensionFunctionType.class
+INTERFACE missed: kotlin/Function.class
+REGULAR CLASS missed: kotlin/KotlinVersion$Companion.class
+INTERFACE missed: kotlin/Lazy.class
+SYNTHETIC CLASS missed: kotlin/LazyKt$WhenMappings.class
+REGULAR CLASS missed: kotlin/LazyKt.class
+ENUM missed: kotlin/LazyThreadSafetyMode.class
+ANNOTATION missed: kotlin/Metadata.class
+REGULAR CLASS missed: kotlin/NumbersKt.class
+ANNOTATION missed: kotlin/OptIn.class
+ANNOTATION missed: kotlin/OptionalExpectation.class
+ANNOTATION missed: kotlin/OverloadResolutionByLambdaReturnType.class
+ANNOTATION missed: kotlin/ParameterName.class
+REGULAR CLASS missed: kotlin/PreconditionsKt.class
+ANNOTATION missed: kotlin/PublishedApi.class
+ANNOTATION missed: kotlin/ReplaceWith.class
+ENUM missed: kotlin/RequiresOptIn$Level.class
+ANNOTATION missed: kotlin/RequiresOptIn.class
+REGULAR CLASS missed: kotlin/SafePublicationLazyImpl$Companion.class
+ANNOTATION missed: kotlin/SinceKotlin.class
+REGULAR CLASS missed: kotlin/StandardKt.class
+ANNOTATION missed: kotlin/Suppress.class
+REGULAR CLASS missed: kotlin/ThrowsKt.class
+REGULAR CLASS missed: kotlin/TypeAliasesKt.class
+REGULAR CLASS missed: kotlin/UByte$Companion.class
+REGULAR CLASS missed: kotlin/UInt$Companion.class
+REGULAR CLASS missed: kotlin/ULong$Companion.class
+REGULAR CLASS missed: kotlin/UShort$Companion.class
+ANNOTATION missed: kotlin/UnsafeVariance.class
+ANNOTATION missed: kotlin/UseExperimental.class
+ANNOTATION missed: kotlin/WasExperimental.class
+ENUM missed: kotlin/annotation/AnnotationRetention.class
+ENUM missed: kotlin/annotation/AnnotationTarget.class
+ANNOTATION missed: kotlin/annotation/MustBeDocumented.class
+ANNOTATION missed: kotlin/annotation/Repeatable.class
+ANNOTATION missed: kotlin/annotation/Retention.class
+ANNOTATION missed: kotlin/annotation/Target.class
+SYNTHETIC CLASS missed: kotlin/collections/AbstractIterator$WhenMappings.class
+REGULAR CLASS missed: kotlin/collections/ArraysKt.class
+REGULAR CLASS missed: kotlin/collections/CollectionsKt.class
+INTERFACE missed: kotlin/collections/Grouping.class
+REGULAR CLASS missed: kotlin/collections/GroupingKt.class
+INTERFACE missed: kotlin/collections/MapWithDefault.class
+REGULAR CLASS missed: kotlin/collections/MapsKt.class
+INTERFACE missed: kotlin/collections/MutableMapWithDefault.class
+REGULAR CLASS missed: kotlin/collections/SetsKt.class
+ENUM missed: kotlin/collections/State.class
+REGULAR CLASS missed: kotlin/collections/TypeAliasesKt.class
+REGULAR CLASS missed: kotlin/collections/UCollectionsKt.class
+REGULAR CLASS missed: kotlin/collections/unsigned/UArraysKt.class
+REGULAR CLASS missed: kotlin/comparisons/ComparisonsKt.class
+REGULAR CLASS missed: kotlin/comparisons/UComparisonsKt.class
+INTERFACE missed: kotlin/contracts/CallsInPlace.class
+INTERFACE missed: kotlin/contracts/ConditionalEffect.class
+INTERFACE missed: kotlin/contracts/ContractBuilder.class
+INTERFACE missed: kotlin/contracts/Effect.class
+ANNOTATION missed: kotlin/contracts/ExperimentalContracts.class
+ENUM missed: kotlin/contracts/InvocationKind.class
+INTERFACE missed: kotlin/contracts/Returns.class
+INTERFACE missed: kotlin/contracts/ReturnsNotNull.class
+INTERFACE missed: kotlin/contracts/SimpleEffect.class
+REGULAR CLASS missed: kotlin/coroutines/CombinedContext$Serialized$Companion.class
+INTERFACE missed: kotlin/coroutines/Continuation.class
+INTERFACE missed: kotlin/coroutines/ContinuationInterceptor.class
+INTERFACE missed: kotlin/coroutines/CoroutineContext$Element.class
+INTERFACE missed: kotlin/coroutines/CoroutineContext$Key.class
+INTERFACE missed: kotlin/coroutines/CoroutineContext.class
+ANNOTATION missed: kotlin/coroutines/RestrictsSuspension.class
+REGULAR CLASS missed: kotlin/coroutines/SafeContinuation$Companion.class
+ENUM missed: kotlin/coroutines/intrinsics/CoroutineSingletons.class
+REGULAR CLASS missed: kotlin/coroutines/intrinsics/IntrinsicsKt.class
+ABSTRACT CLASS missed: kotlin/coroutines/jvm/internal/BaseContinuationImpl.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/Boxing.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/CompletedContinuation.class
+ABSTRACT CLASS missed: kotlin/coroutines/jvm/internal/ContinuationImpl.class
+INTERFACE missed: kotlin/coroutines/jvm/internal/CoroutineStackFrame.class
+ANNOTATION missed: kotlin/coroutines/jvm/internal/DebugMetadata.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/DebugMetadataKt.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/ModuleNameRetriever$Cache.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/ModuleNameRetriever.class
+ABSTRACT CLASS missed: kotlin/coroutines/jvm/internal/RestrictedContinuationImpl.class
+ABSTRACT CLASS missed: kotlin/coroutines/jvm/internal/RestrictedSuspendLambda.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/RunSuspend.class
+REGULAR CLASS missed: kotlin/coroutines/jvm/internal/RunSuspendKt.class
+INTERFACE missed: kotlin/coroutines/jvm/internal/SuspendFunction.class
+ABSTRACT CLASS missed: kotlin/coroutines/jvm/internal/SuspendLambda.class
+ANNOTATION missed: kotlin/experimental/ExperimentalTypeInference.class
+ANNOTATION missed: kotlin/internal/AccessibleLateinitPropertyLiteral.class
+ANNOTATION missed: kotlin/internal/ContractsDsl.class
+ANNOTATION missed: kotlin/internal/DynamicExtension.class
+ANNOTATION missed: kotlin/internal/Exact.class
+ANNOTATION missed: kotlin/internal/HidesMembers.class
+ANNOTATION missed: kotlin/internal/InlineOnly.class
+ANNOTATION missed: kotlin/internal/LowPriorityInOverloadResolution.class
+ANNOTATION missed: kotlin/internal/NoInfer.class
+ANNOTATION missed: kotlin/internal/OnlyInputTypes.class
+ANNOTATION missed: kotlin/internal/PlatformDependent.class
+ANNOTATION missed: kotlin/internal/PureReifiable.class
+ANNOTATION missed: kotlin/internal/RequireKotlin.class
+ENUM missed: kotlin/internal/RequireKotlinVersionKind.class
+REGULAR CLASS missed: kotlin/io/ConstantsKt.class
+SYNTHETIC CLASS missed: kotlin/io/FileTreeWalk$FileTreeWalkIterator$WhenMappings.class
+ENUM missed: kotlin/io/FileWalkDirection.class
+REGULAR CLASS missed: kotlin/io/FilesKt.class
+SYNTHETIC CLASS missed: kotlin/io/LineReader$readLine$1.class
+ENUM missed: kotlin/io/OnErrorAction.class
+REGULAR CLASS missed: kotlin/io/SerializableKt.class
+ANNOTATION missed: kotlin/js/ExperimentalJsExport.class
+ANNOTATION missed: kotlin/jvm/JvmDefault.class
+ANNOTATION missed: kotlin/jvm/JvmDefaultWithoutCompatibility.class
+ANNOTATION missed: kotlin/jvm/JvmField.class
+ANNOTATION missed: kotlin/jvm/JvmInline.class
+ANNOTATION missed: kotlin/jvm/JvmMultifileClass.class
+ANNOTATION missed: kotlin/jvm/JvmName.class
+ANNOTATION missed: kotlin/jvm/JvmOverloads.class
+ANNOTATION missed: kotlin/jvm/JvmPackageName.class
+ANNOTATION missed: kotlin/jvm/JvmRecord.class
+ANNOTATION missed: kotlin/jvm/JvmStatic.class
+ANNOTATION missed: kotlin/jvm/JvmSuppressWildcards.class
+ANNOTATION missed: kotlin/jvm/JvmSynthetic.class
+ANNOTATION missed: kotlin/jvm/JvmWildcard.class
+ANNOTATION missed: kotlin/jvm/PurelyImplements.class
+ANNOTATION missed: kotlin/jvm/Strictfp.class
+ANNOTATION missed: kotlin/jvm/Synchronized.class
+ANNOTATION missed: kotlin/jvm/Throws.class
+ANNOTATION missed: kotlin/jvm/Transient.class
+ANNOTATION missed: kotlin/jvm/Volatile.class
+INTERFACE missed: kotlin/jvm/functions/Function0.class
+INTERFACE missed: kotlin/jvm/functions/Function1.class
+INTERFACE missed: kotlin/jvm/functions/Function10.class
+INTERFACE missed: kotlin/jvm/functions/Function11.class
+INTERFACE missed: kotlin/jvm/functions/Function12.class
+INTERFACE missed: kotlin/jvm/functions/Function13.class
+INTERFACE missed: kotlin/jvm/functions/Function14.class
+INTERFACE missed: kotlin/jvm/functions/Function15.class
+INTERFACE missed: kotlin/jvm/functions/Function16.class
+INTERFACE missed: kotlin/jvm/functions/Function17.class
+INTERFACE missed: kotlin/jvm/functions/Function18.class
+INTERFACE missed: kotlin/jvm/functions/Function19.class
+INTERFACE missed: kotlin/jvm/functions/Function2.class
+INTERFACE missed: kotlin/jvm/functions/Function20.class
+INTERFACE missed: kotlin/jvm/functions/Function21.class
+INTERFACE missed: kotlin/jvm/functions/Function22.class
+INTERFACE missed: kotlin/jvm/functions/Function3.class
+INTERFACE missed: kotlin/jvm/functions/Function4.class
+INTERFACE missed: kotlin/jvm/functions/Function5.class
+INTERFACE missed: kotlin/jvm/functions/Function6.class
+INTERFACE missed: kotlin/jvm/functions/Function7.class
+INTERFACE missed: kotlin/jvm/functions/Function8.class
+INTERFACE missed: kotlin/jvm/functions/Function9.class
+INTERFACE missed: kotlin/jvm/functions/FunctionN.class
+INTERFACE missed: kotlin/jvm/internal/ClassBasedDeclarationContainer.class
+INTERFACE missed: kotlin/jvm/internal/FunctionBase.class
+INTERFACE missed: kotlin/jvm/internal/KTypeBase.class
+SYNTHETIC CLASS missed: kotlin/jvm/internal/TypeParameterReference$Companion$WhenMappings.class
+SYNTHETIC CLASS missed: kotlin/jvm/internal/TypeReference$WhenMappings.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMappedMarker.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableCollection.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableIterable.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableIterator.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableList.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableListIterator.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableMap$Entry.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableMap.class
+INTERFACE missed: kotlin/jvm/internal/markers/KMutableSet.class
+REGULAR CLASS missed: kotlin/math/MathKt.class
+REGULAR CLASS missed: kotlin/math/MathKt__MathHKt.class
+INTERFACE missed: kotlin/properties/PropertyDelegateProvider.class
+INTERFACE missed: kotlin/properties/ReadOnlyProperty.class
+INTERFACE missed: kotlin/properties/ReadWriteProperty.class
+REGULAR CLASS missed: kotlin/random/KotlinRandom$Companion.class
+REGULAR CLASS missed: kotlin/random/PlatformRandom$Companion.class
+REGULAR CLASS missed: kotlin/random/XorWowRandom$Companion.class
+INTERFACE missed: kotlin/ranges/ClosedFloatingPointRange.class
+INTERFACE missed: kotlin/ranges/ClosedRange.class
+REGULAR CLASS missed: kotlin/ranges/RangesKt.class
+REGULAR CLASS missed: kotlin/ranges/URangesKt.class
+INTERFACE missed: kotlin/reflect/KAnnotatedElement.class
+REGULAR CLASS missed: kotlin/reflect/KCallable$DefaultImpls.class
+INTERFACE missed: kotlin/reflect/KCallable.class
+REGULAR CLASS missed: kotlin/reflect/KClass$DefaultImpls.class
+INTERFACE missed: kotlin/reflect/KClass.class
+INTERFACE missed: kotlin/reflect/KClassifier.class
+INTERFACE missed: kotlin/reflect/KDeclarationContainer.class
+REGULAR CLASS missed: kotlin/reflect/KFunction$DefaultImpls.class
+INTERFACE missed: kotlin/reflect/KFunction.class
+INTERFACE missed: kotlin/reflect/KMutableProperty$Setter.class
+INTERFACE missed: kotlin/reflect/KMutableProperty.class
+INTERFACE missed: kotlin/reflect/KMutableProperty0$Setter.class
+INTERFACE missed: kotlin/reflect/KMutableProperty0.class
+INTERFACE missed: kotlin/reflect/KMutableProperty1$Setter.class
+INTERFACE missed: kotlin/reflect/KMutableProperty1.class
+INTERFACE missed: kotlin/reflect/KMutableProperty2$Setter.class
+INTERFACE missed: kotlin/reflect/KMutableProperty2.class
+REGULAR CLASS missed: kotlin/reflect/KParameter$DefaultImpls.class
+ENUM missed: kotlin/reflect/KParameter$Kind.class
+INTERFACE missed: kotlin/reflect/KParameter.class
+INTERFACE missed: kotlin/reflect/KProperty$Accessor.class
+REGULAR CLASS missed: kotlin/reflect/KProperty$DefaultImpls.class
+INTERFACE missed: kotlin/reflect/KProperty$Getter.class
+INTERFACE missed: kotlin/reflect/KProperty.class
+INTERFACE missed: kotlin/reflect/KProperty0$Getter.class
+INTERFACE missed: kotlin/reflect/KProperty0.class
+INTERFACE missed: kotlin/reflect/KProperty1$Getter.class
+INTERFACE missed: kotlin/reflect/KProperty1.class
+INTERFACE missed: kotlin/reflect/KProperty2$Getter.class
+INTERFACE missed: kotlin/reflect/KProperty2.class
+REGULAR CLASS missed: kotlin/reflect/KType$DefaultImpls.class
+INTERFACE missed: kotlin/reflect/KType.class
+INTERFACE missed: kotlin/reflect/KTypeParameter.class
+SYNTHETIC CLASS missed: kotlin/reflect/KTypeProjection$WhenMappings.class
+ENUM missed: kotlin/reflect/KVariance.class
+ENUM missed: kotlin/reflect/KVisibility.class
+SYNTHETIC CLASS missed: kotlin/reflect/ParameterizedTypeImpl$getTypeName$1$1.class
+INTERFACE missed: kotlin/reflect/TypeImpl.class
+REGULAR CLASS missed: kotlin/reflect/TypeOfKt.class
+SYNTHETIC CLASS missed: kotlin/reflect/TypesJVMKt$WhenMappings.class
+SYNTHETIC CLASS missed: kotlin/reflect/TypesJVMKt$typeToString$unwrap$1.class
+INTERFACE missed: kotlin/sequences/DropTakeSequence.class
+INTERFACE missed: kotlin/sequences/Sequence.class
+REGULAR CLASS missed: kotlin/sequences/SequencesKt.class
+SYNTHETIC CLASS missed: kotlin/sequences/SequencesKt___SequencesKt$flatMap$1.class
+SYNTHETIC CLASS missed: kotlin/sequences/SequencesKt___SequencesKt$flatMap$2.class
+SYNTHETIC CLASS missed: kotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$1.class
+SYNTHETIC CLASS missed: kotlin/sequences/SequencesKt___SequencesKt$flatMapIndexed$2.class
+REGULAR CLASS missed: kotlin/sequences/USequencesKt.class
+REGULAR CLASS missed: kotlin/text/CharsKt.class
+INTERFACE missed: kotlin/text/FlagEnum.class
+INTERFACE missed: kotlin/text/MatchGroupCollection.class
+INTERFACE missed: kotlin/text/MatchNamedGroupCollection.class
+INTERFACE missed: kotlin/text/MatchResult.class
+REGULAR CLASS missed: kotlin/text/Regex$Serialized$Companion.class
+SYNTHETIC CLASS missed: kotlin/text/Regex$findAll$2.class
+REGULAR CLASS missed: kotlin/text/StringsKt.class
+REGULAR CLASS missed: kotlin/text/TypeAliasesKt.class
+SYNTHETIC CLASS missed: kotlin/time/DurationUnitKt$WhenMappings.class
+REGULAR CLASS missed: kotlin/time/DurationUnitKt.class
+ANNOTATION missed: kotlin/time/ExperimentalTime.class
+INTERFACE missed: kotlin/time/TimeSource.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/kotlin-stdlib-1.5.30.jar:
+Classes found in both JAR and HTML: 608
+Classes in JAR but not found in HTML: 255
+Interfaces missed: 95
+Abstract classes missed: 5
+Enums missed: 15
+Annotations missed: 63
+Synthetic classes missed: 16
+Regular classes missed: 61

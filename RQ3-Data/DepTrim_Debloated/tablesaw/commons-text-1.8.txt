@@ -1,0 +1,22 @@
+org/apache/commons/text/translate/JavaUnicodeEscaper.class
+org/apache/commons/text/translate/CodePointTranslator.class
+org/apache/commons/text/translate/UnicodeUnpairedSurrogateRemover.class
+org/apache/commons/text/translate/CsvTranslators.class
+org/apache/commons/text/translate/CsvTranslators$CsvEscaper.class
+org/apache/commons/text/translate/LookupTranslator.class
+org/apache/commons/text/translate/UnicodeEscaper.class
+org/apache/commons/text/translate/EntityArrays.class
+org/apache/commons/text/translate/CsvTranslators$CsvUnescaper.class
+org/apache/commons/text/translate/NumericEntityUnescaper$OPTION.class
+org/apache/commons/text/translate/OctalUnescaper.class
+org/apache/commons/text/translate/UnicodeUnescaper.class
+org/apache/commons/text/translate/AggregateTranslator.class
+org/apache/commons/text/translate/CharSequenceTranslator.class
+org/apache/commons/text/translate/SinglePassTranslator.class
+org/apache/commons/text/translate/NumericEntityUnescaper.class
+org/apache/commons/text/translate/NumericEntityEscaper.class
+org/apache/commons/text/StringEscapeUtils.class
+org/apache/commons/text/StringEscapeUtils$Builder.class
+org/apache/commons/text/StringEscapeUtils$XsiUnescaper.class
+org/apache/commons/text/StringEscapeUtils$1.class
+Number of .class files: 21

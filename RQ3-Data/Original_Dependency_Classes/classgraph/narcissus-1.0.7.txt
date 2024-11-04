@@ -1,0 +1,17 @@
+META-INF/versions/9/module-info.class
+io/github/toolfactory/narcissus/LibraryLoader$OperatingSystem.class
+io/github/toolfactory/narcissus/LibraryLoader.class
+io/github/toolfactory/narcissus/Narcissus$1.class
+io/github/toolfactory/narcissus/Narcissus$2.class
+io/github/toolfactory/narcissus/Narcissus$3.class
+io/github/toolfactory/narcissus/Narcissus$4.class
+io/github/toolfactory/narcissus/Narcissus$5.class
+io/github/toolfactory/narcissus/Narcissus$6.class
+io/github/toolfactory/narcissus/Narcissus$7.class
+io/github/toolfactory/narcissus/Narcissus$8.class
+io/github/toolfactory/narcissus/Narcissus$9.class
+io/github/toolfactory/narcissus/Narcissus$Getter.class
+io/github/toolfactory/narcissus/Narcissus$MethodIterator.class
+io/github/toolfactory/narcissus/Narcissus.class
+io/github/toolfactory/narcissus/ReflectionCache.class
+Number of .class files: 16

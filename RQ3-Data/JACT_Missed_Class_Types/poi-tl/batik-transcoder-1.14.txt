@@ -1,0 +1,16 @@
+INTERFACE missed: org/apache/batik/transcoder/image/TIFFTranscoder$WriteAdapter.class
+INTERFACE missed: org/apache/batik/transcoder/image/PNGTranscoder$WriteAdapter.class
+SYNTHETIC CLASS missed: org/apache/batik/transcoder/image/JPEGTranscoder$1.class
+INTERFACE missed: org/apache/batik/transcoder/ErrorHandler.class
+INTERFACE missed: org/apache/batik/transcoder/wmf/WMFConstants.class
+INTERFACE missed: org/apache/batik/transcoder/Transcoder.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/batik-transcoder-1.14.jar:
+Classes found in both JAR and HTML: 54
+Classes in JAR but not found in HTML: 6
+Interfaces missed: 5
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 1
+Regular classes missed: 0

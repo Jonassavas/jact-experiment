@@ -1,0 +1,61 @@
+INTERFACE missed: org/apache/commons/collections4/collection/CompositeCollection$CollectionMutator.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/functors/ComparatorPredicate$1.class
+INTERFACE missed: org/apache/commons/collections4/functors/PredicateDecorator.class
+INTERFACE missed: org/apache/commons/collections4/IterableGet.class
+INTERFACE missed: org/apache/commons/collections4/IterableMap.class
+INTERFACE missed: org/apache/commons/collections4/KeyValue.class
+INTERFACE missed: org/apache/commons/collections4/MapIterator.class
+INTERFACE missed: org/apache/commons/collections4/MultiMap.class
+INTERFACE missed: org/apache/commons/collections4/Unmodifiable.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/bidimap/TreeBidiMap$1.class
+INTERFACE missed: org/apache/commons/collections4/Factory.class
+INTERFACE missed: org/apache/commons/collections4/Get.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/ListUtils$1.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/map/StaticBucketMap$1.class
+INTERFACE missed: org/apache/commons/collections4/MultiSet$Entry.class
+INTERFACE missed: org/apache/commons/collections4/MultiSet.class
+INTERFACE missed: org/apache/commons/collections4/sequence/CommandVisitor.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/set/ListOrderedSet$1.class
+INTERFACE missed: org/apache/commons/collections4/ListValuedMap.class
+INTERFACE missed: org/apache/commons/collections4/OrderedMapIterator.class
+INTERFACE missed: org/apache/commons/collections4/set/CompositeSet$SetMutator.class
+INTERFACE missed: org/apache/commons/collections4/SortedBidiMap.class
+INTERFACE missed: org/apache/commons/collections4/BoundedCollection.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/comparators/FixedOrderComparator$1.class
+INTERFACE missed: org/apache/commons/collections4/Equator.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/multimap/AbstractMultiValuedMap$1.class
+INTERFACE missed: org/apache/commons/collections4/OrderedIterator.class
+INTERFACE missed: org/apache/commons/collections4/OrderedMap.class
+INTERFACE missed: org/apache/commons/collections4/Put.class
+INTERFACE missed: org/apache/commons/collections4/ResettableIterator.class
+INTERFACE missed: org/apache/commons/collections4/SetValuedMap.class
+INTERFACE missed: org/apache/commons/collections4/SortedBag.class
+INTERFACE missed: org/apache/commons/collections4/Transformer.class
+INTERFACE missed: org/apache/commons/collections4/BoundedMap.class
+INTERFACE missed: org/apache/commons/collections4/Predicate.class
+INTERFACE missed: org/apache/commons/collections4/ResettableListIterator.class
+INTERFACE missed: org/apache/commons/collections4/sequence/ReplacementsHandler.class
+INTERFACE missed: org/apache/commons/collections4/Bag.class
+INTERFACE missed: org/apache/commons/collections4/Closure.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/functors/PrototypeFactory$1.class
+INTERFACE missed: org/apache/commons/collections4/IterableSortedMap.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/list/TreeList$1.class
+INTERFACE missed: org/apache/commons/collections4/map/CompositeMap$MapMutator.class
+REGULAR CLASS missed: org/apache/commons/collections4/map/StaticBucketMap$Lock.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/SplitMapUtils$1.class
+SYNTHETIC CLASS missed: org/apache/commons/collections4/trie/AbstractPatriciaTrie$1.class
+INTERFACE missed: org/apache/commons/collections4/Trie.class
+INTERFACE missed: org/apache/commons/collections4/BidiMap.class
+INTERFACE missed: org/apache/commons/collections4/map/PassiveExpiringMap$ExpirationPolicy.class
+INTERFACE missed: org/apache/commons/collections4/MultiValuedMap.class
+INTERFACE missed: org/apache/commons/collections4/OrderedBidiMap.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/poi-tl/poi-tl/original/compile-scope-dependencies/dependency/commons-collections4-4.4.jar:
+Classes found in both JAR and HTML: 473
+Classes in JAR but not found in HTML: 51
+Interfaces missed: 39
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 11
+Regular classes missed: 1

@@ -1,0 +1,20 @@
+ANNOTATION missed: com/google/j2objc/annotations/AutoreleasePool.class
+ANNOTATION missed: com/google/j2objc/annotations/J2ObjCIncompatible.class
+ANNOTATION missed: com/google/j2objc/annotations/LoopTranslation.class
+ANNOTATION missed: com/google/j2objc/annotations/ObjectiveCName.class
+ANNOTATION missed: com/google/j2objc/annotations/Property.class
+ANNOTATION missed: com/google/j2objc/annotations/ReflectionSupport.class
+ANNOTATION missed: com/google/j2objc/annotations/RetainedLocalRef.class
+ANNOTATION missed: com/google/j2objc/annotations/RetainedWith.class
+ANNOTATION missed: com/google/j2objc/annotations/Weak.class
+ANNOTATION missed: com/google/j2objc/annotations/WeakOuter.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/guice/core/original/compile-scope-dependencies/dependency/j2objc-annotations-1.3.jar:
+Classes found in both JAR and HTML: 2
+Classes in JAR but not found in HTML: 10
+Interfaces missed: 0
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 10
+Synthetic classes missed: 0
+Regular classes missed: 0

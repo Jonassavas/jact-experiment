@@ -1,0 +1,19 @@
+SYNTHETIC CLASS missed: com/github/wnameless/json/GsonJsonArray$1.class
+INTERFACE missed: com/github/wnameless/json/JsonValueBase.class
+SYNTHETIC CLASS missed: com/github/wnameless/json/GsonJsonObject$1.class
+SYNTHETIC CLASS missed: com/github/wnameless/json/JacksonJsonArray$1.class
+SYNTHETIC CLASS missed: com/github/wnameless/json/MinimalJsonObject$1.class
+SYNTHETIC CLASS missed: com/github/wnameless/json/MinimalJsonArray$1.class
+INTERFACE missed: com/github/wnameless/json/JsonArrayBase.class
+SYNTHETIC CLASS missed: com/github/wnameless/json/JacksonJsonObject$1.class
+INTERFACE missed: com/github/wnameless/json/JsonObjectBase.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/tablesaw/json/original/compile-scope-dependencies/dependency/json-base-1.0.0.jar:
+Classes found in both JAR and HTML: 15
+Classes in JAR but not found in HTML: 9
+Interfaces missed: 3
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 6
+Regular classes missed: 0

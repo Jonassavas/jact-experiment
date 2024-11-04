@@ -1,0 +1,86 @@
+ANNOTATION missed: javax/ws/rs/ApplicationPath.class
+ANNOTATION missed: javax/ws/rs/BeanParam.class
+ANNOTATION missed: javax/ws/rs/ConstrainedTo.class
+ANNOTATION missed: javax/ws/rs/Consumes.class
+ANNOTATION missed: javax/ws/rs/CookieParam.class
+ANNOTATION missed: javax/ws/rs/DELETE.class
+ANNOTATION missed: javax/ws/rs/DefaultValue.class
+ANNOTATION missed: javax/ws/rs/Encoded.class
+ANNOTATION missed: javax/ws/rs/FormParam.class
+ANNOTATION missed: javax/ws/rs/GET.class
+ANNOTATION missed: javax/ws/rs/HEAD.class
+ANNOTATION missed: javax/ws/rs/HeaderParam.class
+ANNOTATION missed: javax/ws/rs/HttpMethod.class
+ANNOTATION missed: javax/ws/rs/MatrixParam.class
+ANNOTATION missed: javax/ws/rs/NameBinding.class
+ANNOTATION missed: javax/ws/rs/OPTIONS.class
+ANNOTATION missed: javax/ws/rs/POST.class
+ANNOTATION missed: javax/ws/rs/PUT.class
+ANNOTATION missed: javax/ws/rs/Path.class
+ANNOTATION missed: javax/ws/rs/PathParam.class
+REGULAR CLASS missed: javax/ws/rs/Priorities.class
+ANNOTATION missed: javax/ws/rs/Produces.class
+ANNOTATION missed: javax/ws/rs/QueryParam.class
+INTERFACE missed: javax/ws/rs/client/AsyncInvoker.class
+INTERFACE missed: javax/ws/rs/client/Client.class
+INTERFACE missed: javax/ws/rs/client/ClientRequestContext.class
+INTERFACE missed: javax/ws/rs/client/ClientRequestFilter.class
+INTERFACE missed: javax/ws/rs/client/ClientResponseContext.class
+INTERFACE missed: javax/ws/rs/client/ClientResponseFilter.class
+INTERFACE missed: javax/ws/rs/client/Invocation$Builder.class
+INTERFACE missed: javax/ws/rs/client/Invocation.class
+INTERFACE missed: javax/ws/rs/client/InvocationCallback.class
+INTERFACE missed: javax/ws/rs/client/SyncInvoker.class
+INTERFACE missed: javax/ws/rs/client/WebTarget.class
+INTERFACE missed: javax/ws/rs/container/AsyncResponse.class
+INTERFACE missed: javax/ws/rs/container/CompletionCallback.class
+INTERFACE missed: javax/ws/rs/container/ConnectionCallback.class
+INTERFACE missed: javax/ws/rs/container/ContainerRequestContext.class
+INTERFACE missed: javax/ws/rs/container/ContainerRequestFilter.class
+INTERFACE missed: javax/ws/rs/container/ContainerResponseContext.class
+INTERFACE missed: javax/ws/rs/container/ContainerResponseFilter.class
+INTERFACE missed: javax/ws/rs/container/DynamicFeature.class
+ANNOTATION missed: javax/ws/rs/container/PreMatching.class
+INTERFACE missed: javax/ws/rs/container/ResourceContext.class
+INTERFACE missed: javax/ws/rs/container/ResourceInfo.class
+ANNOTATION missed: javax/ws/rs/container/Suspended.class
+INTERFACE missed: javax/ws/rs/container/TimeoutHandler.class
+INTERFACE missed: javax/ws/rs/core/Configurable.class
+INTERFACE missed: javax/ws/rs/core/Configuration.class
+ANNOTATION missed: javax/ws/rs/core/Context.class
+INTERFACE missed: javax/ws/rs/core/Feature.class
+INTERFACE missed: javax/ws/rs/core/FeatureContext.class
+INTERFACE missed: javax/ws/rs/core/HttpHeaders.class
+INTERFACE missed: javax/ws/rs/core/Link$Builder.class
+INTERFACE missed: javax/ws/rs/core/MultivaluedMap.class
+INTERFACE missed: javax/ws/rs/core/PathSegment.class
+INTERFACE missed: javax/ws/rs/core/Request.class
+INTERFACE missed: javax/ws/rs/core/Response$StatusType.class
+INTERFACE missed: javax/ws/rs/core/SecurityContext.class
+INTERFACE missed: javax/ws/rs/core/StreamingOutput.class
+INTERFACE missed: javax/ws/rs/core/UriInfo.class
+INTERFACE missed: javax/ws/rs/ext/ContextResolver.class
+INTERFACE missed: javax/ws/rs/ext/ExceptionMapper.class
+INTERFACE missed: javax/ws/rs/ext/InterceptorContext.class
+INTERFACE missed: javax/ws/rs/ext/MessageBodyReader.class
+INTERFACE missed: javax/ws/rs/ext/MessageBodyWriter.class
+ANNOTATION missed: javax/ws/rs/ext/ParamConverter$Lazy.class
+INTERFACE missed: javax/ws/rs/ext/ParamConverter.class
+INTERFACE missed: javax/ws/rs/ext/ParamConverterProvider.class
+ANNOTATION missed: javax/ws/rs/ext/Provider.class
+INTERFACE missed: javax/ws/rs/ext/Providers.class
+INTERFACE missed: javax/ws/rs/ext/ReaderInterceptor.class
+INTERFACE missed: javax/ws/rs/ext/ReaderInterceptorContext.class
+INTERFACE missed: javax/ws/rs/ext/RuntimeDelegate$HeaderDelegate.class
+INTERFACE missed: javax/ws/rs/ext/WriterInterceptor.class
+INTERFACE missed: javax/ws/rs/ext/WriterInterceptorContext.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/immutables/gson/original/compile-scope-dependencies/dependency/javax.ws.rs-api-2.0.jar:
+Classes found in both JAR and HTML: 49
+Classes in JAR but not found in HTML: 76
+Interfaces missed: 48
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 27
+Synthetic classes missed: 0
+Regular classes missed: 1

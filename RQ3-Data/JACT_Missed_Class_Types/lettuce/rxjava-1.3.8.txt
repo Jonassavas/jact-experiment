@@ -1,0 +1,64 @@
+INTERFACE missed: rx/Completable$Transformer.class
+INTERFACE missed: rx/Single$Transformer.class
+INTERFACE missed: rx/CompletableEmitter.class
+INTERFACE missed: rx/Producer.class
+INTERFACE missed: rx/Single$OnSubscribe.class
+INTERFACE missed: rx/Subscription.class
+INTERFACE missed: rx/Completable$Operator.class
+INTERFACE missed: rx/functions/Func8.class
+INTERFACE missed: rx/functions/Func3.class
+INTERFACE missed: rx/functions/FuncN.class
+INTERFACE missed: rx/functions/Action.class
+INTERFACE missed: rx/functions/Func5.class
+INTERFACE missed: rx/functions/Cancellable.class
+INTERFACE missed: rx/functions/Action3.class
+INTERFACE missed: rx/functions/Func4.class
+INTERFACE missed: rx/functions/Action7.class
+INTERFACE missed: rx/functions/Action8.class
+INTERFACE missed: rx/functions/Function.class
+INTERFACE missed: rx/functions/ActionN.class
+INTERFACE missed: rx/functions/Action4.class
+INTERFACE missed: rx/functions/Func7.class
+INTERFACE missed: rx/functions/Action9.class
+INTERFACE missed: rx/functions/Action5.class
+INTERFACE missed: rx/functions/Action2.class
+INTERFACE missed: rx/functions/Func2.class
+INTERFACE missed: rx/functions/Func6.class
+INTERFACE missed: rx/functions/Func1.class
+INTERFACE missed: rx/functions/Action0.class
+INTERFACE missed: rx/functions/Action6.class
+INTERFACE missed: rx/functions/Action1.class
+INTERFACE missed: rx/functions/Func9.class
+INTERFACE missed: rx/functions/Func0.class
+INTERFACE missed: rx/Emitter.class
+INTERFACE missed: rx/Observable$OnSubscribe.class
+INTERFACE missed: rx/Observable$Operator.class
+INTERFACE missed: rx/subjects/ReplaySubject$ReplayBuffer.class
+INTERFACE missed: rx/Completable$OnSubscribe.class
+INTERFACE missed: rx/BackpressureOverflow$Strategy.class
+ANNOTATION missed: rx/annotations/Experimental.class
+ANNOTATION missed: rx/annotations/Beta.class
+INTERFACE missed: rx/observers/AssertableSubscriber.class
+INTERFACE missed: rx/Observer.class
+INTERFACE missed: rx/SingleEmitter.class
+INTERFACE missed: rx/Observable$Transformer.class
+ANNOTATION missed: rx/internal/util/SuppressAnimalSniffer.class
+INTERFACE missed: rx/internal/util/unsafe/MessagePassingQueue.class
+INTERFACE missed: rx/internal/util/unsafe/QueueProgressIndicators.class
+INTERFACE missed: rx/internal/util/BackpressureDrainManager$BackpressureQueueCallback.class
+SYNTHETIC CLASS missed: rx/internal/operators/OnSubscribeCreate$1.class
+SYNTHETIC CLASS missed: rx/internal/operators/OperatorDematerialize$2.class
+INTERFACE missed: rx/internal/operators/OperatorReplay$ReplayBuffer.class
+INTERFACE missed: rx/internal/schedulers/SchedulePeriodicHelper$NowNanoSupplier.class
+INTERFACE missed: rx/internal/schedulers/SchedulerLifecycle.class
+INTERFACE missed: rx/CompletableSubscriber.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/lettuce-core/original/compile-scope-dependencies/dependency/rxjava-1.3.8.jar:
+Classes found in both JAR and HTML: 961
+Classes in JAR but not found in HTML: 54
+Interfaces missed: 49
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 3
+Synthetic classes missed: 2
+Regular classes missed: 0

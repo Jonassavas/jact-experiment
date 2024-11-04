@@ -1,0 +1,12 @@
+INTERFACE missed: org/objectweb/asm/util/ASMifierSupport.class
+INTERFACE missed: org/objectweb/asm/util/TextifierSupport.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/jooby/jooby/original/compile-scope-dependencies/dependency/asm-util-9.3.jar:
+Classes found in both JAR and HTML: 23
+Classes in JAR but not found in HTML: 2
+Interfaces missed: 2
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 0
+Regular classes missed: 0

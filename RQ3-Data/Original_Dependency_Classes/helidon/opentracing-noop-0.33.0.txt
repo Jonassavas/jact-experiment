@@ -1,0 +1,14 @@
+io/opentracing/noop/NoopTracerFactory.class
+io/opentracing/noop/NoopScopeManagerImpl.class
+io/opentracing/noop/NoopSpanBuilder.class
+io/opentracing/noop/NoopScopeManager.class
+io/opentracing/noop/NoopTracer.class
+io/opentracing/noop/NoopScopeManager$NoopScope.class
+io/opentracing/noop/NoopScopeManagerImpl$NoopScopeImpl.class
+io/opentracing/noop/NoopSpan.class
+io/opentracing/noop/NoopSpanContext.class
+io/opentracing/noop/NoopTracerImpl.class
+io/opentracing/noop/NoopSpanContextImpl.class
+io/opentracing/noop/NoopSpanImpl.class
+io/opentracing/noop/NoopSpanBuilderImpl.class
+Number of .class files: 13

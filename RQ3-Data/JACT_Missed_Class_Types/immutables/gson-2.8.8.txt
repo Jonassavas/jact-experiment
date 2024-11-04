@@ -1,0 +1,28 @@
+INTERFACE missed: com/google/gson/JsonDeserializer.class
+INTERFACE missed: com/google/gson/FieldNamingStrategy.class
+INTERFACE missed: com/google/gson/JsonSerializer.class
+INTERFACE missed: com/google/gson/InstanceCreator.class
+INTERFACE missed: com/google/gson/JsonSerializationContext.class
+REGULAR CLASS missed: com/google/gson/internal/GsonBuildConfig.class
+INTERFACE missed: com/google/gson/internal/ObjectConstructor.class
+SYNTHETIC CLASS missed: com/google/gson/internal/bind/TypeAdapters$36.class
+SYNTHETIC CLASS missed: com/google/gson/internal/bind/ObjectTypeAdapter$2.class
+SYNTHETIC CLASS missed: com/google/gson/internal/bind/TreeTypeAdapter$1.class
+ANNOTATION missed: com/google/gson/annotations/SerializedName.class
+ANNOTATION missed: com/google/gson/annotations/Expose.class
+ANNOTATION missed: com/google/gson/annotations/JsonAdapter.class
+ANNOTATION missed: com/google/gson/annotations/Until.class
+ANNOTATION missed: com/google/gson/annotations/Since.class
+INTERFACE missed: com/google/gson/TypeAdapterFactory.class
+INTERFACE missed: com/google/gson/JsonDeserializationContext.class
+INTERFACE missed: com/google/gson/ExclusionStrategy.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/immutables/gson/original/compile-scope-dependencies/dependency/gson-2.8.8.jar:
+Classes found in both JAR and HTML: 163
+Classes in JAR but not found in HTML: 18
+Interfaces missed: 9
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 5
+Synthetic classes missed: 3
+Regular classes missed: 1

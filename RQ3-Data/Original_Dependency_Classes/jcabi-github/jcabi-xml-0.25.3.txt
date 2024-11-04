@@ -1,0 +1,22 @@
+com/jcabi/xml/Sources.class
+com/jcabi/xml/ListWrapper$NodeNotFoundException.class
+com/jcabi/xml/ConsoleErrorListener.class
+com/jcabi/xml/ListWrapper.class
+com/jcabi/xml/XSL.class
+com/jcabi/xml/ClasspathInput.class
+com/jcabi/xml/FileSources.class
+com/jcabi/xml/XPathContext.class
+com/jcabi/xml/XMLDocument.class
+com/jcabi/xml/ClasspathSources.class
+com/jcabi/xml/XSLDocument.class
+com/jcabi/xml/XSDDocument.class
+com/jcabi/xml/TextResource.class
+com/jcabi/xml/XSDDocument$ValidationHandler.class
+com/jcabi/xml/StrictXML.class
+com/jcabi/xml/ClasspathResolver.class
+com/jcabi/xml/DomParser.class
+com/jcabi/xml/XSLChain.class
+com/jcabi/xml/package-info.class
+com/jcabi/xml/XSD.class
+com/jcabi/xml/XML.class
+Number of .class files: 21

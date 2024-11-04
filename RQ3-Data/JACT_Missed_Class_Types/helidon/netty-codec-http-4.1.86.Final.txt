@@ -1,0 +1,78 @@
+INTERFACE missed: io/netty/handler/codec/http/HttpResponse.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/InterfaceHttpData.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyFrameDecoderDelegate.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/spdy/SpdyFrameDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyStreamFrame.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdySettingsFrame.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/HttpData.class
+INTERFACE missed: io/netty/handler/codec/http/cookie/Cookie.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpClientCodec$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/cors/CorsConfigBuilder$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpObjectDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/WebSocketFrameDecoder.class
+INTERFACE missed: io/netty/handler/codec/http/HttpClientUpgradeHandler$UpgradeCodec.class
+INTERFACE missed: io/netty/handler/codec/http/HttpContent.class
+INTERFACE missed: io/netty/handler/codec/http/HttpMessage.class
+INTERFACE missed: io/netty/handler/codec/http/CombinedHttpHeaders$CombinedHttpHeadersImpl$CsvValueEscaper.class
+REGULAR CLASS missed: io/netty/handler/codec/rtsp/RtspHeaders.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyDataFrame.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/InterfaceHttpPostRequestDecoder.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/WebSocketFrameEncoder.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyWindowUpdateFrame.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/extensions/WebSocketClientExtension.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/extensions/WebSocketClientExtensionHandshaker.class
+REGULAR CLASS missed: io/netty/handler/codec/rtsp/RtspHeaders$Names.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyRstStreamFrame.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpContentCompressor$1.class
+INTERFACE missed: io/netty/handler/codec/http/HttpRequest.class
+INTERFACE missed: io/netty/handler/codec/http/HttpClientUpgradeHandler$SourceCodec.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/multipart/HttpPostStandardRequestDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/FileUpload.class
+INTERFACE missed: io/netty/handler/codec/http/Cookie.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpServerCodec$1.class
+INTERFACE missed: io/netty/handler/codec/http/HttpObject.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/extensions/WebSocketServerExtensionHandshaker.class
+REGULAR CLASS missed: io/netty/handler/codec/http/HttpHeaders$Values.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdySynReplyFrame.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/spdy/SpdyProtocolException$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyPingFrame.class
+INTERFACE missed: io/netty/handler/codec/http/FullHttpResponse.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/multipart/HttpPostRequestEncoder$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyFrame.class
+REGULAR CLASS missed: io/netty/handler/codec/http/HttpHeaders$Names.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/ReadOnlyHttpHeaders$1.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/HttpDataFactory.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpHeaderValidationUtil$1.class
+INTERFACE missed: io/netty/handler/codec/http/HttpServerUpgradeHandler$UpgradeCodec.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/multipart/HttpPostMultipartRequestDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/extensions/WebSocketExtension.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/websocketx/WebSocketClientProtocolConfig$1.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/HttpContentEncoder$1.class
+INTERFACE missed: io/netty/handler/codec/http/websocketx/extensions/WebSocketServerExtension.class
+REGULAR CLASS missed: io/netty/handler/codec/rtsp/RtspHeaders$Values.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/spdy/SpdyHeaderBlockRawDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdySynStreamFrame.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyHeadersFrame.class
+INTERFACE missed: io/netty/handler/codec/http/FullHttpRequest.class
+INTERFACE missed: io/netty/handler/codec/http/HttpServerUpgradeHandler$UpgradeCodecFactory.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/websocketx/WebSocketServerProtocolConfig$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyGoAwayFrame.class
+REGULAR CLASS missed: io/netty/handler/codec/spdy/SpdyHttpHeaders.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/websocketx/WebSocketDecoderConfig$1.class
+INTERFACE missed: io/netty/handler/codec/spdy/SpdyHeaders.class
+INTERFACE missed: io/netty/handler/codec/http/multipart/Attribute.class
+SYNTHETIC CLASS missed: io/netty/handler/codec/http/websocketx/WebSocket08FrameDecoder$1.class
+INTERFACE missed: io/netty/handler/codec/http/CompressionEncoderFactory.class
+INTERFACE missed: io/netty/handler/codec/http/FullHttpMessage.class
+INTERFACE missed: io/netty/handler/codec/http/HttpServerUpgradeHandler$SourceCodec.class
+REGULAR CLASS missed: io/netty/handler/codec/http/cookie/CookieHeaderNames.class
+
+Summary for /home/jonassavas/deptrim-experiments/pipeline/results/helidon/openapi/original/compile-scope-dependencies/dependency/netty-codec-http-4.1.86.Final.jar:
+Classes found in both JAR and HTML: 317
+Classes in JAR but not found in HTML: 68
+Interfaces missed: 43
+Abstract classes missed: 0
+Enums missed: 0
+Annotations missed: 0
+Synthetic classes missed: 18
+Regular classes missed: 7

@@ -1,0 +1,8 @@
+com/jcabi/xml/XMLDocument.class
+com/jcabi/xml/ListWrapper$NodeNotFoundException.class
+com/jcabi/xml/XPathContext.class
+com/jcabi/xml/ListWrapper.class
+com/jcabi/xml/XML.class
+com/jcabi/xml/TextResource.class
+com/jcabi/xml/DomParser.class
+Number of .class files: 7
