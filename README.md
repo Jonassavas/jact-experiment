@@ -2,6 +2,8 @@
 
 _This repository contains the summaries for all the results evaluating [JACT](https://github.com/Jonassavas/jact). The complete JACT reports for all projects can be downloaded as a 450MB .zip file [here](https://drive.google.com/file/d/1RooJfobyn9oXz7tG85zECJS5RxqpXzZ4/view?usp=sharing). The results contain 30 open-source Java projects chosen for their compatability and relevance with related work, [DepTrim](https://arxiv.org/abs/2302.08370)._
 
+_Additionally, the data for the evaluation of JACT and the comparison with DepTrim is avaliable under [RQ3-Data](./RQ3-Data). This directory contains the dependency class files grouped by their JVM Access Flags for the covered and included class files in JACT, the dependency class files that were removed by DepTrim but reported as covered in JACT as well as the original dependency class files in the JAR's from Maven Central._
+
 
 ---
 #### [Checkstyle:](https://github.com/checkstyle/checkstyle)  
