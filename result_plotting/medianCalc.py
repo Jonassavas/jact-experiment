@@ -22,6 +22,9 @@ def calculate_median(arr):
     # Return the median rounded to one decimal place
     return round(median, 1)
 
+def calculate_sum(arr):
+    return sum(arr)
+
 # Example usage
 LoCArr = [302852, 51463, 30133, 16781, 571930, 
           35539, 66119, 19506, 2809, 42920, 
@@ -47,6 +50,7 @@ directDepArr = [7,14,2,4,21,
                 4,3,5,31,1,
                 5,3,2,4,4]
 print(f"Direct Dependency Median: {calculate_median(directDepArr)}")
+print(f"Direct Dependency Sum: {calculate_sum(directDepArr)}")
 indirectDepArr = [14,20,0,0,10,
                   12,9,6,27,0,
                   0,4,1,18,4,
@@ -54,7 +58,7 @@ indirectDepArr = [14,20,0,0,10,
                   1,0,31,25,1,
                   3,6,0,2,1]
 print(f"Indirect Dependency Median: {calculate_median(indirectDepArr)}")
-
+print(f"Indirect Dependency Sum: {calculate_sum(indirectDepArr)}")
 projectCovArr = [45.3, 49.2, 59.4, 85.9, 19.2, 
                  53.5, 80.4, 91.8, 76.7, 50.6, 
                  60.4, 32.6, 97.5, 44.5, 91.3, 

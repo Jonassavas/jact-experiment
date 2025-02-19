@@ -1,3 +1,0 @@
-org/jetbrains/annotations/NotNull.class
-org/jetbrains/annotations/Nullable.class
-Number of .class files: 2

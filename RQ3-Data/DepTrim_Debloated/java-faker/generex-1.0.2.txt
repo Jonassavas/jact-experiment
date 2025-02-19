@@ -1,7 +1,0 @@
-com/mifmif/common/regex/Generex.class
-com/mifmif/common/regex/util/Iterable.class
-com/mifmif/common/regex/util/Iterator.class
-com/mifmif/common/regex/GenerexIterator$Step.class
-com/mifmif/common/regex/GenerexIterator.class
-com/mifmif/common/regex/Node.class
-Number of .class files: 6

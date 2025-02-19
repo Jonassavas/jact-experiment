@@ -1,6 +1,0 @@
-com/jcabi/immutable/Array.class
-com/jcabi/immutable/ArrayMap$1.class
-com/jcabi/immutable/ArrayMap.class
-com/jcabi/immutable/ArrayMap$ImmutableEntry.class
-com/jcabi/immutable/ArrayMap$Cmp.class
-Number of .class files: 5

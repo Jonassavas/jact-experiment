@@ -7,7 +7,8 @@ categories = ['Interfaces', 'Abstract Classes', 'Enums', 'Annotations',
 n_categories = len(categories)
 
 # Data arrays
-dataMismatch = np.array([9, 57, 60, 0, 0, 635])  # Mismatch data
+#dataMismatch = np.array([9, 58, 60, 0, 0, 717])  # Mismatch data
+dataMismatch = np.array([4313, 1368, 940, 339, 625, 18257])  # Mismatch data
 
 # Define width of a single bar
 bar_width = 0.6  # Wider bar for better visibility

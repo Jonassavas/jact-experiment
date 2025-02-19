@@ -1,9 +1,0 @@
-io/netty/channel/unix/Errors.class
-io/netty/channel/unix/Errors$NativeConnectException.class
-io/netty/channel/unix/LimitsStaticallyReferencedJniMethods.class
-io/netty/channel/unix/FileDescriptor.class
-io/netty/channel/unix/ErrorsStaticallyReferencedJniMethods.class
-io/netty/channel/unix/UnixChannel.class
-io/netty/channel/unix/Errors$NativeIoException.class
-io/netty/channel/unix/Limits.class
-Number of .class files: 8

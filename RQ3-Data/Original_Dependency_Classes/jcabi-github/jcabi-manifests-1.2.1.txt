@@ -1,8 +1,0 @@
-com/jcabi/manifests/StreamsMfs.class
-com/jcabi/manifests/Mfs.class
-com/jcabi/manifests/ClasspathMfs.class
-com/jcabi/manifests/Manifests.class
-com/jcabi/manifests/MfMap.class
-com/jcabi/manifests/FilesMfs.class
-com/jcabi/manifests/ServletMfs.class
-Number of .class files: 7

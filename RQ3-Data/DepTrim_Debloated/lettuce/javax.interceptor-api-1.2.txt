@@ -1,4 +1,0 @@
-javax/interceptor/Interceptor$Priority.class
-javax/interceptor/Interceptor.class
-javax/interceptor/InvocationContext.class
-Number of .class files: 3

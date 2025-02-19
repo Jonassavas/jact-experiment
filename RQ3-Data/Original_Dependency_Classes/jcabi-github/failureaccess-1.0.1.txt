@@ -1,3 +1,0 @@
-com/google/common/util/concurrent/internal/InternalFutureFailureAccess.class
-com/google/common/util/concurrent/internal/InternalFutures.class
-Number of .class files: 2

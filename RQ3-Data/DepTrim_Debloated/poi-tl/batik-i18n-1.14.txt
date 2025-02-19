@@ -1,4 +1,0 @@
-org/apache/batik/i18n/LocaleGroup.class
-org/apache/batik/i18n/Localizable.class
-org/apache/batik/i18n/LocalizableSupport.class
-Number of .class files: 3

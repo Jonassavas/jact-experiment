@@ -1,7 +1,0 @@
-javax/inject/Inject.class
-javax/inject/Named.class
-javax/inject/Provider.class
-javax/inject/Qualifier.class
-javax/inject/Scope.class
-javax/inject/Singleton.class
-Number of .class files: 6

@@ -1,9 +1,0 @@
-Final Summary for all JAR files:
-Total classes found in both JAR and HTML: 4829
-Total classes in JAR but not found in HTML: 1387
-Total interfaces missed: 690
-Total abstract classes missed: 6
-Total enums missed: 0
-Total annotations missed: 546
-Total synthetic classes missed: 123
-Total regular classes missed: 22

@@ -1,7 +1,0 @@
-org/eclipse/microprofile/config/Config.class
-org/eclipse/microprofile/config/ConfigProvider.class
-org/eclipse/microprofile/config/spi/ConfigProviderResolver.class
-org/eclipse/microprofile/config/spi/ConfigBuilder.class
-org/eclipse/microprofile/config/spi/ConfigSource.class
-org/eclipse/microprofile/config/spi/Converter.class
-Number of .class files: 6

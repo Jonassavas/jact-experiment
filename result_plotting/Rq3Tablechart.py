@@ -1,4 +1,3 @@
-import numpy as np
 import matplotlib.pyplot as plt
 
 # Categories
@@ -7,8 +6,9 @@ categories = ['Interfaces', 'Abstract Classes', 'Enums', 'Annotations',
 n_categories = len(categories)
 
 # Data arrays
+#dataFound = np.array([4313, 1368, 940, 339, 625, 18257])  # Found data
 dataFound = np.array([1890, 3235, 1852, 0, 0, 34595])  # Found data
-dataTotal = np.array([6597, 3264, 1868, 1547, 1125, 35161])  # Total data
+dataTotal = np.array([6417, 3264, 1867, 1547, 1117, 35165])  # Total data
 
 # Define width of a single bar
 bar_width = 0.6  # Wider bar for better visibility

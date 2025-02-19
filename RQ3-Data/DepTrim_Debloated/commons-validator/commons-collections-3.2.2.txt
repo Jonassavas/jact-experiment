@@ -1,8 +1,0 @@
-org/apache/commons/collections/FastHashMap$1.class
-org/apache/commons/collections/FastHashMap$EntrySet.class
-org/apache/commons/collections/FastHashMap$CollectionView.class
-org/apache/commons/collections/FastHashMap.class
-org/apache/commons/collections/FastHashMap$CollectionView$CollectionViewIterator.class
-org/apache/commons/collections/FastHashMap$KeySet.class
-org/apache/commons/collections/FastHashMap$Values.class
-Number of .class files: 7

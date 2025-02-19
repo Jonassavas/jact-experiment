@@ -1,6 +1,0 @@
-io/opentracing/util/GlobalTracer.class
-io/opentracing/util/ThreadLocalScope.class
-io/opentracing/util/GlobalTracer$1.class
-io/opentracing/util/GlobalTracer$2.class
-io/opentracing/util/ThreadLocalScopeManager.class
-Number of .class files: 5

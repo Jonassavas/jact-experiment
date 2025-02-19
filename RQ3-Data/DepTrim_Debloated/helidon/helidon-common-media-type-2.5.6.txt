@@ -1,6 +1,0 @@
-module-info.class
-io/helidon/common/media/type/BuiltInsDetector.class
-io/helidon/common/media/type/CustomDetector.class
-io/helidon/common/media/type/spi/MediaTypeDetector.class
-io/helidon/common/media/type/MediaTypes.class
-Number of .class files: 5

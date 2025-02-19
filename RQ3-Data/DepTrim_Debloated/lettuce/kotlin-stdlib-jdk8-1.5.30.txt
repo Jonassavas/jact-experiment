@@ -1,3 +1,0 @@
-kotlin/random/jdk8/PlatformThreadLocalRandom.class
-kotlin/internal/jdk8/JDK8PlatformImplementations.class
-Number of .class files: 2

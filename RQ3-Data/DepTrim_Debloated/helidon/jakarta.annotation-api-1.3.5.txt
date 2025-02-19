@@ -1,7 +1,0 @@
-javax/annotation/Priority.class
-javax/annotation/PreDestroy.class
-javax/annotation/security/RolesAllowed.class
-javax/annotation/security/DenyAll.class
-javax/annotation/security/DeclareRoles.class
-javax/annotation/security/PermitAll.class
-Number of .class files: 6

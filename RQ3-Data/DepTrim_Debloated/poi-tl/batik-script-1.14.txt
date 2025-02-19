@@ -1,7 +1,0 @@
-org/apache/batik/script/Interpreter.class
-org/apache/batik/script/InterpreterPool.class
-org/apache/batik/script/ScriptEventWrapper.class
-org/apache/batik/script/ImportInfo.class
-org/apache/batik/script/InterpreterFactory.class
-org/apache/batik/script/InterpreterException.class
-Number of .class files: 6

@@ -1,3 +1,0 @@
-org/apache/batik/xml/XMLCharacters.class
-org/apache/batik/xml/XMLUtilities.class
-Number of .class files: 2
